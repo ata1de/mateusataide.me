@@ -24,7 +24,7 @@ export default function RootLayout({
     <ViewTransitions>
       <html lang="pt-br">
         <body className={cn(
-          "min-h-screen bg-background font-sans antialiased",
+          "min-h-screen bg-black text-white font-sans antialiased",
           fontSans.variable
         )}
         >
