@@ -1,0 +1,10 @@
+{
+    "Header": {
+        "links": {
+            "home": "Home",
+            "about": "About",
+            "contact": "Contact",
+            "curriculo": "Curriculum"
+        }
+    }
+}

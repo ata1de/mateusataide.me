@@ -1,21 +1,28 @@
 "use client"
 
-import * as React from "react"
-
 import { Button } from "@/components/ui/button"
 import {
-    DropdownMenu,
-    DropdownMenuContent,
-    DropdownMenuLabel,
-    DropdownMenuRadioGroup,
-    DropdownMenuRadioItem,
-    DropdownMenuSeparator,
-    DropdownMenuTrigger,
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuLabel,
+  DropdownMenuRadioGroup,
+  DropdownMenuRadioItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { Settings } from "lucide-react"
+import { useRouter } from 'next/router'
+import * as React from "react"
 
 export function MenuHeader() {
-  const [position, setPosition] = React.useState("bottom")
+  const router = useRouter()
+  const [language, setLanguage] = React.useState("en")
+
+  const handleLanguageChange = (lang:string) => {
+    setLanguage(lang)
+    const currentPath = router.asPath
+    router.push(`/${lang}${currentPath}`)
+  }
 
   return (
     <DropdownMenu>
@@ -25,10 +32,10 @@ export function MenuHeader() {
       <DropdownMenuContent className="w-56 bg-transparent border-2 border-zinc-800 text-white">
         <DropdownMenuLabel>Language</DropdownMenuLabel>
         <DropdownMenuSeparator />
-        <DropdownMenuRadioGroup value={position} onValueChange={setPosition}>
-          <DropdownMenuRadioItem className="hover:bg-zinc-800" value="top">English 🇺🇸</DropdownMenuRadioItem>
-          <DropdownMenuRadioItem className="hover:bg-zinc-800" value="bottom">Português 🇧🇷</DropdownMenuRadioItem>
-          <DropdownMenuRadioItem className="hover:bg-zinc-800" value="right">Español 🇪🇸</DropdownMenuRadioItem>
+        <DropdownMenuRadioGroup value={language} onValueChange={handleLanguageChange}>
+          <DropdownMenuRadioItem className="hover:bg-zinc-800" value="en">English 🇺🇸</DropdownMenuRadioItem>
+          <DropdownMenuRadioItem className="hover:bg-zinc-800" value="pt-br">Português 🇧🇷</DropdownMenuRadioItem>
+          <DropdownMenuRadioItem className="hover:bg-zinc-800" value="es">Español 🇪🇸</DropdownMenuRadioItem>
         </DropdownMenuRadioGroup>
       </DropdownMenuContent>
     </DropdownMenu>
