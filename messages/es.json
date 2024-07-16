@@ -1,18 +1,34 @@
 {
     "Header": {
-        "links": {
-            "home": "Inicio",
-            "about": "Sobre",
-            "contact": "Contacto",
-            "curriculo": "Currículum"
-        }
+      "links": {
+        "home": "Inicio",
+        "about": "Acerca de",
+        "contact": "Contacto",
+        "curriculo": "Currículum"
+      }
     },
     "Home": {
-        "Hero": {
-            "introduction": "Hola, soy Mateus Ataide,",
-            "office": "desarrollador de software",
-            "passion": "Con una pasión por transformar sueños en soluciones digitales",
-            "search": "Buscar"
+      "Hero": {
+        "introduction": "Hola, soy Mateus Ataide,",
+        "office": "desarrollador de software",
+        "passion": "Con pasión para transformar sueños en soluciones digitales",
+        "search": "Buscar"
+      },
+      "Projects": {
+        "title": "Mis Proyectos",
+        "crypto-screener": {
+          "title": "Aplicación Crypto Screener",
+          "description": "Una aplicación móvil para monitorear fácilmente la subida y caída de los valores de criptomonedas. Cuenta con una interfaz elegante y capacidades potentes de filtrado y alerta para mantenerte adelante en tus inversiones."
+        },
+        "euphoria-ecommerce": {
+          "title": "Euphoria - Plantilla de Sitio Web de Ecommerce (Ropa)",
+          "description": "Una plantilla de comercio electrónico moderna que proporciona una experiencia de compra perfecta. Diseñada con un diseño receptivo y navegación intuitiva para mejorar tu tienda de moda en línea."
+        },
+        "blog-template": {
+          "title": "Plantilla de Blog",
+          "description": "Una plantilla de blog elegante y funcional diseñada con la legibilidad y el compromiso del usuario en mente. Las características incluyen compartir en redes sociales, categorías personalizadas y un diseño dinámico para mantener a los lectores enganchados."
         }
+      }
     }
-}
+  }
+  

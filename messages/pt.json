@@ -1,18 +1,34 @@
 {
     "Header": {
-        "links": {
-            "home": "Início",
-            "about": "Sobre",
-            "contact": "Contato",
-            "curriculo": "Currículo"
-        }
+      "links": {
+        "home": "Início",
+        "about": "Sobre",
+        "contact": "Contato",
+        "curriculo": "Currículo"
+      }
     },
     "Home": {
-        "Hero": {
-            "introduction": "Olá, eu sou Mateus Ataide,",
-            "office": "desenvolvedor de software",
-            "passion": "Com uma paixão por transformar sonhos em soluções digitais",
-            "search": "Buscar"
+      "Hero": {
+        "introduction": "Olá, eu sou Mateus Ataide,",
+        "office": "desenvolvedor de software",
+        "passion": "Com paixão para transformar sonhos em soluções digitais",
+        "search": "Buscar"
+      },
+      "Projects": {
+        "title": "Meus Projetos",
+        "crypto-screener": {
+          "title": "Aplicativo Crypto Screener",
+          "description": "Um aplicativo móvel para monitorar facilmente a alta e queda dos valores das criptomoedas. Possui uma interface elegante e capacidades poderosas de filtragem e alerta para mantê-lo à frente em seus investimentos."
+        },
+        "euphoria-ecommerce": {
+          "title": "Euphoria - Template de Website de Ecommerce (Roupas)",
+          "description": "Um template de ecommerce moderno que oferece uma experiência de compra perfeita. Projetado com um layout responsivo e navegação intuitiva para elevar sua loja de moda online."
+        },
+        "blog-template": {
+          "title": "Template de Blog",
+          "description": "Um template de blog elegante e funcional projetado com legibilidade e engajamento do usuário em mente. Recursos incluem compartilhamento social, categorias personalizadas e um layout dinâmico para manter os leitores engajados."
         }
+      }
     }
-}
+  }
+  

@@ -16,7 +16,19 @@
         },
 
         "Projects": {
-            
+            "title": "My Projects",
+            "crypto-screener": {
+                "title": "Crypto Screener Application",
+                "description": "A mobile application to easily monitor the rise and fall of cryptocurrency values. Features a sleek interface with powerful filtering and alert capabilities to keep you ahead in your investments."
+            },
+            "euphoria-ecommerce": {
+                "title": "Euphoria - Ecommerce (Apparels) Website Template",
+                "description": "A modern e-commerce template providing a seamless shopping experience. Designed with a responsive layout and intuitive navigation to elevate your online fashion store."
+            },
+            "blog-template": {
+                "title": "Blog Website Template",
+                "description": "A stylish and functional blog template designed with readability and user engagement in mind. Features include social sharing, personalized categories, and a dynamic layout to keep readers hooked."
+            }
         }
     }
 }
