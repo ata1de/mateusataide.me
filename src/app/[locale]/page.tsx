@@ -5,9 +5,12 @@ import Hero from "@/components/hero";
 export default function Home() {
   return (
     <>
-      <Header/>
 
-      <Hero/>
+      <div className="min-h-screen">
+        <Header/>
+
+        <Hero/>
+      </div>
     </>
   );
 }
