@@ -82,3 +82,22 @@
 .hover\:underline-after:hover::after {
   width: 100%;
 }
+
+.gradient-text {
+  background: linear-gradient(90deg, #F5F0E5, #A1824A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.alternative-gradient-text {
+  background: linear-gradient(90deg, #EFE6DD, #8B5E3C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.alternative2-gradient-text {
+  background: linear-gradient(90deg, #8B5E3C, #caa155);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+

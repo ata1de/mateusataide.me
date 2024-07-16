@@ -6,5 +6,13 @@
             "contact": "Contato",
             "curriculo": "Currículo"
         }
+    },
+    "Home": {
+        "Hero": {
+            "introduction": "Olá, eu sou Mateus Ataide,",
+            "office": "desenvolvedor de software",
+            "passion": "Com uma paixão por transformar sonhos em soluções digitais",
+            "search": "Buscar"
+        }
     }
 }

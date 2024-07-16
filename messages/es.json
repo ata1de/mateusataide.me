@@ -2,9 +2,17 @@
     "Header": {
         "links": {
             "home": "Inicio",
-            "about": "Acerca de",
+            "about": "Sobre",
             "contact": "Contacto",
-            "curriculo": "Currículo"
+            "curriculo": "Currículum"
+        }
+    },
+    "Home": {
+        "Hero": {
+            "introduction": "Hola, soy Mateus Ataide,",
+            "office": "desarrollador de software",
+            "passion": "Con una pasión por transformar sueños en soluciones digitales",
+            "search": "Buscar"
         }
     }
 }
