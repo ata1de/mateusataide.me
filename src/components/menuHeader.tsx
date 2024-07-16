@@ -45,20 +45,20 @@ export function MenuHeader() {
 
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger asChild className="bg-transparent border-2 border-zinc-800 hover:bg-zinc-800 hover:text-white">
+      <DropdownMenuTrigger asChild className="bg-LightBrown border-2 border-zinc-400 hover:bg-LightBrown">
         <Button variant="outline"><Settings className="hover:animate-spin-once w-4 h-4"/></Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-56 bg-transparent border-2 border-zinc-800 text-zinc-300">
+      <DropdownMenuContent className="w-56 bg-LightBrown border-2 border-zinc-800 text-zinc-400">
         <DropdownMenuLabel>Language</DropdownMenuLabel>
-        <DropdownMenuSeparator />
+        <DropdownMenuSeparator className="bg-zinc-400"/>
         <DropdownMenuRadioGroup value={position} onValueChange={setPosition}>
-          <DropdownMenuRadioItem onClick={() => handleLanguageChange('en', 'top')} className="hover:bg-zinc-800" value="top">
+          <DropdownMenuRadioItem onClick={() => handleLanguageChange('en', 'top')} className="hover:bg-zinc-500" value="top">
             English 🇺🇸
           </DropdownMenuRadioItem>
-          <DropdownMenuRadioItem onClick={() => handleLanguageChange('pt', 'bottom')} className="hover:bg-zinc-800" value="bottom">
+          <DropdownMenuRadioItem onClick={() => handleLanguageChange('pt', 'bottom')} className="hover:bg-zinc-500" value="bottom">
             Português 🇧🇷
           </DropdownMenuRadioItem>
-          <DropdownMenuRadioItem onClick={() => handleLanguageChange('es', 'right')} className="hover:bg-zinc-800" value="right">
+          <DropdownMenuRadioItem onClick={() => handleLanguageChange('es', 'right')} className="hover:bg-zinc-500" value="right">
             Español 🇪🇸
           </DropdownMenuRadioItem>
         </DropdownMenuRadioGroup>

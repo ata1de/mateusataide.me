@@ -68,7 +68,17 @@
   }
 }
 
-body {
-  background-color: black;
-  color: white
+
+.hover\:underline-after::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  border-radius: 999px;
+  background: #009963;
+  transition: width 0.3s ease;
+}
+
+.hover\:underline-after:hover::after {
+  width: 100%;
 }

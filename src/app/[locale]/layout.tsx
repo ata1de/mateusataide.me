@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { ViewTransitions } from "next-view-transitions";
-import { Inter as FontSans } from "next/font/google";
+import { Inter as FontSans, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 
 import { cn } from "@/lib/utils";
@@ -10,6 +10,11 @@ import { getMessages } from "next-intl/server";
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
+})
+
+const fontSerif = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  variable: "--font-serif",
 })
 
 export const metadata: Metadata = {
@@ -31,7 +36,7 @@ export default async function LocaleLayout({
     <ViewTransitions>
       <html lang="pt-br">
         <body className={cn(
-          "min-h-screen bg-black text-white font-sans antialiased",
+          "min-h-screen bg-White text-Black font-sans antialiased",
           fontSans.variable
         )}
         >
