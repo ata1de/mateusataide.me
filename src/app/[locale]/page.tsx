@@ -1,5 +1,6 @@
 'use client'
 import CardProject from "@/components/cardProject";
+import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
 import { projectsListHome } from "@/config/projects";
@@ -26,6 +27,8 @@ export default function Home() {
           ))}
         </div> 
       </div>
+
+      <Footer/>
     </>
   );
 }
