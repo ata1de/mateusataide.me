@@ -7,6 +7,10 @@
             "curriculo": "Curriculum"
         }
     },
+    "Footer": {
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service"
+    },
     "Home": {
         "Hero": {
             "introduction": "Hello, I am Mateus Ataide,",

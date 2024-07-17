@@ -1,11 +1,14 @@
+import { useTranslations } from "next-intl";
+
 export default function Footer() {
+  const t = useTranslations('Footer');
     return (
       <footer className="flex justify-center border-t-2 border-lime-200 bg-LightBrown mt-9">
         <div className="flex max-w-[960px] flex-1 flex-col">
           <footer className="flex flex-col gap-6 px-5 py-10 text-center @container">
             <div className="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
-              <a className="text-[#A18249] text-base font-normal leading-normal min-w-40" href="#">Privacy Policy</a>
-              <a className="text-[#A18249] text-base font-normal leading-normal min-w-40" href="#">Terms of Service</a>
+              <a className="text-[#A18249] text-base font-normal leading-normal min-w-40" href="#">{t('privacy')}</a>
+              <a className="text-[#A18249] text-base font-normal leading-normal min-w-40" href="#">{t('terms')}</a>
             </div>
             <div className="flex flex-wrap justify-center gap-4">
               <a href="#">

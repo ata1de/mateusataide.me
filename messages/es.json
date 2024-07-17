@@ -7,6 +7,10 @@
           "curriculo": "Currículo"
       }
   },
+  "Footer": {
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio"
+  },
   "Home": {
       "Hero": {
           "introduction": "Hola, soy Mateus Ataide,",
@@ -34,17 +38,17 @@
   "About": {
       "title": "Acerca de",
       "experiences": {
-          "monitor-de-algoritmo": {
+          "algorithm-monitor": {
               "title": "Monitor de Algoritmo",
               "duration": "Marzo 2020 - Diciembre 2020",
               "description": "Ayudé a los estudiantes con dificultades en las asignaturas de algoritmos, ofreciendo soporte en programación y resolución de problemas."
           },
-          "sistema-de-informacion": {
+          "information-systems": {
               "title": "Licenciatura en Sistemas de Información",
               "duration": "Enero 2018 - Diciembre 2021",
               "description": "Curso enfocado en el desarrollo de sistemas, gestión de bases de datos e infraestructura de TI."
           },
-          "colegio-gge": {
+          "gge-school": {
               "title": "Colegio GGE",
               "duration": "Enero 2015 - Diciembre 2017",
               "description": "Educación secundaria con enfoque en ciencias exactas, proporcionando una base sólida en matemáticas y física."
