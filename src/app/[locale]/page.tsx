@@ -25,10 +25,9 @@ export default function Home() {
         <CarouselLoop/>
       </div>
 
-      <div className="px-40 mt-16">
-        <p className="font-bold text-[22px] leading-7 mb-8">{t('title')}</p>
-
+      <div className="px-40 mt-16 flex flex-col items-start min-[1500px]:items-center">
         <div className="flex flex-col gap-9">
+          <p className="font-bold text-[22px] leading-7 mb-8">{t('title')}</p>
           {projectsListHome.map((project) => (
             <CardProject key={project.id} project={project}/>
           ))}

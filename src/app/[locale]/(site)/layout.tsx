@@ -8,7 +8,7 @@ interface LayoutProps {
 
 export default function SiteLayout({ children }: LayoutProps) {
   return (
-    <div >
+    <div className="flex-1">
         <Header/>
 
         {children}
