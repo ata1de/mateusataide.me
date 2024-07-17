@@ -1,13 +1,13 @@
 import {
-    Avatar,
-    AvatarFallback,
-    AvatarImage,
+  Avatar,
+  AvatarFallback,
+  AvatarImage,
 } from "@/components/ui/avatar"
   
   export function AvatarDemo() {
     return (
       <Avatar>
-        <AvatarImage src="/avatar.jpeg" alt="@shadcn" />
+        <AvatarImage src="/avatar.jpeg" alt="Avatar Personal" />
         <AvatarFallback>MA</AvatarFallback>
       </Avatar>
     )

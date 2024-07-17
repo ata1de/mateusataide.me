@@ -46,7 +46,7 @@ export default function Header() {
         <div className='flex justify-center items-center gap-5'>
             <Link href='/' className=' leading-5 hover:underline-after no-underline text-[14px] font-medium p-3 rounded-md'>{t('home')}</Link>
             <Link href='/' className=' leading-5 hover:underline-after no-underline text-[14px] font-medium p-3 rounded-md'>{t('about')}</Link>
-            <Link href='/' className=' leading-5 hover:underline-after no-underline text-[14px] font-medium p-3 rounded-md'>{t('contact')}</Link>
+            <Link href='/' className=' leading-5 hover:underline-after no-underline text-[14px] font-medium p-3 rounded-md'>{t('project')}</Link>
             <Link href='/' className=' leading-5 hover:underline-after no-underline text-[14px] font-medium p-3 rounded-md'>{t('curriculo')}</Link>
             <MenuHeader/>
             <AvatarDemo/>

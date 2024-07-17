@@ -3,20 +3,18 @@
         "links": {
             "home": "Home",
             "about": "About",
-            "contact": "Contact",
+            "project": "Projects",
             "curriculo": "Curriculum"
         }
     },
     "Home": {
         "Hero": {
-            "introduction": "Hello I am Mateus Ataide,",
+            "introduction": "Hello, I am Mateus Ataide,",
             "office": "software developer",
             "passion": "With a passion to transform dreams into digital solutions",
             "search": "Search"
         },
-
         "Tech": "Technologies",
-
         "Projects": {
             "title": "My Projects",
             "crypto-screener": {
@@ -30,6 +28,26 @@
             "blog-template": {
                 "title": "Blog Website Template",
                 "description": "A stylish and functional blog template designed with readability and user engagement in mind. Features include social sharing, personalized categories, and a dynamic layout to keep readers hooked."
+            }
+        }
+    },
+    "About": {
+        "title": "About",
+        "experiences": {
+            "algorithm-monitor": {
+                "title": "Algorithm Monitor",
+                "duration": "March 2020 - December 2020",
+                "description": "Assisted students struggling with algorithm subjects, providing support in programming and problem-solving."
+            },
+            "information-systems": {
+                "title": "Bachelor in Information Systems",
+                "duration": "January 2018 - December 2021",
+                "description": "Course focused on system development, database management, and IT infrastructure."
+            },
+            "gge-school": {
+                "title": "GGE School",
+                "duration": "January 2015 - December 2017",
+                "description": "High school with a focus on exact sciences, providing a solid foundation in mathematics and physics."
             }
         }
     }

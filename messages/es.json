@@ -1,37 +1,54 @@
 {
-    "Header": {
+  "Header": {
       "links": {
-        "home": "Inicio",
-        "about": "Acerca de",
-        "contact": "Contacto",
-        "curriculo": "Currículum"
+          "home": "Inicio",
+          "about": "Acerca de",
+          "project": "Proyectos",
+          "curriculo": "Currículo"
       }
-    },
-    "Home": {
+  },
+  "Home": {
       "Hero": {
-        "introduction": "Hola, soy Mateus Ataide,",
-        "office": "desarrollador de software",
-        "passion": "Con pasión para transformar sueños en soluciones digitales",
-        "search": "Buscar"
+          "introduction": "Hola, soy Mateus Ataide,",
+          "office": "desarrollador de software",
+          "passion": "Con una pasión por transformar sueños en soluciones digitales",
+          "search": "Buscar"
       },
-
       "Tech": "Tecnologías",
-
       "Projects": {
-        "title": "Mis Proyectos",
-        "crypto-screener": {
-          "title": "Aplicación Crypto Screener",
-          "description": "Una aplicación móvil para monitorear fácilmente la subida y caída de los valores de criptomonedas. Cuenta con una interfaz elegante y capacidades potentes de filtrado y alerta para mantenerte adelante en tus inversiones."
-        },
-        "euphoria-ecommerce": {
-          "title": "Euphoria - Plantilla de Sitio Web de Ecommerce (Ropa)",
-          "description": "Una plantilla de comercio electrónico moderna que proporciona una experiencia de compra perfecta. Diseñada con un diseño receptivo y navegación intuitiva para mejorar tu tienda de moda en línea."
-        },
-        "blog-template": {
-          "title": "Plantilla de Blog",
-          "description": "Una plantilla de blog elegante y funcional diseñada con la legibilidad y el compromiso del usuario en mente. Las características incluyen compartir en redes sociales, categorías personalizadas y un diseño dinámico para mantener a los lectores enganchados."
-        }
+          "title": "Mis Proyectos",
+          "crypto-screener": {
+              "title": "Aplicación de Seguimiento de Criptomonedas",
+              "description": "Una aplicación móvil para monitorear fácilmente el aumento y la caída de los valores de las criptomonedas. Presenta una interfaz elegante con potentes capacidades de filtrado y alerta para mantenerlo al tanto de sus inversiones."
+          },
+          "euphoria-ecommerce": {
+              "title": "Euphoria - Plantilla de Sitio Web de Comercio Electrónico (Ropa)",
+              "description": "Una plantilla moderna de comercio electrónico que ofrece una experiencia de compra perfecta. Diseñada con un diseño receptivo y navegación intuitiva para elevar su tienda de moda en línea."
+          },
+          "blog-template": {
+              "title": "Plantilla de Sitio Web de Blog",
+              "description": "Una plantilla de blog elegante y funcional, diseñada con legibilidad y participación del usuario en mente. Incluye compartir en redes sociales, categorías personalizadas y un diseño dinámico para mantener a los lectores interesados."
+          }
       }
-    }
+  },
+  "About": {
+      "title": "Acerca de",
+      "experiences": {
+          "monitor-de-algoritmo": {
+              "title": "Monitor de Algoritmo",
+              "duration": "Marzo 2020 - Diciembre 2020",
+              "description": "Ayudé a los estudiantes con dificultades en las asignaturas de algoritmos, ofreciendo soporte en programación y resolución de problemas."
+          },
+          "sistema-de-informacion": {
+              "title": "Licenciatura en Sistemas de Información",
+              "duration": "Enero 2018 - Diciembre 2021",
+              "description": "Curso enfocado en el desarrollo de sistemas, gestión de bases de datos e infraestructura de TI."
+          },
+          "colegio-gge": {
+              "title": "Colegio GGE",
+              "duration": "Enero 2015 - Diciembre 2017",
+              "description": "Educación secundaria con enfoque en ciencias exactas, proporcionando una base sólida en matemáticas y física."
+          }
+      }
   }
-  
+}
