@@ -1,5 +1,6 @@
 'use client'
 import CardProject from "@/components/cardProject";
+import { CarouselLoop } from "@/components/carousel";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
@@ -8,17 +9,23 @@ import { useTranslations } from "next-intl";
 
 export default function Home() {
   const t = useTranslations('Home.Projects');
+  const t2 = useTranslations('Home');
 
   return (
     <>
 
-      <div className="min-h-screen">
+      <div className="min-h-[550px]">
         <Header/>
 
         <Hero/>
       </div>
 
-      <div className="px-40">
+      <div>
+        <p className="font-bold text-[22px] leading-7 mb-8 pl-40">{t2('Tech')}</p>
+        <CarouselLoop/>
+      </div>
+
+      <div className="px-40 mt-16">
         <p className="font-bold text-[22px] leading-7 mb-8">{t('title')}</p>
 
         <div className="flex flex-col gap-9">

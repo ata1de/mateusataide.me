@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import { Link } from 'next-view-transitions';
 import Image from 'next/image';
 import { useState } from 'react';
+import { AvatarDemo } from './avatar';
 import { MenuHeader } from './menuHeader';
 
 export default function Header() {
@@ -37,7 +38,7 @@ export default function Header() {
       <Link href='/'>
         <div className='flex justify-center items-center gap-3'>
           <Image src='/icon_header.png' width={12} height={12} alt='Logo'/>
-          <p className='text-lg font-bold '>Mateus Ataide</p>
+          <p className='text-lg font-bold hover:text-zinc-700 '>Mateus Ataide</p>
 
         </div>
       </Link>
@@ -48,6 +49,7 @@ export default function Header() {
             <Link href='/' className=' leading-5 hover:underline-after no-underline text-[14px] font-medium p-3 rounded-md'>{t('contact')}</Link>
             <Link href='/' className=' leading-5 hover:underline-after no-underline text-[14px] font-medium p-3 rounded-md'>{t('curriculo')}</Link>
             <MenuHeader/>
+            <AvatarDemo/>
         </div>
     </motion.div>
   );

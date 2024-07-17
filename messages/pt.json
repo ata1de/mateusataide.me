@@ -14,6 +14,9 @@
         "passion": "Com paixão para transformar sonhos em soluções digitais",
         "search": "Buscar"
       },
+
+      "Tech": "Tecnologias",
+      
       "Projects": {
         "title": "Meus Projetos",
         "crypto-screener": {
