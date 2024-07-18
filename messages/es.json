@@ -1,58 +1,77 @@
 {
-  "Header": {
+    "Header": {
       "links": {
-          "home": "Inicio",
-          "about": "Acerca de",
-          "project": "Proyectos",
-          "curriculo": "Currículo"
+        "home": "Inicio",
+        "about": "Acerca de",
+        "project": "Proyectos",
+        "curriculo": "Currículo"
       }
-  },
-  "Footer": {
+    },
+    "Footer": {
       "privacy": "Política de Privacidad",
-      "terms": "Términos de Servicio"
-  },
-  "Home": {
+      "terms": "Términos de Uso"
+    },
+    "Home": {
       "Hero": {
-          "introduction": "Hola, soy Mateus Ataide,",
-          "office": "desarrollador de software",
-          "passion": "Con una pasión por transformar sueños en soluciones digitales",
-          "search": "Buscar"
+        "introduction": "Hola, soy Mateus Ataide,",
+        "office": "desarrollador de software",
+        "passion": "Con una pasión por transformar sueños en soluciones digitales",
+        "search": "Buscar"
       },
       "Tech": "Tecnologías",
       "Projects": {
-          "title": "Mis Proyectos",
-          "crypto-screener": {
-              "title": "Aplicación de Seguimiento de Criptomonedas",
-              "description": "Una aplicación móvil para monitorear fácilmente el aumento y la caída de los valores de las criptomonedas. Presenta una interfaz elegante con potentes capacidades de filtrado y alerta para mantenerlo al tanto de sus inversiones."
-          },
-          "euphoria-ecommerce": {
-              "title": "Euphoria - Plantilla de Sitio Web de Comercio Electrónico (Ropa)",
-              "description": "Una plantilla moderna de comercio electrónico que ofrece una experiencia de compra perfecta. Diseñada con un diseño receptivo y navegación intuitiva para elevar su tienda de moda en línea."
-          },
-          "blog-template": {
-              "title": "Plantilla de Sitio Web de Blog",
-              "description": "Una plantilla de blog elegante y funcional, diseñada con legibilidad y participación del usuario en mente. Incluye compartir en redes sociales, categorías personalizadas y un diseño dinámico para mantener a los lectores interesados."
-          }
+        "title": "Mis Proyectos",
+        "crypto-screener": {
+          "title": "Aplicación de Monitoreo de Criptomonedas",
+          "category": "Aplicación Móvil",
+          "description": "Una aplicación móvil para monitorear fácilmente el alza y la baja de los valores de las criptomonedas. Presenta una interfaz elegante con poderosas capacidades de filtrado y alerta para mantenerlo a la vanguardia en sus inversiones."
+        },
+        "euphoria-ecommerce": {
+          "title": "Euphoria - Plantilla de Sitio de Comercio Electrónico (Ropa)",
+          "category": "Aplicación Web",
+          "description": "Una plantilla de comercio electrónico moderna que proporciona una experiencia de compra perfecta. Diseñada con un diseño receptivo y una navegación intuitiva para elevar su tienda de moda en línea."
+        },
+        "blog-template": {
+          "title": "Plantilla de Sitio de Blog",
+          "category": "Aplicación Móvil",
+          "description": "Una plantilla de blog elegante y funcional, diseñada con un enfoque en la legibilidad y la participación del usuario. Incluye compartición social, categorías personalizadas y un diseño dinámico para mantener a los lectores interesados."
+        }
       }
-  },
-  "About": {
+    },
+    "About": {
       "title": "Acerca de",
+      "description": {
+        "intro": "Mi nombre es Mateus Ataide, tengo 20 años y resido en Recife, Pernambuco. Nunca estuve muy interesado en la tecnología desde pequeño; seguía el estándar de vivir y soñar con el fútbol. Mi viaje por la tecnología comenzó al final de la escuela secundaria, cuando decidí arriesgarme y entrar en el ",
+        "intro_description": "A partir de ahí, fue una pasión inmediata por la tecnología y por lo que puede proporcionarme. Estar rodeado de personas que siempre quieren evolucionar y aprender más es contagioso y competitivo. Valoro mucho estar en un entorno de respeto que me motive y me haga evolucionar tanto como persona como profesional. Hace honor a la famosa frase 'Hierro afila hierro'.",
+        "Academic": {
+          "title": "Formación Académica",
+          "description": "Estoy cursando una Licenciatura en Sistemas de Información en la Universidad Federal de Pernambuco (UFPE). El curso se centra en el desarrollo de sistemas, la gestión de bases de datos y la infraestructura de TI. Además de estudiar las estructuras organizacionales y el comportamiento ante las tecnologías de la información. En la imagen de abajo está mi clase durante la última presentación del proyecto final del curso de Programación I, en el que desarrollé un proyecto simulando un Bomberman llamado"
+        },
+        "Interests": {
+          "title": "Intereses Personales",
+          "description": "Tengo un gran aprecio por los deportes y practico varios tipos. Siento que tengo una cierta aptitud para los deportes físicos en general, pero el fútbol es lo que más me atrae. Actualmente, el deporte que más practico es el kickboxing, y este año, 2024, participé en mi primera competencia, el Campeonato Pernambucano de Kickboxing. Además de los deportes, también tengo habilidades en el mundo musical, teniendo una cierta familiaridad con la guitarra y el cavaquinho. Hablando de cavaquinho, el pagode 🎻 es algo esencial en mi vida, además de gustarme algunos pops como Ed Sheeran y Bruno Mars."
+        }
+      },
+      "introduction": {
+        "role": "Desarrollador de Software"
+      },
       "experiences": {
-          "algorithm-monitor": {
-              "title": "Monitor de Algoritmo",
-              "duration": "Marzo 2020 - Diciembre 2020",
-              "description": "Ayudé a los estudiantes con dificultades en las asignaturas de algoritmos, ofreciendo soporte en programación y resolución de problemas."
-          },
-          "information-systems": {
-              "title": "Licenciatura en Sistemas de Información",
-              "duration": "Enero 2018 - Diciembre 2021",
-              "description": "Curso enfocado en el desarrollo de sistemas, gestión de bases de datos e infraestructura de TI."
-          },
-          "gge-school": {
-              "title": "Colegio GGE",
-              "duration": "Enero 2015 - Diciembre 2017",
-              "description": "Educación secundaria con enfoque en ciencias exactas, proporcionando una base sólida en matemáticas y física."
-          }
+        "algorithm-monitor": {
+          "title": "Monitor de Algoritmos",
+          "duration": "Marzo 2024 - Julio 2024",
+          "description": "Como monitor de algoritmos, mejoré mi capacidad para ayudar a otros y gestionar el tiempo, ofreciendo apoyo en programación y resolución de problemas."
+        },
+        "information-systems": {
+          "title": "Licenciatura en Sistemas de Información",
+          "duration": "Abril 2023 - Septiembre 2027",
+          "description": "Curso enfocado en el desarrollo de sistemas, la gestión de bases de datos y la infraestructura de TI."
+        },
+        "gge-school": {
+          "title": "Colegio GGE",
+          "duration": "Enero 2015 - Diciembre 2022",
+          "description": "Escuela secundaria enfocada en ciencias exactas, proporcionando una base sólida en matemáticas y física."
+        }
       }
+    }
   }
-}
+  

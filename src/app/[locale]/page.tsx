@@ -1,6 +1,5 @@
 'use client'
 import CardProject from "@/components/cardProject";
-import { CarouselLoop } from "@/components/carousel";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
@@ -20,10 +19,10 @@ export default function Home() {
         <Hero/>
       </div>
 
-      <div>
+      {/* <div>
         <p className="font-bold text-[22px] leading-7 mb-8 pl-40">{t2('Tech')}</p>
         <CarouselLoop/>
-      </div>
+      </div> */}
 
       <div className="px-40 mt-16 flex flex-col items-start min-[1500px]:items-center">
         <div className="flex flex-col gap-9">

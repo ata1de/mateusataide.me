@@ -23,25 +23,43 @@
           "title": "Meus Projetos",
           "crypto-screener": {
               "title": "Aplicativo de Monitoramento de Criptomoedas",
+              "category": "Mobile App",
               "description": "Um aplicativo móvel para monitorar facilmente a alta e baixa dos valores das criptomoedas. Apresenta uma interface elegante com poderosas capacidades de filtragem e alerta para mantê-lo à frente em seus investimentos."
           },
           "euphoria-ecommerce": {
               "title": "Euphoria - Template de Site de E-commerce (Roupas)",
+              "category": "Web App",
               "description": "Um template moderno de e-commerce que proporciona uma experiência de compra perfeita. Projetado com um layout responsivo e navegação intuitiva para elevar sua loja de moda online."
           },
           "blog-template": {
               "title": "Template de Site de Blog",
+              "category": "Mobile App",
               "description": "Um template de blog estiloso e funcional, projetado com foco na legibilidade e no engajamento do usuário. Inclui compartilhamento social, categorias personalizadas e um layout dinâmico para manter os leitores interessados."
           }
       }
   },
   "About": {
-      "title": "Sobre",
-      "experiences": {
+        "title": "Sobre",
+        "description": {
+            "intro": "Meu nome é Mateus Ataide, tenho 20 anos e resido em Recife, Pernambuco. Nunca fui muito ligado à tecnologia desde pequeno; eu seguia o padrão de viver e sonhar com o futebol. Minha jornada pela tecnologia começou no fim do ensino médio, quando decidi arriscar e entrar no ",
+            "intro_description": "A partir daí, foi uma paixão imediata pela tecnologia e pelo que ela pode me proporcionar. Estar rodeado de pessoas que sempre querem evoluir e aprender mais é contagiante e competitivo. Prezo muito por estar em um ambiente de respeito, que me motive e me faça evoluir tanto como pessoa quanto como profissional. Faz jus à famosa frase 'Ferro afia ferro'.",
+            "Academic": {
+                "title": "Formação Acadêmica",
+                "description": "Estou cursando Bacharelado em Sistemas de Informação na Universidade Federal de Pernambuco (UFPE). O curso é focado no desenvolvimento de sistemas, gestão de banco de dados e infraestrutura de TI. Além de estudar as estruturas organizacionais e o comportamento perante as tecnologias da informação. Na imagem abaixo está minha turma na última apresentação do projeto final da disciplina de Programação I. No qual desenvolvi um projeto simulando um Bomberman, chamado"
+            },
+            "Interests": {
+                "title": "Interesses Pessoais",
+                "description": "Tenho bastante apreço por esportes e pratico diversos tipos. Sinto que tenho uma certa aptidão para esportes físicos em geral, mas futebol é o que mais me atrai. Atualmente, o esporte que mais pratico é o kickboxing, e neste ano de 2024, participei da minha primeira competição, o Campeonato Pernambucano de Kickboxing. Além dos esportes, também tenho habilidades no mundo musical, tendo uma certa intimidade com o violão e o cavaquinho. Falando em cavaquinho, o pagode 🎻 é algo imprescindível na minha vida, além de gostar de alguns pops como Ed Sheeran e Bruno Mars."
+            }
+        },
+        "introduction": {
+            "role": "Desenvolvedor de Software"
+        },
+        "experiences": {
           "algorithm-monitor": {
               "title": "Monitor de Algoritmo",
               "duration": "Março 2020 - Dezembro 2020",
-              "description": "Auxiliei os alunos com dificuldades nas disciplinas de algoritmos, oferecendo suporte em programação e resolução de problemas."
+              "description": "Como monitor de algoritmo, melhorei minha capacidade de ajudar outras pessoas e a gestão de tempo, oferecendo suporte em programação e resolução de problemas."
           },
           "information-systems": {
               "title": "Bacharelado em Sistemas de Informação",

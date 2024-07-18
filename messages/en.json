@@ -1,58 +1,77 @@
 {
     "Header": {
-        "links": {
-            "home": "Home",
-            "about": "About",
-            "project": "Projects",
-            "curriculo": "Curriculum"
-        }
+      "links": {
+        "home": "Home",
+        "about": "About",
+        "project": "Projects",
+        "curriculo": "Resume"
+      }
     },
     "Footer": {
-        "privacy": "Privacy Policy",
-        "terms": "Terms of Service"
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use"
     },
     "Home": {
-        "Hero": {
-            "introduction": "Hello, I am Mateus Ataide,",
-            "office": "software developer",
-            "passion": "With a passion to transform dreams into digital solutions",
-            "search": "Search"
+      "Hero": {
+        "introduction": "Hello, I am Mateus Ataide,",
+        "office": "software developer",
+        "passion": "With a passion for turning dreams into digital solutions",
+        "search": "Search"
+      },
+      "Tech": "Technologies",
+      "Projects": {
+        "title": "My Projects",
+        "crypto-screener": {
+          "title": "Cryptocurrency Monitoring App",
+          "category": "Mobile App",
+          "description": "A mobile app to easily monitor the rise and fall of cryptocurrency values. Features a sleek interface with powerful filtering and alert capabilities to keep you ahead in your investments."
         },
-        "Tech": "Technologies",
-        "Projects": {
-            "title": "My Projects",
-            "crypto-screener": {
-                "title": "Crypto Screener Application",
-                "description": "A mobile application to easily monitor the rise and fall of cryptocurrency values. Features a sleek interface with powerful filtering and alert capabilities to keep you ahead in your investments."
-            },
-            "euphoria-ecommerce": {
-                "title": "Euphoria - Ecommerce (Apparels) Website Template",
-                "description": "A modern e-commerce template providing a seamless shopping experience. Designed with a responsive layout and intuitive navigation to elevate your online fashion store."
-            },
-            "blog-template": {
-                "title": "Blog Website Template",
-                "description": "A stylish and functional blog template designed with readability and user engagement in mind. Features include social sharing, personalized categories, and a dynamic layout to keep readers hooked."
-            }
+        "euphoria-ecommerce": {
+          "title": "Euphoria - E-commerce Site Template (Clothing)",
+          "category": "Web App",
+          "description": "A modern e-commerce template that provides a seamless shopping experience. Designed with a responsive layout and intuitive navigation to elevate your online fashion store."
+        },
+        "blog-template": {
+          "title": "Blog Site Template",
+          "category": "Mobile App",
+          "description": "A stylish and functional blog template designed with a focus on readability and user engagement. Includes social sharing, custom categories, and a dynamic layout to keep readers interested."
         }
+      }
     },
     "About": {
-        "title": "About",
-        "experiences": {
-            "algorithm-monitor": {
-                "title": "Algorithm Monitor",
-                "duration": "March 2020 - December 2020",
-                "description": "Assisted students struggling with algorithm subjects, providing support in programming and problem-solving."
-            },
-            "information-systems": {
-                "title": "Bachelor in Information Systems",
-                "duration": "January 2018 - December 2021",
-                "description": "Course focused on system development, database management, and IT infrastructure."
-            },
-            "gge-school": {
-                "title": "GGE School",
-                "duration": "January 2015 - December 2017",
-                "description": "High school with a focus on exact sciences, providing a solid foundation in mathematics and physics."
-            }
+      "title": "About",
+      "description": {
+        "intro": "My name is Mateus Ataide, I am 20 years old and I live in Recife, Pernambuco. I was never very interested in technology since I was a child; I followed the standard of living and dreaming about football. My journey in technology began at the end of high school, when I decided to take a risk and join the ",
+        "intro_description": "From then on, it was an immediate passion for technology and what it can provide me. Being surrounded by people who always want to evolve and learn more is contagious and competitive. I highly value being in an environment of respect that motivates me and helps me evolve both as a person and as a professional. It lives up to the famous phrase 'Iron sharpens iron'.",
+        "Academic": {
+          "title": "Academic Background",
+          "description": "I am pursuing a Bachelor's degree in Information Systems at the Federal University of Pernambuco (UFPE). The course focuses on systems development, database management, and IT infrastructure. In addition to studying organizational structures and behavior towards information technologies. In the image below is my class during the final presentation of the Programming I course project, in which I developed a project simulating a Bomberman game called"
+        },
+        "Interests": {
+          "title": "Personal Interests",
+          "description": "I have a great appreciation for sports and practice various types. I feel I have a certain aptitude for physical sports in general, but football is what I am most passionate about. Currently, the sport I practice the most is kickboxing, and this year, 2024, I participated in my first competition, the Pernambuco Kickboxing Championship. In addition to sports, I also have skills in the musical world, having a certain familiarity with the guitar and cavaquinho. Speaking of cavaquinho, pagode 🎻 is something essential in my life, along with enjoying some pop music like Ed Sheeran and Bruno Mars."
         }
+      },
+      "introduction": {
+        "role": "Software Developer"
+      },
+      "experiences": {
+        "algorithm-monitor": {
+          "title": "Algorithm Monitor",
+          "duration": "March 2020 - December 2020",
+          "description": "As an algorithm monitor, I improved my ability to assist others and manage time by providing support in programming and problem-solving."
+        },
+        "information-systems": {
+          "title": "Bachelor in Information Systems",
+          "duration": "January 2018 - December 2021",
+          "description": "Course focused on systems development, database management, and IT infrastructure."
+        },
+        "gge-school": {
+          "title": "GGE School",
+          "duration": "January 2015 - December 2017",
+          "description": "High school focused on exact sciences, providing a solid foundation in mathematics and physics."
+        }
+      }
     }
-}
+  }
+  
