@@ -45,7 +45,6 @@ export default function Header() {
           <div className='flex justify-center items-center gap-3 '>
             <Image src='/icon_header.png' width={12} height={12} alt='Logo'/>
             <p className='text-lg font-bold hover:text-zinc-700 '>Mateus Ataide</p>
-
           </div>
         </Link>
 
@@ -58,32 +57,40 @@ export default function Header() {
             <AvatarDemo/>
         </div>
 
-        <Sheet>
-        <SheetTrigger asChild>
-          <MenuIcon className='block md:hidden cursor-pointer mr-[48px]' size={28} />
-        </SheetTrigger>
-        <SheetContent className='bg-MediumBlue'>
-          <SheetHeader>
-            <SheetTitle className='flex gap-2 items-center'>
-              <Image src="/arkan_logo_dark.svg" alt="Logo da Arkan modo escuro" width={100} height={54} />
-              {/* <p className='uppercase text-2xl text-Yellow font-bold font-sans'>ARKAN</p> */}
-            </SheetTitle>
-            <SheetDescription className='text-left'>
-              Browse our site through this area.
-            </SheetDescription>
-            <Separator  className='w-auto'/>
-          </SheetHeader>
-          <div className='justify-center flex flex-col my-5 gap-5'>
-            <Link href={`/${currentLocale}`} className=' leading-5 hover:underline-after no-underline text-[14px] font-medium p-3 rounded-md'>{t('home')}</Link>
-            <Link href={`/${currentLocale}/about`} className=' leading-5 hover:underline-after no-underline text-[14px] font-medium p-3 rounded-md'>{t('about')}</Link>
-            <Link href='/' className=' leading-5 hover:underline-after no-underline text-[14px] font-medium p-3 rounded-md'>{t('project')}</Link>
-            <Link href='/' className=' leading-5 hover:underline-after no-underline text-[14px] font-medium p-3 rounded-md'>{t('curriculo')}</Link>
-          </div>
-        </SheetContent>
-    </Sheet>
-      </div>
-      
+        <div className='md:hidden flex justify-center items-center gap-3'>
+          <MenuHeader/>
 
+          <Sheet>
+            <SheetTrigger asChild>
+              <MenuIcon className='block md:hidden cursor-pointer' size={28} />
+            </SheetTrigger>
+            <SheetContent className='bg-LightBrown'>
+              <SheetHeader className='p-6'>
+                <SheetTitle className='flex gap-2 items-center'>
+                  <div className='flex justify-center items-center gap-3 '>
+                    <Image src='/icon_header.png' width={12} height={12} alt='Logo'/>
+                    <p className='text-lg font-bold hover:text-zinc-700 '>Mateus Ataide</p>
+                  </div>
+                  <AvatarDemo/>
+                  {/* <p className='uppercase text-2xl text-Yellow font-bold font-sans'>ARKAN</p> */}
+                </SheetTitle>
+                <SheetDescription className='text-left text-Black'>
+                  Browse our site through this area.
+                </SheetDescription>
+              </SheetHeader>
+              <Separator  className='w-full bg-lime-600'/>
+              <div className='justify-center flex flex-col my-5 gap-5 px-6'>
+                <Link href={`/${currentLocale}`} className=' leading-5 text-Black hover:text-[#807056] no-underline text-[14px] font-medium  rounded-md'>{t('home')}</Link>
+                <Link href={`/${currentLocale}/about`} className=' leading-5 text-Black hover:text-[#807056] no-underline text-[14px] font-medium  rounded-md'>{t('about')}</Link>
+                <Link href='/' className=' leading-5 text-Black hover:text-[#807056] no-underline text-[14px] font-medium  rounded-md'>{t('project')}</Link>
+                <Link href='/' className=' leading-5 text-Black hover:text-[#807056] no-underline text-[14px] font-medium  rounded-md'>{t('curriculo')}</Link>
+              </div>
+            </SheetContent>
+          </Sheet>
+        </div>
+
+        
+      </div>
     </motion.div>
   );
 }

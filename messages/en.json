@@ -26,16 +26,17 @@
           "category": "Mobile App",
           "description": "A mobile app to easily monitor the rise and fall of cryptocurrency values. Features a sleek interface with powerful filtering and alert capabilities to keep you ahead in your investments."
         },
-        "euphoria-ecommerce": {
-          "title": "Euphoria - E-commerce Site Template (Clothing)",
+        "ecommerce-store": {
+          "title": "Store - E-commerce Site Template (Clothing)",
           "category": "Web App",
           "description": "A modern e-commerce template that provides a seamless shopping experience. Designed with a responsive layout and intuitive navigation to elevate your online fashion store."
         },
-        "blog-template": {
-          "title": "Blog Site Template",
-          "category": "Mobile App",
-          "description": "A stylish and functional blog template designed with a focus on readability and user engagement. Includes social sharing, custom categories, and a dynamic layout to keep readers interested."
-        }
+        "arkan-seguro": {
+              "title": "Website of Arkan Seguros company",
+              "category": "Website",
+              "description": "A business website that showcases the values and mission of the Arkan Seguros company. With a modern and responsive design, the site is able to attract new clients and retain existing ones."
+          }
+      
       }
     },
     "About": {

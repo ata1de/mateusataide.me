@@ -26,16 +26,17 @@
           "category": "Aplicación Móvil",
           "description": "Una aplicación móvil para monitorear fácilmente el alza y la baja de los valores de las criptomonedas. Presenta una interfaz elegante con poderosas capacidades de filtrado y alerta para mantenerlo a la vanguardia en sus inversiones."
         },
-        "euphoria-ecommerce": {
-          "title": "Euphoria - Plantilla de Sitio de Comercio Electrónico (Ropa)",
+        "ecommerce-store": {
+          "title": "Store - Plantilla de Sitio de Comercio Electrónico (Ropa)",
           "category": "Aplicación Web",
           "description": "Una plantilla de comercio electrónico moderna que proporciona una experiencia de compra perfecta. Diseñada con un diseño receptivo y una navegación intuitiva para elevar su tienda de moda en línea."
         },
-        "blog-template": {
-          "title": "Plantilla de Sitio de Blog",
-          "category": "Aplicación Móvil",
-          "description": "Una plantilla de blog elegante y funcional, diseñada con un enfoque en la legibilidad y la participación del usuario. Incluye compartición social, categorías personalizadas y un diseño dinámico para mantener a los lectores interesados."
-        }
+          "arkan-seguro": {
+              "title": "Sitio web de la empresa Arkan Seguros",
+              "category": "Sitio web",
+              "description": "Un sitio empresarial que muestra los valores y la misión de la empresa Arkan Seguros. Con un diseño moderno y receptivo, el sitio es capaz de atraer nuevos clientes y mantener los antiguos."
+          }
+      
       }
     },
     "About": {

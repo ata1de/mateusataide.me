@@ -25,8 +25,8 @@ export const projectsListHome: ProjectHomeModel[] = [
         ]
     },
     {
-        id: "euphoria-ecommerce",
-        image: "/projects/project2.png",
+        id: "ecommerce-store",
+        image: "/projects/ecommerce-store.jpg",
         icons: [
             {
                 id: "cart-icon",
@@ -39,8 +39,8 @@ export const projectsListHome: ProjectHomeModel[] = [
         ]
     },
     {
-        id: "blog-template",
-        image: "/projects/project3.png",
+        id: "arkan-seguro",
+        image: "/projects/arkan_home.png",
         icons: [
             {
                 id: "share-icon",

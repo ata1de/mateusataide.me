@@ -3,6 +3,8 @@ import { ViewTransitions } from "next-view-transitions";
 import { Inter as FontSans, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 
+import Footer from "@/components/footer";
+import Header from "@/components/header";
 import { cn } from "@/lib/utils";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
@@ -41,7 +43,9 @@ export default async function LocaleLayout({
         )}
         >
           <NextIntlClientProvider messages={messages}>
+            <Header/>
             {children}
+            <Footer/>
           </NextIntlClientProvider>
         </body>
       </html>
