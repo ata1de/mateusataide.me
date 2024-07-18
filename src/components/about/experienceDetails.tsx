@@ -11,7 +11,7 @@ export default function ExperienceDetails({ id }: ExperienceDetailsProps) {
     return (
         <div className="my-5">
             <p className="font-medium text-base">{t('title')}</p>
-            <p className="font-regular text-sm text-Brown">{t('duration')}</p>
+            <p className="font-regular text-sm text-Brown mb-2">{t('duration')}</p>
             <p className="font-regular text-sm text-Brown">{t('description')}</p>
         </div>
     )
