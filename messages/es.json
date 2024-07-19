@@ -3,7 +3,16 @@
       "links": {
         "home": "Inicio",
         "about": "Acerca de",
-        "project": "Proyectos",
+        "project": {
+          "projects": {
+            "title": "Proyectos",
+            "description": "Proyectos personales y colaborativos en mi carrera."
+          },
+          "stack": {
+              "title": "Fierramentas",
+              "description": "Tecnologías que he utilizado en día a día en mi trabajo."
+          }
+        },
         "curriculo": "Currículo"
       }
     },

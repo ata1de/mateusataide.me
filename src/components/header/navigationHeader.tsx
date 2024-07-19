@@ -3,18 +3,21 @@
 import * as React from "react"
 
 import {
-    NavigationMenu,
-    NavigationMenuContent,
-    NavigationMenuItem,
-    NavigationMenuLink,
-    NavigationMenuList,
-    NavigationMenuTrigger
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger
 } from "@/components/ui/navigation-menu"
 import { cn } from "@/lib/utils"
+import { useTranslations } from "next-intl"
 
 
 
 export function NavigationMenuDemo() {
+  const projects = useTranslations('Header.links.project.projects')
+  const stack = useTranslations('Header.links.project.stack')
   return (
     <NavigationMenu>
       <NavigationMenuList>
@@ -24,15 +27,15 @@ export function NavigationMenuDemo() {
             <ul className="flex flex-col w-[300px] max-[1024px]:overflow-scroll gap-3 p-4  ">
             <ListItem
             href="/projects"
-            title="Projects"
+            title={`${projects('title')}`}
             >
-                Projetos que foram feitos com determinação e suor em cada aprendizado
+                {projects('description')}
             </ListItem>
             <ListItem
             href="/stack"
-            title="Stack"
+            title={`${stack('title')}`}
             >
-                Tecnologias que uso no dia a dia para o meu trabalho
+                {stack('description')}
             </ListItem>
             </ul>
           </NavigationMenuContent>
