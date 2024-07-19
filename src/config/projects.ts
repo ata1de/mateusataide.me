@@ -3,8 +3,6 @@ export type ProjectHomeModel = {
     image: string;
     link_visit: string;
     link_source: string;
-    link_visit: string;
-    link_source: string;
     icons: Icon[];
 }
 
@@ -17,8 +15,6 @@ export const projectsListHome: ProjectHomeModel[] = [
     {
         id: "crypto-screener",
         image: "/projects/project1.png",
-        link_visit: "https://libertas-frontend.vercel.app/",
-        link_source: "https://github.com/ata1de/Libertas_frontend",
         link_visit: "https://libertas-frontend.vercel.app/",
         link_source: "https://github.com/ata1de/Libertas_frontend",
         icons: [
