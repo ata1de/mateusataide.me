@@ -21,13 +21,17 @@
       "Tech": "Technologies",
       "Projects": {
         "title": "My Projects",
+        "buttons": {
+            "button_visit": "Visit",
+            "button_source": "Source Code"
+          },
         "crypto-screener": {
           "title": "Cryptocurrency Monitoring App",
           "category": "Mobile App",
           "description": "A mobile app to easily monitor the rise and fall of cryptocurrency values. Features a sleek interface with powerful filtering and alert capabilities to keep you ahead in your investments."
         },
         "ecommerce-store": {
-          "title": "Store - E-commerce Site Template (Clothing)",
+          "title": "E-commerce Site Template (Clothing)",
           "category": "Web App",
           "description": "A modern e-commerce template that provides a seamless shopping experience. Designed with a responsive layout and intuitive navigation to elevate your online fashion store."
         },
@@ -42,7 +46,7 @@
     "About": {
       "title": "About",
       "description": {
-        "intro": "My name is Mateus Ataide, I am 20 years old and I live in Recife, Pernambuco. I was never very interested in technology since I was a child; I followed the standard of living and dreaming about football. My journey in technology began at the end of high school, when I decided to take a risk and join the ",
+        "intro": "My name is Mateus Ataide, I am 20 years old and I live in Recife, Pernambuco. I was never very interested in technology since I was a child; I followed the standard of living and dreaming about football ⚽. My journey in technology began at the end of high school, when I decided to take a risk and join the ",
         "intro_description": "From then on, it was an immediate passion for technology and what it can provide me. Being surrounded by people who always want to evolve and learn more is contagious and competitive. I highly value being in an environment of respect that motivates me and helps me evolve both as a person and as a professional. It lives up to the famous phrase 'Iron sharpens iron'.",
         "Academic": {
           "title": "Academic Background",
@@ -50,7 +54,7 @@
         },
         "Interests": {
           "title": "Personal Interests",
-          "description": "I have a great appreciation for sports and practice various types. I feel I have a certain aptitude for physical sports in general, but football is what I am most passionate about. Currently, the sport I practice the most is kickboxing, and this year, 2024, I participated in my first competition, the Pernambuco Kickboxing Championship. In addition to sports, I also have skills in the musical world, having a certain familiarity with the guitar and cavaquinho. Speaking of cavaquinho, pagode 🎻 is something essential in my life, along with enjoying some pop music like Ed Sheeran and Bruno Mars."
+          "description": "I have a great appreciation for sports and practice various types. I feel I have a certain aptitude for physical sports in general, but football is what I am most passionate about. Currently, the sport I practice the most is kickboxing 🥊, and this year, 2024, I participated in my first competition, the Pernambuco Kickboxing Championship. In addition to sports, I also have skills in the musical world, having a certain familiarity with the guitar and cavaquinho. Speaking of cavaquinho, pagode 🎻 is something essential in my life, along with enjoying some pop music like Ed Sheeran and Bruno Mars."
         }
       },
       "introduction": {

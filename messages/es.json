@@ -21,13 +21,17 @@
       "Tech": "Tecnologías",
       "Projects": {
         "title": "Mis Proyectos",
+        "buttons": {
+            "button_visit": "Visitar",
+            "button_source": "Código Fuente"
+          },
         "crypto-screener": {
           "title": "Aplicación de Monitoreo de Criptomonedas",
           "category": "Aplicación Móvil",
           "description": "Una aplicación móvil para monitorear fácilmente el alza y la baja de los valores de las criptomonedas. Presenta una interfaz elegante con poderosas capacidades de filtrado y alerta para mantenerlo a la vanguardia en sus inversiones."
         },
         "ecommerce-store": {
-          "title": "Store - Plantilla de Sitio de Comercio Electrónico (Ropa)",
+          "title": "Plantilla de Sitio de Comercio Electrónico (Ropa)",
           "category": "Aplicación Web",
           "description": "Una plantilla de comercio electrónico moderna que proporciona una experiencia de compra perfecta. Diseñada con un diseño receptivo y una navegación intuitiva para elevar su tienda de moda en línea."
         },
@@ -42,7 +46,7 @@
     "About": {
       "title": "Acerca de",
       "description": {
-        "intro": "Mi nombre es Mateus Ataide, tengo 20 años y resido en Recife, Pernambuco. Nunca estuve muy interesado en la tecnología desde pequeño; seguía el estándar de vivir y soñar con el fútbol. Mi viaje por la tecnología comenzó al final de la escuela secundaria, cuando decidí arriesgarme y entrar en el ",
+        "intro": "Mi nombre es Mateus Ataide, tengo 20 años y resido en Recife, Pernambuco. Nunca estuve muy interesado en la tecnología desde pequeño; seguía el estándar de vivir y soñar con el fútbol ⚽. Mi viaje por la tecnología comenzó al final de la escuela secundaria, cuando decidí arriesgarme y entrar en el ",
         "intro_description": "A partir de ahí, fue una pasión inmediata por la tecnología y por lo que puede proporcionarme. Estar rodeado de personas que siempre quieren evolucionar y aprender más es contagioso y competitivo. Valoro mucho estar en un entorno de respeto que me motive y me haga evolucionar tanto como persona como profesional. Hace honor a la famosa frase 'Hierro afila hierro'.",
         "Academic": {
           "title": "Formación Académica",
@@ -50,7 +54,7 @@
         },
         "Interests": {
           "title": "Intereses Personales",
-          "description": "Tengo un gran aprecio por los deportes y practico varios tipos. Siento que tengo una cierta aptitud para los deportes físicos en general, pero el fútbol es lo que más me atrae. Actualmente, el deporte que más practico es el kickboxing, y este año, 2024, participé en mi primera competencia, el Campeonato Pernambucano de Kickboxing. Además de los deportes, también tengo habilidades en el mundo musical, teniendo una cierta familiaridad con la guitarra y el cavaquinho. Hablando de cavaquinho, el pagode 🎻 es algo esencial en mi vida, además de gustarme algunos pops como Ed Sheeran y Bruno Mars."
+          "description": "Tengo un gran aprecio por los deportes y practico varios tipos. Siento que tengo una cierta aptitud para los deportes físicos en general, pero el fútbol es lo que más me atrae. Actualmente, el deporte que más practico es el kickboxing 🥊, y este año, 2024, participé en mi primera competencia, el Campeonato Pernambucano de Kickboxing. Además de los deportes, también tengo habilidades en el mundo musical, teniendo una cierta familiaridad con la guitarra y el cavaquinho. Hablando de cavaquinho, el pagode 🎻 es algo esencial en mi vida, además de gustarme algunos pops como Ed Sheeran y Bruno Mars."
         }
       },
       "introduction": {

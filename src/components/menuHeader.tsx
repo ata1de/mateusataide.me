@@ -48,9 +48,9 @@ export function MenuHeader() {
       <DropdownMenuTrigger asChild className="bg-LightBrown border-2 border-zinc-400 hover:bg-LightBrown">
         <Button variant="outline"><Settings className="hover:animate-spin-once w-4 h-4"/></Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-56 bg-LightBrown border-2 border-zinc-800 text-zinc-400">
+      <DropdownMenuContent className="w-56 bg-LightBrown border-2 border-zinc-800 text-Black">
         <DropdownMenuLabel>Language</DropdownMenuLabel>
-        <DropdownMenuSeparator className="bg-zinc-400"/>
+        <DropdownMenuSeparator className="bg-lime-400"/>
         <DropdownMenuRadioGroup value={position} onValueChange={setPosition}>
           <DropdownMenuRadioItem onClick={() => handleLanguageChange('en', 'top')} className="hover:bg-zinc-500" value="top">
             English 🇺🇸

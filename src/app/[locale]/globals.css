@@ -3,7 +3,13 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
+  .light {
+    --White: rgb(254, 255, 255);
+    --LightBrown: #f4f0e5;
+    --Brown: #A1824A;
+    --Black: #1C170D;
+    --Green: #009863;
+    --FooterBg: #1C170D;
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
     --card: 0 0% 100%;
@@ -32,6 +38,12 @@
   }
 
   .dark {
+    --White: #2E2E2E;
+    --LightBrown: #999999;
+    --Brown: #A1824A;
+    --Black: #F5F0E5;
+    --Green: #009863;
+    --FooterBg: transparent;
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
     --card: 240 10% 3.9%;
@@ -49,6 +61,7 @@
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
     --border: 240 3.7% 15.9%;
+    --radius: 0.5rem;
     --input: 240 3.7% 15.9%;
     --ring: 240 4.9% 83.9%;
     --chart-1: 220 70% 50%;

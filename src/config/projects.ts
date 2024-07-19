@@ -1,6 +1,8 @@
 export type ProjectHomeModel = {
     id: string;
     image: string;
+    link_visit: string;
+    link_source: string;
     icons: Icon[];
 }
 
@@ -13,6 +15,8 @@ export const projectsListHome: ProjectHomeModel[] = [
     {
         id: "crypto-screener",
         image: "/projects/project1.png",
+        link_visit: "https://libertas-frontend.vercel.app/",
+        link_source: "https://github.com/ata1de/Libertas_frontend",
         icons: [
             {
                 id: "filter-icon",
@@ -27,6 +31,8 @@ export const projectsListHome: ProjectHomeModel[] = [
     {
         id: "ecommerce-store",
         image: "/projects/ecommerce-store.jpg",
+        link_visit: "https://ecommerce-store-vert.vercel.app/",
+        link_source: "https://github.com/ata1de/Ecommerce-Store",
         icons: [
             {
                 id: "cart-icon",
@@ -41,6 +47,8 @@ export const projectsListHome: ProjectHomeModel[] = [
     {
         id: "arkan-seguro",
         image: "/projects/arkan_home.png",
+        link_visit: "",
+        link_source: "https://github.com/ata1de/ArkanSeguros",
         icons: [
             {
                 id: "share-icon",
