@@ -11,7 +11,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { usePathname, useRouter } from '@/navigation';
-import { Moon, Settings, Sun } from "lucide-react";
+import { Settings } from "lucide-react";
 import { useTheme } from "next-themes";
 import { usePathname as pathNameNext } from "next/navigation"; // assuming useLocale hook exists to get the current locale
 import { useEffect, useState } from "react";
@@ -61,21 +61,7 @@ export function MenuHeader() {
         <Button variant="outline"><Settings className="hover:animate-spin-once w-4 h-4"/></Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56 bg-LightBrown border-2 border-zinc-800 text-Black">
-        <DropdownMenuLabel className="flex justify-center items-center gap-3">
-          <p>Language</p>
-          <div className="flex justify-center items-center gap-3">
-            <Button className="flex items-center gap-x-2 px-3 rounded-md text-sm border-muted transition"
-            onClick={() => handleModeChange('light')}
-            >
-              <Sun className="h-4 x-4 shrink-0"/>
-            </Button>
-            <Button className="flex items-center gap-x-2 px-3 rounded-md text-sm border-muted transition"
-            onClick={() => handleModeChange("dark")}
-            >
-              <Moon className="h-4 x-4 shrink-0"/>
-            </Button>
-          </div>
-        </DropdownMenuLabel>
+        <DropdownMenuLabel>Language</DropdownMenuLabel>
         <DropdownMenuSeparator className="bg-lime-400"/>
         <DropdownMenuRadioGroup value={position} onValueChange={setPosition}>
           <DropdownMenuRadioItem onClick={() => handleLanguageChange('en', 'top')} className="hover:bg-zinc-500" value="top">
