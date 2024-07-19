@@ -5,6 +5,7 @@ import "./globals.css";
 
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import Provider from "@/components/provider/provider";
 import { cn } from "@/lib/utils";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
@@ -43,9 +44,11 @@ export default async function LocaleLayout({
         )}
         >
           <NextIntlClientProvider messages={messages}>
-            <Header/>
-            {children}
-            <Footer/>
+            <Provider >
+              <Header/>
+              {children}
+              <Footer/>
+            </Provider>
           </NextIntlClientProvider>
         </body>
       </html>
