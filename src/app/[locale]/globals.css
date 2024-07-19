@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-  .light {
+  :root {
     --White: rgb(254, 255, 255);
     --LightBrown: #f4f0e5;
     --Brown: #A1824A;
