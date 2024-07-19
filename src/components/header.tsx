@@ -7,7 +7,8 @@ import { Link } from 'next-view-transitions';
 import Image from 'next/image';
 import { useState } from 'react';
 import { AvatarDemo } from './avatar';
-import { MenuHeader } from './menuHeader';
+import { MenuHeader } from './header/menuHeader';
+import { NavigationMenuDemo } from './header/navigationHeader';
 import { Separator } from './ui/separator';
 import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from './ui/sheet';
 
@@ -51,8 +52,12 @@ export default function Header() {
         <div className=' hidden md:flex justify-center items-center gap-5'>
             <Link href={`/${currentLocale}`} className=' leading-5 hover:underline-after no-underline text-[14px] font-medium p-3 rounded-md'>{t('home')}</Link>
             <Link href={`/${currentLocale}/about`} className=' leading-5 hover:underline-after no-underline text-[14px] font-medium p-3 rounded-md'>{t('about')}</Link>
-            <Link href='/' className=' leading-5 hover:underline-after no-underline text-[14px] font-medium p-3 rounded-md'>{t('project')}</Link>
-            <Link href='/' className=' leading-5 hover:underline-after no-underline text-[14px] font-medium p-3 rounded-md'>{t('curriculo')}</Link>
+            <NavigationMenuDemo/>
+            <Link href='/curriculo/curriculo.pdf' legacyBehavior passHref>
+              <a download target='_blank' className='leading-5 hover:underline-after no-underline text-[14px] font-medium p-3 rounded-md'>
+                {t('curriculo')}
+              </a>
+            </Link>
             <MenuHeader/>
             <AvatarDemo/>
         </div>
