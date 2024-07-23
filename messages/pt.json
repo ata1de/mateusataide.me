@@ -1,9 +1,9 @@
 {
   "Header": {
-      "links": {
-          "home": "Home",
-          "about": "Sobre",
-          "project": {
+    "links": {
+        "home": "Home",
+        "about": "Sobre",
+        "project": {
             "projects": {
                 "title": "Projetos",
                 "description": "Projetos pessoais e colaborativos desenvolvidos na minha carreira."
@@ -13,8 +13,9 @@
                 "description": "Tecnologias que uso no dia a dia do trabalho."
             }
         },
-          "curriculo": "Currículo"
-      }
+        "curriculo": "Currículo"
+    },
+    "responsive": "Navegue pelo nosso site através desta área"
   },
   "Footer": {
       "privacy": "Política de Privacidade",
@@ -69,21 +70,22 @@
             "role": "Desenvolvedor de Software"
         },
         "experiences": {
-          "algorithm-monitor": {
-              "title": "Monitor de Algoritmo",
-              "duration": "Março 2020 - Dezembro 2020",
-              "description": "Como monitor de algoritmo, melhorei minha capacidade de ajudar outras pessoas e a gestão de tempo, oferecendo suporte em programação e resolução de problemas."
-          },
-          "information-systems": {
-              "title": "Bacharelado em Sistemas de Informação",
-              "duration": "Janeiro 2018 - Dezembro 2021",
-              "description": "Curso focado no desenvolvimento de sistemas, gestão de banco de dados e infraestrutura de TI."
-          },
-          "gge-school": {
-              "title": "Colégio GGE",
-              "duration": "Janeiro 2015 - Dezembro 2017",
-              "description": "Ensino médio com foco em ciências exatas, proporcionando uma base sólida em matemática e física."
-          }
+            "title": "Experiências",
+            "algorithm-monitor": {
+                "title": "Monitor de Algoritmo",
+                "duration": "Março 2020 - Dezembro 2020",
+                "description": "Como monitor de algoritmo, melhorei minha capacidade de ajudar outras pessoas e a gestão de tempo, oferecendo suporte em programação e resolução de problemas."
+            },
+            "information-systems": {
+                "title": "Bacharelado em Sistemas de Informação",
+                "duration": "Janeiro 2018 - Dezembro 2021",
+                "description": "Curso focado no desenvolvimento de sistemas, gestão de banco de dados e infraestrutura de TI."
+            },
+            "gge-school": {
+                "title": "Colégio GGE",
+                "duration": "Janeiro 2015 - Dezembro 2017",
+                "description": "Ensino médio com foco em ciências exatas, proporcionando uma base sólida em matemática e física."
+            }
       }
   }
 }

@@ -15,6 +15,7 @@ import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTr
 
 export default function Header() {
   const t = useTranslations('Header.links');
+  const t2 = useTranslations('Header');
   const currentLocale = useLocale();
 
   const { scrollY} = useScroll()
@@ -80,14 +81,14 @@ export default function Header() {
                   {/* <p className='uppercase text-2xl text-Yellow font-bold font-sans'>ARKAN</p> */}
                 </SheetTitle>
                 <SheetDescription className='text-left text-Black'>
-                  Browse our site through this area.
+                  {t2('responsive')}
                 </SheetDescription>
               </SheetHeader>
               <Separator  className='w-full bg-lime-600'/>
               <div className='justify-center flex flex-col my-5 gap-5 px-6'>
                 <Link href={`/${currentLocale}`} className=' leading-5 text-Black hover:text-[#807056] no-underline text-[14px] font-medium  rounded-md'>{t('home')}</Link>
                 <Link href={`/${currentLocale}/about`} className=' leading-5 text-Black hover:text-[#807056] no-underline text-[14px] font-medium  rounded-md'>{t('about')}</Link>
-                <Link href='/' className=' leading-5 text-Black hover:text-[#807056] no-underline text-[14px] font-medium  rounded-md'>{t('project')}</Link>
+                <NavigationMenuDemo isPhone={true}/>
                 <Link href='/' className=' leading-5 text-Black hover:text-[#807056] no-underline text-[14px] font-medium  rounded-md'>{t('curriculo')}</Link>
               </div>
             </SheetContent>

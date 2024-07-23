@@ -14,7 +14,8 @@
           }
         },
         "curriculo": "Resume"
-      }
+      },
+      "responsive": "Browse our site through this area"
     },
     "Footer": {
       "privacy": "Privacy Policy",
@@ -70,6 +71,7 @@
         "role": "Software Developer"
       },
       "experiences": {
+        "title": "Experiences",
         "algorithm-monitor": {
           "title": "Algorithm Monitor",
           "duration": "March 2020 - December 2020",

@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="w-full flex justify-center items-center">
       <div className="max-w-[1056px] mx-auto px-10">
-        <div className="min-h-[550px]">
+        <div className="">
           <Hero/>
         </div>
 

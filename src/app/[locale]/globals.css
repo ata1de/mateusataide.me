@@ -8,8 +8,8 @@
     --LightBrown: #f4f0e5;
     --Brown: #A1824A;
     --Black: #1C170D;
-    --Green: #009863;
-    --FooterBg: #1C170D;
+    --Green: #4C807B;
+    --FooterBg: #1D1D1D;
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
     --card: 0 0% 100%;
@@ -88,7 +88,7 @@
   width: 0;
   height: 3px;
   border-radius: 999px;
-  background: #009963;
+  background: #4C807B;
   transition: width 0.3s ease;
 }
 

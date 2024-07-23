@@ -13,16 +13,18 @@ import {
 import { cn } from "@/lib/utils"
 import { useTranslations } from "next-intl"
 
+type NavigationMenuProps = {
+  isPhone?: boolean
+}
 
-
-export function NavigationMenuDemo() {
+export function NavigationMenuDemo({ isPhone=false }: NavigationMenuProps) {
   const projects = useTranslations('Header.links.project.projects')
   const stack = useTranslations('Header.links.project.stack')
   return (
     <NavigationMenu>
       <NavigationMenuList>
-        <NavigationMenuItem>
-          <NavigationMenuTrigger className="leading-5 no-underline text-[14px] font-medium p-3 rounded-md ">Tech</NavigationMenuTrigger>
+        <NavigationMenuItem >
+          <NavigationMenuTrigger className={`${isPhone ? '': 'px-4 py-2'} leading-5 no-underline text-[14px] font-medium rounded-md bg-transparent`}>Tech</NavigationMenuTrigger>
           <NavigationMenuContent >
             <ul className="flex flex-col w-[300px] max-[1024px]:overflow-scroll gap-3 p-4  ">
             <ListItem

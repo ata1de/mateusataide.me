@@ -14,7 +14,8 @@
           }
         },
         "curriculo": "Currículo"
-      }
+      },
+      "responsive": "Navegue por nuestro sitio a través de esta área"
     },
     "Footer": {
       "privacy": "Política de Privacidad",
@@ -70,6 +71,7 @@
         "role": "Desarrollador de Software"
       },
       "experiences": {
+        "title": "Experiencias",
         "algorithm-monitor": {
           "title": "Monitor de Algoritmos",
           "duration": "Marzo 2024 - Julio 2024",
