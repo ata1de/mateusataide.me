@@ -78,13 +78,12 @@ export default function Header() {
                     <p className='text-lg font-bold hover:text-zinc-700 '>Mateus Ataide</p>
                   </div>
                   <AvatarDemo/>
-                  {/* <p className='uppercase text-2xl text-Yellow font-bold font-sans'>ARKAN</p> */}
                 </SheetTitle>
                 <SheetDescription className='text-left text-Black'>
                   {t2('responsive')}
                 </SheetDescription>
               </SheetHeader>
-              <Separator  className='w-full bg-lime-600'/>
+              <Separator  className='w-full bg-[#95BFB8]'/>
               <div className='justify-center flex flex-col my-5 gap-5 px-6'>
                 <Link href={`/${currentLocale}`} className=' leading-5 text-Black hover:text-[#807056] no-underline text-[14px] font-medium  rounded-md'>{t('home')}</Link>
                 <Link href={`/${currentLocale}/about`} className=' leading-5 text-Black hover:text-[#807056] no-underline text-[14px] font-medium  rounded-md'>{t('about')}</Link>

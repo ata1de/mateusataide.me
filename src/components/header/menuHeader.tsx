@@ -62,15 +62,15 @@ export function MenuHeader() {
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56 bg-LightBrown border-2 border-zinc-800 text-Black">
         <DropdownMenuLabel>Language</DropdownMenuLabel>
-        <DropdownMenuSeparator className="bg-lime-400"/>
+        <DropdownMenuSeparator className="bg-[#95BFB8]"/>
         <DropdownMenuRadioGroup value={position} onValueChange={setPosition}>
-          <DropdownMenuRadioItem onClick={() => handleLanguageChange('en', 'top')} className="hover:bg-zinc-500" value="top">
+          <DropdownMenuRadioItem onClick={() => handleLanguageChange('en', 'top')} className="hover:bg-[#798c8c]" value="top">
             English 🇺🇸
           </DropdownMenuRadioItem>
-          <DropdownMenuRadioItem onClick={() => handleLanguageChange('pt', 'bottom')} className="hover:bg-zinc-500" value="bottom">
+          <DropdownMenuRadioItem onClick={() => handleLanguageChange('pt', 'bottom')} className="hover:bg-[#798c8c]" value="bottom">
             Português 🇧🇷
           </DropdownMenuRadioItem>
-          <DropdownMenuRadioItem onClick={() => handleLanguageChange('es', 'right')} className="hover:bg-zinc-500" value="right">
+          <DropdownMenuRadioItem onClick={() => handleLanguageChange('es', 'right')} className="hover:bg-[#798c8c]" value="right">
             Español 🇪🇸
           </DropdownMenuRadioItem>
         </DropdownMenuRadioGroup>

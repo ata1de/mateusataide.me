@@ -11,7 +11,7 @@ import {
   NavigationMenuTrigger
 } from "@/components/ui/navigation-menu"
 import { cn } from "@/lib/utils"
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 
 type NavigationMenuProps = {
   isPhone?: boolean
@@ -20,6 +20,8 @@ type NavigationMenuProps = {
 export function NavigationMenuDemo({ isPhone=false }: NavigationMenuProps) {
   const projects = useTranslations('Header.links.project.projects')
   const stack = useTranslations('Header.links.project.stack')
+  const currentLocale = useLocale();
+
   return (
     <NavigationMenu>
       <NavigationMenuList>
@@ -28,13 +30,13 @@ export function NavigationMenuDemo({ isPhone=false }: NavigationMenuProps) {
           <NavigationMenuContent >
             <ul className="flex flex-col w-[300px] max-[1024px]:overflow-scroll gap-3 p-4  ">
             <ListItem
-            href="/projects"
+            href={`/${currentLocale}/projects`}
             title={`${projects('title')}`}
             >
                 {projects('description')}
             </ListItem>
             <ListItem
-            href="/stack"
+            href={`/${currentLocale}/stacks`}
             title={`${stack('title')}`}
             >
                 {stack('description')}
