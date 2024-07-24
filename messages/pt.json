@@ -43,12 +43,12 @@
           "ecommerce-store": {
               "title": "Template de Site de E-commerce (Roupas)",
               "category": "Web App",
-              "description": "Um template moderno de e-commerce que proporciona uma experiência de compra perfeita. Projetado com um layout responsivo e navegação intuitiva para elevar sua loja de moda online."
+              "description": "Template moderno para e-commerce com layout responsivo e navegação intuitiva, ideal para lojas de moda online."
           },
           "arkan-seguro": {
               "title": "Website da empresa Arkan Seguros",
               "category": "Web site",
-              "description": "Um site empresarial que mostra os valores e a missão da empresa Arkan Seguros. Com um design moderno e responsivo, o site é capaz de atrair novos clientes e manter os antigos."
+              "description": "Site da Arkan Seguros com design moderno e responsivo, destacando os valores e a missão da empresa para atrair e manter clientes"
           }
       }
   },

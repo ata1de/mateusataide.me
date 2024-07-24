@@ -16,8 +16,8 @@ export default function CardProject({ project }: CardProjectProps) {
     const isLinkVisitEmpty = project.link_visit.length === 0;
 
     return (
-        <div className="max-w-[420px] h-auto flex flex-col p-4 shadow-md  gap-3">
-            <Image className="h-[250px] rounded-md" src={project.image} alt={t('title')} width={400} height={250} />
+        <div className="max-w-[420px] w-[370px] h-auto flex flex-col p-4 shadow-md  gap-3">
+            <Image className="h-[150px] rounded-md" src={project.image} alt={t('title')} width={300} height={250} />
             <div className="flex flex-col justify-between flex-1 gap-3">
                 <div className="flex flex-col gap-1">
                     <p className="font-bold text-base">{t('title')}</p>
