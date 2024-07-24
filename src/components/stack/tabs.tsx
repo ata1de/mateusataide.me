@@ -18,8 +18,8 @@ export function TabsCategory() {
 
     return (
         <div className="">
-          <Tabs value={selectedTab} onValueChange={setSelectedTab} className="w-full bg-transparent">
-            <TabsList className="border-b-2 border-Green w-full flex ">
+          <Tabs value={selectedTab} onValueChange={setSelectedTab} className="w-full">
+            <TabsList className="border-b-2 w-full flex ">
               <TabsTrigger value="all">{tabs('all')}</TabsTrigger>
               <TabsTrigger value="backend">Backend</TabsTrigger>
               <TabsTrigger value="frontend">Frontend</TabsTrigger>

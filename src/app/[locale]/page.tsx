@@ -15,11 +15,6 @@ export default function Home() {
           <Hero/>
         </div>
 
-        {/* <div>
-          <p className="font-bold text-[22px] leading-7 mb-8 pl-40">{t2('Tech')}</p>
-          <CarouselLoop/>
-        </div> */}
-
         <div className="mt-16 flex flex-col items-start min-[1500px]:items-center">
           <div className="flex flex-col gap-9">
             <p className="font-bold text-[22px] leading-7 mb-8">{t('title')}</p>

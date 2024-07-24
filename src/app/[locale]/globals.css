@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --White: rgb(254, 255, 255);
+    --White: #F6F6F6;
     --LightBrown: #f4f0e5;
     --Brown: #A1824A;
     --Black: #1C170D;
