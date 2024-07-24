@@ -24,7 +24,7 @@ export function TabsCategory() {
               <TabsTrigger value="testes">Testes</TabsTrigger>
               <TabsTrigger value="database">Banco de Dados</TabsTrigger>
             </TabsList>
-            <TabsContent value={selectedTab} className="grid grid-cols-4 mt-7 gap-3">
+            <TabsContent value={selectedTab} className="flex flex-wrap justify-center mt-7 gap-3">
               {filteredItems.map((item, index) => (
                 <StackCard key={index} category={item.category} image={item.image} title={item.name}/>
               ))}

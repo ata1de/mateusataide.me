@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/navigation-menu"
 import { cn } from "@/lib/utils"
 import { useLocale, useTranslations } from "next-intl"
+import { Link } from "next-view-transitions"
 
 type NavigationMenuProps = {
   isPhone?: boolean
@@ -29,18 +30,20 @@ export function NavigationMenuDemo({ isPhone=false }: NavigationMenuProps) {
           <NavigationMenuTrigger className={`${isPhone ? '': 'px-4 py-2'} leading-5 no-underline text-[14px] font-medium rounded-md bg-transparent`}>Tech</NavigationMenuTrigger>
           <NavigationMenuContent >
             <ul className="flex flex-col w-[300px] max-[1024px]:overflow-scroll gap-3 p-4  ">
-            <ListItem
-            href={`/${currentLocale}/projects`}
-            title={`${projects('title')}`}
-            >
-                {projects('description')}
-            </ListItem>
-            <ListItem
-            href={`/${currentLocale}/stacks`}
-            title={`${stack('title')}`}
-            >
-                {stack('description')}
-            </ListItem>
+            <Link href={`/${currentLocale}/projects`}>
+              <ListItem
+              title={`${projects('title')}`}
+              >
+                  {projects('description')}
+              </ListItem>
+            </Link>
+            <Link href={`/${currentLocale}/stacks`}>
+              <ListItem
+              title={`${stack('title')}`}
+              >
+                  {stack('description')}
+              </ListItem>
+            </Link>
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
