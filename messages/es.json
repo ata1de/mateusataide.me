@@ -26,7 +26,9 @@
         "introduction": "Hola, soy Mateus Ataide,",
         "office": "desarrollador de software",
         "passion": "Con una pasión por transformar sueños en soluciones digitales",
-        "search": "Buscar"
+        "role": "Estudiando en",
+        "blog": "Ven a conocer mi blog",
+        "meet": "Vamos a conectarnos"
       },
       "Tech": "Tecnologías",
       "Projects": {
@@ -38,10 +40,10 @@
         "crypto-screener": {
           "title": "Aplicación de Monitoreo de Criptomonedas",
           "category": "Aplicación Móvil",
-          "description": "Una aplicación móvil para monitorear fácilmente el alza y la baja de los valores de las criptomonedas. Presenta una interfaz elegante con poderosas capacidades de filtrado y alerta para mantenerlo a la vanguardia en sus inversiones."
+          "description": "Una aplicación móvil para monitorear fácilmente el alza y la baja de los valores de las criptomonedas.."
         },
         "ecommerce-store": {
-          "title": "Plantilla de Sitio de Comercio Electrónico (Ropa)",
+          "title": "Plantilla de Sitio de Comercio Electrónico",
           "category": "Aplicación Web",
           "description": "Plantilla moderna para e-commerce con diseño responsivo y navegación intuitiva, ideal para tiendas de moda online."
         },
@@ -71,23 +73,23 @@
         "role": "Desarrollador de Software"
       },
       "experiences": {
-        "title": "Experiencias",
-        "algorithm-monitor": {
-          "title": "Monitor de Algoritmos",
-          "duration": "Marzo 2024 - Julio 2024",
-          "description": "Como monitor de algoritmos, mejoré mi capacidad para ayudar a otros y gestionar el tiempo, ofreciendo apoyo en programación y resolución de problemas."
-        },
-        "information-systems": {
-          "title": "Licenciatura en Sistemas de Información",
-          "duration": "Abril 2023 - Septiembre 2027",
-          "description": "Curso enfocado en el desarrollo de sistemas, la gestión de bases de datos y la infraestructura de TI."
-        },
-        "gge-school": {
-          "title": "Colegio GGE",
-          "duration": "Enero 2015 - Diciembre 2022",
-          "description": "Escuela secundaria enfocada en ciencias exactas, proporcionando una base sólida en matemáticas y física."
-        }
+      "title": "Experiencias",
+      "algorithm-monitor": {
+        "title": "Monitor de Algoritmo",
+        "duration": "Marzo 2024 - Julio 2024",
+        "description": "Como monitor de algoritmo, mejoré mi capacidad para ayudar a los demás y gestionar el tiempo, ofreciendo apoyo en programación y resolución de problemas."
+      },
+      "information-systems": {
+        "title": "Licenciatura en Sistemas de Información",
+        "duration": "Marzo 2023 - Septiembre 2027",
+        "description": "Curso enfocado en el desarrollo de sistemas, gestión de bases de datos e infraestructura de TI."
+      },
+      "logic-monitor": {
+        "title": "Monitor de Lógica",
+        "duration": "Julio 2024 - Diciembre 2024",
+        "description": "Como monitor de lógica, mejoré mis habilidades de enseñanza proporcionando asistencia en el razonamiento lógico y técnicas de resolución de problemas."
       }
+    }
     },
     "Stack": {
       "title": "Fierramentas",

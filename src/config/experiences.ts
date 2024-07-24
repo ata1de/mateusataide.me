@@ -13,6 +13,6 @@ export const experiencesList: Experience[] = [
     },
 
     {
-        id: "gge-school"
+        id: "logic-monitor"
     }
 ]

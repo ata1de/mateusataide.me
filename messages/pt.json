@@ -26,7 +26,9 @@
           "introduction": "Olá, eu sou Mateus Ataide,",
           "office": "desenvolvedor de software",
           "passion": "Com uma paixão por transformar sonhos em soluções digitais",
-          "search": "Buscar"
+          "role": "Estudando no",
+          "blog": "Venha conhecer meu blog",
+          "meet": "Vamos nos conectar"
       },
       "Tech": "Tecnologias",
       "Projects": {
@@ -36,12 +38,12 @@
             "button_source": "Código Fonte"
           },
           "crypto-screener": {
-              "title": "Aplicativo de Monitoramento de Criptomoedas",
+              "title": "Libertas",
               "category": "Mobile App",
-              "description": "Um aplicativo móvel para monitorar facilmente a alta e baixa dos valores das criptomoedas. Apresenta uma interface elegante com poderosas capacidades de filtragem e alerta para mantê-lo à frente em seus investimentos."
+              "description": "Um aplicativo móvel para monitorar facilmente a alta e baixa dos valores das criptomoedas."
           },
           "ecommerce-store": {
-              "title": "Template de Site de E-commerce (Roupas)",
+              "title": "Template de Site de E-commerce",
               "category": "Web App",
               "description": "Template moderno para e-commerce com layout responsivo e navegação intuitiva, ideal para lojas de moda online."
           },
@@ -73,18 +75,18 @@
             "title": "Experiências",
             "algorithm-monitor": {
                 "title": "Monitor de Algoritmo",
-                "duration": "Março 2020 - Dezembro 2020",
+                "duration": "Março 20204 - Julho 2024",
                 "description": "Como monitor de algoritmo, melhorei minha capacidade de ajudar outras pessoas e a gestão de tempo, oferecendo suporte em programação e resolução de problemas."
             },
             "information-systems": {
                 "title": "Bacharelado em Sistemas de Informação",
-                "duration": "Janeiro 2018 - Dezembro 2021",
+                "duration": "Março 2023 - Setembro 2027",
                 "description": "Curso focado no desenvolvimento de sistemas, gestão de banco de dados e infraestrutura de TI."
             },
-            "gge-school": {
-                "title": "Colégio GGE",
-                "duration": "Janeiro 2015 - Dezembro 2017",
-                "description": "Ensino médio com foco em ciências exatas, proporcionando uma base sólida em matemática e física."
+            "logic-monitor": {
+                "title": "Monitor de Lógica",
+                "duration": "Julho 2024 - Dezembro 2024",
+                "description": "Como monitor de lógica, aprimorei minhas habilidades de resolução de problemas e raciocínio lógico, auxiliando outros alunos na compreensão de lógica de programação."
             }
       }
   },

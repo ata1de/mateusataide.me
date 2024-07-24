@@ -16,7 +16,7 @@ export function StackCard({ title, category, image }: StackCardProps) {
         >
             <Image className="rounded-md" src={image} alt={title} width={80} height={80} />
             <p className="text-black text-xl font-bold">{title}</p>
-            <div className="border p-2 text-base w-[100px] text-center rounded">{category}</div>
+            <div className="border p-2 text-base w-[100px] text-center rounded bg-[#dcebe8]">{category}</div>
         </motion.div>
     );
 }
