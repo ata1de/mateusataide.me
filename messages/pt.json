@@ -87,5 +87,14 @@
                 "description": "Ensino médio com foco em ciências exatas, proporcionando uma base sólida em matemática e física."
             }
       }
+  },
+  "Stack": {
+    "title": "Stack",
+    "description": "Aqui estão algumas das minhas ferramentas utilizadas para promover o melhor resultados nos meus projetos.",
+    "tabs": {
+        "test": "Testes",
+        "all": "Todos",
+        "database": "Banco de Dados"
+    }
   }
 }

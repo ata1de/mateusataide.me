@@ -88,6 +88,15 @@
           "description": "Escuela secundaria enfocada en ciencias exactas, proporcionando una base sólida en matemáticas y física."
         }
       }
+    },
+    "Stack": {
+      "title": "Fierramentas",
+      "description": "Aquí están algunas de las herramientas que utilizo para lograr los mejores resultados en mis proyectos.",
+      "tabs": {
+        "test": "Testes",
+        "all": "Todos",
+        "database": "Base de Datos"
+      }
     }
   }
   

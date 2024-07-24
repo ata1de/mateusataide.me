@@ -88,6 +88,15 @@
           "description": "High school focused on exact sciences, providing a solid foundation in mathematics and physics."
         }
       }
+    },
+    "Stack": {
+      "title": "Stack",
+      "description": "Here are some of the tools I use to achieve the best results in my projects.",
+      "tabs": {
+        "test": "Tests",
+        "all": "All",
+        "database": "Database"
+      }
     }
   }
   
