@@ -40,7 +40,9 @@
       },
       "Tech": "Tecnologias",
       "Projects": {
-          "title": "Meus Projetos",
+          "title": "Construido com amor",
+          "description": "Uma seção dos meus projetos mais recentes",
+          "link-projects": "Veja todos os projetos",
           "buttons": {
             "button_visit": "Visitar",
             "button_source": "Código Fonte"

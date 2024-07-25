@@ -1,4 +1,5 @@
 'use client'
+import SlideIn from "@/components/animations/slideInLeft";
 import ArrowLink from "@/components/arrowLink";
 import Hero from "@/components/hero";
 import { useTranslations } from "next-intl";
@@ -16,11 +17,13 @@ export default function Home() {
 
         <div className="mt-16 flex justify-start min-h-[400px] bg-[#f8f8f8] mb-8">
           <div className=" flex justify-between items-center max-w-[1056px] mx-auto px-3 sm:px-10 ">
-            <div className="flex items-start flex-col gap-1 pr-44">
-              <p className="text-3xl font-semibold mb-4">Crafted with love.</p>
-              <p className="text-sm font-light mb-2 ">These are a section of my recent works</p>
-              <ArrowLink text={"View all projects"}/>
-            </div>
+            <SlideIn>
+              <div className="flex items-start flex-col gap-1 pr-44">
+                <p className="text-3xl font-semibold mb-4">{t('title')}.</p>
+                <p className="text-sm font-light mb-2 ">{t('description')}</p>
+                <ArrowLink text={t('link-projects')}/>
+              </div>
+            </SlideIn>
 
             <div className="grid grid-cols-4 gap-6  ">
               <div className="col-span-2 row-span-2 bg-[#669b94]  rounded-lg p-16">

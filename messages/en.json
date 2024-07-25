@@ -40,7 +40,9 @@
       },
       "Tech": "Technologies",
       "Projects": {
-        "title": "My Projects",
+        "title": "Crafted with love",
+        "description": "A section of my most recent projects",
+        "link-projects": "View all projects",
         "buttons": {
             "button_visit": "Visit",
             "button_source": "Source Code"
