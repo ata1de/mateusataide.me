@@ -23,10 +23,10 @@ export default function Hero() {
                 </div>
                 <div className="gap-3 flex justify-start items-center">
                     <Link href='https://medium.com/@mateusataide05' target="_blank">
-                        <Button className="bg-Green hover:bg-[#669b94] border-white text-yellow-50">Conheça meu blog <BookUser className="ml-2" size={20}/></Button>
+                        <Button className="bg-Green hover:bg-[#669b94] border-white text-yellow-50">{t('blog')} <BookUser className="ml-2" size={20}/></Button>
                     </Link>
                     <Link href='https://www.linkedin.com/in/mateus-ata%C3%ADde-7b1b3b1b1/' target="_blank">
-                        <Button className="bg-Green hover:bg-[#669b94] border-white text-yellow-50">Vamos nos conectar <Handshake size={20} className="ml-2"/></Button>
+                        <Button className="bg-Green hover:bg-[#669b94] border-white text-yellow-50">{t('meet')} <Handshake size={20} className="ml-2"/></Button>
                     </Link>
                 </div>
             </div>
