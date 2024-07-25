@@ -1,13 +1,14 @@
-import { ArrowUpRight, BookUser, Handshake } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { ArrowDown, ArrowUpRight, BookUser, Handshake } from "lucide-react";
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "./ui/button";
 
 export default function Hero() {
     const t = useTranslations('Home.Hero');
+    const locale = useLocale()
     return (
-       <div className="max-w-[1056px] mx-auto px-3 sm:px-10 flex flex-col justify-center py-12 gap-8 max-[940px]:items-center min-[940px]:flex-row ">
+       <div className="relative max-w-[1056px] mx-auto px-3 sm:px-10 flex flex-col justify-center py-12 gap-8 max-[940px]:items-center min-[940px]:flex-row ">
             <Image className="rounded-xl" src='/image_hero.png' width={340} height={290} alt='Hero'/>
 
             <div className="flex flex-col max-[940px]:items-center justify-center gap-5">
@@ -29,6 +30,11 @@ export default function Hero() {
                         <Button className="bg-Green hover:bg-[#669b94] border-white text-yellow-50">{t('meet')} <Handshake size={20} className="ml-2"/></Button>
                     </Link>
                 </div>
+            </div>
+
+            <div className="absolute right-0 -bottom-10 flex flex-col justify-center items-center gap-10">
+                <p className="rotate-90 text-sm font-light">{t('arrow')}</p>
+                <ArrowDown className={`w-6 h-6 animate-bounce text-zinc-500 ${locale !== 'en' && 'mt-6'}`}/>
             </div>
        </div> 
     )
