@@ -19,7 +19,14 @@
     },
     "Footer": {
       "privacy": "Política de Privacidad",
-      "terms": "Términos de Uso"
+      "terms": "Términos de Uso",
+      "title": "¡Espero verte de nuevo!",
+      "description": "¡Este sitio es responsivo!",
+      "self": "Hecho con orgullo y amor por",
+      "communications": {
+        "contact": "Contacto",
+        "social-media": "Redes sociales"
+      } 
     },
     "Home": {
       "Hero": {

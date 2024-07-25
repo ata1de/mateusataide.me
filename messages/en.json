@@ -19,7 +19,14 @@
     },
     "Footer": {
       "privacy": "Privacy Policy",
-      "terms": "Terms of Use"
+      "terms": "Terms of Use",
+      "title": "I hope to see you again!",
+      "description": "This site is responsive!",
+      "self": "Proudly and lovingly made by",
+      "communications": {
+        "contact": "Contact",
+        "social-media": "Social media"
+      }
     },
     "Home": {
       "Hero": {
