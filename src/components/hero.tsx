@@ -7,7 +7,7 @@ import { Button } from "./ui/button";
 export default function Hero() {
     const t = useTranslations('Home.Hero');
     return (
-       <div className="flex flex-col justify-center py-12 gap-8 md:flex-row max-[768px]:items-center ">
+       <div className="flex flex-col justify-center py-12 gap-8 max-[940px]:items-center min-[940px]:flex-row ">
             <Image className="rounded-xl" src='/image_hero.png' width={440} height={390} alt='Hero'/>
 
             <div className="flex flex-col justify-center gap-5">

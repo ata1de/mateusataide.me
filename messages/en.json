@@ -26,7 +26,8 @@
       "communications": {
         "contact": "Contact",
         "social-media": "Social media"
-      }
+      },
+      "reserved": "All rights reserved"
     },
     "Home": {
       "Hero": {
