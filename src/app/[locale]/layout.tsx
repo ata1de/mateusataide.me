@@ -39,7 +39,7 @@ export default async function LocaleLayout({
     <ViewTransitions>
       <html lang="pt-br">
         <body className={cn(
-          "min-h-screen bg-White text-Black font-sans antialiased",
+          "min-h-screen bg-white text-Black font-sans antialiased",
           fontSans.variable
         )}
         >
