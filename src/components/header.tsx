@@ -34,7 +34,7 @@ export default function Header() {
     
   return (
     <motion.div 
-    className=' sticky top-0 z-50  w-full py-5 border-b-2 border-zinc-300'
+    className=' sticky bg-white top-0 z-50  w-full py-5 border-b-2 border-zinc-300'
     variants={{
       visible: { y: 0},
       hidden: { y: '-100%'}

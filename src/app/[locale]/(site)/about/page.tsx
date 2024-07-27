@@ -15,7 +15,7 @@ export default function About() {
     const experiences = useTranslations("About.experiences");
 
     return (
-        <div className="w-full flex justify-center items-center">
+        <div className="w-full flex justify-center items-center mb-5">
             <div className="max-w-[1056px] mx-auto px-10">
                 <div className="flex flex-col py-7 gap-3">
                     <SlideIn>
