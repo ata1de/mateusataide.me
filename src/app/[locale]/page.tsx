@@ -24,7 +24,7 @@ export default function Home() {
           <Hero/>
         </div>
 
-        <div className="mt-16 flex justify-start min-h-[400px] bg-[#f8f8f8]  pb-8">
+        <div className="mt-16 flex justify-start min-h-[400px] bg-[#f8f8f8] pb-8">
           <div className=" flex justify-between  w-11/12 items-center max-w-[1056px] mx-auto px-3 sm:px-10 ">
             <SlideIn>
               <div className="flex items-start flex-col gap-1 ">
