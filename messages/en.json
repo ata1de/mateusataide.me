@@ -110,6 +110,104 @@
         "all": "All",
         "database": "Database"
       }
+    },
+    "Projects": {
+    "title": "My Projects",
+    "description": "Here is some of my work, but you can venture more into my",
+    "details-title": "details",
+    "buttons": {
+        "button_visit": "Visit",
+        "button_source": "Source Code"
+    },
+    "libertas": {
+        "title": "Libertas",
+        "init": {
+          "category": "Mobile App",
+          "description": "A mobile app to easily monitor the ups and downs of cryptocurrency values."
+        },
+        "video": {
+          "title": "Video",
+          "description": "Watch the video below to learn more about Libertas and its features."
+        },
+        "overview": {
+          "title": "Overview",
+          "prompt": {
+            "title": "Prompt",
+            "description": "Libertas is a mobile app that allows users to monitor the rise and fall of cryptocurrency values. The app provides real-time data on the most popular cryptocurrencies, allowing users to make informed decisions about their investments. With Libertas, users can track the performance of their favorite cryptocurrencies, set price alerts, and receive notifications when prices reach a certain threshold. The app also features a news feed with the latest cryptocurrency news and updates, keeping users informed about market trends and developments. Whether you're a seasoned investor or just getting started in the world of cryptocurrency, Libertas is the perfect tool to help you stay on top of the market and make smart investment decisions."
+          },
+          "design-process": {
+            "title": "Design Process",
+            "description": "The design process for Libertas began with extensive research into the cryptocurrency market and user needs. We conducted user interviews and surveys to gather insights into how people track cryptocurrency prices and make investment decisions. Based on this research, we identified key features and functionalities that would be most valuable to users, such as real-time price data, price alerts, and news updates. We then created wireframes and prototypes to visualize the app's layout and functionality, incorporating user feedback to refine the design. The final design features a clean and intuitive interface that makes it easy for users to track cryptocurrency prices and stay informed about market trends."
+          }
+          
+        },
+        "user-research": {
+          "title": "User Research",
+          "background-research": {
+            "title": "Background Research",
+            "description": "User research was a critical part of the design process for Libertas. We conducted interviews and surveys with cryptocurrency investors to understand their needs, pain points, and preferences. We found that users wanted a mobile app that provided real-time price data, price alerts, and news updates in a user-friendly interface. They also expressed a desire for a clean and intuitive design that made it easy to track cryptocurrency prices and make informed investment decisions. Based on this feedback, we developed a set of user personas and user stories to guide the design process and ensure that the app met the needs of its target audience.",
+            "research-goals": {
+              "title": "Goals",
+              "goals": {
+                "goal1": "Understand how users track cryptocurrency prices and make investment decisions",
+                "goal2": "Identify pain points and challenges in the current cryptocurrency tracking process",
+                "goal3": "Gather insights into user preferences and needs for a cryptocurrency monitoring app"
+              }
+            }
+          } 
+        },
+        "problem-statement": {
+          "title": "Problem Statement",
+          "description": "The cryptocurrency market is highly volatile, with prices fluctuating rapidly throughout the day. This volatility can make it challenging for investors to track price movements and make informed decisions about their investments. Existing cryptocurrency tracking tools are often complex and difficult to use, requiring users to navigate multiple screens and menus to access the information they need. This complexity can be overwhelming for new investors and deter them from entering the market. Libertas aims to address these challenges by providing users with a simple and intuitive mobile app that makes it easy to track cryptocurrency prices, set price alerts, and stay informed about market trends. By offering real-time data, personalized alerts, and curated news updates, Libertas empowers users to make smart investment decisions and stay ahead of the market."
+        },
+        "impact": {
+          "title": "Impact",
+          "description": "Libertas has the potential to have a significant impact on the cryptocurrency market by providing users with a powerful tool to track prices, set alerts, and stay informed about market trends. The app's real-time data and personalized alerts enable users to make informed decisions about their investments, helping them maximize their returns and minimize their risks. By offering curated news updates and market analysis, Libertas keeps users informed about the latest developments in the cryptocurrency world, empowering them to stay ahead of the market and make smart investment decisions. Whether you're a seasoned investor or just getting started in the world of cryptocurrency, Libertas is the perfect tool to help you navigate the market and make the most of your investments."
+        }
+    },
+    "ecommerce-store": {
+        "title": "E-commerce Site Template",
+        "init": {
+          "category": "Web App",
+          "description": "Modern e-commerce template with responsive layout and intuitive navigation, ideal for online fashion stores."
+        }
+    },
+    "arkan-seguros": {
+        "title": "Arkan Seguros Website",
+        "init": {
+          "category": "Website",
+          "description": "Arkan Seguros website with a modern and responsive design, highlighting the company's values and mission to attract and retain customers."
+        }
+    },
+    "dashboard-arkan-seguros": {
+        "title": "Arkan Seguros Dashboard",
+        "init": {
+          "category": "Web App",
+          "description": "Arkan Seguros dashboard with a modern and responsive design, featuring important graphs and information for the company."
+        }
+    },
+    "onebitflix-front": {
+        "title": "Onebitflix",
+        "init": {
+          "category": "Web App",
+          "description": "Programming lessons website, with a modern and responsive design, intuitive and easy-to-use navigation, and a custom video player."
+        }
+    },
+    "onebitflix-back": {
+        "title": "Onebitflix Backend",
+        "init": {
+          "category": "API",
+          "description": "Onebitflix API, with full CRUD for categories and videos, along with user authentication using JWT and bcrypt."
+        }
+    },
+    "python-analytics": {
+        "title": "Python Analytics",
+        "init": {
+          "category": "API",
+          "description": "Data analysis dashboard with Python, featuring important graphs and information for the company."
+        } 
     }
+    }
+
   }
   

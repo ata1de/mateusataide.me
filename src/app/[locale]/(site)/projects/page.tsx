@@ -5,7 +5,7 @@ import { ArrowUpRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 export default function StackPage() {
-    const t = useTranslations("Stack");
+    const t = useTranslations("Projects");
 
     return (
         <div className="w-full flex justify-center items-center mt-9 mb-8">

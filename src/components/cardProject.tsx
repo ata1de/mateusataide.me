@@ -1,8 +1,8 @@
 import { ProjectHomeModel } from "@/config/projects";
 import { ArrowUpRight, GitFork } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import { Link } from "next-view-transitions";
 import Image from "next/image";
-import Link from "next/link";
 import { Button } from "./ui/button";
 
 interface CardProjectProps {
@@ -10,13 +10,15 @@ interface CardProjectProps {
 }
 
 export default function CardProject({ project }: CardProjectProps) {
-    const t = useTranslations(`Home.Projects.${project.id}`);
+    const t = useTranslations(`Projects.${project.id}`);
     const buttons = useTranslations(`Home.Projects.buttons`);
+    const currentLocale = useLocale();
 
     const isLinkVisitEmpty = project.link_visit.length === 0;
 
     return (
-        <div className="max-w-[420px] w-[400px]  flex flex-col p-5 shadow-md     gap-3">
+        <Link href={`/${currentLocale}/projects/${project.id}`}>
+            <div className="max-w-[420px] w-[400px]  flex flex-col p-5 shadow-md     gap-3">
             <div className="flex justify-center items-center">
                 <Image className="rounded-md" src={project.image} alt={t('title')} width={470} height={325} />
             </div>
@@ -52,6 +54,7 @@ export default function CardProject({ project }: CardProjectProps) {
                 </div>
             </div>
             
-        </div>
+            </div>
+        </Link>
     );
 }

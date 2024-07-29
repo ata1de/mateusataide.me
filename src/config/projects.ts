@@ -1,4 +1,4 @@
-export type ProjectHomeModel = {
+export interface ProjectType {
     id: string;
     image: string;
     link_visit: string;
@@ -6,9 +6,9 @@ export type ProjectHomeModel = {
     category: string;
 }
 
-export const projectsListHome: ProjectHomeModel[] = [
+export const projectsListHome: ProjectType[] = [
     {
-        id: "Libertas",
+        id: "libertas",
         image: "/projects/mockup-libertas.png",
         link_visit: "https://libertas-frontend.vercel.app/",
         link_source: "https://github.com/ata1de/Libertas_frontend",
@@ -22,7 +22,7 @@ export const projectsListHome: ProjectHomeModel[] = [
         category: "front-end",
     },
     {
-        id: "Dashboard Arkan Seguros",
+        id: "dashboard-arkan-seguros",
         image: "/projects/mockup-dashboard-arkan.png",
         link_visit: "",
         link_source: "https://github.com/ata1de/ArkanSeguros",
@@ -30,7 +30,7 @@ export const projectsListHome: ProjectHomeModel[] = [
     },
 
     {
-        id: "Arkan Seguros",
+        id: "arkan-seguros",
         image: "/projects/mockup-arkan.png",
         link_visit: "",
         link_source: "https://github.com/ata1de/ArkanSeguros",
@@ -38,10 +38,25 @@ export const projectsListHome: ProjectHomeModel[] = [
     },
 
     {
-        id: "Onebitflix",
+        id: "onebitflix-front",
         image: "/projects/mockup-onebitflix.png",
         link_visit: "",
-        link_source: "https://github.com/ata1de/ArkanSeguros",
+        link_source: "https://github.com/ata1de/onebitflix_front",
         category: "front-end",
-    }
+    },
+    {
+        id: "onebitflix-back",
+        image: "/projects/mockup-onebitflix-back.png",
+        link_visit: "",
+        link_source: "https://github.com/ata1de/onebitflix_backend",
+        category: "back-end",
+    },
+    {
+        id: "python-analytics",
+        image: "/projects/mockup-python-analytics.png",
+        link_visit: "",
+        link_source: "https://github.com/ata1de/PowerBi",
+        category: "back-end",
+    },
+
 ];

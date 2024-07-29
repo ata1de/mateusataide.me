@@ -111,6 +111,65 @@
         "all": "Todos",
         "database": "Base de Datos"
       }
+    },
+    "Projects": {
+      "title": "Mis Proyectos",
+      "description": "Aquí está algunos de mis trabajos, pero puedes explorar más en mis",
+      "details-title": "detalles",
+      "buttons": {
+          "button_visit": "Visitar",
+          "button_source": "Código Fuente"
+      },
+      "libertas": {
+          "title": "Libertas",
+          "init": {
+            "category": "Aplicación Móvil",
+            "description": "Una aplicación móvil para monitorear fácilmente las variaciones en los valores de las criptomonedas."
+          }
+      },
+      "ecommerce-store": {
+          "title": "Plantilla de Sitio de E-commerce",
+          "init": {
+            "category": "Aplicación Web",
+            "description": "Plantilla de e-commerce moderna con diseño responsive y navegación intuitiva, ideal para tiendas de moda en línea."
+          }
+      },
+      "arkan-seguros": {
+          "title": "Sitio Web de Arkan Seguros",
+          "init": {
+            "category": "Sitio Web",
+            "description": "Sitio web de Arkan Seguros con diseño moderno y responsive, destacando los valores y la misión de la empresa para atraer y retener clientes."
+          }
+      },
+      "dashboard-arkan-seguros": {
+          "title": "Dashboard de Arkan Seguros",
+          "init": {
+            "category": "Aplicación Web",
+            "description": "Dashboard de Arkan Seguros con diseño moderno y responsive, presentando gráficos e información importante para la empresa."
+          }
+      },
+      "onebitflix-front": {
+          "title": "Onebitflix",
+          "init": {
+            "category": "Aplicación Web",
+            "description": "Sitio web de lecciones de programación, con diseño moderno y responsive, navegación intuitiva y fácil de usar, y un reproductor de video personalizado."
+          }
+      },
+      "onebitflix-back": {
+          "title": "Backend de Onebitflix",
+          "init": {
+            "category": "API",
+            "description": "API de Onebitflix, con CRUD completo para categorías y videos, junto con autenticación de usuarios utilizando JWT y bcrypt."
+          }
+      },
+      "python-analytics": {
+          "title": "Python Analytics",
+          "init": {
+            "category": "API",
+            "description": "Dashboard de análisis de datos con Python, presentando gráficos e información importante para la empresa."
+          } 
+      }
     }
+
   }
   
