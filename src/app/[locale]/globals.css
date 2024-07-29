@@ -81,6 +81,11 @@
   }
 }
 
+.inline-h2 {
+  display: inline-block;
+}
+
+
 
 .hover\:underline-after::after {
   content: "";
