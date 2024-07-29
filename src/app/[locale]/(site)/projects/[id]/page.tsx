@@ -1,11 +1,13 @@
 'use client'
 
 import { projectsListHome, ProjectType } from "@/config/projects"
-import { Loader2Icon } from "lucide-react"
+import { ArrowLeftCircle, Loader2Icon } from "lucide-react"
 import { useTranslations } from "next-intl"
 import Image from "next/image"
-import { useParams } from "next/navigation"
+import { useParams, useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
+
+
 
 const DetailsProjectPage = () => {
     // STATES
@@ -14,6 +16,9 @@ const DetailsProjectPage = () => {
     // Params ID    
     const params = useParams()
     const { id } = params
+
+    // Router
+    const router = useRouter()
 
     // TRANSLATIONS
     const projectDetails = useTranslations(`Projects.${id}`)
@@ -37,7 +42,12 @@ const DetailsProjectPage = () => {
 
     return (
         <div className="w-full flex flex-col justify-center items-center">
-            <Image className="w-full" src={project.image_details} alt={project.id} width={1056} height={1000} />
+            <div className="w-full bg-[#f8f8f8] relative">
+                <div className="absolute top-2 left-4">
+                    <ArrowLeftCircle className="text-[#95BFB8] cursor-pointer" size={40} onClick={() => router.back()}/>
+                </div>
+                <Image className="m-auto" src={project.image_details} alt={project.id} width={1056} height={1000} />
+            </div>  
 
             <div className="w-full">
                 <div className="max-w-[1056px] mx-auto px-3 sm:px-10 my-7">
@@ -73,17 +83,21 @@ const DetailsProjectPage = () => {
                 </div>
             </div>
 
-            <div className="w-full bg-[#f8f8f8]">
-                <div className="max-w-[1056px] mx-auto px-3 sm:px-10 my-7 ">
-                    <div className="flex flex-col gap-6 justify-center items-left w-full">
-                        <p className="text-sm text-[#95BFB8]">{projectDetails('init.category')}</p>
-                        <p className="mb-4 font-semibold text-xl">{projectDetails('video.description')}</p>
-                        <iframe width="560" className="w-full bg-[#f8f8f8]" height="315" src="https://github.com/user-attachments/assets/0e2177fa-c0ed-4ce9-b9ad-f9e014c0c5e8" allowFullScreen></iframe>
+            {
+                project.project_video.length > 0 &&  
+                <div className="w-full bg-[#f8f8f8]">
+                    <div className="max-w-[1056px] mx-auto px-3 sm:px-10 my-7 ">
+                        <div className="flex flex-col gap-6 justify-center items-left w-full">
+                            <p className="text-sm text-[#95BFB8]">{projectDetails('init.category')}</p>
+                            <p className="mb-4 font-semibold text-xl">{projectDetails('video.description')}</p>
+                            <video controls width="560" className="w-full bg-[#f8f8f8]" height="315" src={project.project_video}></video>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div className="w-full">
+            }
+
+            <div className={`w-full ${project.project_video.length == 0 && 'bg-[#f8f8f8]'}`}>
                 <div className="max-w-[1056px] mx-auto px-3 sm:px-10 my-7 ">
                     <div className="flex flex-col">
                         <p className="text-sm text-[#95BFB8] mb-2">{overview('title')}</p>

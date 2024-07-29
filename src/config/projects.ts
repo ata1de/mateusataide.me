@@ -4,6 +4,7 @@ export interface ProjectType {
     image_details : string;
     link_visit: string;
     link_source: string;
+    project_video: string;
     category: string;
 }
 
@@ -11,17 +12,19 @@ export const projectsListHome: ProjectType[] = [
     {
         id: "libertas",
         image: "/projects/mockup-libertas.png",
-        image_details: "/projects/mockup-libertas-details.png",
+        image_details: "/projects/libertas-details.svg",
         link_visit: "https://libertas-frontend.vercel.app/",
         link_source: "https://github.com/ata1de/Libertas_frontend",
+        project_video: '',
         category: "front-end",
     },
     {
         id: "ecommerce-store",
         image: "/projects/mockup-ecommerce.png",
-        image_details: "/projects/mockup-ecommerce-details.png",
+        image_details: "/projects/ecommerce-details.png",
         link_visit: "https://ecommerce-store-vert.vercel.app/",
         link_source: "https://github.com/ata1de/Ecommerce-Store",
+        project_video: '',
         category: "front-end",
     },
     {
@@ -30,6 +33,7 @@ export const projectsListHome: ProjectType[] = [
         image_details: "/projects/mockup-dashboard-arkan-details",
         link_visit: "",
         link_source: "https://github.com/ata1de/ArkanSeguros",
+        project_video: 'https://github.com/user-attachments/assets/5f03bb47-d804-45d4-baae-0f26d181489f',
         category: "back-end",
     },
 
@@ -39,6 +43,7 @@ export const projectsListHome: ProjectType[] = [
         image_details: "/projects/arkan-details.svg",    
         link_visit: "",
         link_source: "https://github.com/ata1de/ArkanSeguros",
+        project_video: 'https://github.com/user-attachments/assets/0e2177fa-c0ed-4ce9-b9ad-f9e014c0c5e8',
         category: "front-end",
     },
 
@@ -48,6 +53,7 @@ export const projectsListHome: ProjectType[] = [
         image_details: "/projects/mockup-onebitflix-details.png",
         link_visit: "",
         link_source: "https://github.com/ata1de/onebitflix_front",
+        project_video: '',
         category: "front-end",
     },
     {
@@ -56,6 +62,7 @@ export const projectsListHome: ProjectType[] = [
         image_details: "/projects/mockup-onebitflix-back-details.png",
         link_visit: "",
         link_source: "https://github.com/ata1de/onebitflix_backend",
+        project_video: '',
         category: "back-end",
     },
     {
@@ -64,6 +71,7 @@ export const projectsListHome: ProjectType[] = [
         image_details: "/projects/mockup-python-analytics-details.png",
         link_visit: "",
         link_source: "https://github.com/ata1de/PowerBi",
+        project_video: '',
         category: "back-end",
     },
 
