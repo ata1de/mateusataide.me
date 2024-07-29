@@ -155,11 +155,13 @@
         }
     },
     "problem-statement": {
+        "challenge": "Desafio",
         "title": "Declaração do Problema",
         "description": "O mercado de criptomoedas é altamente volátil, com preços que flutuam rapidamente ao longo do dia. Essa volatilidade pode tornar difícil para os investidores acompanhar os movimentos dos preços e tomar decisões informadas sobre seus investimentos. As ferramentas de acompanhamento de criptomoedas existentes muitas vezes são complexas e difíceis de usar, exigindo que os usuários naveguem por várias telas e menus para acessar as informações de que precisam. Essa complexidade pode ser esmagadora para novos investidores e desencorajá-los de entrar no mercado. O Libertas visa resolver esses desafios oferecendo aos usuários um aplicativo móvel simples e intuitivo que facilita o acompanhamento dos preços das criptomoedas, a definição de alertas de preços e a manutenção informada sobre as tendências do mercado. Ao oferecer dados em tempo real, alertas personalizados e atualizações de notícias, o Libertas capacita os usuários a tomar decisões de investimento inteligentes e se manter à frente do mercado."
     },
     "impact": {
-        "title": "Impacto",
+        "subtitle": "Impacto",
+        "title": "Reflexões e Resultados",
         "description": "O Libertas tem o potencial de causar um impacto significativo no mercado de criptomoedas, fornecendo aos usuários uma ferramenta poderosa para acompanhar os preços, definir alertas e se manter informados sobre as tendências do mercado. Os dados em tempo real e os alertas personalizados do aplicativo permitem que os usuários tomem decisões informadas sobre seus investimentos, ajudando-os a maximizar seus retornos e minimizar seus riscos. Ao oferecer atualizações de notícias curadas e análises de mercado, o Libertas mantém os usuários informados sobre os desenvolvimentos mais recentes no mundo das criptomoedas, capacitando-os a se manter à frente do mercado e tomar decisões de investimento inteligentes. Seja você um investidor experiente ou apenas começando no mundo das criptomoedas, o Libertas é a ferramenta perfeita para ajudá-lo a navegar no mercado e aproveitar ao máximo seus investimentos."
     }
     },
@@ -192,50 +194,54 @@
         }
     },
     "problem-statement": {
+        "challenge": "Desafio",
         "title": "Declaração do Problema",
         "description": "Lojas de moda online enfrentam desafios ao fornecer uma experiência de compra agradável e eficiente para seus clientes. Muitos sites de e-commerce têm layouts complicados e processos de checkout difíceis, o que pode desencorajar os clientes de fazerem compras. O modelo de site de e-commerce foi projetado para resolver esses problemas, oferecendo uma plataforma moderna e responsiva com uma navegação intuitiva e um processo de checkout seguro. Com um design elegante e recursos integrados, o modelo proporciona uma experiência de compra perfeita e agradável para os usuários."
     },
     "impact": {
-        "title": "Impacto",
+        "subtitle": "Impacto",
+        "title": "Reflexões e Resultados",
         "description": "O modelo de site de e-commerce tem o potencial de transformar a experiência de compra online para lojas de moda, proporcionando uma plataforma moderna e funcional. Com um design responsivo e navegação intuitiva, o modelo facilita a navegação dos clientes e a realização de compras, aumentando a satisfação e fidelidade dos clientes. A integração com gateways de pagamento populares e o processo de checkout seguro garantem uma experiência de compra tranquila e segura, ajudando as lojas a maximizar suas vendas e proporcionar um excelente serviço ao cliente."
     }
     },
-    "arkan-seguros": {
-    "title": "Website Arkan Seguros",
-    "init": {
-        "category": "Website",
-        "description": "Website da Arkan Seguros com design moderno e responsivo, destacando os valores e a missão da empresa para atrair e reter clientes."
-    },
-    "video": {
-        "title": "Vídeo",
-        "description": "Assista ao vídeo abaixo para saber mais sobre o website da Arkan Seguros e seus recursos."
-    },
-    "overview": {
-        "title": "Visão Geral",
-        "prompt": {
-        "title": "Prompt",
-        "description": "O website da Arkan Seguros foi desenvolvido para destacar os valores e a missão da empresa, oferecendo um design moderno e responsivo. O site fornece informações detalhadas sobre os serviços oferecidos pela Arkan Seguros, ajudando a atrair e reter clientes. Com uma navegação intuitiva e conteúdo bem organizado, o site facilita o acesso às informações e garante uma experiência de usuário agradável."
+   "arkan-seguros": {
+        "title": "Website Arkan Seguros",
+        "init": {
+            "category": "Website",
+            "description": "Website da Arkan Seguros com design moderno e responsivo, destacando os valores e a missão da empresa para atrair e reter clientes."
         },
-        "design-process": {
-        "title": "Processo de Design",
-        "description": "O processo de design do website da Arkan Seguros começou com uma análise das necessidades dos clientes e das melhores práticas de design para sites corporativos. Criamos wireframes e protótipos para visualizar o layout e a funcionalidade do site, incorporando feedback de usuários para refinar o design. O resultado final é um website moderno e responsivo que destaca os valores e a missão da Arkan Seguros, proporcionando uma experiência de usuário agradável e eficiente."
+        "video": {
+            "title": "Tour Visual",
+            "description": "Assista ao vídeo abaixo para saber mais sobre o website da Arkan Seguros e seus recursos."
+        },
+        "overview": {
+            "title": "Visão Geral",
+            "prompt": {
+                "title": "Prompt",
+                "description": "O website da Arkan Seguros foi desenvolvido para destacar os valores e a missão da empresa, oferecendo um design moderno e responsivo. O site fornece informações detalhadas sobre os serviços oferecidos pela Arkan Seguros, ajudando a atrair e reter clientes. Com uma navegação intuitiva e conteúdo bem organizado, o site facilita o acesso às informações e garante uma experiência de usuário agradável."
+            },
+            "design-process": {
+                "title": "Processo de Design",
+                "description": "O processo de design do website da Arkan Seguros começou com uma análise das necessidades dos clientes e das melhores práticas de design para sites corporativos. Criamos wireframes e protótipos para visualizar o layout e a funcionalidade do site, incorporando feedback de usuários para refinar o design. O resultado final é um website moderno e responsivo que destaca os valores e a missão da Arkan Seguros, proporcionando uma experiência de usuário agradável e eficiente."
+            }
+        },
+        "user-research": {
+            "title": "Pesquisa de Usuário",
+            "background-research": {
+                "title": "Pesquisa de Contexto",
+                "description": "A pesquisa de usuário para o website da Arkan Seguros envolveu entrevistas e pesquisas com clientes e funcionários da empresa. Coletamos insights sobre as necessidades e expectativas dos usuários em relação ao site, identificando as principais informações e recursos que deveriam ser destacados. Com base nesses insights, desenvolvemos personas e histórias de usuários para guiar o processo de design, garantindo que o site atendesse às necessidades de seu público-alvo."
+            }
+        },
+        "problem-statement": {
+            "challenge": "Desafio",
+            "title": "Declaração do Problema",
+            "description": "Empresas de seguros precisam de um website que destaque seus valores e missão, fornecendo informações claras e acessíveis sobre seus serviços. Muitos sites corporativos são complicados e difíceis de navegar, o que pode afastar clientes em potencial. O website da Arkan Seguros foi projetado para resolver esses problemas, oferecendo um design moderno e responsivo com navegação intuitiva e conteúdo bem organizado. Com um layout elegante e funcionalidade eficiente, o site ajuda a atrair e reter clientes, destacando os valores e a missão da empresa."
+        },
+        "impact": {
+            "subtitle": "Impacto",
+            "title": "Reflexões e Resultados",
+            "description": "O website da Arkan Seguros tem o potencial de fortalecer a presença online da empresa, destacando seus valores e missão e proporcionando uma experiência de usuário agradável e eficiente. Com um design moderno e responsivo, o site facilita o acesso às informações e ajuda a atrair e reter clientes, aumentando a satisfação e fidelidade dos clientes. A navegação intuitiva e o conteúdo bem organizado garantem que os usuários possam encontrar rapidamente as informações de que precisam, melhorando a experiência geral do usuário e fortalecendo a imagem da Arkan Seguros no mercado."
         }
-    },
-    "user-research": {
-        "title": "Pesquisa de Usuário",
-        "background-research": {
-        "title": "Pesquisa de Contexto",
-        "description": "A pesquisa de usuário para o website da Arkan Seguros envolveu entrevistas e pesquisas com clientes e funcionários da empresa. Coletamos insights sobre as necessidades e expectativas dos usuários em relação ao site, identificando as principais informações e recursos que deveriam ser destacados. Com base nesses insights, desenvolvemos personas e histórias de usuários para guiar o processo de design, garantindo que o site atendesse às necessidades de seu público-alvo."
-        }
-    },
-    "problem-statement": {
-        "title": "Declaração do Problema",
-        "description": "Empresas de seguros precisam de um website que destaque seus valores e missão, fornecendo informações claras e acessíveis sobre seus serviços. Muitos sites corporativos são complicados e difíceis de navegar, o que pode afastar clientes em potencial. O website da Arkan Seguros foi projetado para resolver esses problemas, oferecendo um design moderno e responsivo com navegação intuitiva e conteúdo bem organizado. Com um layout elegante e funcionalidade eficiente, o site ajuda a atrair e reter clientes, destacando os valores e a missão da empresa."
-    },
-    "impact": {
-        "title": "Impacto",
-        "description": "O website da Arkan Seguros tem o potencial de fortalecer a presença online da empresa, destacando seus valores e missão e proporcionando uma experiência de usuário agradável e eficiente. Com um design moderno e responsivo, o site facilita o acesso às informações e ajuda a atrair e reter clientes, aumentando a satisfação e fidelidade dos clientes. A navegação intuitiva e o conteúdo bem organizado garantem que os usuários possam encontrar rapidamente as informações de que precisam, melhorando a experiência geral do usuário e fortalecendo a imagem da Arkan Seguros no mercado."
-    }
     },
     "dashboard-arkan-seguros": {
     "title": "Dashboard Arkan Seguros",
@@ -266,11 +272,13 @@
         }
     },
     "problem-statement": {
+        "challenge": "Desafio",
         "title": "Declaração do Problema",
         "description": "Empresas de seguros precisam de um dashboard que forneça uma visão abrangente e em tempo real dos dados da empresa, ajudando na tomada de decisões estratégicas. Muitos dashboards corporativos são complicados e difíceis de usar, o que pode limitar sua eficácia. O Dashboard da Arkan Seguros foi projetado para resolver esses problemas, oferecendo um design moderno e responsivo com gráficos e informações importantes apresentados de forma clara e acessível. Com ferramentas de análise avançada, o dashboard facilita a interpretação dos dados e o planejamento estratégico, ajudando a empresa a identificar tendências e oportunidades."
     },
     "impact": {
-        "title": "Impacto",
+        "subtitle": "Impacto",
+        "title": "Reflexões e Resultados",
         "description": "O Dashboard da Arkan Seguros tem o potencial de transformar a maneira como a empresa acompanha e interpreta seus dados, fornecendo uma ferramenta poderosa para a tomada de decisões estratégicas. Com um design moderno e responsivo, o dashboard apresenta informações importantes de forma clara e acessível, ajudando a empresa a identificar tendências e oportunidades. As ferramentas de análise avançada facilitam a interpretação dos dados e o planejamento estratégico, permitindo que a Arkan Seguros tome decisões informadas e melhore seu desempenho no mercado."
     }
     },
@@ -303,11 +311,13 @@
         }
     },
     "problem-statement": {
+        "challenge": "Desafio",
         "title": "Declaração do Problema",
         "description": "Plataformas de aprendizado online enfrentam desafios ao fornecer uma experiência de aprendizado agradável e eficiente para os usuários. Muitos sites de cursos têm layouts complicados e funcionalidades limitadas, o que pode dificultar o acesso ao conteúdo e a navegação pelos cursos. O Onebitflix foi projetado para resolver esses problemas, oferecendo uma plataforma moderna e responsiva com navegação intuitiva e funcionalidades avançadas de pesquisa e filtragem de cursos. Com um design elegante e recursos integrados, o Onebitflix proporciona uma experiência de aprendizado agradável e eficiente para os usuários."
     },
     "impact": {
-        "title": "Impacto",
+        "subtitle": "Impacto",
+        "title": "Reflexões e Resultados",
         "description": "O Onebitflix tem o potencial de transformar a maneira como os alunos aprendem programação online, fornecendo uma plataforma moderna e acessível com funcionalidades avançadas. Com um design responsivo e navegação intuitiva, o site facilita o acesso a uma ampla gama de cursos de programação, permitindo que os usuários aprendam no seu próprio ritmo. O player de vídeo personalizado e as funcionalidades avançadas de pesquisa e filtragem de cursos garantem uma experiência de aprendizado agradável e eficiente, ajudando os alunos a atingir seus objetivos de aprendizado e a desenvolver suas habilidades em programação."
     }
     },
@@ -340,11 +350,13 @@
         }
     },
     "problem-statement": {
+        "challenge": "Desafio",
         "title": "Declaração do Problema",
         "description": "APIs de plataformas de aprendizado online precisam ser robustas e seguras, suportando uma ampla gama de funcionalidades e garantindo a integridade dos dados do usuário. Muitos backends de plataformas de cursos enfrentam desafios ao implementar operações CRUD completas e autenticação segura, o que pode comprometer a experiência do usuário. O Backend do Onebitflix foi projetado para resolver esses problemas, fornecendo uma API robusta e segura com operações CRUD completas e autenticação de usuários usando JWT e bcrypt. Com uma arquitetura escalável e eficiente, o Backend do Onebitflix garante a melhor experiência de usuário possível, suportando todas as funcionalidades do website de aulas de programação."
     },
     "impact": {
-        "title": "Impacto",
+        "subtitle": "Impacto",
+        "title": "Reflexões e Resultados",
         "description": "O Backend do Onebitflix tem o potencial de transformar a maneira como as plataformas de aprendizado online fornecem suas funcionalidades, oferecendo uma API robusta e segura com operações CRUD completas e autenticação de usuários. Com uma arquitetura escalável e eficiente, o backend suporta uma ampla gama de funcionalidades e garante a melhor experiência de usuário possível. A implementação de autenticação usando JWT e bcrypt garante a segurança e a integridade dos dados do usuário, ajudando a plataforma a fornecer uma experiência de aprendizado eficiente e segura para todos os seus usuários."
     }
     },
@@ -377,11 +389,13 @@
         }
     },
     "problem-statement": {
+        "challenge": "Desafio",
         "title": "Declaração do Problema",
         "description": "Empresas precisam de ferramentas poderosas de análise de dados para acompanhar o desempenho e identificar tendências e oportunidades no mercado. Muitos dashboards de análise de dados são complicados e difíceis de usar, o que pode limitar sua eficácia. O Python Analytics foi projetado para resolver esses problemas, oferecendo um dashboard moderno e responsivo com gráficos e informações importantes apresentados de forma clara e acessível. Com ferramentas de análise avançada, o dashboard facilita a interpretação dos dados e o planejamento estratégico, ajudando as empresas a tomar decisões informadas e a melhorar seu desempenho no mercado."
     },
     "impact": {
-        "title": "Impacto",
+        "subtitle": "Impacto",
+        "title": "Reflexões e Resultados",
         "description": "O Python Analytics tem o potencial de transformar a maneira como as empresas analisam e interpretam seus dados, fornecendo uma ferramenta poderosa e acessível para a análise de dados. Com um design moderno e responsivo, o dashboard apresenta informações importantes de forma clara e acessível, ajudando as empresas a identificar tendências e oportunidades. As ferramentas de análise avançada facilitam a interpretação dos dados e o planejamento estratégico, permitindo que as empresas tomem decisões informadas e melhorem seu desempenho no mercado."
     }
     }
