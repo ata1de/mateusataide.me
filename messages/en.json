@@ -41,7 +41,7 @@
       },
       "Tech": "Technologies",
       "Projects": {
-        "title": "Built with Love",
+        "title": "Crafted with Love",
         "subtitle": "Projects",
         "description": "Here is a section of my most recent projects, with detailed descriptions and images. Check out all the projects by clicking the button below.",
         "link-projects": "See all projects",
@@ -113,54 +113,119 @@
     "libertas": {
         "title": "Libertas",
         "init": {
-          "category": "Mobile App",
-          "description": "A mobile app to easily monitor the ups and downs of cryptocurrency values."
+            "role": {
+                "title": "My Role",
+                "description": "Developer"
+            },
+            "project": {
+                "title": "Project",
+                "description": "By myself"
+            },
+            "timeline": {
+                "title": "Development Time",
+                "description": "2 weeks (2024)"
+            },
+            "tools": {
+                "title": "Tools",
+                "description": "React, Node.js, Express, MongoDB"
+            },
+            "category": "Mobile Application",
+            "description": "Website for law firms, showcasing their services and information about the company."
         },
         "video": {
-          "title": "Video",
-          "description": "Watch the video below to learn more about Libertas and its features."
+            "title": "Video",
+            "description": "Watch the video below to learn more about Libertas and its features."
         },
         "overview": {
-          "title": "Overview",
-          "prompt": {
-            "title": "Prompt",
-            "description": "Libertas is a mobile app that allows users to monitor the rise and fall of cryptocurrency values. The app provides real-time data on the most popular cryptocurrencies, allowing users to make informed decisions about their investments. With Libertas, users can track the performance of their favorite cryptocurrencies, set price alerts, and receive notifications when prices reach a certain threshold. The app also features a news feed with the latest cryptocurrency news and updates, keeping users informed about market trends and developments. Whether you're a seasoned investor or just getting started in the world of cryptocurrency, Libertas is the perfect tool to help you stay on top of the market and make smart investment decisions."
-          },
-          "design-process": {
-            "title": "Design Process",
-            "description": "The design process for Libertas began with extensive research into the cryptocurrency market and user needs. We conducted user interviews and surveys to gather insights into how people track cryptocurrency prices and make investment decisions. Based on this research, we identified key features and functionalities that would be most valuable to users, such as real-time price data, price alerts, and news updates. We then created wireframes and prototypes to visualize the app's layout and functionality, incorporating user feedback to refine the design. The final design features a clean and intuitive interface that makes it easy for users to track cryptocurrency prices and stay informed about market trends."
-          }
-          
+            "title": "Overview",
+            "prompt": {
+                "title": "Prompt",
+                "description": "The Libertas website is a landing page for a law firm that displays its mission and values, services, and contact information—everything needed to introduce the firm to the digital world and attract clients. The site also offers a search system, which makes it easy for users to navigate and find specific information. With a modern and responsive design, Libertas provides a pleasant and efficient user experience, helping the firm stand out in the market and attract new clients."
+            },
+            "design-process": {
+                "title": "Design Process",
+                "description": "The design process for Libertas began with extensive research on landing pages related to law firms. I searched on Behance, Dribble, and Pinterest, seeking references and inspiration to create the best possible project."
+            }
         },
         "user-research": {
-          "title": "User Research",
-          "background-research": {
-            "title": "Background Research",
-            "description": "User research was a critical part of the design process for Libertas. We conducted interviews and surveys with cryptocurrency investors to understand their needs, pain points, and preferences. We found that users wanted a mobile app that provided real-time price data, price alerts, and news updates in a user-friendly interface. They also expressed a desire for a clean and intuitive design that made it easy to track cryptocurrency prices and make informed investment decisions. Based on this feedback, we developed a set of user personas and user stories to guide the design process and ensure that the app met the needs of its target audience.",
+            "title": "User Research",
+            "background-research": {
+                "title": "Background Research",
+                "description": "User research was a fundamental part of the design process for Libertas. Identifying the target audience and their needs was essential to create a site that met user expectations. Since it was related to a law firm, I aimed for a design that conveyed a higher level of seriousness and formality."
+            },
             "research-goals": {
-              "title": "Goals",
-              "goals": {
-                "goal1": "Understand how users track cryptocurrency prices and make investment decisions",
-                "goal2": "Identify pain points and challenges in the current cryptocurrency tracking process",
-                "goal3": "Gather insights into user preferences and needs for a cryptocurrency monitoring app"
-              }
+                "title": "Goals",
+                "goals": {
+                    "goal1": "Understand how users track cryptocurrency prices and make investment decisions",
+                    "goal2": "Identify pain points and challenges in the current process of tracking cryptocurrencies",
+                    "goal3": "Gather insights on user preferences and needs for a cryptocurrency monitoring app"
+                }
             }
-          } 
         },
         "problem-statement": {
-          "title": "Problem Statement",
-          "description": "The cryptocurrency market is highly volatile, with prices fluctuating rapidly throughout the day. This volatility can make it challenging for investors to track price movements and make informed decisions about their investments. Existing cryptocurrency tracking tools are often complex and difficult to use, requiring users to navigate multiple screens and menus to access the information they need. This complexity can be overwhelming for new investors and deter them from entering the market. Libertas aims to address these challenges by providing users with a simple and intuitive mobile app that makes it easy to track cryptocurrency prices, set price alerts, and stay informed about market trends. By offering real-time data, personalized alerts, and curated news updates, Libertas empowers users to make smart investment decisions and stay ahead of the market."
+            "challenge": "Challenge",
+            "title": "Problem Statement",
+            "description": "Dealing with more institutional sites is always a challenge because it is necessary to convey the seriousness and trust that the company wishes to communicate. Libertas was designed to solve these problems, offering a modern and responsive design with intuitive navigation and well-organized content. With an elegant layout and efficient functionality, the site helps the firm stand out in the market and attract new clients, providing a pleasant and efficient user experience."
         },
         "impact": {
-          "title": "Impact",
-          "description": "Libertas has the potential to have a significant impact on the cryptocurrency market by providing users with a powerful tool to track prices, set alerts, and stay informed about market trends. The app's real-time data and personalized alerts enable users to make informed decisions about their investments, helping them maximize their returns and minimize their risks. By offering curated news updates and market analysis, Libertas keeps users informed about the latest developments in the cryptocurrency world, empowering them to stay ahead of the market and make smart investment decisions. Whether you're a seasoned investor or just getting started in the world of cryptocurrency, Libertas is the perfect tool to help you navigate the market and make the most of your investments."
+            "subtitle": "Impact",
+            "title": "Reflections and Results",
+            "description": "Libertas was a project that filled me with pride. The first truly By myself project I produced is always special. I learned a lot about both the backend and the frontend. Implementing the navigation and especially styling the main background with Figma were personal challenges. Additionally, it was my first contact with the well-known Shadcn library, which certainly added a lot to my skill set. In the end, the result was a site that met the client's expectations and helped me grow as a developer."
         }
     },
     "ecommerce-store": {
-        "title": "E-commerce Site Template",
+        "title": "E-commerce Site Model",
         "init": {
-          "category": "Web App",
-          "description": "Modern e-commerce template with responsive layout and intuitive navigation, ideal for online fashion stores."
+            "role": {
+                "title": "My Role",
+                "description": "Developer"
+            },
+            "project": {
+                "title": "Project",
+                "description": "By myself"
+            },
+            "timeline": {
+                "title": "Development Time",
+                "description": "2 weeks (2024)"
+            },
+            "tools": {
+                "title": "Tools",
+                "description": "React, Typescript, Tailwind"
+            },
+            "category": "Web Application",
+            "description": "Modern e-commerce model with a responsive layout and intuitive navigation, ideal for online fashion stores."
+        },
+        "video": {
+            "title": "Video",
+            "description": "Watch the video below to learn more about the e-commerce site model and its features."
+        },
+        "overview": {
+            "title": "Overview",
+            "prompt": {
+                "title": "Prompt",
+                "description": "The e-commerce site model is designed to provide a modern and responsive platform for online fashion stores. With an elegant design and intuitive navigation, the model makes it easy for users to browse products and make purchases."
+            },
+            "design-process": {
+                "title": "Design Process",
+                "description": "The design process for the e-commerce site model began with an analysis of online store designs on YouTube and Behance. The final result is an e-commerce site model with a modern design and intuitive functionality, providing a pleasant and efficient shopping experience."
+            }
+        },
+        "user-research": {
+            "title": "User Research",
+            "background-research": {
+                "title": "Background Research",
+                "description": "User research for the e-commerce site model involved interviews and surveys with fashion store owners and consumers. We identified the main needs and challenges users face when browsing and shopping online. Based on these insights, we developed personas and user stories to guide the design process, ensuring the model met users' expectations and needs."
+            }
+        },
+        "problem-statement": {
+            "challenge": "Challenge",
+            "title": "Problem Statement",
+            "description": "E-commerce Store was my first experience with React, and with it came the challenge of dealing with context and shopping cart logic. Additionally, styling the site was a personal challenge because I believe aesthetics are one of the most important aspects of a sales site. The e-commerce site model was designed to address these issues, offering a modern and responsive design with intuitive navigation and well-organized content. With an elegant layout and efficient functionality, the model helps fashion stores provide a pleasant and efficient shopping experience for their customers."
+        },
+        "impact": {
+            "subtitle": "Impact",
+            "title": "Reflections and Results",
+            "description": "I am quite satisfied with the result of this project. For a start, I am pleased with how it was done and the final delivery. I have some criticisms about the design of the product table, which was added later, but I believe the final result was quite satisfactory. I believe the e-commerce site model has the potential to help fashion stores improve their customers' shopping experience."
         }
     },
     "arkan-seguros": {
@@ -172,7 +237,7 @@
           },
           "project": {
               "title": "Project",
-              "description": "Solo"
+              "description": "By myself"
           },
           "timeline": {
               "title": "Development Time",
@@ -197,7 +262,7 @@
           },
           "design-process": {
               "title": "Design Process",
-              "description": "The design process for the Arkan Seguros website began with an analysis of customer needs and best design practices for corporate websites. We created wireframes and prototypes to visualize the site's layout and functionality, incorporating user feedback to refine the design. The final result is a modern and responsive website that highlights Arkan Seguros' values and mission, providing a pleasant and efficient user experience."
+              "description": "The design process for the Arkan Seguros website began with an analysis of customer needs and best design practices for corporate websites. We created prototypes to visualize the site's layout and functionality, incorporating user feedback to refine the design. The final result is a modern and responsive website that highlights Arkan Seguros' values and mission, providing a pleasant and efficient user experience."
           }
       },
       "user-research": {
@@ -227,7 +292,7 @@
           },
           "project": {
               "title": "Project",
-              "description": "Solo"
+              "description": "By myself"
           },
           "timeline": {
               "title": "Development Time",
@@ -270,7 +335,7 @@
       "impact": {
           "subtitle": "Impact",
           "title": "Reflections and Results",
-          "description": "Since this repository does not contain a backend, creating this dashboard was quite challenging, as data manipulation was done from a JSON file. The request for this dashboard came unexpectedly, so I had to change plans and build one using only Next's server-side, which was a very good and innovative experience for me. Despite this setback, Arkan Seguros makes me very proud, a very well-structured and institutional site built with a lot of effort and dedication."
+          "description": "Since this repository does not contain a backend, creating this dashboard was quite challenging, as data manipulation was done from a JSON file. The request for this dashboard came unexpectedly, so I had to change plans and build one using only Next's server-side, which was a very good and innovative experience for me. In addition, I had the opportunity to learn how to use Firebase, which will be very beneficial for future projects. Despite this setback, Arkan Seguros makes me very proud, a very well-structured and institutional site built with a lot of effort and dedication."
       }
     },
    "onebitflix-front": {
@@ -282,7 +347,7 @@
         },
         "project": {
             "title": "Project",
-            "description": "Solo"
+            "description": "By myself"
         },
         "timeline": {
             "title": "Development Time",
@@ -337,7 +402,7 @@
         },
         "project": {
             "title": "Project",
-            "description": "Solo"
+            "description": "By myself"
         },
         "timeline": {
             "title": "Development Time",
@@ -392,7 +457,7 @@
         },
         "project": {
             "title": "Project",
-            "description": "Solo"
+            "description": "By myself"
         },
         "timeline": {
             "title": "Development Time",

@@ -191,7 +191,7 @@
             },
             "tools": {
                 "title": "Ferramentas",
-                "description": "React, Typescript, Tailwind "
+                "description": "React, Typescript, Tailwind"
             },
             "category": "Aplicativo Web",
             "description": "Modelo de e-commerce moderno com layout responsivo e navegação intuitiva, ideal para lojas de moda online."
@@ -263,7 +263,7 @@
             },
             "design-process": {
                 "title": "Processo de Design",
-                "description": "O processo de design do website da Arkan Seguros começou com uma análise das necessidades dos clientes e das melhores práticas de design para sites corporativos. Criamos wireframes e protótipos para visualizar o layout e a funcionalidade do site, incorporando feedback de usuários para refinar o design. O resultado final é um website moderno e responsivo que destaca os valores e a missão da Arkan Seguros, proporcionando uma experiência de usuário agradável e eficiente."
+                "description": "O processo de design do website da Arkan Seguros começou com uma análise das necessidades dos clientes e das melhores práticas de design para sites corporativos. Criamos protótipos para visualizar o layout e a funcionalidade do site, incorporando feedback de usuários para refinar o design. O resultado final é um website moderno e responsivo que destaca os valores e a missão da Arkan Seguros, proporcionando uma experiência de usuário agradável e eficiente."
             }
         },
         "user-research": {
@@ -336,7 +336,7 @@
         "impact": {
             "subtitle": "Impacto",
             "title": "Reflexões e Resultados",
-            "description": "Por esse repositório não conter um backend, a criação desse dashboard foi um tanto como desafiador, pois a manipulação de dados foi feita a partir de um arquivo JSON. O pedido desse dashboard foi feito inesperadamente, então tive que mudar os planos e construir um somente com o lado do servidor do Next, o que foi uma experiência muito boa e invadora para mim. Apesar desse contratempo, a Arkan Seguros somente me enche de orgulho, um site muito bem estruturado e institucional, construido com muito esforço e dedicação"
+            "description": "Por esse repositório não conter um backend, a criação desse dashboard foi um tanto como desafiador, pois a manipulação de dados foi feita a partir de um arquivo JSON. O pedido desse dashboard foi feito inesperadamente, então tive que mudar os planos e construir um somente com o lado do servidor do Next, o que foi uma experiência muito boa e invadora para mim. Além de tudo tive a oportunidade de aprender a utilizar o Firebase, o que de fato irá ser muito benéfico para projetos futuro.Apesar desse contratempo, a Arkan Seguros somente me enche de orgulho, um site muito bem estruturado e institucional, construido com muito esforço e dedicação"
         }
         },
     "onebitflix-front": {
@@ -501,7 +501,7 @@
     "impact": {
         "subtitle": "Impacto",
         "title": "Reflexões e Resultados",
-        "description": "Tenho bastante orgulho desse projeto, um dos primeiros que realizei com minha linguagem 'mãe' que é o python, construi essa página realmente"
+        "description": "Tenho bastante orgulho desse projeto, um dos primeiros que realizei com minha linguagem 'mãe' que é o python, construir essa página realmente me fez entender o quão poderosa é a linguagem e o quanto podemos fazer com ela. Aprendi muito sobre Pandas, Streamlit e Ploty, além de ter uma experiência prática com análise de dados e visualização de informações. O resultado final é um dashboard moderno e eficiente, que ajuda as empresas a tomar decisões informadas e melhorar seu desempenho no mercado."
     }
     }
   

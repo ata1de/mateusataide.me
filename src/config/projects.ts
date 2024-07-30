@@ -30,7 +30,7 @@ export const projectsListHome: ProjectType[] = [
     {
         id: "dashboard-arkan-seguros",
         image: "/projects/mockup-dashboard-arkan.png",
-        image_details: "/projects/mockup-dashboard-arkan-details",
+        image_details: "/projects/dashboard-arkan-details.png",
         link_visit: "",
         link_source: "https://github.com/ata1de/ArkanSeguros",
         project_video: 'https://github.com/user-attachments/assets/5f03bb47-d804-45d4-baae-0f26d181489f',
@@ -59,7 +59,7 @@ export const projectsListHome: ProjectType[] = [
     {
         id: "onebitflix-back",
         image: "/projects/mockup-onebitflix-back.png",
-        image_details: "/projects/onebitflix-backend-details.svg",
+        image_details: "/projects/onebitflix-backend-details.png",
         link_visit: "",
         link_source: "https://github.com/ata1de/onebitflix_backend",
         project_video: '',
@@ -68,7 +68,7 @@ export const projectsListHome: ProjectType[] = [
     {
         id: "python-analytics",
         image: "/projects/mockup-python-analytics.png",
-        image_details: "/projects/mockup-python-analytics-details.png",
+        image_details: "/projects/python-analytics-details.png",
         link_visit: "",
         link_source: "https://github.com/ata1de/PowerBi",
         project_video: '',

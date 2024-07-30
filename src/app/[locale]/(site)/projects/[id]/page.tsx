@@ -44,7 +44,7 @@ const DetailsProjectPage = () => {
         <div className="w-full flex flex-col justify-center items-center">
             <div className="w-full bg-[#f8f8f8] relative">
                 <div className="absolute top-2 left-4">
-                    <ArrowLeftCircle className="text-[#95BFB8] cursor-pointer" size={40} onClick={() => router.back()}/>
+                    <ArrowLeftCircle className="text-[#95BFB8] cursor-pointer sm:w-[40px] w-[30px]" size={40} onClick={() => router.back()}/>
                 </div>
                 <Image className="m-auto" src={project.image_details} alt={project.id} width={1056} height={1000} />
             </div>  

@@ -264,7 +264,7 @@
             },
             "design-process": {
                 "title": "Proceso de Diseño",
-                "description": "El proceso de diseño del sitio web de Arkan Seguros comenzó con un análisis de las necesidades de los clientes y las mejores prácticas de diseño para sitios corporativos. Creamos wireframes y prototipos para visualizar el diseño y la funcionalidad del sitio, incorporando comentarios de los usuarios para refinar el diseño. El resultado final es un sitio web moderno y responsivo que destaca los valores y la misión de Arkan Seguros, proporcionando una experiencia de usuario agradable y eficiente."
+                "description": "El proceso de diseño del sitio web de Arkan Seguros comenzó con un análisis de las necesidades de los clientes y las mejores prácticas de diseño para sitios corporativos. Creamos prototipos para visualizar el diseño y la funcionalidad del sitio, incorporando comentarios de los usuarios para refinar el diseño. El resultado final es un sitio web moderno y responsivo que destaca los valores y la misión de Arkan Seguros, proporcionando una experiencia de usuario agradable y eficiente."
             }
         },
         "user-research": {
@@ -337,7 +337,7 @@
     "impact": {
         "subtitle": "Impacto",
         "title": "Reflexiones y Resultados",
-        "description": "Dado que este repositorio no contiene un backend, la creación de este dashboard fue bastante desafiante, ya que la manipulación de datos se hizo a partir de un archivo JSON. La solicitud de este dashboard llegó de manera inesperada, por lo que tuve que cambiar de planes y construir uno usando solo el lado del servidor de Next, lo cual fue una experiencia muy buena e innovadora para mí. A pesar de este contratiempo, Arkan Seguros me llena de orgullo, un sitio muy bien estructurado e institucional, construido con mucho esfuerzo y dedicación."
+        "description": "Dado que este repositorio no contiene un backend, la creación de este dashboard fue bastante desafiante, ya que la manipulación de datos se hizo a partir de un archivo JSON. La solicitud de este dashboard llegó de manera inesperada, por lo que tuve que cambiar de planes y construir uno usando solo el lado del servidor de Next, lo cual fue una experiencia muy buena e innovadora para mí. Además, tuve la oportunidad de aprender a usar Firebase, lo que será muy beneficioso para futuros proyectos. A pesar de este contratiempo, Arkan Seguros me llena de orgullo, un sitio muy bien estructurado e institucional, construido con mucho esfuerzo y dedicación."
     }
       },
       "onebitflix-front": {

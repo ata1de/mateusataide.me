@@ -21,7 +21,7 @@ export default function CardProject({ project }: CardProjectProps) {
     return (
         <div className="max-w-[420px] w-[400px]  flex flex-col p-5 shadow-md     gap-3">
             <div className="flex justify-center items-center">
-                <Image className="rounded-md" src={project.image} alt={t('title')} width={470} height={325} />
+                <Image className="rounded-md max-[430px]:w-[300px]" src={project.image} alt={t('title')} width={360} height={325} />
             </div>
             <div className="flex flex-col justify-between flex-1 p-5 gap-3">
                 <div className="flex flex-col gap-1">

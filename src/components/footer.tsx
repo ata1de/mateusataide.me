@@ -33,7 +33,7 @@ export default function Footer() {
   }
 
     return (
-      <div className="w-full bg-FooterBg min-h-[180px] px-6 pb-6 pt-9 text-[#F6F6F6]">
+      <div className="w-full bg-FooterBg min-h-[180px] px-3 sm:px-6 pb-6 pt-9 text-[#F6F6F6]">
           <div className="max-w-[1056px] px-3 sm:px-10 mx-auto justify-between flex md:flex-row flex-col items-center w-full">
               <div className="flex flex-col gap-4 md:gap-8">
                 <p className="text-[#669b94] text-3xl font-bold md:mb-5">{t('title')}</p>
