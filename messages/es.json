@@ -42,30 +42,22 @@
       },
       "Tech": "Tecnologías",
       "Projects": {
-        "title": "Criado con amor",
-        "description": "Una sección de mis proyectos más recientes",
+        "title": "Construido con Amor",
+        "subtitle": "Proyectos",
+        "description": "Aquí tienes una sección de mis proyectos más recientes, con descripciones detalladas e imágenes. Consulta todos los proyectos haciendo clic en el botón a continuación.",
         "link-projects": "Ver todos los proyectos",
         "buttons": {
             "button_visit": "Visitar",
             "button_source": "Código Fuente"
           },
-        "crypto-screener": {
-          "title": "Aplicación de Monitoreo de Criptomonedas",
-          "category": "Aplicación Móvil",
-          "description": "Una aplicación móvil para monitorear fácilmente el alza y la baja de los valores de las criptomonedas.."
-        },
-        "ecommerce-store": {
-          "title": "Plantilla de Sitio de Comercio Electrónico",
-          "category": "Aplicación Web",
-          "description": "Plantilla moderna para e-commerce con diseño responsivo y navegación intuitiva, ideal para tiendas de moda online."
-        },
-          "arkan-seguro": {
-              "title": "Sitio web de la empresa Arkan Seguros",
-              "category": "Sitio web",
-              "description": "Sitio web de Arkan Seguros con diseño moderno y responsivo, destacando los valores y la misión de la empresa para atraer y mantener clientes."
-          }
-      
-      }
+        "grid": {
+            "title": "Ven a Conocer el Dashboard Arkan Seguros",
+            "description": "Dashboard con un diseño moderno y responsivo, que presenta gráficos e información clave para la empresa.",
+            "button": "¡No seas tímido, ven ya!",
+            "buttonCategory": "Ver todas las categorías"
+        }
+}
+
     },
     "About": {
       "title": "Acerca de",
@@ -121,55 +113,399 @@
           "button_source": "Código Fuente"
       },
       "libertas": {
-          "title": "Libertas",
-          "init": {
+        "title": "Libertas",
+        "init": {
+            "role": {
+                "title": "Mi cargo",
+                "description": "Desarrollador"
+            },
+            "project": {
+                "title": "Proyecto",
+                "description": "Solo"
+            },
+            "timeline": {
+                "title": "Tiempo de Desarrollo",
+                "description": "2 semanas (2024)"
+            },
+            "tools": {
+                "title": "Herramientas",
+                "description": "React, Node.js, Express, MongoDB"
+            },
             "category": "Aplicación Móvil",
-            "description": "Una aplicación móvil para monitorear fácilmente las variaciones en los valores de las criptomonedas."
-          }
+            "description": "Sitio web para empresas de abogados, mostrando sus servicios y sobre la empresa."
+        },
+        "video": {
+            "title": "Vídeo",
+            "description": "Mira el video a continuación para saber más sobre Libertas y sus características."
+        },
+        "overview": {
+            "title": "Resumen",
+            "prompt": {
+                "title": "Prompt",
+                "description": "El sitio web Libertas es una página de destino para una empresa de abogados, que refleja su misión y valores, servicios y contactos, todo lo necesario para introducir una empresa en el mundo digital y atraer clientes. El sitio también ofrece un sistema de búsqueda que facilita la navegación de los usuarios y la localización de información específica. Con un diseño moderno y receptivo, Libertas proporciona una experiencia de usuario agradable y eficiente, ayudando a la empresa a destacarse en el mercado y atraer nuevos clientes."
+            },
+            "design-process": {
+                "title": "Proceso de Diseño",
+                "description": "El proceso de diseño de Libertas comenzó con una investigación extensa sobre páginas de destino relacionadas con empresas de abogados. Realicé búsquedas en Behance, Dribble y Pinterest, buscando referencias e inspiraciones para realizar el mejor proyecto posible."
+            }
+        },
+        "user-research": {
+            "title": "Investigación de Usuario",
+            "background-research": {
+                "title": "Investigación de Contexto",
+                "description": "La investigación de usuario fue una parte fundamental del proceso de diseño de Libertas. Identificar el público objetivo y sus necesidades fue esencial para crear un sitio que cumpliera con las expectativas de los usuarios. Como se relacionaba con una empresa de abogados, busqué un diseño con una seriedad y formalidad más acentuadas."
+            },
+            "research-goals": {
+                "title": "Objetivos",
+                "goals": {
+                    "goal1": "Entender cómo los usuarios siguen los precios de las criptomonedas y toman decisiones de inversión",
+                    "goal2": "Identificar puntos de dolor y desafíos en el proceso actual de seguimiento de criptomonedas",
+                    "goal3": "Recopilar ideas sobre las preferencias y necesidades de los usuarios para una aplicación de seguimiento de criptomonedas"
+                }
+            }
+        },
+        "problem-statement": {
+            "challenge": "Desafío",
+            "title": "Declaración del Problema",
+            "description": "Lidiar con sitios más institucionales siempre es un desafío, ya que es necesario transmitir la seriedad y confianza que la empresa desea proyectar. Libertas fue diseñado para resolver estos problemas, ofreciendo un diseño moderno y receptivo con navegación intuitiva y contenido bien organizado. Con un diseño elegante y funcionalidad eficiente, el sitio ayuda a la empresa a destacarse en el mercado y atraer nuevos clientes, proporcionando una experiencia de usuario agradable y eficiente."
+        },
+        "impact": {
+            "subtitle": "Impacto",
+            "title": "Reflexiones y Resultados",
+            "description": "Libertas fue un trabajo que me llenó de orgullo, el primer proyecto realmente solo que produje siempre es especial. Aprendí mucho tanto en backend como en frontend. Introducir la navegación y especialmente estilizar el fondo principal con Figma fueron desafíos personales. Además, fue el primer contacto con la famosa biblioteca Shadcn, que sin duda agregó mucho a mi repertorio de habilidades. Finalmente, el resultado fue un sitio que cumplió con las expectativas del cliente y que me hizo crecer como desarrollador."
+        }
       },
       "ecommerce-store": {
-          "title": "Plantilla de Sitio de E-commerce",
+          "title": "Modelo de Sitio de E-commerce",
           "init": {
-            "category": "Aplicación Web",
-            "description": "Plantilla de e-commerce moderna con diseño responsive y navegación intuitiva, ideal para tiendas de moda en línea."
+              "role": {
+                  "title": "Mi cargo",
+                  "description": "Desarrollador"
+              },
+              "project": {
+                  "title": "Proyecto",
+                  "description": "Solo"
+              },
+              "timeline": {
+                  "title": "Tiempo de Desarrollo",
+                  "description": "2 semanas (2024)"
+              },
+              "tools": {
+                  "title": "Herramientas",
+                  "description": "React, Typescript, Tailwind"
+              },
+              "category": "Aplicación Web",
+              "description": "Modelo de e-commerce moderno con diseño responsivo y navegación intuitiva, ideal para tiendas de moda online."
+          },
+          "video": {
+              "title": "Vídeo",
+              "description": "Mira el video a continuación para saber más sobre el modelo de sitio de e-commerce y sus características."
+          },
+          "overview": {
+              "title": "Resumen",
+              "prompt": {
+                  "title": "Prompt",
+                  "description": "El modelo de sitio de e-commerce está diseñado para proporcionar una plataforma moderna y receptiva para tiendas de moda online. Con un diseño elegante y navegación intuitiva, el modelo facilita la navegación de los usuarios por los productos y la realización de compras."
+              },
+              "design-process": {
+                  "title": "Proceso de Diseño",
+                  "description": "El proceso de diseño del modelo de sitio de e-commerce comenzó con un análisis de los diseños de tiendas online en YouTube y Behance. El resultado final es un modelo de sitio de e-commerce con un diseño moderno y funcionalidad intuitiva, proporcionando una experiencia de compra agradable y eficiente."
+              }
+          },
+          "user-research": {
+              "title": "Investigación de Usuario",
+              "background-research": {
+                  "title": "Investigación de Contexto",
+                  "description": "La investigación de usuario para el modelo de sitio de e-commerce involucró entrevistas y encuestas con propietarios de tiendas de moda y consumidores. Identificamos las principales necesidades y desafíos que enfrentan los usuarios al navegar y realizar compras online. Con base en estos insights, desarrollamos personas e historias de usuarios para guiar el proceso de diseño, asegurando que el modelo cumpliera con las expectativas y necesidades de los usuarios."
+              }
+          },
+          "problem-statement": {
+              "challenge": "Desafío",
+              "title": "Declaración del Problema",
+              "description": "E-commerce Store fue mi primera experiencia con React, y con ella vino el desafío de lidiar con context y lógica de carritos de compras. Además, fue un desafío personal la estilización del sitio, ya que creo que la estética es uno de los puntos más importantes de un sitio de ventas. El modelo de sitio de e-commerce fue diseñado para resolver estos problemas, ofreciendo un diseño moderno y receptivo con navegación intuitiva y contenido bien organizado. Con un diseño elegante y funcionalidad eficiente, el modelo ayuda a las tiendas de moda a proporcionar una experiencia de compra agradable y eficiente para sus clientes."
+          },
+          "impact": {
+              "subtitle": "Impacto",
+              "title": "Reflexiones y Resultados",
+              "description": "Estoy bastante satisfecho con el resultado de este proyecto, para el inicio me agrada mucho la forma en que fue hecho y la entrega final. Tengo algunas críticas en el diseño de la tabla de productos, que fue algo agregado posteriormente, pero creo que el resultado final fue bastante satisfactorio. Creo que el modelo de sitio de e-commerce tiene el potencial de ayudar a las tiendas de moda a mejorar la experiencia de compra de sus clientes."
           }
       },
       "arkan-seguros": {
-          "title": "Sitio Web de Arkan Seguros",
-          "init": {
+        "title": "Sitio Web de Arkan Seguros",
+        "init": {
+            "role": {
+                "title": "Mi Rol",
+                "description": "Desarrollador"
+            },
+            "project": {
+                "title": "Proyecto",
+                "description": "Solo"
+            },
+            "timeline": {
+                "title": "Tiempo de Desarrollo",
+                "description": "1,5 meses (2024)"
+            },
+            "tools": {
+                "title": "Herramientas",
+                "description": "Next, Tanstack Query, Next, Firebase, Nodemailer, ShadcnUi"
+            },
             "category": "Sitio Web",
-            "description": "Sitio web de Arkan Seguros con diseño moderno y responsive, destacando los valores y la misión de la empresa para atraer y retener clientes."
-          }
+            "description": "Sitio web de Arkan Seguros con un diseño moderno y responsivo, destacando los valores y la misión de la empresa para atraer y retener clientes."
+        },
+        "video": {
+            "title": "Tour Visual",
+            "description": "Mira el video a continuación para aprender más sobre el sitio web de Arkan Seguros y sus características."
+        },
+        "overview": {
+            "title": "Resumen",
+            "prompt": {
+                "title": "Promoción",
+                "description": "El sitio web de Arkan Seguros fue desarrollado para destacar los valores y la misión de la empresa, ofreciendo un diseño moderno y responsivo. El sitio proporciona información detallada sobre los servicios ofrecidos por Arkan Seguros, ayudando a atraer y retener clientes. Con navegación intuitiva y contenido bien organizado, el sitio facilita el acceso a la información y garantiza una experiencia de usuario agradable."
+            },
+            "design-process": {
+                "title": "Proceso de Diseño",
+                "description": "El proceso de diseño del sitio web de Arkan Seguros comenzó con un análisis de las necesidades de los clientes y las mejores prácticas de diseño para sitios corporativos. Creamos wireframes y prototipos para visualizar el diseño y la funcionalidad del sitio, incorporando comentarios de los usuarios para refinar el diseño. El resultado final es un sitio web moderno y responsivo que destaca los valores y la misión de Arkan Seguros, proporcionando una experiencia de usuario agradable y eficiente."
+            }
+        },
+        "user-research": {
+            "title": "Investigación de Usuarios",
+            "background-research": {
+                "title": "Investigación de Contexto",
+                "description": "La investigación de usuarios se realizó a través de reuniones con el cliente, estudiando su público objetivo y cómo podemos alcanzarlos. A partir de esto, desarrollamos personas y historias de usuarios para guiar el proceso de diseño, asegurando que el sitio cumpliera con las expectativas y necesidades de los usuarios. Un detalle muy importante fue la sección de comentarios de los clientes y de preguntas frecuentes en cada servicio, lo que nos ayudó a entender mejor lo que el cliente deseaba."
+            }
+        },
+        "problem-statement": {
+            "challenge": "Desafío",
+            "title": "Declaración del Problema",
+            "description": "Las compañías de seguros necesitan un sitio web que destaque sus valores y misión, proporcionando información clara y accesible sobre sus servicios. Muchos sitios corporativos son complicados y difíciles de navegar, lo que puede alejar a los clientes potenciales. El sitio web de Arkan Seguros fue diseñado para resolver estos problemas, ofreciendo un diseño moderno y responsivo con navegación intuitiva y contenido bien organizado. Además, se abordó el desafío de construir el envío de correos electrónicos para el cliente, es decir, cada envío de formulario envía al cliente los datos de la solicitud, lo cual fue un desafío personal para mí."
+        },
+        "impact": {
+            "subtitle": "Impacto",
+            "title": "Reflexiones y Resultados",
+            "description": "El sitio web de Arkan Seguros tiene el potencial de fortalecer la presencia en línea de la empresa, destacando sus valores y misión y proporcionando una experiencia de usuario agradable y eficiente. Con un diseño moderno y responsivo, el sitio facilita el acceso a la información y ayuda a atraer y retener clientes, aumentando la satisfacción y fidelidad de los clientes. La navegación intuitiva y el contenido bien organizado aseguran que los usuarios puedan encontrar rápidamente la información que necesitan, mejorando la experiencia general del usuario y fortaleciendo la imagen de Arkan Seguros en el mercado."
+        }
       },
       "dashboard-arkan-seguros": {
-          "title": "Dashboard de Arkan Seguros",
-          "init": {
-            "category": "Aplicación Web",
-            "description": "Dashboard de Arkan Seguros con diseño moderno y responsive, presentando gráficos e información importante para la empresa."
-          }
+    "title": "Dashboard de Arkan Seguros",
+    "init": {
+        "role": {
+            "title": "Mi Rol",
+            "description": "Desarrollador"
+        },
+        "project": {
+            "title": "Proyecto",
+            "description": "Solo"
+        },
+        "timeline": {
+            "title": "Tiempo de Desarrollo",
+            "description": "1,5 meses (2024)"
+        },
+        "tools": {
+            "title": "Herramientas",
+            "description": "Next, NextApi, Tanstack Query, Firebase, Recharts, ShadcnUi"
+        },
+        "category": "Aplicación Web",
+        "description": "Dashboard de Arkan Seguros con un diseño moderno y responsivo, presentando gráficos e información importante para la empresa."
+    },
+    "video": {
+        "title": "Video",
+        "description": "Mira el video a continuación para aprender más sobre el Dashboard de Arkan Seguros y sus características."
+    },
+    "overview": {
+        "title": "Resumen",
+        "prompt": {
+            "title": "Promoción",
+            "description": "El Dashboard de Arkan Seguros fue desarrollado para proporcionar una visión integral y en tiempo real de los datos de la empresa, ayudando en la toma de decisiones estratégicas. Con un diseño moderno y responsivo, el dashboard presenta gráficos e información importante, permitiendo a los usuarios monitorear el rendimiento del sitio e identificar tendencias y oportunidades. El dashboard también ofrece herramientas de análisis avanzadas, facilitando la interpretación de los datos y la planificación estratégica."
+        },
+        "design-process": {
+            "title": "Proceso de Diseño",
+            "description": "El proceso de diseño del Dashboard de Arkan Seguros comenzó con un análisis detallado de las necesidades de los usuarios y las mejores prácticas de diseño para dashboards corporativos. A partir de estudios de dashboards de PowerBi y otros hechos con Pandas y Streamlit, desarrollamos un dashboard moderno y responsivo que destaca la información importante de manera clara y accesible, ayudando a la empresa a tomar decisiones informadas y mejorar su rendimiento en el mercado."
+        }
+    },
+    "user-research": {
+        "title": "Investigación de Usuarios",
+        "background-research": {
+            "title": "Investigación de Contexto",
+            "description": "La investigación de usuarios para el Dashboard de Arkan Seguros involucró entrevistas y encuestas con empleados y gerentes de la empresa. Recogimos ideas sobre las necesidades y expectativas de los usuarios en relación con el dashboard, identificando las métricas clave y la información que debía destacarse. Basándonos en estas ideas, desarrollamos personas e historias de usuarios para guiar el proceso de diseño, asegurando que el dashboard cumpliera con las necesidades de su público objetivo."
+        }
+    },
+    "problem-statement": {
+        "challenge": "Desafío",
+        "title": "Declaración del Problema",
+        "description": "El Dashboard de Arkan fue creado para llenar la brecha en la falta de datos detallados e información de los clientes. A pesar de ser exclusivamente del formulario del sitio, el cliente tiene control total y visibilidad sobre el flujo de clientes y las tendencias, lo que permite una mejor toma de decisiones y conocimientos para la empresa."
+    },
+    "impact": {
+        "subtitle": "Impacto",
+        "title": "Reflexiones y Resultados",
+        "description": "Dado que este repositorio no contiene un backend, la creación de este dashboard fue bastante desafiante, ya que la manipulación de datos se hizo a partir de un archivo JSON. La solicitud de este dashboard llegó de manera inesperada, por lo que tuve que cambiar de planes y construir uno usando solo el lado del servidor de Next, lo cual fue una experiencia muy buena e innovadora para mí. A pesar de este contratiempo, Arkan Seguros me llena de orgullo, un sitio muy bien estructurado e institucional, construido con mucho esfuerzo y dedicación."
+    }
       },
       "onebitflix-front": {
-          "title": "Onebitflix",
-          "init": {
-            "category": "Aplicación Web",
-            "description": "Sitio web de lecciones de programación, con diseño moderno y responsive, navegación intuitiva y fácil de usar, y un reproductor de video personalizado."
-          }
+    "title": "Onebitflix",
+    "init": {
+        "role": {
+            "title": "Mi Rol",
+            "description": "Desarrollador"
+        },
+        "project": {
+            "title": "Proyecto",
+            "description": "Solo"
+        },
+        "timeline": {
+            "title": "Tiempo de Desarrollo",
+            "description": "1,5 meses (2023)"
+        },
+        "tools": {
+            "title": "Herramientas",
+            "description": "React, Bootstrap, React-Modal, Sass, Splide.js"
+        },
+        "category": "Aplicación Web",
+        "description": "Sitio web de lecciones de programación con un diseño moderno y responsivo, navegación intuitiva y fácil de usar, y un reproductor de video personalizado."
+    },
+    "video": {
+        "title": "Video",
+        "description": "Mira el video a continuación para aprender más sobre Onebitflix y sus características."
+    },
+    "overview": {
+        "title": "Resumen",
+        "prompt": {
+            "title": "Promoción",
+            "description": "Onebitflix es un sitio web de lecciones de programación diseñado para proporcionar una plataforma de aprendizaje moderna y accesible. Con un diseño responsivo y una navegación intuitiva, Onebitflix facilita el acceso a una amplia gama de cursos de programación, permitiendo a los usuarios aprender a su propio ritmo. El sitio incluye un reproductor de video personalizado, soporte para múltiples dispositivos y funciones avanzadas de búsqueda y filtrado de cursos, garantizando una experiencia de aprendizaje agradable y eficiente."
+        },
+        "design-process": {
+            "title": "Proceso de Diseño",
+            "description": "El proceso de diseño de Onebitflix comenzó con la idea de basar el diseño en Netflix, con un diseño moderno y responsivo. Se desarrollaron prototipos para visualizar el diseño y la funcionalidad del sitio. El resultado final es un sitio web de lecciones de programación con un diseño elegante y una funcionalidad intuitiva, proporcionando una experiencia de aprendizaje agradable y eficiente para los usuarios."
+        }
+    },
+    "user-research": {
+        "title": "Investigación de Usuarios",
+        "background-research": {
+            "title": "Investigación de Contexto",
+            "description": "La investigación de usuarios para Onebitflix involucró entrevistas y encuestas con estudiantes e instructores de programación. Recogimos ideas sobre las necesidades y expectativas de los usuarios para la plataforma, identificando las características y funcionalidades clave que debían destacarse. Basándonos en estas ideas, desarrollamos personas e historias de usuarios para guiar el proceso de diseño, asegurando que el sitio cumpliera con las expectativas y necesidades de los usuarios."
+        }
+    },
+    "problem-statement": {
+        "challenge": "Desafío",
+        "title": "Declaración del Problema",
+        "description": "Las plataformas de aprendizaje en línea enfrentan desafíos al proporcionar una experiencia de aprendizaje agradable y eficiente para los usuarios. Muchos sitios de cursos tienen diseños complicados y funcionalidades limitadas, lo que puede dificultar el acceso al contenido y la navegación por los cursos. Onebitflix fue diseñado para resolver estos problemas, ofreciendo una plataforma moderna y responsiva con diapositivas de navegación que muestran los cursos y características avanzadas de búsqueda y filtrado de cursos, así como funciones de favoritos y me gusta para una mayor personalización del estudiante. Con un diseño elegante y características integradas, Onebitflix proporciona una experiencia de aprendizaje agradable y eficiente para los usuarios."
+    },
+    "impact": {
+        "subtitle": "Impacto",
+        "title": "Reflexiones y Resultados",
+        "description": "Onebitflix es un modelo de sitio muy robusto y completo, con un diseño impecable y una navegación muy cómoda e intuitiva. El sitio fue un desafío personal para mí, ya que fue mi primer contacto con React y Bootstrap, lo que me enseñó mucho sobre estas tecnologías, además de ser el proyecto 'robusto' real. El resultado final es un sitio que cumplió con las expectativas de los usuarios y que me ayudó a crecer como desarrollador. Onebitflix tiene el potencial de transformar la forma en que las personas aprenden programación, ofreciendo una plataforma moderna y accesible para el aprendizaje de programación."
+    }
       },
       "onebitflix-back": {
-          "title": "Backend de Onebitflix",
-          "init": {
-            "category": "API",
-            "description": "API de Onebitflix, con CRUD completo para categorías y videos, junto con autenticación de usuarios utilizando JWT y bcrypt."
-          }
+    "title": "Backend de Onebitflix",
+    "init": {
+        "role": {
+            "title": "Mi Rol",
+            "description": "Desarrollador"
+        },
+        "project": {
+            "title": "Proyecto",
+            "description": "Solo"
+        },
+        "timeline": {
+            "title": "Tiempo de Desarrollo",
+            "description": "1,5 meses (2023)"
+        },
+        "tools": {
+            "title": "Herramientas",
+            "description": "Node.js, Express, Sequelize, PostgreSQL, JWT"
+        },
+        "category": "API",
+        "description": "API de Onebitflix, con funcionalidad CRUD completa para categorías y videos, además de autenticación de usuarios usando JWT y bcrypt."
+    },
+    "video": {
+        "title": "Video",
+        "description": "Mira el video a continuación para aprender más sobre el Backend de Onebitflix y sus características."
+    },
+    "overview": {
+        "title": "Resumen",
+        "prompt": {
+            "title": "Promoción",
+            "description": "El Backend de Onebitflix fue desarrollado para proporcionar una API robusta y segura, que soporte todas las funcionalidades del sitio web de lecciones de programación. La API incluye operaciones CRUD completas para categorías y videos, permitiendo la creación, lectura, actualización y eliminación de datos. Además, la API implementa la autenticación de usuarios utilizando JWT y bcrypt, asegurando la seguridad e integridad de los datos del usuario. Con una arquitectura escalable y eficiente, el Backend de Onebitflix soporta una amplia gama de funcionalidades y garantiza la mejor experiencia de usuario posible."
+        },
+        "design-process": {
+            "title": "Proceso de Diseño",
+            "description": "El proceso de diseño del Backend de Onebitflix comenzó con un análisis detallado de los requisitos funcionales y de seguridad para la API. Desarrollamos la arquitectura y los endpoints de la API, asegurando que todas las operaciones CRUD se soportaran de manera eficiente y segura. Implementamos la autenticación de usuarios utilizando JWT y bcrypt, garantizando la seguridad de los datos del usuario. El resultado final es una API robusta y segura, que soporta todas las funcionalidades del sitio web de lecciones de programación y proporciona una experiencia de usuario eficiente y segura."
+        }
+    },
+    "user-research": {
+        "title": "Investigación de Usuarios",
+        "background-research": {
+            "title": "Investigación de Contexto",
+            "description": "La investigación de usuarios para el Backend de Onebitflix involucró entrevistas y encuestas con desarrolladores y usuarios de la plataforma. Recogimos ideas sobre las necesidades y expectativas de los usuarios con respecto a la API, identificando las principales funcionalidades y requisitos de seguridad que debían implementarse. Basándonos en estas ideas, desarrollamos una arquitectura robusta y escalable para la API, asegurando que todas las operaciones CRUD se soportaran de manera eficiente y segura, satisfaciendo las necesidades de los usuarios y proporcionando la mejor experiencia de uso posible."
+        }
+    },
+    "problem-statement": {
+        "challenge": "Desafío",
+        "title": "Declaración del Problema",
+        "description": "Las APIs para plataformas de aprendizaje en línea necesitan ser robustas y seguras, soportando una amplia gama de funcionalidades y asegurando la integridad de los datos del usuario. Muchos backends de plataformas de cursos enfrentan desafíos al implementar operaciones CRUD completas y autenticación segura, lo que puede comprometer la experiencia del usuario. El Backend de Onebitflix fue diseñado con Sequelize y PostgreSQL, proporcionando una API robusta y segura con operaciones CRUD completas y autenticación de usuarios. Además, ofrece una ruta de administración completa y personalizada a través de AdminJs, permitiendo al cliente tener un control total sobre el contenido de la aplicación y facilitando la modificación o adición de nuevos datos."
+    },
+    "impact": {
+        "subtitle": "Impacto",
+        "title": "Reflexiones y Resultados",
+        "description": "El Backend de Onebitflix fue mi primer proyecto de backend y realmente fue un desafío significativo. Admito que cuando terminé, no entendía completamente todo lo que había hecho, pero sin duda fue el mejor punto de partida posible. Aprendí mucho sobre Node.js, Express y Sequelize, además de obtener experiencia práctica con JWT y bcrypt. El resultado final es una API robusta y segura que soporta todas las funcionalidades del sitio web de lecciones de programación y proporciona una experiencia de usuario eficiente y segura."
+    }
       },
       "python-analytics": {
-          "title": "Python Analytics",
-          "init": {
-            "category": "API",
-            "description": "Dashboard de análisis de datos con Python, presentando gráficos e información importante para la empresa."
-          } 
-      }
+    "title": "Python Analytics",
+    "init": {
+        "role": {
+            "title": "Mi Rol",
+            "description": "Desarrollador"
+        },
+        "project": {
+            "title": "Proyecto",
+            "description": "Solo"
+        },
+        "timeline": {
+            "title": "Tiempo de Desarrollo",
+            "description": "3 días (2023)"
+        },
+        "tools": {
+            "title": "Herramientas",
+            "description": "Pandas, Streamlit, Plotly"
+        },
+        "category": "API",
+        "description": "Dashboard de análisis de datos con Python, presentando gráficos e información clave para la empresa."
+    },
+    "video": {
+        "title": "Video",
+        "description": "Mira el video a continuación para aprender más sobre Python Analytics y sus características."
+    },
+    "overview": {
+        "title": "Resumen",
+        "prompt": {
+            "title": "Promoción",
+            "description": "Python Analytics fue desarrollado para proporcionar una herramienta poderosa de análisis de datos, presentando gráficos e información clave de manera clara y accesible. Con un diseño moderno y responsivo, el dashboard permite a los usuarios seguir el desempeño de la empresa e identificar tendencias y oportunidades."
+        },
+        "design-process": {
+            "title": "Proceso de Diseño",
+            "description": "El diseño de Python Analytics se basó en dashboards de análisis de datos existentes, con gráficos e información presentados de manera clara y accesible. Utilizamos la biblioteca Streamlit para crear un dashboard interactivo y responsivo, con herramientas de análisis avanzadas para facilitar la interpretación de los datos y la planificación estratégica. El resultado final es un dashboard moderno y eficiente, que ayuda a las empresas a tomar decisiones informadas y mejorar su desempeño en el mercado."
+        }
+    },
+    "user-research": {
+        "title": "Investigación de Usuarios",
+        "background-research": {
+            "title": "Investigación de Contexto",
+            "description": "La investigación de usuarios para Python Analytics involucró entrevistas y encuestas con gerentes y analistas de datos. Recogimos ideas sobre las necesidades y expectativas de los usuarios con respecto al dashboard, identificando las métricas e información clave a destacar. Basándonos en estas ideas, desarrollamos personas e historias de usuarios para guiar el proceso de diseño, asegurando que el dashboard cumpliera con las necesidades de su público objetivo y proporcionara una experiencia de usuario eficiente y agradable."
+        }
+    },
+    "problem-statement": {
+        "challenge": "Desafío",
+        "title": "Declaración del Problema",
+        "description": "La intención inicial de este proyecto fue identificar cuánto podemos lograr solo con Python en comparación con herramientas poderosas y robustas como PowerBi. El resultado fue el esperado: creamos una aplicación simple donde analizamos datos de una hoja de cálculo y generamos varios gráficos con filtros en la barra lateral."
+    },
+    "impact": {
+        "subtitle": "Impacto",
+        "title": "Reflexiones y Resultados",
+        "description": "Estoy bastante orgulloso de este proyecto, uno de los primeros que realicé con mi 'lengua materna', Python. Construí esta página para mostrar lo que podemos lograr con el lenguaje y cuán poderoso es. Aprendí mucho sobre Pandas, Streamlit y Plotly, además de obtener experiencia práctica con análisis de datos y visualización de información. El resultado final es un dashboard moderno y eficiente, que ayuda a las empresas a tomar decisiones informadas y mejorar su desempeño en el mercado."
     }
-
+      }
   }
+
+}
   

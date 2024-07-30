@@ -55,7 +55,7 @@ export default function Header() {
             <Link href={`/${currentLocale}/about`} className=' leading-5 hover:underline-after no-underline text-[14px] font-medium p-3 rounded-md'>{t('about')}</Link>
             <NavigationMenuDemo/>
             <Link href='/curriculo/curriculo.pdf' legacyBehavior passHref>
-              <a download target='_blank' className='leading-5 hover:underline-after no-underline text-[14px] font-medium p-3 rounded-md'>
+              <a target='_blank' className='leading-5 hover:underline-after no-underline text-[14px] font-medium p-3 rounded-md'>
                 {t('curriculo')}
               </a>
             </Link>

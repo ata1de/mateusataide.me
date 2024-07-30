@@ -41,29 +41,20 @@
       },
       "Tech": "Technologies",
       "Projects": {
-        "title": "Crafted with love",
-        "description": "A section of my most recent projects",
-        "link-projects": "View all projects",
+        "title": "Built with Love",
+        "subtitle": "Projects",
+        "description": "Here is a section of my most recent projects, with detailed descriptions and images. Check out all the projects by clicking the button below.",
+        "link-projects": "See all projects",
         "buttons": {
             "button_visit": "Visit",
             "button_source": "Source Code"
           },
-        "crypto-screener": {
-          "title": "Cryptocurrency Monitoring App",
-          "category": "Mobile App",
-          "description": "A mobile app to easily monitor the rise and fall of cryptocurrency values.."
-        },
-        "ecommerce-store": {
-          "title": "E-commerce Site Template",
-          "category": "Web App",
-          "description": "Modern e-commerce template with a responsive layout and intuitive navigation, perfect for online fashion stores"
-        },
-        "arkan-seguro": {
-              "title": "Website of Arkan Seguros company",
-              "category": "Website",
-              "description": "Arkan Seguros website with a modern, responsive design showcasing the company's values and mission to attract and retain clients."
-          }
-      
+        "grid": {
+            "title": "Come Explore the Arkan Seguros Dashboard",
+            "description": "Dashboard with a modern and responsive design, featuring charts and key information for the company.",
+            "button": "Don't be shy, come on in!",
+            "buttonCategory": "See all categories"
+        }
       }
     },
     "About": {
@@ -173,41 +164,282 @@
         }
     },
     "arkan-seguros": {
-        "title": "Arkan Seguros Website",
-        "init": {
+      "title": "Arkan Seguros Website",
+      "init": {
+          "role": {
+              "title": "My Role",
+              "description": "Developer"
+          },
+          "project": {
+              "title": "Project",
+              "description": "Solo"
+          },
+          "timeline": {
+              "title": "Development Time",
+              "description": "1.5 months (2024)"
+          },
+          "tools": {
+              "title": "Tools",
+              "description": "Next, Tanstack Query, Next, Firebase, Nodemailer, ShadcnUi"
+          },
           "category": "Website",
           "description": "Arkan Seguros website with a modern and responsive design, highlighting the company's values and mission to attract and retain customers."
-        }
+      },
+      "video": {
+          "title": "Visual Tour",
+          "description": "Watch the video below to learn more about the Arkan Seguros website and its features."
+      },
+      "overview": {
+          "title": "Overview",
+          "prompt": {
+              "title": "Prompt",
+              "description": "The Arkan Seguros website was developed to highlight the company's values and mission, offering a modern and responsive design. The site provides detailed information about the services offered by Arkan Seguros, helping to attract and retain customers. With intuitive navigation and well-organized content, the site makes it easy to access information and ensures a pleasant user experience."
+          },
+          "design-process": {
+              "title": "Design Process",
+              "description": "The design process for the Arkan Seguros website began with an analysis of customer needs and best design practices for corporate websites. We created wireframes and prototypes to visualize the site's layout and functionality, incorporating user feedback to refine the design. The final result is a modern and responsive website that highlights Arkan Seguros' values and mission, providing a pleasant and efficient user experience."
+          }
+      },
+      "user-research": {
+          "title": "User Research",
+          "background-research": {
+              "title": "Background Research",
+              "description": "User research was conducted through meetings with the client, studying their target audience and how we can reach them. From this, we developed personas and user stories to guide the design process, ensuring the site met users' expectations and needs. An important detail was the customer feedback and FAQ section in each service, which helped us better understand what the client wanted."
+          }
+      },
+      "problem-statement": {
+          "challenge": "Challenge",
+          "title": "Problem Statement",
+          "description": "Insurance companies need a website that highlights their values and mission, providing clear and accessible information about their services. Many corporate websites are complicated and difficult to navigate, which can drive away potential customers. The Arkan Seguros website was designed to address these issues, offering a modern and responsive design with intuitive navigation and well-organized content. Additionally, the challenge of building email delivery for the client was addressed, meaning that each form submission sends the client the request data, which was a personal challenge for me."
+      },
+      "impact": {
+          "subtitle": "Impact",
+          "title": "Reflections and Results",
+          "description": "The Arkan Seguros website has the potential to strengthen the company's online presence, highlighting their values and mission and providing a pleasant and efficient user experience. With a modern and responsive design, the site makes it easy to access information and helps attract and retain customers, increasing customer satisfaction and loyalty. The intuitive navigation and well-organized content ensure users can quickly find the information they need, improving the overall user experience and strengthening Arkan Seguros' image in the market."
+      }
     },
     "dashboard-arkan-seguros": {
-        "title": "Arkan Seguros Dashboard",
-        "init": {
-          "category": "Web App",
-          "description": "Arkan Seguros dashboard with a modern and responsive design, featuring important graphs and information for the company."
+      "title": "Arkan Seguros Dashboard",
+      "init": {
+          "role": {
+              "title": "My Role",
+              "description": "Developer"
+          },
+          "project": {
+              "title": "Project",
+              "description": "Solo"
+          },
+          "timeline": {
+              "title": "Development Time",
+              "description": "1.5 months (2024)"
+          },
+          "tools": {
+              "title": "Tools",
+              "description": "Next, NextApi, Tanstack Query, Firebase, Recharts, ShadcnUi"
+          },
+          "category": "Web Application",
+          "description": "Arkan Seguros dashboard with a modern and responsive design, presenting important charts and information for the company."
+      },
+      "video": {
+          "title": "Video",
+          "description": "Watch the video below to learn more about the Arkan Seguros Dashboard and its features."
+      },
+      "overview": {
+          "title": "Overview",
+          "prompt": {
+              "title": "Prompt",
+              "description": "The Arkan Seguros Dashboard was developed to provide a comprehensive and real-time view of the company's data, aiding in strategic decision-making. With a modern and responsive design, the dashboard presents important charts and information, allowing users to monitor site performance and identify trends and opportunities. The dashboard also offers advanced analysis tools, making data interpretation and strategic planning easier."
+          },
+          "design-process": {
+              "title": "Design Process",
+              "description": "The design process for the Arkan Seguros Dashboard began with a detailed analysis of user needs and best design practices for corporate dashboards. From studies of PowerBi dashboards and others made with Pandas and Streamlit, we developed a modern and responsive dashboard that highlights important information clearly and accessibly, helping the company make informed decisions and improve its market performance."
+          }
+      },
+      "user-research": {
+          "title": "User Research",
+          "background-research": {
+              "title": "Background Research",
+              "description": "User research for the Arkan Seguros Dashboard involved interviews and surveys with company employees and managers. We gathered insights about users' needs and expectations for the dashboard, identifying the key metrics and information that should be highlighted. Based on these insights, we developed personas and user stories to guide the design process, ensuring the dashboard met the needs of its target audience."
+          }
+      },
+      "problem-statement": {
+          "challenge": "Challenge",
+          "title": "Problem Statement",
+          "description": "The Arkan Dashboard was created to fill the gap in the lack of detailed customer data and information. Despite being exclusively from the site form, the client has full control and visibility over customer flow and trends, enabling better decision-making and insights for the company."
+      },
+      "impact": {
+          "subtitle": "Impact",
+          "title": "Reflections and Results",
+          "description": "Since this repository does not contain a backend, creating this dashboard was quite challenging, as data manipulation was done from a JSON file. The request for this dashboard came unexpectedly, so I had to change plans and build one using only Next's server-side, which was a very good and innovative experience for me. Despite this setback, Arkan Seguros makes me very proud, a very well-structured and institutional site built with a lot of effort and dedication."
+      }
+    },
+   "onebitflix-front": {
+    "title": "Onebitflix",
+    "init": {
+        "role": {
+            "title": "My Role",
+            "description": "Developer"
+        },
+        "project": {
+            "title": "Project",
+            "description": "Solo"
+        },
+        "timeline": {
+            "title": "Development Time",
+            "description": "1.5 months (2023)"
+        },
+        "tools": {
+            "title": "Tools",
+            "description": "React, Bootstrap, React-Modal, Sass, Splide.js"
+        },
+        "category": "Web Application",
+        "description": "Programming lesson website with a modern and responsive design, intuitive and easy-to-use navigation, and a custom video player."
+    },
+    "video": {
+        "title": "Video",
+        "description": "Watch the video below to learn more about Onebitflix and its features."
+    },
+    "overview": {
+        "title": "Overview",
+        "prompt": {
+            "title": "Prompt",
+            "description": "Onebitflix is a programming lesson website designed to provide a modern and accessible learning platform. With responsive design and intuitive navigation, Onebitflix makes it easy to access a wide range of programming courses, allowing users to learn at their own pace. The site includes a custom video player, support for multiple devices, and advanced course search and filtering features, ensuring a pleasant and efficient learning experience."
+        },
+        "design-process": {
+            "title": "Design Process",
+            "description": "The design process for Onebitflix started with the idea of basing the design on Netflix, with a modern and responsive layout. Prototypes were developed to visualize the site's layout and functionality. The final result is a programming lesson website with an elegant design and intuitive functionality, providing a pleasant and efficient learning experience for users."
         }
     },
-    "onebitflix-front": {
-        "title": "Onebitflix",
-        "init": {
-          "category": "Web App",
-          "description": "Programming lessons website, with a modern and responsive design, intuitive and easy-to-use navigation, and a custom video player."
+    "user-research": {
+        "title": "User Research",
+        "background-research": {
+            "title": "Background Research",
+            "description": "User research for Onebitflix involved interviews and surveys with programming students and instructors. We gathered insights about users' needs and expectations for the platform, identifying key features and functionalities that should be highlighted. Based on these insights, we developed personas and user stories to guide the design process, ensuring the site met users' expectations and needs."
         }
+    },
+    "problem-statement": {
+        "challenge": "Challenge",
+        "title": "Problem Statement",
+        "description": "Online learning platforms face challenges in providing a pleasant and efficient learning experience for users. Many course sites have complicated layouts and limited functionalities, which can make accessing content and navigating courses difficult. Onebitflix was designed to solve these problems, offering a modern and responsive platform with navigation slides showing courses and advanced course search and filtering features, as well as favorite and liked features for greater student personalization. With an elegant design and integrated features, Onebitflix provides a pleasant and efficient learning experience for users."
+    },
+    "impact": {
+        "subtitle": "Impact",
+        "title": "Reflections and Results",
+        "description": "Onebitflix is a very robust and complete site model, with impeccable design and very comfortable and intuitive navigation. The site was a personal challenge for me as it was my first contact with React and Bootstrap, which taught me a lot about these technologies, as well as being the real 'robust' project. The final result is a site that met users' expectations and helped me grow as a developer. Onebitflix has the potential to transform the way people learn programming, offering a modern and accessible platform for learning programming."
+    }
     },
     "onebitflix-back": {
-        "title": "Onebitflix Backend",
-        "init": {
-          "category": "API",
-          "description": "Onebitflix API, with full CRUD for categories and videos, along with user authentication using JWT and bcrypt."
+    "title": "Onebitflix Backend",
+    "init": {
+        "role": {
+            "title": "My Role",
+            "description": "Developer"
+        },
+        "project": {
+            "title": "Project",
+            "description": "Solo"
+        },
+        "timeline": {
+            "title": "Development Time",
+            "description": "1.5 months (2023)"
+        },
+        "tools": {
+            "title": "Tools",
+            "description": "Node.js, Express, Sequelize, PostgreSQL, JWT"
+        },
+        "category": "API",
+        "description": "Onebitflix API, with complete CRUD functionality for categories and videos, along with user authentication using JWT and bcrypt."
+    },
+    "video": {
+        "title": "Video",
+        "description": "Watch the video below to learn more about the Onebitflix Backend and its features."
+    },
+    "overview": {
+        "title": "Overview",
+        "prompt": {
+            "title": "Prompt",
+            "description": "The Onebitflix Backend was developed to provide a robust and secure API supporting all the functionalities of the programming lesson website. The API includes complete CRUD operations for categories and videos, allowing for creation, reading, updating, and deletion of data. Additionally, the API implements user authentication using JWT and bcrypt, ensuring the security and integrity of user data. With a scalable and efficient architecture, the Onebitflix Backend supports a wide range of functionalities and guarantees the best possible user experience."
+        },
+        "design-process": {
+            "title": "Design Process",
+            "description": "The design process for the Onebitflix Backend began with a detailed analysis of functional and security requirements for the API. We developed the architecture and endpoints of the API, ensuring that all CRUD operations were supported efficiently and securely. User authentication was implemented using JWT and bcrypt, ensuring the security of user data. The final result is a robust and secure API supporting all functionalities of the programming lesson website, providing an efficient and secure user experience."
         }
     },
+    "user-research": {
+        "title": "User Research",
+        "background-research": {
+            "title": "Background Research",
+            "description": "User research for the Onebitflix Backend involved interviews and surveys with developers and platform users. We gathered insights about users' needs and expectations regarding the API, identifying key features and security requirements to be implemented. Based on these insights, we developed a robust and scalable architecture for the API, ensuring that all CRUD operations were supported efficiently and securely, meeting user needs and providing the best possible user experience."
+        }
+    },
+    "problem-statement": {
+        "challenge": "Challenge",
+        "title": "Problem Statement",
+        "description": "APIs for online learning platforms need to be robust and secure, supporting a wide range of functionalities and ensuring the integrity of user data. Many course platform backends face challenges in implementing complete CRUD operations and secure authentication, which can compromise the user experience. The Onebitflix Backend was designed with Sequelize and PostgreSQL, providing a robust and secure API with complete CRUD operations and user authentication. Additionally, it offers a complete and customized admin route through AdminJs, allowing the client full control over application content and facilitating the modification or addition of new data."
+    },
+    "impact": {
+        "subtitle": "Impact",
+        "title": "Reflections and Results",
+        "description": "The Onebitflix Backend was my first backend project, and it was indeed a significant challenge. I admit that when I finished, I didn't fully understand everything I had done, but it was certainly the best possible starting point. I learned a lot about Node.js, Express, and Sequelize, as well as gaining practical experience with JWT and bcrypt. The final result is a robust and secure API supporting all functionalities of the programming lesson website, providing an efficient and secure user experience."
+    }
+    },
     "python-analytics": {
-        "title": "Python Analytics",
-        "init": {
-          "category": "API",
-          "description": "Data analysis dashboard with Python, featuring important graphs and information for the company."
-        } 
+    "title": "Python Analytics",
+    "init": {
+        "role": {
+            "title": "My Role",
+            "description": "Developer"
+        },
+        "project": {
+            "title": "Project",
+            "description": "Solo"
+        },
+        "timeline": {
+            "title": "Development Time",
+            "description": "3 days (2023)"
+        },
+        "tools": {
+            "title": "Tools",
+            "description": "Pandas, Streamlit, Plotly"
+        },
+        "category": "API",
+        "description": "Data analysis dashboard with Python, featuring charts and key information for the company."
+    },
+    "video": {
+        "title": "Video",
+        "description": "Watch the video below to learn more about Python Analytics and its features."
+    },
+    "overview": {
+        "title": "Overview",
+        "prompt": {
+            "title": "Prompt",
+            "description": "Python Analytics was developed to provide a powerful data analysis tool, presenting charts and key information in a clear and accessible manner. With a modern and responsive design, the dashboard allows users to track company performance and identify trends and opportunities."
+        },
+        "design-process": {
+            "title": "Design Process",
+            "description": "The design of Python Analytics was based on existing data analysis dashboards, with charts and information presented clearly and accessibly. We used the Streamlit library to create an interactive and responsive dashboard, with advanced analysis tools to facilitate data interpretation and strategic planning. The final result is a modern and efficient dashboard that helps companies make informed decisions and improve their market performance."
+        }
+    },
+    "user-research": {
+        "title": "User Research",
+        "background-research": {
+            "title": "Background Research",
+            "description": "User research for Python Analytics involved interviews and surveys with managers and data analysts. We gathered insights about users' needs and expectations regarding the dashboard, identifying key metrics and information to highlight. Based on these insights, we developed personas and user stories to guide the design process, ensuring that the dashboard met the needs of its target audience and provided an efficient and pleasant user experience."
+        }
+    },
+    "problem-statement": {
+        "challenge": "Challenge",
+        "title": "Problem Statement",
+        "description": "The initial intention of this project was to identify how much we can achieve with Python alone compared to powerful and robust tools like PowerBi. The result was as expected: we created a simple application where we analyzed data from a spreadsheet and generated various charts with filters in the sidebar."
+    },
+    "impact": {
+        "subtitle": "Impact",
+        "title": "Reflections and Results",
+        "description": "I am quite proud of this project, one of the first I did with my 'native' language, Python. I built this page to show what we can achieve with the language and how powerful it is. I learned a lot about Pandas, Streamlit, and Plotly, as well as gaining practical experience with data analysis and information visualization. The final result is a modern and efficient dashboard that helps companies make informed decisions and improve their market performance."
     }
     }
+
+  }
 
   }
   

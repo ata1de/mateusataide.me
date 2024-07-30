@@ -27,12 +27,12 @@ export default function Home() {
           <div className=" flex flex-col gap-5  w-11/12 items-center max-w-[1056px] mx-auto px-3 py-6  sm:px-10 ">
             <div className="w-full flex justify-between items-center">
               <SlideIn>
-                  <p className="text-sm text-zinc-500 ">Projects</p>  
+                  <p className="text-sm text-[#669b94] font-semibold ">{t('subtitle')}</p>  
                   <p className="text-4xl mt-2 font-semibold mb-4 max-w-[300px]">{t('title')}.</p>
               </SlideIn>
 
               <div>
-                <p className="text-sm font-light mb-2 max-w-[500px] text-right ">Aqui está uma seção dos meus projetos mais recentes, bem algumas descrições detalhadas e um video de demonstração</p>
+                <p className="text-sm font-light mb-2 max-w-[500px] text-right ">{t('description')}</p>
               </div>
             </div>
             

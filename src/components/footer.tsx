@@ -50,19 +50,19 @@ export default function Footer() {
               <div className='flex flex-col justify-center items-center md:items-end gap-4 max-[758px]:mt-5'>
                   <div>
                       <p className='font-semibold text-center md:text-right'>{t('communications.contact')}</p>
-                      <p className=' text-center md:text-right text-xs text-[#d1d1d1]'>98688-4201 | 98857-5153</p>
+                      <p className=' text-center md:text-right text-xs text-[#d1d1d1]'>(021-81) 98857-5153</p>
                       <p className=' text-center md:text-right text-xs text-[#d1d1d1]'>mateusataide05@gmail.com</p>
                   </div>
                   <div>
                       <p className='font-semibold text-center md:text-right '>{t('communications.social-media')}</p>
-                      <Link href='https://www.instagram.com/arkanseguros/' target='_blank' className='no-underline'>
+                      <Link href='https://www.instagram.com/mateus_ataide/' target='_blank' className='no-underline'>
                           <p className=' text-center md:text-right text-xs text-[#d1d1d1]'>Instagram</p>
                       </Link>
-                      <Link href="https://wa.me/+5581986884201?text=Ol%C3%A1%2C+venha+nos+conhecer%2C+n%C3%A3o+hesite+em+mandar+mensagem%21%21" target='_blank' className='no-underline'>
+                      <Link href="https://wa.me/+5581992423427?text=Ol%C3%A1%2C+venha+nos+conhecer%2C+n%C3%A3o+hesite+em+mandar+mensagem%21%21" target='_blank' className='no-underline'>
                           <p className=' text-center md:text-right text-xs text-[#d1d1d1]'>Whatsaap</p>
                       </Link>
-                      <Link href='https://www.facebook.com/arkanseguro/' target='_blank' className='no-underline'>
-                          <p className='text-center md:text-right text-xs text-[#d1d1d1]'>Facebook</p>
+                      <Link href='https://www.linkedin.com/in/mateus-ataide/' target='_blank' className='no-underline'>
+                          <p className='text-center md:text-right text-xs text-[#d1d1d1]'>Linkedin</p>
                       </Link>    
                   </div>
               </div>

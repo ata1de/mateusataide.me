@@ -42,26 +42,18 @@
       "Tech": "Tecnologias",
       "Projects": {
           "title": "Construido com amor",
-          "description": "Uma seção dos meus projetos mais recentes",
+          "subtitle": "Projetos",
+          "description": "Aqui está uma seção dos meus projetos mais recentes, com descrições detalhadas e imagens. Confira todos os projetos clicando no botão abaixo.",
           "link-projects": "Veja todos os projetos",
           "buttons": {
             "button_visit": "Visitar",
             "button_source": "Código Fonte"
           },
-          "Libertas": {
-              "title": "Libertas",
-              "category": "Mobile App",
-              "description": "Um aplicativo móvel para monitorar facilmente a alta e baixa dos valores das criptomoedas."
-          },
-          "ecommerce-store": {
-              "title": "Template de Site de E-commerce",
-              "category": "Web App",
-              "description": "Template moderno para e-commerce com layout responsivo e navegação intuitiva, ideal para lojas de moda online."
-          },
-          "arkan-seguro": {
-              "title": "Website da empresa Arkan Seguros",
-              "category": "Web site",
-              "description": "Site da Arkan Seguros com design moderno e responsivo, destacando os valores e a missão da empresa para atrair e manter clientes"
+          "grid": {
+            "title": "Venha conhecer o Dashboard Arkan Seguros",
+            "description": "Dashboard com design moderno e responsivo, apresentando gráficos e informações importantes para a empresa.",
+            "button": "Não fique com vergonha, venha!",
+            "buttonCategory": "Veja todas as categorias"
           }
       }
   },
@@ -195,7 +187,7 @@
             },
             "timeline": {
                 "title": "Tempo de Desenvolvimento",
-                "description": "1 mês (2024)"
+                "description": "2 semanas (2024)"
             },
             "tools": {
                 "title": "Ferramentas",
@@ -229,7 +221,7 @@
         "problem-statement": {
             "challenge": "Desafio",
             "title": "Declaração do Problema",
-            "description": "Eccomerce Store foi minha primeira experiência com o React, de tabela veio consigo o desafio de ligar com context e lógica de carrinhos de compras. Além disso, foi um desafio pessoal a estilização do site, pois acredito que a estética é um dos pontos mais importantes de um site de vendas. O modelo de site de e-commerce foi projetado para resolver esses problemas, oferecendo um design moderno e responsivo com navegação intuitiva e conteúdo bem organizado. Com um layout elegante e funcionalidade eficiente, o modelo ajuda as lojas de moda a proporcionar uma experiência de compra agradável e eficiente para seus clientes."
+            "description": "Eccomerce Store foi minha primeira experiência com o React, de tabela veio consigo o desafio de lidar com context e lógica de carrinhos de compras. Além disso, foi um desafio pessoal a estilização do site, pois acredito que a estética é um dos pontos mais importantes de um site de vendas. O modelo de site de e-commerce foi projetado para resolver esses problemas, oferecendo um design moderno e responsivo com navegação intuitiva e conteúdo bem organizado. Com um layout elegante e funcionalidade eficiente, o modelo ajuda as lojas de moda a proporcionar uma experiência de compra agradável e eficiente para seus clientes."
         },
         "impact": {
             "subtitle": "Impacto",
@@ -278,13 +270,13 @@
             "title": "Pesquisa de Usuário",
             "background-research": {
                 "title": "Pesquisa de Contexto",
-                "description": "A pesquisa de usuário para o website da Arkan Seguros envolveu entrevistas e pesquisas com clientes e funcionários da empresa. Coletamos insights sobre as necessidades e expectativas dos usuários em relação ao site, identificando as principais informações e recursos que deveriam ser destacados. Com base nesses insights, desenvolvemos personas e histórias de usuários para guiar o processo de design, garantindo que o site atendesse às necessidades de seu público-alvo."
+                "description": "A pesquisa de usuário foi realizada a partir de reuniões com o cliente, estudando o seu público alvo e como podemos atingi-los. A partir disso, desenvolvemos personas e histórias de usuários para guiar o processo de design, garantindo que o site atendesse às expectativas e necessidades dos usuários. Um detalhe muito importante foi a seção de feedback dos clientes e do FAQ em cada serviço, o que nos ajudou a entender melhor o que o cliente desejava."
             }
         },
         "problem-statement": {
             "challenge": "Desafio",
             "title": "Declaração do Problema",
-            "description": "Empresas de seguros precisam de um website que destaque seus valores e missão, fornecendo informações claras e acessíveis sobre seus serviços. Muitos sites corporativos são complicados e difíceis de navegar, o que pode afastar clientes em potencial. O website da Arkan Seguros foi projetado para resolver esses problemas, oferecendo um design moderno e responsivo com navegação intuitiva e conteúdo bem organizado. Com um layout elegante e funcionalidade eficiente, o site ajuda a atrair e reter clientes, destacando os valores e a missão da empresa."
+            "description": "Empresas de seguros precisam de um website que destaque seus valores e missão, fornecendo informações claras e acessíveis sobre seus serviços. Muitos sites corporativos são complicados e difíceis de navegar, o que pode afastar clientes em potencial. O website da Arkan Seguros foi projetado para resolver esses problemas, oferecendo um design moderno e responsivo com navegação intuitiva e conteúdo bem organizado. Além disso, foi disposto o desafio da construção do envio de emails para o cliente, ou seja, a cada envio de formulário o cliente recebe os dados da solicitação, o que foi um desafio pessoal para mim."
         },
         "impact": {
             "subtitle": "Impacto",
@@ -322,11 +314,11 @@
             "title": "Visão Geral",
             "prompt": {
             "title": "Prompt",
-            "description": "O Dashboard da Arkan Seguros foi desenvolvido para fornecer uma visão abrangente e em tempo real dos dados da empresa, ajudando na tomada de decisões estratégicas. Com um design moderno e responsivo, o dashboard apresenta gráficos e informações importantes, permitindo que os usuários acompanhem o desempenho da empresa e identifiquem tendências e oportunidades. O dashboard também oferece ferramentas de análise avançada, facilitando a interpretação dos dados e o planejamento estratégico."
+            "description": "O Dashboard da Arkan Seguros foi desenvolvido para fornecer uma visão abrangente e em tempo real dos dados da empresa, ajudando na tomada de decisões estratégicas. Com um design moderno e responsivo, o dashboard apresenta gráficos e informações importantes, permitindo que os usuários acompanhem o desempenho do site e identifiquem tendências e oportunidades. O dashboard também oferece ferramentas de análise avançada, facilitando a interpretação dos dados e o planejamento estratégico."
             },
             "design-process": {
             "title": "Processo de Design",
-            "description": "O processo de design do Dashboard da Arkan Seguros começou com uma análise detalhada das necessidades dos usuários e das melhores práticas de design para dashboards corporativos. Desenvolvemos wireframes e protótipos para visualizar o layout e a funcionalidade do dashboard, incorporando feedback de usuários para refinar o design. O resultado final é um dashboard moderno e responsivo que apresenta informações importantes de forma clara e acessível, ajudando a empresa a tomar decisões estratégicas informadas."
+            "description": "O processo de design do Dashboard da Arkan Seguros começou com uma análise detalhada das necessidades dos usuários e das melhores práticas de design para dashboards corporativos. A partir de estudos de dashboard de PowerBi e outros feitos a partir de Pandas e Streamlit, desenvolvemos dashboard moderno e responsivo que destaca as informações importantes de forma clara e acessível, ajudando a empresa a tomar decisões informadas e melhorar seu desempenho no mercado."
             }
         },
         "user-research": {
@@ -339,12 +331,12 @@
         "problem-statement": {
             "challenge": "Desafio",
             "title": "Declaração do Problema",
-            "description": "Empresas de seguros precisam de um dashboard que forneça uma visão abrangente e em tempo real dos dados da empresa, ajudando na tomada de decisões estratégicas. Muitos dashboards corporativos são complicados e difíceis de usar, o que pode limitar sua eficácia. O Dashboard da Arkan Seguros foi projetado para resolver esses problemas, oferecendo um design moderno e responsivo com gráficos e informações importantes apresentados de forma clara e acessível. Com ferramentas de análise avançada, o dashboard facilita a interpretação dos dados e o planejamento estratégico, ajudando a empresa a identificar tendências e oportunidades."
+            "description": "O Dashboard da Arkan veio para preencher a lacuna da falta de informações e detalhamento de dados dos clientes. Apesar de ser exclusivamente do formulário do site, o cliente tem total controle e visualização do fluxo de clientes e suas tendências. Assim, permitindo a possibilidade de melhorar a tomada de decisão e insights para a empresa"
         },
         "impact": {
             "subtitle": "Impacto",
             "title": "Reflexões e Resultados",
-            "description": "O Dashboard da Arkan Seguros tem o potencial de transformar a maneira como a empresa acompanha e interpreta seus dados, fornecendo uma ferramenta poderosa para a tomada de decisões estratégicas. Com um design moderno e responsivo, o dashboard apresenta informações importantes de forma clara e acessível, ajudando a empresa a identificar tendências e oportunidades. As ferramentas de análise avançada facilitam a interpretação dos dados e o planejamento estratégico, permitindo que a Arkan Seguros tome decisões informadas e melhore seu desempenho no mercado."
+            "description": "Por esse repositório não conter um backend, a criação desse dashboard foi um tanto como desafiador, pois a manipulação de dados foi feita a partir de um arquivo JSON. O pedido desse dashboard foi feito inesperadamente, então tive que mudar os planos e construir um somente com o lado do servidor do Next, o que foi uma experiência muito boa e invadora para mim. Apesar desse contratempo, a Arkan Seguros somente me enche de orgulho, um site muito bem estruturado e institucional, construido com muito esforço e dedicação"
         }
         },
     "onebitflix-front": {
@@ -381,7 +373,7 @@
         },
         "design-process": {
         "title": "Processo de Design",
-        "description": "O processo de design do Onebitflix começou com uma análise detalhada das necessidades dos alunos e das melhores práticas de design para plataformas de aprendizado online. Desenvolvemos wireframes e protótipos para visualizar o layout e a funcionalidade do site, incorporando feedback de usuários para refinar o design. O resultado final é um website de aulas de programação com um design moderno e funcionalidade intuitiva, proporcionando uma experiência de aprendizado agradável e eficiente."
+        "description": "O processo de design do Onebitflix começou com a ideia de se basear o design no Netflix, com um layout moderno e responsivo. Foi desenvolvido protótipos para visualizar o layout e a funcionalidade do site. O resultado final é um website de aulas de programação com um design elegante e funcionalidade intuitiva, proporcionando uma experiência de aprendizado agradável e eficiente para os usuários."
         }
     },
     "user-research": {
@@ -394,12 +386,12 @@
     "problem-statement": {
         "challenge": "Desafio",
         "title": "Declaração do Problema",
-        "description": "Plataformas de aprendizado online enfrentam desafios ao fornecer uma experiência de aprendizado agradável e eficiente para os usuários. Muitos sites de cursos têm layouts complicados e funcionalidades limitadas, o que pode dificultar o acesso ao conteúdo e a navegação pelos cursos. O Onebitflix foi projetado para resolver esses problemas, oferecendo uma plataforma moderna e responsiva com navegação intuitiva e funcionalidades avançadas de pesquisa e filtragem de cursos. Com um design elegante e recursos integrados, o Onebitflix proporciona uma experiência de aprendizado agradável e eficiente para os usuários."
+        "description": "Plataformas de aprendizado online enfrentam desafios ao fornecer uma experiência de aprendizado agradável e eficiente para os usuários. Muitos sites de cursos têm layouts complicados e funcionalidades limitadas, o que pode dificultar o acesso ao conteúdo e a navegação pelos cursos. O Onebitflix foi projetado para resolver esses problemas, oferecendo uma plataforma moderna e responsiva com slides de navegação mostrando os cursos e funcionalidades avançadas de pesquisa e filtragem de cursos, além de features de favoritos e gostados para oferecer maior personalização ao aluno. Com um design elegante e recursos integrados, o Onebitflix proporciona uma experiência de aprendizado agradável e eficiente para os usuários."
     },
     "impact": {
         "subtitle": "Impacto",
         "title": "Reflexões e Resultados",
-        "description": "O Onebitflix tem o potencial de transformar a maneira como os alunos aprendem programação online, fornecendo uma plataforma moderna e acessível com funcionalidades avançadas. Com um design responsivo e navegação intuitiva, o site facilita o acesso a uma ampla gama de cursos de programação, permitindo que os usuários aprendam no seu próprio ritmo. O player de vídeo personalizado e as funcionalidades avançadas de pesquisa e filtragem de cursos garantem uma experiência de aprendizado agradável e eficiente, ajudando os alunos a atingir seus objetivos de aprendizado e a desenvolver suas habilidades em programação."
+        "description": "Onebitflix é um modelo de site muito robusto e completo, com um design impecável e uma navegação muito confortável e intuitiva. O site foi um desafio pessoal para mim, pois foi o primeiro contato com o React e o Bootstrap, o que me fez aprender muito sobre essas tecnologias, além de ser o real projeto 'robusto'. O resultado final é um site que atendeu as expectativas dos usuários e que me fez crescer como desenvolvedor. O Onebitflix tem o potencial de transformar a maneira como as pessoas aprendem programação, oferecendo uma plataforma moderna e acessível para o aprendizado de programação."
     }
     },
     "onebitflix-back": {
@@ -449,12 +441,12 @@
     "problem-statement": {
         "challenge": "Desafio",
         "title": "Declaração do Problema",
-        "description": "APIs de plataformas de aprendizado online precisam ser robustas e seguras, suportando uma ampla gama de funcionalidades e garantindo a integridade dos dados do usuário. Muitos backends de plataformas de cursos enfrentam desafios ao implementar operações CRUD completas e autenticação segura, o que pode comprometer a experiência do usuário. O Backend do Onebitflix foi projetado para resolver esses problemas, fornecendo uma API robusta e segura com operações CRUD completas e autenticação de usuários usando JWT e bcrypt. Com uma arquitetura escalável e eficiente, o Backend do Onebitflix garante a melhor experiência de usuário possível, suportando todas as funcionalidades do website de aulas de programação."
+        "description": "APIs de plataformas de aprendizado online precisam ser robustas e seguras, suportando uma ampla gama de funcionalidades e garantindo a integridade dos dados do usuário. Muitos backends de plataformas de cursos enfrentam desafios ao implementar operações CRUD completas e autenticação segura, o que pode comprometer a experiência do usuário. O Backend do Onebitflix foi projetado com o Sequelize e PostGreSQL, fornecendo uma API robusta e segura com operações CRUD completas e autenticação de usuários. Além disso, oferece por meio do AdminJs uma rota de admin completa e personalizada para o cliente ter total controle do conteúdo da aplicação e facilitando a mudança ou adição de novos dados."
     },
     "impact": {
         "subtitle": "Impacto",
         "title": "Reflexões e Resultados",
-        "description": "O Backend do Onebitflix tem o potencial de transformar a maneira como as plataformas de aprendizado online fornecem suas funcionalidades, oferecendo uma API robusta e segura com operações CRUD completas e autenticação de usuários. Com uma arquitetura escalável e eficiente, o backend suporta uma ampla gama de funcionalidades e garante a melhor experiência de usuário possível. A implementação de autenticação usando JWT e bcrypt garante a segurança e a integridade dos dados do usuário, ajudando a plataforma a fornecer uma experiência de aprendizado eficiente e segura para todos os seus usuários."
+        "description": "O Backend do Onebitflix foi o primeiro backend feito por mim, e foi realmente um desafio enorme. Admito que quando finalizei não entendi muita coisa do que eu fiz, mas certamente foi o melhor ponta pé inicial possível. Aprendi muito sobre Node.js, Express e Sequelize, além de ter uma experiência prática com JWT e bcrypt. O resultado final é uma API robusta e segura, suportando todas as funcionalidades do website de aulas de programação e proporcionando uma experiência de usuário eficiente e segura."
     }
     },
     "python-analytics": {
@@ -487,11 +479,11 @@
         "title": "Visão Geral",
         "prompt": {
         "title": "Prompt",
-        "description": "O Python Analytics foi desenvolvido para fornecer uma ferramenta poderosa de análise de dados, apresentando gráficos e informações importantes de forma clara e acessível. Com um design moderno e responsivo, o dashboard permite que os usuários acompanhem o desempenho da empresa e identifiquem tendências e oportunidades. O Python Analytics também oferece ferramentas de análise avançada, facilitando a interpretação dos dados e o planejamento estratégico, ajudando as empresas a tomar decisões informadas e a melhorar seu desempenho no mercado."
+        "description": "O Python Analytics foi desenvolvido para fornecer uma ferramenta poderosa de análise de dados, apresentando gráficos e informações importantes de forma clara e acessível. Com um design moderno e responsivo, o dashboard permite que os usuários acompanhem o desempenho da empresa e identifiquem tendências e oportunidades."
         },
         "design-process": {
         "title": "Processo de Design",
-        "description": "O processo de design do Python Analytics começou com uma análise detalhada das necessidades dos usuários e das melhores práticas de design para dashboards de análise de dados. Desenvolvemos wireframes e protótipos para visualizar o layout e a funcionalidade do dashboard, incorporando feedback de usuários para refinar o design. O resultado final é um dashboard moderno e responsivo que apresenta informações importantes de forma clara e acessível, ajudando as empresas a interpretar seus dados e a tomar decisões estratégicas informadas."
+        "description": "O design do Python Anlytics foi baseado em dashboards de análise de dados existentes, com gráficos e informações apresentados de forma clara e acessível. Utilizamos a biblioteca Streamlit para criar um dashboard interativo e responsivo, com ferramentas de análise avançada para facilitar a interpretação dos dados e o planejamento estratégico. O resultado final é um dashboard moderno e eficiente, que ajuda as empresas a tomar decisões informadas e melhorar seu desempenho no mercado."
         }
     },
     "user-research": {
@@ -504,12 +496,12 @@
     "problem-statement": {
         "challenge": "Desafio",
         "title": "Declaração do Problema",
-        "description": "Empresas precisam de ferramentas poderosas de análise de dados para acompanhar o desempenho e identificar tendências e oportunidades no mercado. Muitos dashboards de análise de dados são complicados e difíceis de usar, o que pode limitar sua eficácia. O Python Analytics foi projetado para resolver esses problemas, oferecendo um dashboard moderno e responsivo com gráficos e informações importantes apresentados de forma clara e acessível. Com ferramentas de análise avançada, o dashboard facilita a interpretação dos dados e o planejamento estratégico, ajudando as empresas a tomar decisões informadas e a melhorar seu desempenho no mercado."
+        "description": "O intuito inicial de realizar esse projeto foi para identificar o quanto que somente com a linguagem python podemos nos aproximar de ferramentas poderosas e robustas como PowerBi. E o resultado foi o mais esperado, realizamos uma aplicação simples onde analisamos os dados de uma planilha e montamos gráficos diversos com filtros na sideBar"
     },
     "impact": {
         "subtitle": "Impacto",
         "title": "Reflexões e Resultados",
-        "description": "O Python Analytics tem o potencial de transformar a maneira como as empresas analisam e interpretam seus dados, fornecendo uma ferramenta poderosa e acessível para a análise de dados. Com um design moderno e responsivo, o dashboard apresenta informações importantes de forma clara e acessível, ajudando as empresas a identificar tendências e oportunidades. As ferramentas de análise avançada facilitam a interpretação dos dados e o planejamento estratégico, permitindo que as empresas tomem decisões informadas e melhorem seu desempenho no mercado."
+        "description": "Tenho bastante orgulho desse projeto, um dos primeiros que realizei com minha linguagem 'mãe' que é o python, construi essa página realmente"
     }
     }
   
