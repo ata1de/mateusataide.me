@@ -339,7 +339,7 @@
             "title": "Reflexões e Resultados",
             "description": "Por esse repositório não conter um backend, a criação desse dashboard foi um tanto como desafiador, pois a manipulação de dados foi feita a partir de um arquivo JSON. O pedido desse dashboard foi feito inesperadamente, então tive que mudar os planos e construir um somente com o lado do servidor do Next, o que foi uma experiência muito boa e invadora para mim. Além de tudo tive a oportunidade de aprender a utilizar o Firebase, o que de fato irá ser muito benéfico para projetos futuro.Apesar desse contratempo, a Arkan Seguros somente me enche de orgulho, um site muito bem estruturado e institucional, construido com muito esforço e dedicação"
         }
-        },
+    },
     "onebitflix-front": {
     "title": "Onebitflix",
     "init": {
@@ -429,7 +429,7 @@
         },
         "design-process": {
         "title": "Processo de Design",
-        "description": "O processo de design do Backend do Onebitflix começou com uma análise detalhada dos requisitos funcionais e de segurança para a API. Desenvolvemos a arquitetura e os endpoints da API, garantindo que todas as operações CRUD fossem suportadas de forma eficiente e segura. Implementamos autenticação de usuários usando JWT e bcrypt, garantindo a segurança dos dados do usuário. O resultado final é uma API robusta e segura, suportando todas as funcionalidades do website de aulas de programação e proporcionando uma experiência de usuário eficiente e segura."
+        "description": "O processo de design do Backend do Onebitflix começou com uma análise detalhada dos requisitos funcionais e de segurança para a API. Desenvolvemos a arquitetura e os endpoints da API, garantindo que todas as operações CRUD fossem suportadas de forma eficiente e segura. Implementamos autenticação de usuários usando JWT e bcrypt, garantindo a segurança dos dados do usuário. Além do design da página do AdminJs para uma melhor administração do cliente com o conteúdo da aplicação."
         }
     },
     "user-research": {
@@ -442,12 +442,12 @@
     "problem-statement": {
         "challenge": "Desafio",
         "title": "Declaração do Problema",
-        "description": "APIs de plataformas de aprendizado online precisam ser robustas e seguras, suportando uma ampla gama de funcionalidades e garantindo a integridade dos dados do usuário. Muitos backends de plataformas de cursos enfrentam desafios ao implementar operações CRUD completas e autenticação segura, o que pode comprometer a experiência do usuário. O Backend do Onebitflix foi projetado com o Sequelize e PostGreSQL, fornecendo uma API robusta e segura com operações CRUD completas e autenticação de usuários. Além disso, oferece por meio do AdminJs uma rota de admin completa e personalizada para o cliente ter total controle do conteúdo da aplicação e facilitando a mudança ou adição de novos dados."
+        "description": "APIs de plataformas de aprendizado online precisam ser segura e confiáve, suportando uma ampla gama de funcionalidades e garantindo a integridade dos dados do usuário. Muitos backends de plataformas de cursos enfrentam desafios ao implementar operações CRUD completas e autenticação segura, o que pode comprometer a experiência do usuário. O Backend do Onebitflix foi projetado com o Sequelize e PostGreSQL, fornecendo uma API com operações necessário para seu funcionamento. Além disso, oferece por meio do AdminJs uma rota de admin completa e personalizada para o cliente ter total controle do conteúdo da aplicação e facilitando a mudança ou adição de novos dados."
     },
     "impact": {
         "subtitle": "Impacto",
         "title": "Reflexões e Resultados",
-        "description": "O Backend do Onebitflix foi o primeiro backend feito por mim, e foi realmente um desafio enorme. Admito que quando finalizei não entendi muita coisa do que eu fiz, mas certamente foi o melhor ponta pé inicial possível. Aprendi muito sobre Node.js, Express e Sequelize, além de ter uma experiência prática com JWT e bcrypt. O resultado final é uma API robusta e segura, suportando todas as funcionalidades do website de aulas de programação e proporcionando uma experiência de usuário eficiente e segura."
+        "description": "O Backend do Onebitflix foi o primeiro backend feito por mim, e foi realmente um desafio enorme. Admito que quando finalizei não entendi muita coisa do que eu fiz, mas certamente foi o melhor ponta pé inicial possível. Aprendi muito sobre Node.js, Express e Sequelize, além de ter uma experiência prática com JWT e bcrypt. Ademais, o projeto conta com o integração com o Adminjs, um sistema de administração de conteúdo que facilita a vida do cliente, o que adicionou muito ao meu aprendizado."
     }
     },
     "python-analytics": {

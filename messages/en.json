@@ -395,59 +395,59 @@
     }
     },
     "onebitflix-back": {
-    "title": "Onebitflix Backend",
-    "init": {
-        "role": {
-            "title": "My Role",
-            "description": "Developer"
+        "title": "Onebitflix Backend",
+        "init": {
+            "role": {
+                "title": "My Role",
+                "description": "Developer"
+            },
+            "project": {
+                "title": "Project",
+                "description": "By myself"
+            },
+            "timeline": {
+                "title": "Development Time",
+                "description": "1.5 months (2023)"
+            },
+            "tools": {
+                "title": "Tools",
+                "description": "Node.js, Express, Sequelize, PostgreSQL, JWT"
+            },
+            "category": "API",
+            "description": "Onebitflix API, with complete CRUD for categories and videos, as well as user authentication using JWT and bcrypt."
         },
-        "project": {
-            "title": "Project",
-            "description": "By myself"
+        "video": {
+            "title": "Video",
+            "description": "Watch the video below to learn more about the Onebitflix Backend and its features."
         },
-        "timeline": {
-            "title": "Development Time",
-            "description": "1.5 months (2023)"
+        "overview": {
+            "title": "Overview",
+            "prompt": {
+                "title": "Prompt",
+                "description": "The Onebitflix Backend was developed to provide a robust and secure API, supporting all the features of the programming lessons website. The API includes complete CRUD operations for categories and videos, allowing the creation, reading, updating, and deletion of data. Additionally, the API implements user authentication using JWT and bcrypt, ensuring the security and integrity of user data. With a scalable and efficient architecture, the Onebitflix Backend supports a wide range of functionalities and ensures the best possible user experience."
+            },
+            "design-process": {
+                "title": "Design Process",
+                "description": "The design process of the Onebitflix Backend started with a detailed analysis of the functional and security requirements for the API. We developed the API architecture and endpoints, ensuring that all CRUD operations were efficiently and securely supported. We implemented user authentication using JWT and bcrypt, ensuring the security of user data. Additionally, we designed the AdminJs page for better client administration with the application's content."
+            }
         },
-        "tools": {
-            "title": "Tools",
-            "description": "Node.js, Express, Sequelize, PostgreSQL, JWT"
+        "user-research": {
+            "title": "User Research",
+            "background-research": {
+                "title": "Background Research",
+                "description": "User research for the Onebitflix Backend involved interviews and surveys with developers and platform users. We gathered insights into the users' needs and expectations regarding the API, identifying the main functionalities and security requirements that should be implemented. Based on these insights, we developed a robust and scalable architecture for the API, ensuring that all CRUD operations were efficiently and securely supported, meeting users' needs and ensuring the best possible user experience."
+            }
         },
-        "category": "API",
-        "description": "Onebitflix API, with complete CRUD functionality for categories and videos, along with user authentication using JWT and bcrypt."
-    },
-    "video": {
-        "title": "Video",
-        "description": "Watch the video below to learn more about the Onebitflix Backend and its features."
-    },
-    "overview": {
-        "title": "Overview",
-        "prompt": {
-            "title": "Prompt",
-            "description": "The Onebitflix Backend was developed to provide a robust and secure API supporting all the functionalities of the programming lesson website. The API includes complete CRUD operations for categories and videos, allowing for creation, reading, updating, and deletion of data. Additionally, the API implements user authentication using JWT and bcrypt, ensuring the security and integrity of user data. With a scalable and efficient architecture, the Onebitflix Backend supports a wide range of functionalities and guarantees the best possible user experience."
+        "problem-statement": {
+            "challenge": "Challenge",
+            "title": "Problem Statement",
+            "description": "APIs for online learning platforms need to be secure and reliable, supporting a wide range of functionalities and ensuring the integrity of user data. Many course platform backends face challenges in implementing complete CRUD operations and secure authentication, which can compromise the user experience. The Onebitflix Backend was designed with Sequelize and PostgreSQL, providing an API with the necessary operations for its functioning. Additionally, it offers a complete and customized admin route for the client through AdminJs, giving full control over the application's content and facilitating the change or addition of new data."
         },
-        "design-process": {
-            "title": "Design Process",
-            "description": "The design process for the Onebitflix Backend began with a detailed analysis of functional and security requirements for the API. We developed the architecture and endpoints of the API, ensuring that all CRUD operations were supported efficiently and securely. User authentication was implemented using JWT and bcrypt, ensuring the security of user data. The final result is a robust and secure API supporting all functionalities of the programming lesson website, providing an efficient and secure user experience."
+        "impact": {
+            "subtitle": "Impact",
+            "title": "Reflections and Results",
+            "description": "The Onebitflix Backend was the first backend I created, and it was indeed a huge challenge. I admit that when I finished, I didn't fully understand what I had done, but it was certainly the best possible starting point. I learned a lot about Node.js, Express, and Sequelize, and also gained practical experience with JWT and bcrypt. Additionally, the project includes integration with AdminJs, a content management system that makes life easier for the client, which greatly enhanced my learning experience."
         }
-    },
-    "user-research": {
-        "title": "User Research",
-        "background-research": {
-            "title": "Background Research",
-            "description": "User research for the Onebitflix Backend involved interviews and surveys with developers and platform users. We gathered insights about users' needs and expectations regarding the API, identifying key features and security requirements to be implemented. Based on these insights, we developed a robust and scalable architecture for the API, ensuring that all CRUD operations were supported efficiently and securely, meeting user needs and providing the best possible user experience."
-        }
-    },
-    "problem-statement": {
-        "challenge": "Challenge",
-        "title": "Problem Statement",
-        "description": "APIs for online learning platforms need to be robust and secure, supporting a wide range of functionalities and ensuring the integrity of user data. Many course platform backends face challenges in implementing complete CRUD operations and secure authentication, which can compromise the user experience. The Onebitflix Backend was designed with Sequelize and PostgreSQL, providing a robust and secure API with complete CRUD operations and user authentication. Additionally, it offers a complete and customized admin route through AdminJs, allowing the client full control over application content and facilitating the modification or addition of new data."
-    },
-    "impact": {
-        "subtitle": "Impact",
-        "title": "Reflections and Results",
-        "description": "The Onebitflix Backend was my first backend project, and it was indeed a significant challenge. I admit that when I finished, I didn't fully understand everything I had done, but it was certainly the best possible starting point. I learned a lot about Node.js, Express, and Sequelize, as well as gaining practical experience with JWT and bcrypt. The final result is a robust and secure API supporting all functionalities of the programming lesson website, providing an efficient and secure user experience."
-    }
     },
     "python-analytics": {
     "title": "Python Analytics",

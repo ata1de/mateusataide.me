@@ -19,7 +19,7 @@ export default function CardProject({ project }: CardProjectProps) {
     const isLinkVisitEmpty = project.link_visit.length === 0;
 
     return (
-        <div className="max-w-[420px] w-[400px]  flex flex-col p-5 shadow-md     gap-3">
+        <div data-aos="flip-left" data-aos-duration='5000' className="max-w-[420px] w-[400px]  flex flex-col p-5 shadow-md     gap-3">
             <div className="flex justify-center items-center">
                 <Image className="rounded-md max-[430px]:w-[300px]" src={project.image} alt={t('title')} width={360} height={325} />
             </div>

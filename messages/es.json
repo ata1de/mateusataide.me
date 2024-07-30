@@ -397,60 +397,60 @@
     }
       },
       "onebitflix-back": {
-    "title": "Backend de Onebitflix",
-    "init": {
-        "role": {
-            "title": "Mi Rol",
-            "description": "Desarrollador"
+        "title": "Backend de Onebitflix",
+        "init": {
+            "role": {
+                "title": "Mi Rol",
+                "description": "Desarrollador"
+            },
+            "project": {
+                "title": "Proyecto",
+                "description": "Solo"
+            },
+            "timeline": {
+                "title": "Tiempo de Desarrollo",
+                "description": "1,5 meses (2023)"
+            },
+            "tools": {
+                "title": "Herramientas",
+                "description": "Node.js, Express, Sequelize, PostgreSQL, JWT"
+            },
+            "category": "API",
+            "description": "API de Onebitflix, con CRUD completo para categorías y videos, además de autenticación de usuarios utilizando JWT y bcrypt."
         },
-        "project": {
-            "title": "Proyecto",
-            "description": "Solo"
+        "video": {
+            "title": "Video",
+            "description": "Mira el video a continuación para saber más sobre el Backend de Onebitflix y sus características."
         },
-        "timeline": {
-            "title": "Tiempo de Desarrollo",
-            "description": "1,5 meses (2023)"
+        "overview": {
+            "title": "Resumen",
+            "prompt": {
+                "title": "Prompt",
+                "description": "El Backend de Onebitflix fue desarrollado para proporcionar una API robusta y segura, soportando todas las funcionalidades del sitio web de lecciones de programación. La API incluye operaciones CRUD completas para categorías y videos, permitiendo la creación, lectura, actualización y eliminación de datos. Además, la API implementa autenticación de usuarios utilizando JWT y bcrypt, asegurando la seguridad y la integridad de los datos del usuario. Con una arquitectura escalable y eficiente, el Backend de Onebitflix soporta una amplia gama de funcionalidades y garantiza la mejor experiencia de usuario posible."
+            },
+            "design-process": {
+                "title": "Proceso de Diseño",
+                "description": "El proceso de diseño del Backend de Onebitflix comenzó con un análisis detallado de los requisitos funcionales y de seguridad para la API. Desarrollamos la arquitectura y los endpoints de la API, asegurando que todas las operaciones CRUD fueran soportadas de manera eficiente y segura. Implementamos autenticación de usuarios utilizando JWT y bcrypt, asegurando la seguridad de los datos del usuario. Además, diseñamos la página de AdminJs para una mejor administración del cliente con el contenido de la aplicación."
+            }
         },
-        "tools": {
-            "title": "Herramientas",
-            "description": "Node.js, Express, Sequelize, PostgreSQL, JWT"
+        "user-research": {
+            "title": "Investigación de Usuario",
+            "background-research": {
+                "title": "Investigación de Contexto",
+                "description": "La investigación de usuario para el Backend de Onebitflix involucró entrevistas y encuestas con desarrolladores y usuarios de la plataforma. Recogimos información sobre las necesidades y expectativas de los usuarios con respecto a la API, identificando las principales funcionalidades y requisitos de seguridad que debían ser implementados. Basándonos en estos insights, desarrollamos una arquitectura robusta y escalable para la API, asegurando que todas las operaciones CRUD fueran soportadas de manera eficiente y segura, satisfaciendo las necesidades de los usuarios y garantizando la mejor experiencia de uso posible."
+            }
         },
-        "category": "API",
-        "description": "API de Onebitflix, con funcionalidad CRUD completa para categorías y videos, además de autenticación de usuarios usando JWT y bcrypt."
-    },
-    "video": {
-        "title": "Video",
-        "description": "Mira el video a continuación para aprender más sobre el Backend de Onebitflix y sus características."
-    },
-    "overview": {
-        "title": "Resumen",
-        "prompt": {
-            "title": "Promoción",
-            "description": "El Backend de Onebitflix fue desarrollado para proporcionar una API robusta y segura, que soporte todas las funcionalidades del sitio web de lecciones de programación. La API incluye operaciones CRUD completas para categorías y videos, permitiendo la creación, lectura, actualización y eliminación de datos. Además, la API implementa la autenticación de usuarios utilizando JWT y bcrypt, asegurando la seguridad e integridad de los datos del usuario. Con una arquitectura escalable y eficiente, el Backend de Onebitflix soporta una amplia gama de funcionalidades y garantiza la mejor experiencia de usuario posible."
+        "problem-statement": {
+            "challenge": "Desafío",
+            "title": "Declaración del Problema",
+            "description": "Las APIs de las plataformas de aprendizaje en línea necesitan ser seguras y confiables, soportando una amplia gama de funcionalidades y asegurando la integridad de los datos del usuario. Muchos backends de plataformas de cursos enfrentan desafíos al implementar operaciones CRUD completas y autenticación segura, lo que puede comprometer la experiencia del usuario. El Backend de Onebitflix fue diseñado con Sequelize y PostgreSQL, proporcionando una API con las operaciones necesarias para su funcionamiento. Además, ofrece una ruta de administración completa y personalizada para el cliente a través de AdminJs, dando control total sobre el contenido de la aplicación y facilitando el cambio o la adición de nuevos datos."
         },
-        "design-process": {
-            "title": "Proceso de Diseño",
-            "description": "El proceso de diseño del Backend de Onebitflix comenzó con un análisis detallado de los requisitos funcionales y de seguridad para la API. Desarrollamos la arquitectura y los endpoints de la API, asegurando que todas las operaciones CRUD se soportaran de manera eficiente y segura. Implementamos la autenticación de usuarios utilizando JWT y bcrypt, garantizando la seguridad de los datos del usuario. El resultado final es una API robusta y segura, que soporta todas las funcionalidades del sitio web de lecciones de programación y proporciona una experiencia de usuario eficiente y segura."
+        "impact": {
+            "subtitle": "Impacto",
+            "title": "Reflexiones y Resultados",
+            "description": "El Backend de Onebitflix fue el primer backend que hice, y fue realmente un gran desafío. Admito que cuando terminé no entendí mucho de lo que había hecho, pero sin duda fue el mejor punto de partida posible. Aprendí mucho sobre Node.js, Express y Sequelize, además de tener experiencia práctica con JWT y bcrypt. Además, el proyecto cuenta con la integración con AdminJs, un sistema de gestión de contenido que facilita la vida del cliente, lo que añadió mucho a mi aprendizaje."
         }
     },
-    "user-research": {
-        "title": "Investigación de Usuarios",
-        "background-research": {
-            "title": "Investigación de Contexto",
-            "description": "La investigación de usuarios para el Backend de Onebitflix involucró entrevistas y encuestas con desarrolladores y usuarios de la plataforma. Recogimos ideas sobre las necesidades y expectativas de los usuarios con respecto a la API, identificando las principales funcionalidades y requisitos de seguridad que debían implementarse. Basándonos en estas ideas, desarrollamos una arquitectura robusta y escalable para la API, asegurando que todas las operaciones CRUD se soportaran de manera eficiente y segura, satisfaciendo las necesidades de los usuarios y proporcionando la mejor experiencia de uso posible."
-        }
-    },
-    "problem-statement": {
-        "challenge": "Desafío",
-        "title": "Declaración del Problema",
-        "description": "Las APIs para plataformas de aprendizaje en línea necesitan ser robustas y seguras, soportando una amplia gama de funcionalidades y asegurando la integridad de los datos del usuario. Muchos backends de plataformas de cursos enfrentan desafíos al implementar operaciones CRUD completas y autenticación segura, lo que puede comprometer la experiencia del usuario. El Backend de Onebitflix fue diseñado con Sequelize y PostgreSQL, proporcionando una API robusta y segura con operaciones CRUD completas y autenticación de usuarios. Además, ofrece una ruta de administración completa y personalizada a través de AdminJs, permitiendo al cliente tener un control total sobre el contenido de la aplicación y facilitando la modificación o adición de nuevos datos."
-    },
-    "impact": {
-        "subtitle": "Impacto",
-        "title": "Reflexiones y Resultados",
-        "description": "El Backend de Onebitflix fue mi primer proyecto de backend y realmente fue un desafío significativo. Admito que cuando terminé, no entendía completamente todo lo que había hecho, pero sin duda fue el mejor punto de partida posible. Aprendí mucho sobre Node.js, Express y Sequelize, además de obtener experiencia práctica con JWT y bcrypt. El resultado final es una API robusta y segura que soporta todas las funcionalidades del sitio web de lecciones de programación y proporciona una experiencia de usuario eficiente y segura."
-    }
-      },
       "python-analytics": {
     "title": "Python Analytics",
     "init": {
