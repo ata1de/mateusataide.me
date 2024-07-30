@@ -17,7 +17,7 @@ const GridLayout = () => {
         <Image src="/projects/arkan-home.png" width={400} height={500} alt="Building" className="w-full h-full object-cover rounded-3xl" />
         <div className="absolute bottom-0 left-0  bg-opacity-75 text-Black rounded-3xl">
           <h2 className="inline-block w-auto text-xl font-bold leading-tight bg-[#b9d6d1] p-3 rounded-tr-3xl">Arkan Seguro</h2>
-          <h2 className="inline-block w-auto text-xl font-bold leading-tight bg-[#b9d6d1] p-3 rounded-tr-3xl">Website confiável, seguro e cativante</h2>
+          <h2 className="inline-block w-auto text-xl font-bold leading-tight bg-[#b9d6d1] p-3 rounded-tr-3xl">{t('projectDescription')}</h2>
         </div>
       </div>
       <div className="col-span-12 md:col-span-4 md:row-span-8 flex flex-col justify-between bg-[#669b94] text-black p-4 rounded-3xl">
