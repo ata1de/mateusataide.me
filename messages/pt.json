@@ -119,94 +119,143 @@
     "button_source": "Código Fonte"
     },
     "libertas": {
-    "title": "Libertas",
-    "init": {
-        "category": "Aplicativo Móvel",
-        "description": "Um aplicativo móvel para monitorar facilmente as variações de valores das criptomoedas."
-    },
-    "video": {
-        "title": "Vídeo",
-        "description": "Assista ao vídeo abaixo para saber mais sobre o Libertas e seus recursos."
-    },
-    "overview": {
-        "title": "Visão Geral",
-        "prompt": {
-        "title": "Prompt",
-        "description": "Libertas é um aplicativo móvel que permite aos usuários monitorar a variação de valores das criptomoedas. O aplicativo fornece dados em tempo real sobre as criptomoedas mais populares, permitindo que os usuários tomem decisões informadas sobre seus investimentos. Com o Libertas, os usuários podem acompanhar o desempenho de suas criptomoedas favoritas, definir alertas de preços e receber notificações quando os preços atingirem um determinado limite. O aplicativo também apresenta um feed de notícias com as últimas atualizações e novidades sobre criptomoedas, mantendo os usuários informados sobre as tendências e desenvolvimentos do mercado. Seja você um investidor experiente ou apenas começando no mundo das criptomoedas, o Libertas é a ferramenta perfeita para ajudá-lo a ficar por dentro do mercado e tomar decisões de investimento inteligentes."
+        "title": "Libertas",
+        "init": {
+            "role": {
+                "title": "Meu cargo",
+                "description": "Desenvolvedor"
+            },
+            "project": {
+                "title": "Projeto",
+                "description": "Solo"
+            },
+            "timeline": {
+                "title": "Tempo de Desenvolvimento",
+                "description": "2 semanas (2024)"
+            },
+            "tools": {
+                "title": "Ferramentas",
+                "description": "React, Node.js, Express, MongoDB"
+            },
+            "category": "Aplicativo Móvel",
+            "description": "Website para empresas de advocacia, mostrando os seus serviços e sobre a empresa."
         },
-        "design-process": {
-        "title": "Processo de Design",
-        "description": "O processo de design do Libertas começou com uma pesquisa extensa sobre o mercado de criptomoedas e as necessidades dos usuários. Realizamos entrevistas e pesquisas com usuários para coletar insights sobre como as pessoas acompanham os preços das criptomoedas e tomam decisões de investimento. Com base nessa pesquisa, identificamos os recursos e funcionalidades mais valiosos para os usuários, como dados em tempo real, alertas de preços e atualizações de notícias. Em seguida, criamos wireframes e protótipos para visualizar o layout e a funcionalidade do aplicativo, incorporando o feedback dos usuários para refinar o design. O design final apresenta uma interface limpa e intuitiva que facilita o acompanhamento dos preços das criptomoedas e mantém os usuários informados sobre as tendências do mercado."
-        }
-    },
-    "user-research": {
-        "title": "Pesquisa de Usuário",
-        "background-research": {
-        "title": "Pesquisa de Contexto",
-        "description": "A pesquisa de usuário foi uma parte fundamental do processo de design do Libertas. Realizamos entrevistas e pesquisas com investidores em criptomoedas para entender suas necessidades, pontos de dor e preferências. Descobrimos que os usuários queriam um aplicativo móvel que fornecesse dados em tempo real, alertas de preços e atualizações de notícias em uma interface amigável. Eles também expressaram o desejo por um design limpo e intuitivo que facilitasse o acompanhamento dos preços das criptomoedas e a tomada de decisões de investimento informadas. Com base nesse feedback, desenvolvemos personas e histórias de usuários para guiar o processo de design e garantir que o aplicativo atendesse às necessidades de seu público-alvo.",
-        "research-goals": {
-            "title": "Objetivos",
-            "goals": {
-            "goal1": "Entender como os usuários acompanham os preços das criptomoedas e tomam decisões de investimento",
-            "goal2": "Identificar pontos de dor e desafios no processo atual de acompanhamento de criptomoedas",
-            "goal3": "Coletar insights sobre preferências e necessidades dos usuários para um aplicativo de monitoramento de criptomoedas"
+        "video": {
+            "title": "Vídeo",
+            "description": "Assista ao vídeo abaixo para saber mais sobre o Libertas e seus recursos."
+        },
+        "overview": {
+            "title": "Visão Geral",
+            "prompt": {
+            "title": "Prompt",
+            "description": "O website Libertas é um landing page de uma empresa de advocacia,no qual transparece sua missão e valores, serviços e contatos, tudo que é necessário para introduzir uma empresa ao mundo digital e adquirir clientes. O site também oferece um sistema de busca, que facilita a navegação dos usuários e a localização de informações específicas. Com um design moderno e responsivo, o Libertas proporciona uma experiência de usuário agradável e eficiente, ajudando a empresa a se destacar no mercado e atrair novos clientes."
+            },
+            "design-process": {
+            "title": "Processo de Design",
+            "description": "O processo de design do Libertas começou com uma pesquisa extensa sobre o landings pages relacionadas a empresas no ramo de advocacia. Realizei buscas pelo Behance, Dribble e Pinterest, buscando referências e inspirações para realizar o melhor projeto possível"
             }
+        },
+        "user-research": {
+            "title": "Pesquisa de Usuário",
+            "background-research": {
+            "title": "Pesquisa de Contexto",
+            "description": "A pesquisa de usuário foi uma parte fundamental do processo de design do Libertas. Identificar o público-alvo e suas necessidades foi essencial para criar um site que atendesse às expectativas dos usuários. Como se relacionava com uma empresa de advocacia, procurei buscar um design com uma seriedade e formalidade mais acentuadas."
+            },
+            "research-goals": {
+                "title": "Objetivos",
+                "goals": {
+                "goal1": "Entender como os usuários acompanham os preços das criptomoedas e tomam decisões de investimento",
+                "goal2": "Identificar pontos de dor e desafios no processo atual de acompanhamento de criptomoedas",
+                "goal3": "Coletar insights sobre preferências e necessidades dos usuários para um aplicativo de monitoramento de criptomoedas"
+                }
+            }
+        },
+        "problem-statement": {
+            "challenge": "Desafio",
+            "title": "Declaração do Problema",
+            "description": "Lidar com sites mais instituicionais é sempre um desafio, pois é necessário passar a seriedade e confiança que a empresa deseja passar. O Libertas foi projetado para resolver esses problemas, oferecendo um design moderno e responsivo com navegação intuitiva e conteúdo bem organizado. Com um layout elegante e funcionalidade eficiente, o site ajuda a empresa a se destacar no mercado e atrair novos clientes, proporcionando uma experiência de usuário agradável e eficiente."
+        },
+        "impact": {
+            "subtitle": "Impacto",
+            "title": "Reflexões e Resultados",
+            "description": "O Libertas foi um trabalho que me encheu de orgulhos, o primeiro realmente solo que produzi sempre é especial, aprendi deveras tanto com o backend quanto com o front. Introduzir a navegação e principalmente a estilizar o fundo principal com o figma foi desafios pessoais.Além de que foi o primeiro contato com a famigerada biblioteca Shadcn, que na absoluta certeza acrescentou muito no meu leque de habilidades. Por fim, o resultado foi um site que atendeu as expectativas do cliente e que me fez crescer como desenvolvedor."
         }
-        }
-    },
-    "problem-statement": {
-        "challenge": "Desafio",
-        "title": "Declaração do Problema",
-        "description": "O mercado de criptomoedas é altamente volátil, com preços que flutuam rapidamente ao longo do dia. Essa volatilidade pode tornar difícil para os investidores acompanhar os movimentos dos preços e tomar decisões informadas sobre seus investimentos. As ferramentas de acompanhamento de criptomoedas existentes muitas vezes são complexas e difíceis de usar, exigindo que os usuários naveguem por várias telas e menus para acessar as informações de que precisam. Essa complexidade pode ser esmagadora para novos investidores e desencorajá-los de entrar no mercado. O Libertas visa resolver esses desafios oferecendo aos usuários um aplicativo móvel simples e intuitivo que facilita o acompanhamento dos preços das criptomoedas, a definição de alertas de preços e a manutenção informada sobre as tendências do mercado. Ao oferecer dados em tempo real, alertas personalizados e atualizações de notícias, o Libertas capacita os usuários a tomar decisões de investimento inteligentes e se manter à frente do mercado."
-    },
-    "impact": {
-        "subtitle": "Impacto",
-        "title": "Reflexões e Resultados",
-        "description": "O Libertas tem o potencial de causar um impacto significativo no mercado de criptomoedas, fornecendo aos usuários uma ferramenta poderosa para acompanhar os preços, definir alertas e se manter informados sobre as tendências do mercado. Os dados em tempo real e os alertas personalizados do aplicativo permitem que os usuários tomem decisões informadas sobre seus investimentos, ajudando-os a maximizar seus retornos e minimizar seus riscos. Ao oferecer atualizações de notícias curadas e análises de mercado, o Libertas mantém os usuários informados sobre os desenvolvimentos mais recentes no mundo das criptomoedas, capacitando-os a se manter à frente do mercado e tomar decisões de investimento inteligentes. Seja você um investidor experiente ou apenas começando no mundo das criptomoedas, o Libertas é a ferramenta perfeita para ajudá-lo a navegar no mercado e aproveitar ao máximo seus investimentos."
-    }
+
     },
     "ecommerce-store": {
-    "title": "Modelo de Site de E-commerce",
-    "init": {
-        "category": "Aplicativo Web",
-        "description": "Modelo de e-commerce moderno com layout responsivo e navegação intuitiva, ideal para lojas de moda online."
-    },
-    "video": {
-        "title": "Vídeo",
-        "description": "Assista ao vídeo abaixo para saber mais sobre o modelo de site de e-commerce e seus recursos."
-    },
-    "overview": {
-        "title": "Visão Geral",
-        "prompt": {
-        "title": "Prompt",
-        "description": "O modelo de site de e-commerce é projetado para fornecer uma plataforma moderna e responsiva para lojas de moda online. Com um design elegante e navegação intuitiva, o modelo facilita a navegação dos usuários pelos produtos e a realização de compras. O modelo inclui recursos como carrinho de compras, checkout seguro, e integração com gateways de pagamento populares, garantindo uma experiência de compra perfeita e segura para os clientes."
+        "title": "Modelo de Site de E-commerce",
+        "init": {
+            "role": {
+                "title": "Meu cargo",
+                "description": "Desenvolvedor"
+            },
+            "project": {
+                "title": "Projeto",
+                "description": "Solo"
+            },
+            "timeline": {
+                "title": "Tempo de Desenvolvimento",
+                "description": "1 mês (2024)"
+            },
+            "tools": {
+                "title": "Ferramentas",
+                "description": "React, Typescript, Tailwind "
+            },
+            "category": "Aplicativo Web",
+            "description": "Modelo de e-commerce moderno com layout responsivo e navegação intuitiva, ideal para lojas de moda online."
         },
-        "design-process": {
-        "title": "Processo de Design",
-        "description": "O processo de design do modelo de site de e-commerce começou com uma análise detalhada das tendências de design de sites de moda e das necessidades dos usuários. Desenvolvemos wireframes e protótipos para visualizar o layout e a funcionalidade do site, incorporando feedback de usuários para refinar o design. O resultado final é um modelo de site de e-commerce com um design moderno e funcionalidade intuitiva, proporcionando uma experiência de compra agradável e eficiente."
+        "video": {
+            "title": "Vídeo",
+            "description": "Assista ao vídeo abaixo para saber mais sobre o modelo de site de e-commerce e seus recursos."
+        },
+        "overview": {
+            "title": "Visão Geral",
+            "prompt": {
+            "title": "Prompt",
+            "description": "O modelo de site de e-commerce é projetado para fornecer uma plataforma moderna e responsiva para lojas de moda online. Com um design elegante e navegação intuitiva, o modelo facilita a navegação dos usuários pelos produtos e a realização de compras."
+            },
+            "design-process": {
+            "title": "Processo de Design",
+            "description": "O processo de design do modelo de site de e-commerce começou com uma análise dos designs de lojas online no Youtube e Behance. O resultado final é um modelo de site de e-commerce com um design moderno e funcionalidade intuitiva, proporcionando uma experiência de compra agradável e eficiente."
+            }
+        },
+        "user-research": {
+            "title": "Pesquisa de Usuário",
+            "background-research": {
+            "title": "Pesquisa de Contexto",
+            "description": "A pesquisa de usuário para o modelo de site de e-commerce envolveu entrevistas e pesquisas com proprietários de lojas de moda e consumidores. Identificamos as principais necessidades e desafios enfrentados pelos usuários ao navegar e fazer compras online. Com base nesses insights, desenvolvemos personas e histórias de usuários para guiar o processo de design, garantindo que o modelo atendesse às expectativas e necessidades dos usuários."
+            }
+        },
+        "problem-statement": {
+            "challenge": "Desafio",
+            "title": "Declaração do Problema",
+            "description": "Eccomerce Store foi minha primeira experiência com o React, de tabela veio consigo o desafio de ligar com context e lógica de carrinhos de compras. Além disso, foi um desafio pessoal a estilização do site, pois acredito que a estética é um dos pontos mais importantes de um site de vendas. O modelo de site de e-commerce foi projetado para resolver esses problemas, oferecendo um design moderno e responsivo com navegação intuitiva e conteúdo bem organizado. Com um layout elegante e funcionalidade eficiente, o modelo ajuda as lojas de moda a proporcionar uma experiência de compra agradável e eficiente para seus clientes."
+        },
+        "impact": {
+            "subtitle": "Impacto",
+            "title": "Reflexões e Resultados",
+            "description": "Fico bastante satisfeito com o resultado desse projeto, para o início me agrada muito a forma que foi feito e a entrega final. Tenho algumas críticas no desing da tabela de produtos, que foi algo incrementado posteriormente, porém acredito que o resultado final foi bastante satisfatório. Acredito que o modelo de site de e-commerce tem o potencial de ajudar as lojas de moda a melhorar a experiência de compra de seus clientes."
         }
-    },
-    "user-research": {
-        "title": "Pesquisa de Usuário",
-        "background-research": {
-        "title": "Pesquisa de Contexto",
-        "description": "A pesquisa de usuário para o modelo de site de e-commerce envolveu entrevistas e pesquisas com proprietários de lojas de moda e consumidores. Identificamos as principais necessidades e desafios enfrentados pelos usuários ao navegar e fazer compras online. Com base nesses insights, desenvolvemos personas e histórias de usuários para guiar o processo de design, garantindo que o modelo atendesse às expectativas e necessidades dos usuários."
-        }
-    },
-    "problem-statement": {
-        "challenge": "Desafio",
-        "title": "Declaração do Problema",
-        "description": "Lojas de moda online enfrentam desafios ao fornecer uma experiência de compra agradável e eficiente para seus clientes. Muitos sites de e-commerce têm layouts complicados e processos de checkout difíceis, o que pode desencorajar os clientes de fazerem compras. O modelo de site de e-commerce foi projetado para resolver esses problemas, oferecendo uma plataforma moderna e responsiva com uma navegação intuitiva e um processo de checkout seguro. Com um design elegante e recursos integrados, o modelo proporciona uma experiência de compra perfeita e agradável para os usuários."
-    },
-    "impact": {
-        "subtitle": "Impacto",
-        "title": "Reflexões e Resultados",
-        "description": "O modelo de site de e-commerce tem o potencial de transformar a experiência de compra online para lojas de moda, proporcionando uma plataforma moderna e funcional. Com um design responsivo e navegação intuitiva, o modelo facilita a navegação dos clientes e a realização de compras, aumentando a satisfação e fidelidade dos clientes. A integração com gateways de pagamento populares e o processo de checkout seguro garantem uma experiência de compra tranquila e segura, ajudando as lojas a maximizar suas vendas e proporcionar um excelente serviço ao cliente."
-    }
     },
    "arkan-seguros": {
         "title": "Website Arkan Seguros",
         "init": {
+            "role": {
+                "title": "Meu cargo",
+                "description": "Desenvolvedor"
+            },
+            "project": {
+                "title": "Projeto",
+                "description": "Solo"
+            },
+            "timeline": {
+                "title": "Tempo de Desenvolvimento",
+                "description": "1,5 mês (2024)"
+            },
+            "tools": {
+                "title": "Ferramentas",
+                "description": "Next, Tanstack Query, Next, Firebase, Nodemailer, ShadcnUi"
+            },
             "category": "Website",
             "description": "Website da Arkan Seguros com design moderno e responsivo, destacando os valores e a missão da empresa para atrair e reter clientes."
         },
@@ -244,49 +293,81 @@
         }
     },
     "dashboard-arkan-seguros": {
-    "title": "Dashboard Arkan Seguros",
-    "init": {
-        "category": "Aplicativo Web",
-        "description": "Dashboard da Arkan Seguros com design moderno e responsivo, apresentando gráficos e informações importantes para a empresa."
-    },
-    "video": {
-        "title": "Vídeo",
-        "description": "Assista ao vídeo abaixo para saber mais sobre o Dashboard da Arkan Seguros e seus recursos."
-    },
-    "overview": {
-        "title": "Visão Geral",
-        "prompt": {
-        "title": "Prompt",
-        "description": "O Dashboard da Arkan Seguros foi desenvolvido para fornecer uma visão abrangente e em tempo real dos dados da empresa, ajudando na tomada de decisões estratégicas. Com um design moderno e responsivo, o dashboard apresenta gráficos e informações importantes, permitindo que os usuários acompanhem o desempenho da empresa e identifiquem tendências e oportunidades. O dashboard também oferece ferramentas de análise avançada, facilitando a interpretação dos dados e o planejamento estratégico."
+        "title": "Dashboard Arkan Seguros",
+        "init": {
+            "role": {
+                "title": "Meu cargo",
+                "description": "Desenvolvedor"
+                },
+                "project": {
+                    "title": "Projeto",
+                    "description": "Solo"
+                },
+                "timeline": {
+                    "title": "Tempo de Desenvolvimento",
+                    "description": "1,5 mês (2024)"
+                },
+                "tools": {
+                    "title": "Ferramentas",
+                    "description": "Next, NextApi, Tanstack Query, Firebase, Recharts, ShadcnUi"
+                },
+                "category": "Aplicativo Web",
+                "description": "Dashboard da Arkan Seguros com design moderno e responsivo, apresentando gráficos e informações importantes para a empresa."
         },
-        "design-process": {
-        "title": "Processo de Design",
-        "description": "O processo de design do Dashboard da Arkan Seguros começou com uma análise detalhada das necessidades dos usuários e das melhores práticas de design para dashboards corporativos. Desenvolvemos wireframes e protótipos para visualizar o layout e a funcionalidade do dashboard, incorporando feedback de usuários para refinar o design. O resultado final é um dashboard moderno e responsivo que apresenta informações importantes de forma clara e acessível, ajudando a empresa a tomar decisões estratégicas informadas."
+        "video": {
+            "title": "Vídeo",
+            "description": "Assista ao vídeo abaixo para saber mais sobre o Dashboard da Arkan Seguros e seus recursos."
+        },
+        "overview": {
+            "title": "Visão Geral",
+            "prompt": {
+            "title": "Prompt",
+            "description": "O Dashboard da Arkan Seguros foi desenvolvido para fornecer uma visão abrangente e em tempo real dos dados da empresa, ajudando na tomada de decisões estratégicas. Com um design moderno e responsivo, o dashboard apresenta gráficos e informações importantes, permitindo que os usuários acompanhem o desempenho da empresa e identifiquem tendências e oportunidades. O dashboard também oferece ferramentas de análise avançada, facilitando a interpretação dos dados e o planejamento estratégico."
+            },
+            "design-process": {
+            "title": "Processo de Design",
+            "description": "O processo de design do Dashboard da Arkan Seguros começou com uma análise detalhada das necessidades dos usuários e das melhores práticas de design para dashboards corporativos. Desenvolvemos wireframes e protótipos para visualizar o layout e a funcionalidade do dashboard, incorporando feedback de usuários para refinar o design. O resultado final é um dashboard moderno e responsivo que apresenta informações importantes de forma clara e acessível, ajudando a empresa a tomar decisões estratégicas informadas."
+            }
+        },
+        "user-research": {
+            "title": "Pesquisa de Usuário",
+            "background-research": {
+            "title": "Pesquisa de Contexto",
+            "description": "A pesquisa de usuário para o Dashboard da Arkan Seguros envolveu entrevistas e pesquisas com funcionários e gestores da empresa. Coletamos insights sobre as necessidades e expectativas dos usuários em relação ao dashboard, identificando as principais métricas e informações que deveriam ser destacadas. Com base nesses insights, desenvolvemos personas e histórias de usuários para guiar o processo de design, garantindo que o dashboard atendesse às necessidades de seu público-alvo."
+            }
+        },
+        "problem-statement": {
+            "challenge": "Desafio",
+            "title": "Declaração do Problema",
+            "description": "Empresas de seguros precisam de um dashboard que forneça uma visão abrangente e em tempo real dos dados da empresa, ajudando na tomada de decisões estratégicas. Muitos dashboards corporativos são complicados e difíceis de usar, o que pode limitar sua eficácia. O Dashboard da Arkan Seguros foi projetado para resolver esses problemas, oferecendo um design moderno e responsivo com gráficos e informações importantes apresentados de forma clara e acessível. Com ferramentas de análise avançada, o dashboard facilita a interpretação dos dados e o planejamento estratégico, ajudando a empresa a identificar tendências e oportunidades."
+        },
+        "impact": {
+            "subtitle": "Impacto",
+            "title": "Reflexões e Resultados",
+            "description": "O Dashboard da Arkan Seguros tem o potencial de transformar a maneira como a empresa acompanha e interpreta seus dados, fornecendo uma ferramenta poderosa para a tomada de decisões estratégicas. Com um design moderno e responsivo, o dashboard apresenta informações importantes de forma clara e acessível, ajudando a empresa a identificar tendências e oportunidades. As ferramentas de análise avançada facilitam a interpretação dos dados e o planejamento estratégico, permitindo que a Arkan Seguros tome decisões informadas e melhore seu desempenho no mercado."
         }
-    },
-    "user-research": {
-        "title": "Pesquisa de Usuário",
-        "background-research": {
-        "title": "Pesquisa de Contexto",
-        "description": "A pesquisa de usuário para o Dashboard da Arkan Seguros envolveu entrevistas e pesquisas com funcionários e gestores da empresa. Coletamos insights sobre as necessidades e expectativas dos usuários em relação ao dashboard, identificando as principais métricas e informações que deveriam ser destacadas. Com base nesses insights, desenvolvemos personas e histórias de usuários para guiar o processo de design, garantindo que o dashboard atendesse às necessidades de seu público-alvo."
-        }
-    },
-    "problem-statement": {
-        "challenge": "Desafio",
-        "title": "Declaração do Problema",
-        "description": "Empresas de seguros precisam de um dashboard que forneça uma visão abrangente e em tempo real dos dados da empresa, ajudando na tomada de decisões estratégicas. Muitos dashboards corporativos são complicados e difíceis de usar, o que pode limitar sua eficácia. O Dashboard da Arkan Seguros foi projetado para resolver esses problemas, oferecendo um design moderno e responsivo com gráficos e informações importantes apresentados de forma clara e acessível. Com ferramentas de análise avançada, o dashboard facilita a interpretação dos dados e o planejamento estratégico, ajudando a empresa a identificar tendências e oportunidades."
-    },
-    "impact": {
-        "subtitle": "Impacto",
-        "title": "Reflexões e Resultados",
-        "description": "O Dashboard da Arkan Seguros tem o potencial de transformar a maneira como a empresa acompanha e interpreta seus dados, fornecendo uma ferramenta poderosa para a tomada de decisões estratégicas. Com um design moderno e responsivo, o dashboard apresenta informações importantes de forma clara e acessível, ajudando a empresa a identificar tendências e oportunidades. As ferramentas de análise avançada facilitam a interpretação dos dados e o planejamento estratégico, permitindo que a Arkan Seguros tome decisões informadas e melhore seu desempenho no mercado."
-    }
-    },
+        },
     "onebitflix-front": {
     "title": "Onebitflix",
     "init": {
-        "category": "Aplicativo Web",
-        "description": "Website de aulas de programação, com design moderno e responsivo, navegação intuitiva e fácil de usar, e um player de vídeo personalizado."
+        "role": {
+            "title": "Meu cargo",
+            "description": "Desenvolvedor"
+            },
+            "project": {
+                "title": "Projeto",
+                "description": "Solo"
+            },
+            "timeline": {
+                "title": "Tempo de Desenvolvimento",
+                "description": "1,5 mês (2023)"
+            },
+            "tools": {
+                "title": "Ferramentas",
+                "description": "React, Bootstrap, React-Modal, Sass, Splide.js"
+            },
+            "category": "Aplicativo Web",
+            "description": "Website de aulas de programação, com design moderno e responsivo, navegação intuitiva e fácil de usar, e um player de vídeo personalizado."
     },
     "video": {
         "title": "Vídeo",
@@ -324,8 +405,24 @@
     "onebitflix-back": {
     "title": "Backend do Onebitflix",
     "init": {
-        "category": "API",
-        "description": "API do Onebitflix, com CRUD completo para categorias e vídeos, além de autenticação de usuários usando JWT e bcrypt."
+        "role": {
+            "title": "Meu cargo",
+            "description": "Desenvolvedor"
+            },
+            "project": {
+                "title": "Projeto",
+                "description": "Solo"
+            },
+            "timeline": {
+                "title": "Tempo de Desenvolvimento",
+                "description": "1,5 mês (2023)"
+            },
+            "tools": {
+                "title": "Ferramentas",
+                "description": "Node.js, Express, Sequelize, PostgreSQL, JWT"
+            },
+            "category": "API",
+            "description": "API do Onebitflix, com CRUD completo para categorias e vídeos, além de autenticação de usuários usando JWT e bcrypt."
     },
     "video": {
         "title": "Vídeo",
@@ -363,8 +460,24 @@
     "python-analytics": {
     "title": "Python Analytics",
     "init": {
-        "category": "API",
-        "description": "Dashboard de análise de dados com Python, apresentando gráficos e informações importantes para a empresa."
+        "role": {
+            "title": "Meu cargo",
+            "description": "Desenvolvedor"
+            },
+            "project": {
+                "title": "Projeto",
+                "description": "Solo"
+            },
+            "timeline": {
+                "title": "Tempo de Desenvolvimento",
+                "description": "3 dias (2023)"
+            },
+            "tools": {
+                "title": "Ferramentas",
+                "description": "Pandas, Streamlit, Ploty"
+            },
+            "category": "API",
+            "description": "Dashboard de análise de dados com Python, apresentando gráficos e informações importantes para a empresa."
     },
     "video": {
         "title": "Vídeo",
@@ -399,6 +512,6 @@
         "description": "O Python Analytics tem o potencial de transformar a maneira como as empresas analisam e interpretam seus dados, fornecendo uma ferramenta poderosa e acessível para a análise de dados. Com um design moderno e responsivo, o dashboard apresenta informações importantes de forma clara e acessível, ajudando as empresas a identificar tendências e oportunidades. As ferramentas de análise avançada facilitam a interpretação dos dados e o planejamento estratégico, permitindo que as empresas tomem decisões informadas e melhorem seu desempenho no mercado."
     }
     }
-  }
   
+}
 }

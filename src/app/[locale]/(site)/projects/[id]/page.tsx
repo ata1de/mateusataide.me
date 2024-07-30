@@ -60,23 +60,23 @@ const DetailsProjectPage = () => {
 
                         <div className="flex justify-between">
                             <div className="flex flex-col justify-center items-center gap-1">
-                                <p className="text-sm font-semibold">My role</p>
-                                <p className="text-sm ">Developer</p>
+                                <p className="text-sm font-semibold">{init('role.title')}</p>
+                                <p className="text-sm ">{init('role.description')}</p>
                             </div>
 
                             <div className="flex flex-col justify-center items-center gap-1">
-                                <p className="text-sm font-semibold">Project</p>
-                                <p className="text-sm">Self-initiated</p>
+                                <p className="text-sm font-semibold">{init('project.title')}</p>
+                                <p className="text-sm">{init('project.description')}</p>
                             </div>
 
                             <div className="flex flex-col justify-center items-center gap-1">
-                                <p className="text-sm font-semibold">Timeline</p>
-                                <p className="text-sm">1 months(2024)</p>
+                                <p className="text-sm font-semibold">{init('timeline.title')}</p>
+                                <p className="text-sm">{init('timeline.description')}</p>
                             </div>
 
                             <div className="flex flex-col justify-center items-center gap-1">
-                                <p className="text-sm font-semibold">Tools Used</p>
-                                <p className="text-sm">docker</p>
+                                <p className="text-sm font-semibold">{init('tools.title')}</p>
+                                <p className="text-sm">{init('tools.description')}</p>
                             </div>
                         </div>
                     </div>
@@ -116,6 +116,7 @@ const DetailsProjectPage = () => {
                         <p className="text-sm text-[#95BFB8] mb-2 ">{problem('challenge')}</p>
                         <p className="mb-4 font-semibold text-xl text-[#F6F6F6]">{problem('title')}</p>
                         <p className="mb-10 text-[#F6F6F6]">{problem('description')}</p>
+                        <Image src='/projects/question.svg' alt={project.id} width={180} height={180} />
                     </div>
                 </div>
             </div>
