@@ -1,5 +1,6 @@
 'use client'
 
+import SlideIn from "@/components/animations/slideInLeft"
 import { projectsListHome, ProjectType } from "@/config/projects"
 import { ArrowLeftCircle, Loader2Icon } from "lucide-react"
 import { useTranslations } from "next-intl"
@@ -52,32 +53,42 @@ const DetailsProjectPage = () => {
             <div className="w-full">
                 <div className="max-w-[1056px] mx-auto px-3 sm:px-10 my-7">
                     <div className="flex flex-col gap-6 justify-center items-left w-full">
-                        <div className="flex flex-col">
-                            <p className="text-sm text-[#95BFB8] font-medium">{init('category')}</p>
-                            <p className="mb-4 font-semibold text-xl">{projectDetails('title')}</p>
-                            <p>{init('description')}</p>
-                        </div>
+                        <SlideIn>
+                            <div className="flex flex-col">
+                                <p className="text-sm text-[#95BFB8] font-medium">{init('category')}</p>
+                                <p className="mb-4 font-semibold text-xl">{projectDetails('title')}</p>
+                                <p>{init('description')}</p>
+                            </div>
+                        </SlideIn>
 
                         <div className="flex justify-between">
+                        <SlideIn>
                             <div className="flex flex-col justify-center items-center gap-1">
                                 <p className="text-sm font-semibold">{init('role.title')}</p>
                                 <p className="text-sm ">{init('role.description')}</p>
                             </div>
+                        </SlideIn>
 
+                        <SlideIn>
                             <div className="flex flex-col justify-center items-center gap-1">
                                 <p className="text-sm font-semibold">{init('project.title')}</p>
                                 <p className="text-sm">{init('project.description')}</p>
                             </div>
+                        </SlideIn>
 
+                        <SlideIn>
                             <div className="flex flex-col justify-center items-center gap-1">
                                 <p className="text-sm font-semibold">{init('timeline.title')}</p>
                                 <p className="text-sm">{init('timeline.description')}</p>
                             </div>
+                        </SlideIn>
 
+                        <SlideIn>
                             <div className="flex flex-col justify-center items-center gap-1">
                                 <p className="text-sm font-semibold">{init('tools.title')}</p>
                                 <p className="text-sm">{init('tools.description')}</p>
-                            </div>
+                            </div>   
+                        </SlideIn>
                         </div>
                     </div>
                 </div>
@@ -100,36 +111,43 @@ const DetailsProjectPage = () => {
             <div className={`w-full ${project.project_video.length == 0 && 'bg-[#f8f8f8]'}`}>
                 <div className="max-w-[1056px] mx-auto px-3 sm:px-10 my-7 ">
                     <div className="flex flex-col">
-                        <p className="text-sm text-[#95BFB8] mb-2">{overview('title')}</p>
-                        <p className="mb-4 font-semibold text-xl">{overview('prompt.title')}</p>
-                        <p className="mb-10">{overview('prompt.description')}</p>
+                        <SlideIn>
+                            <p className="text-sm text-[#95BFB8] mb-2">{overview('title')}</p>
+                            <p className="mb-4 font-semibold text-xl">{overview('prompt.title')}</p>
+                            <p className="mb-10">{overview('prompt.description')}</p>         
+                        </SlideIn>
 
-                        <p className="mb-4 font-semibold text-xl">{overview('design-process.title')}</p>
-                        <p>{overview('design-process.description')}</p>
+                        <SlideIn>
+                            <p className="mb-4 font-semibold text-xl">{overview('design-process.title')}</p>
+                            <p>{overview('design-process.description')}</p>
+                        </SlideIn>
                     </div>
                 </div>
             </div>
 
             <div className="w-full bg-FooterBg">
                 <div className="max-w-[1056px] mx-auto px-3 sm:px-10 my-7 ">
-                    <div className="flex flex-col">
-                        <p className="text-sm text-[#95BFB8] mb-2 ">{problem('challenge')}</p>
-                        <p className="mb-4 font-semibold text-xl text-[#F6F6F6]">{problem('title')}</p>
-                        <p className="mb-10 text-[#F6F6F6]">{problem('description')}</p>
-                        <Image src='/projects/question.svg' alt={project.id} width={180} height={180} />
-                    </div>
+                    <SlideIn>
+                        <div className="flex flex-col">
+                            <p className="text-sm text-[#95BFB8] mb-2 ">{problem('challenge')}</p>
+                            <p className="mb-4 font-semibold text-xl text-[#F6F6F6]">{problem('title')}</p>
+                            <p className="mb-10 text-[#F6F6F6]">{problem('description')}</p>
+                            <Image src='/projects/question.svg' alt={project.id} width={180} height={180} />
+                        </div>
+                    </SlideIn>
                 </div>
             </div>
 
             <div className="w-full">
-                <div className="max-w-[1056px] mx-auto px-3 sm:px-10 my-7 ">
-                    <div className="flex flex-col">
-                        <p className="text-sm text-[#95BFB8] mb-2">{impact('subtitle')}</p>
-                        <p className="mb-4 font-semibold text-xl">{impact('title')}</p>
-                        <p className="mb-10">{impact('description')}</p>
-
+                <SlideIn>
+                    <div className="max-w-[1056px] mx-auto px-3 sm:px-10 my-7 ">
+                        <div className="flex flex-col">
+                            <p className="text-sm text-[#95BFB8] mb-2">{impact('subtitle')}</p>
+                            <p className="mb-4 font-semibold text-xl">{impact('title')}</p>
+                            <p className="mb-10">{impact('description')}</p>
+                        </div>
                     </div>
-                </div>
+                </SlideIn>
             </div>
         </div>
     )

@@ -20,9 +20,7 @@ export default function Home() {
     <div className="w-full">
       <div className="">
         <div className="relative w-full min-h-[100px]">
-          <SlideIn>
             <Hero/>
-          </SlideIn>
         </div>
 
         <div className="mt-16 flex justify-start min-h-[400px] bg-[#f8f8f8] pb-8">
