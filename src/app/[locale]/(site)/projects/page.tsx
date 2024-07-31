@@ -1,7 +1,6 @@
 import CardProject from "@/components/cardProject";
 import { Separator } from "@/components/ui/separator";
 import { projectsListHome } from "@/config/projects";
-import { ArrowUpRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 export default function StackPage() {
@@ -9,10 +8,10 @@ export default function StackPage() {
 
     return (
         <div className="w-full flex justify-center items-center mt-9 mb-8">
-            <div className="max-w-[1056px] mx-auto px-3 sm:px-10">
+            <div className="max-w-[1056px] mx-4 min-[426px]:mx-auto min-[426px]:px-3 min-[426px]:sm:px-10">
                 <div className="flex-col gap-2 flex mb-2">
                     <p className="text-4xl font-semibold pb-2">{t('title')}</p>
-                    <p className="text-lg text-wrap text-[rgb(109,109,109)] pb-2 flex justify-start">{t('description')}<span className="text-Green underline flex justify-center items-center ml-1">Github <ArrowUpRight size={20} /></span></p>
+                    <p className="text-lg text-wrap text-[rgb(109,109,109)] pb-2 flex justify-start">{t('description')}</p>
                 </div>
 
                 <Separator className="bg-zinc-500"/>

@@ -75,6 +75,10 @@
       "introduction": {
         "role": "Software Developer"
       },
+      "images": {
+        "cin": "Image of CIN (Center for Informatics at UFPE), one of the most renowned teaching and research centers in computing in Brazil and Latin America",
+        "letoleto": "Image of the final project of the Programming I course, a game simulating Bomberman, called Lequeleto"
+    },
       "experiences": {
       "title": "Experiences",
       "algorithm-monitor": {

@@ -75,6 +75,10 @@
         "introduction": {
             "role": "Desenvolvedor de Software"
         },
+        "images": {
+            "cin": "Imagem do CIN (Centro de Informática da UFPE) um dos mais renomados centros de ensino e pesquisa em computação do Brasil e da América Latina",
+            "letoleto": "Imagem do projeto final da cadeira de Programação I, um jogo simulando o Bomberman, chamado Lequeleto"
+        },
         "experiences": {
             "title": "Experiências",
             "algorithm-monitor": {

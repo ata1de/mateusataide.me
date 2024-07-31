@@ -13,10 +13,11 @@ export default function About() {
     const academic = useTranslations("About.description.Academic");
     const interests = useTranslations("About.description.Interests");
     const experiences = useTranslations("About.experiences");
+    const images = useTranslations("About.images");
 
     return (
         <div className="w-full flex justify-center items-center mb-5">
-            <div className="max-w-[1056px] mx-auto px-10">
+            <div className="max-w-[1056px] mx-auto px-3 sm:px-10">
                 <div className="flex flex-col py-7 gap-3">
                     <SlideIn>
                         <div className="flex gap-4">
@@ -46,9 +47,15 @@ export default function About() {
                             <p>{academic("description")}  <Link target="_blank" href={"https://github.com/ata1de/AtomiKingdom"}><span className="underline text-[#669B94] font-semibold">Lequeleto</span></Link></p>
                         </SlideIn>
 
-                        <div className="flex justify-center items-center gap-8 max-[730px]:flex-col my-4 ">  
-                            <Image className="h-[350px] w-[350px]" src="/about/cin.png" alt="CIN logo" height={350} width={350}/>
-                            <Image className="h-[350px]" src="/about/letoleto.png" alt="Game lequeleto" height={300} width={300}/>
+                        <div className="flex justify-center items-center gap-8 max-[730px]:flex-col my-4 ">
+                            <div className="flex flex-col justify-center items-center gap-2  h-[400px]">
+                                <Image className="h-[350px] w-[350px]" src="/about/cin.png" alt="CIN logo" height={300} width={300}/>
+                                <p className="text-sm italic underline max-w-[350px] text-wrap text-slate-800">{images('cin')}</p>
+                            </div>
+                            <div className="flex flex-col justify-center items-center gap-2  h-[400px]">
+                                <Image className="h-[350px] w-[350px]" src="/about/letoleto.png" alt="Game lequeleto" height={300} width={300}/>
+                                <p className="text-sm italic underline max-w-[350px] text-wrap text-slate-800">{images('letoleto')}</p>
+                            </div>  
                         </div>
                     </div>
 

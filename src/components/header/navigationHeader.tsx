@@ -29,7 +29,7 @@ export function NavigationMenuDemo({ isPhone=false }: NavigationMenuProps) {
         <NavigationMenuItem >
           <NavigationMenuTrigger className={`${isPhone ? '': 'px-4 py-2'} leading-5 no-underline text-[14px] font-medium rounded-md bg-transparent`}>Tech</NavigationMenuTrigger>
           <NavigationMenuContent >
-            <ul className="flex flex-col w-[300px] max-[1024px]:overflow-scroll gap-3 p-4  ">
+            <ul className={`flex flex-col w-[200px] min-[450px]:w-[300px] max-[1024px]:overflow-scroll gap-3 p-4`}>
             <Link href={`/${currentLocale}/projects`}>
               <ListItem
               title={`${projects('title')}`}
