@@ -52,7 +52,7 @@ export const projectsListHome: ProjectType[] = [
         image: "/projects/mockup-onebitflix.png",
         image_details: "/projects/onebitflix-details.png",
         link_visit: "",
-        link_source: "https://github.com/ata1de/onebitflix_front",
+        link_source: "https://github.com/ata1de/onebitflix_frontend",
         project_video: 'https://github.com/user-attachments/assets/f7df90c5-a8f4-4d20-bdef-6615c3afd56b',
         category: "front-end",
     },
