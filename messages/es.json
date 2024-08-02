@@ -572,8 +572,70 @@
       "title": "Reflexiones y Resultados",
       "description": "El desarrollo del backend de Libertas fue una experiencia enriquecedora, involucrando la implementación de una API completa y el uso de herramientas modernas como Prisma y Typescript. El proyecto no solo cumplió con las necesidades del frontend, sino que también proporcionó aprendizajes valiosos en diseño de API e integración de sistemas. Es notable que este proyecto fue mi primer despliegue exitoso en Render, lo que amplió significativamente mi conocimiento sobre el despliegue de aplicaciones."
     }
+    },
+    "planner-back": {
+        "title": "Backend del Planificador",
+        "init": {
+        "role": {
+            "title": "Mi Rol",
+            "description": "Desarrollador"
+        },
+        "project": {
+            "title": "Proyecto",
+            "description": "Solo"
+        },
+        "timeline": {
+            "title": "Tiempo de Desarrollo",
+            "description": "3 días (2024)"
+        },
+        "tools": {
+            "title": "Herramientas",
+            "description": "Typescript, Fastify, Cors, SQLite, Prisma, Nodemailer, Swagger, Dayjs, Zod"
+        },
+        "category": "Backend",
+        "description": "Backend para un planificador de viajes."
+        },
+        "video": {
+        "title": "Video",
+        "description": "Mira el video a continuación para saber más sobre el Planificador y sus características."
+        },
+        "overview": {
+        "title": "Visión General",
+        "prompt": {
+            "title": "Indicación",
+            "description": "El backend del Planificador proporciona una API robusta para la gestión de viajes. Incluye puntos finales para crear, buscar, listar y eliminar viajes, y también ofrece la capacidad de invitar a amigos al viaje por correo electrónico, enviar enlaces de invitación, crear actividades para realizar durante el viaje, así como ver y editar sus detalles."
+        },
+        "design-process": {
+            "title": "Proceso de Diseño",
+            "description": "El proceso de desarrollo del backend incluyó la elección de herramientas y tecnologías adecuadas, como Typescript y Prisma. Las principales decisiones fueron en las relaciones entre tablas y en la prueba de envío de correos electrónicos, así como la implementación de Zod para la validación de datos."
+        }
+        },
+        "user-research": {
+        "title": "Investigación del Usuario",
+        "background-research": {
+            "title": "Investigación de Contexto",
+            "description": "La investigación de usuarios para el backend involucró la definición de requisitos y la creación de una API que cumpliera con las necesidades de gestión de viajes. El enfoque fue garantizar que la API fuera intuitiva y fácil de integrar con el frontend."
+        },
+        "research-goals": {
+            "title": "Objetivos",
+            "goals": {
+            "goal1": "Desarrollar una API eficiente para la gestión de servicios y clientes",
+            "goal2": "Asegurar que la API sea segura y adaptable a futuros cambios",
+            "goal3": "Facilitar la integración con el frontend y el mantenimiento del proyecto"
+            }
+        }
+        },
+        "problem-statement": {
+        "challenge": "Desafío",
+        "title": "Declaración del Problema",
+        "description": "El principal desafío de este proyecto fue manejar la creación de invitaciones para viajes, lo que involucró la creación de un sistema de envío de correos electrónicos y la generación de enlaces de invitación. La aplicación debe identificar, a partir de algún ID ubicado en el localStorage, que el usuario ya está en un viaje y redirigirlo a la página de detalles del viaje. Además, la validación de datos y la integración con el frontend fueron desafíos importantes para garantizar la eficiencia y seguridad de la API."
+        },
+        "impact": {
+        "subtitle": "Impacto",
+        "title": "Reflexiones y Resultados",
+        "description": "Este proyecto fue mi primera experiencia con Fastify, y me encantaron sus integraciones con Zod y su sistema de plugins. También mejoró mis habilidades de backend y manejo con Prisma. Completar el proyecto en 3 días fue un gran desafío, pero me enseñó mucho sobre organización y planificación de proyectos. El resultado final es un backend que cumple con las necesidades del frontend y proporciona una experiencia de usuario agradable y eficiente."
+        }
     }
   }
-
 }
   
