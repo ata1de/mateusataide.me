@@ -509,7 +509,70 @@
         "title": "Reflexiones y Resultados",
         "description": "Estoy bastante orgulloso de este proyecto, uno de los primeros que realicé con mi 'lengua materna', Python. Construí esta página para mostrar lo que podemos lograr con el lenguaje y cuán poderoso es. Aprendí mucho sobre Pandas, Streamlit y Plotly, además de obtener experiencia práctica con análisis de datos y visualización de información. El resultado final es un dashboard moderno y eficiente, que ayuda a las empresas a tomar decisiones informadas y mejorar su desempeño en el mercado."
     }
+    },
+    "libertas-backend": {
+    "title": "Libertas",
+    "init": {
+      "role": {
+        "title": "Mi Cargo",
+        "description": "Desarrollador"
+      },
+      "project": {
+        "title": "Proyecto",
+        "description": "Solo"
+      },
+      "timeline": {
+        "title": "Tiempo de Desarrollo",
+        "description": "5 días (2024)"
+      },
+      "tools": {
+        "title": "Herramientas",
+        "description": "Typescript, Express, Cors, Postgres, Prisma, Render, Nodemailer, Swagger"
+      },
+      "category": "Backend",
+      "description": "Backend para el proyecto Libertas, que ofrece servicios y gestión de clientes."
+    },
+    "video": {
+      "title": "Vídeo",
+      "description": "Mira el vídeo a continuación para saber más sobre Libertas y sus características."
+    },
+    "overview": {
+      "title": "Visión General",
+      "prompt": {
+        "title": "Prompt",
+        "description": "El backend de Libertas proporciona una API robusta para la gestión de servicios y clientes. Con endpoints para crear, buscar, listar y eliminar servicios y clientes, el backend está diseñado para ser adaptable y eficiente. La API también es 100% adaptable para dispositivos móviles y se planificó para el mantenimiento futuro. Además, se implementó Nodemailer para enviar correos electrónicos al propietario del sitio web."
+      },
+      "design-process": {
+        "title": "Proceso de Diseño",
+        "description": "El proceso de desarrollo del backend incluyó la selección de herramientas y tecnologías adecuadas, como Typescript y Prisma, y la configuración de una API eficiente y segura. Las decisiones clave de diseño se centraron en construir endpoints RESTful e integrar con la base de datos Postgres."
       }
+    },
+    "user-research": {
+      "title": "Investigación de Usuarios",
+      "background-research": {
+        "title": "Investigación Contextual",
+        "description": "La investigación de usuarios para el backend involucró la definición de requisitos y la creación de una API que satisficiera las necesidades de gestión de servicios y clientes. El enfoque fue asegurar que la API fuera intuitiva y fácil de integrar con el frontend."
+      },
+      "research-goals": {
+        "title": "Objetivos",
+        "goals": {
+          "goal1": "Desarrollar una API eficiente para la gestión de servicios y clientes",
+          "goal2": "Asegurar que la API sea segura y adaptable a cambios futuros",
+          "goal3": "Facilitar la integración con el frontend y el mantenimiento del proyecto"
+        }
+      }
+    },
+    "problem-statement": {
+      "challenge": "Desafío",
+      "title": "Declaración del Problema",
+      "description": "El principal desafío fue crear una API que fuera a la vez poderosa y fácil de usar. El backend necesitaba ser lo suficientemente robusto para gestionar servicios y clientes, mientras permanecía simple y claro para facilitar el uso y mantenimiento."
+    },
+    "impact": {
+      "subtitle": "Impacto",
+      "title": "Reflexiones y Resultados",
+      "description": "El desarrollo del backend de Libertas fue una experiencia enriquecedora, involucrando la implementación de una API completa y el uso de herramientas modernas como Prisma y Typescript. El proyecto no solo cumplió con las necesidades del frontend, sino que también proporcionó aprendizajes valiosos en diseño de API e integración de sistemas. Es notable que este proyecto fue mi primer despliegue exitoso en Render, lo que amplió significativamente mi conocimiento sobre el despliegue de aplicaciones."
+    }
+    }
   }
 
 }

@@ -61,30 +61,30 @@ const DetailsProjectPage = () => {
                             </div>
                         </SlideIn>
 
-                        <div className="flex justify-between">
+                        <div className="flex max-[860px]:flex-col max-[860px]:items-start max-[860px]:gap-3 justify-between">
                         <SlideIn>
-                            <div className="flex flex-col justify-center items-center gap-1">
+                            <div className="flex flex-col justify-center items-center max-[860px]:items-start gap-1">
                                 <p className="text-sm font-semibold">{init('role.title')}</p>
                                 <p className="text-sm ">{init('role.description')}</p>
                             </div>
                         </SlideIn>
 
                         <SlideIn>
-                            <div className="flex flex-col justify-center items-center gap-1">
+                            <div className="flex flex-col justify-center items-center max-[860px]:items-start gap-1">
                                 <p className="text-sm font-semibold">{init('project.title')}</p>
                                 <p className="text-sm">{init('project.description')}</p>
                             </div>
                         </SlideIn>
 
                         <SlideIn>
-                            <div className="flex flex-col justify-center items-center gap-1">
+                            <div className="flex flex-col justify-center items-center max-[860px]:items-start  gap-1">
                                 <p className="text-sm font-semibold">{init('timeline.title')}</p>
                                 <p className="text-sm">{init('timeline.description')}</p>
                             </div>
                         </SlideIn>
 
                         <SlideIn>
-                            <div className="flex flex-col justify-center items-center gap-1">
+                            <div className="flex flex-col justify-center items-center max-[860px]:items-start gap-1">
                                 <p className="text-sm font-semibold">{init('tools.title')}</p>
                                 <p className="text-sm">{init('tools.description')}</p>
                             </div>   

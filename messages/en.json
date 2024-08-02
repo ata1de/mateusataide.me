@@ -507,6 +507,69 @@
         "title": "Reflections and Results",
         "description": "I am quite proud of this project, one of the first I did with my 'native' language, Python. I built this page to show what we can achieve with the language and how powerful it is. I learned a lot about Pandas, Streamlit, and Plotly, as well as gaining practical experience with data analysis and information visualization. The final result is a modern and efficient dashboard that helps companies make informed decisions and improve their market performance."
     }
+    },
+    "libertas-backend": {
+    "title": "Libertas",
+    "init": {
+      "role": {
+        "title": "My Role",
+        "description": "Developer"
+      },
+      "project": {
+        "title": "Project",
+        "description": "Solo"
+      },
+      "timeline": {
+        "title": "Development Time",
+        "description": "5 days (2024)"
+      },
+      "tools": {
+        "title": "Tools",
+        "description": "Typescript, Express, Cors, Postgres, Prisma, Render, Nodemailer, Swagger"
+      },
+      "category": "Backend",
+      "description": "Backend for the Libertas project, offering services and client management."
+    },
+    "video": {
+      "title": "Video",
+      "description": "Watch the video below to learn more about Libertas and its features."
+    },
+    "overview": {
+      "title": "Overview",
+      "prompt": {
+        "title": "Prompt",
+        "description": "The Libertas backend provides a robust API for managing services and clients. With endpoints to create, search, list, and delete services and clients, the backend is designed to be adaptable and efficient. The API is also 100% adaptable for mobile devices and was planned for future maintenance. Additionally, Nodemailer was implemented for sending emails to the website owner."
+      },
+      "design-process": {
+        "title": "Design Process",
+        "description": "The backend development process included selecting appropriate tools and technologies such as Typescript and Prisma, and setting up an efficient and secure API. Key design decisions focused on building RESTful endpoints and integrating with the Postgres database."
+      }
+    },
+    "user-research": {
+      "title": "User Research",
+      "background-research": {
+        "title": "Context Research",
+        "description": "User research for the backend involved defining requirements and creating an API that meets the needs for managing services and clients. The focus was to ensure the API was intuitive and easy to integrate with the frontend."
+      },
+      "research-goals": {
+        "title": "Goals",
+        "goals": {
+          "goal1": "Develop an efficient API for managing services and clients",
+          "goal2": "Ensure the API is secure and adaptable to future changes",
+          "goal3": "Facilitate integration with the frontend and project maintenance"
+        }
+      }
+    },
+    "problem-statement": {
+      "challenge": "Challenge",
+      "title": "Problem Statement",
+      "description": "The main challenge was to create an API that was both powerful and easy to use. The backend needed to be robust enough to manage services and clients while remaining simple and clear to facilitate use and maintenance."
+    },
+    "impact": {
+      "subtitle": "Impact",
+      "title": "Reflections and Results",
+      "description": "Developing the Libertas backend was an enriching experience, involving the implementation of a complete API and using modern tools such as Prisma and Typescript. The project not only met the frontend needs but also provided valuable learning in API design and system integration. Notably, this project was my first successful deployment on Render, which greatly expanded my knowledge of application deployment."
+    }
     }
 
   }

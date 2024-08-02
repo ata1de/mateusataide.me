@@ -74,5 +74,14 @@ export const projectsListHome: ProjectType[] = [
         project_video: '',
         category: "back-end",
     },
+    {
+        id: "libertas-backend",
+        image: "/projects/mockup-libertas-backend.png",
+        image_details: "/projects/libertas-backend-details.svg",
+        link_visit: "https://libertas-frontend.vercel.app/",
+        link_source: "https://github.com/ata1de/libertas_backend",
+        project_video: '',
+        category: "back-end",
+    },
 
 ];

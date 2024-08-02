@@ -508,6 +508,69 @@
         "title": "Reflexões e Resultados",
         "description": "Tenho bastante orgulho desse projeto, um dos primeiros que realizei com minha linguagem 'mãe' que é o python, construir essa página realmente me fez entender o quão poderosa é a linguagem e o quanto podemos fazer com ela. Aprendi muito sobre Pandas, Streamlit e Ploty, além de ter uma experiência prática com análise de dados e visualização de informações. O resultado final é um dashboard moderno e eficiente, que ajuda as empresas a tomar decisões informadas e melhorar seu desempenho no mercado."
     }
+    },
+    "libertas-backend": {
+        "title": "Libertas",
+        "init": {
+          "role": {
+            "title": "Meu cargo",
+            "description": "Desenvolvedor"
+          },
+          "project": {
+            "title": "Projeto",
+            "description": "Solo"
+          },
+          "timeline": {
+            "title": "Tempo de Desenvolvimento",
+            "description": "5 dias (2024)"
+          },
+          "tools": {
+            "title": "Ferramentas",
+            "description": "Typescript, Express, Cors, Postgres, Prisma, Render, Nodemailer, Swagger"
+          },
+          "category": "Backend",
+          "description": "Backend para o projeto Libertas, que oferece serviços e gerenciamento de clientes."
+        },
+        "video": {
+          "title": "Vídeo",
+          "description": "Assista ao vídeo abaixo para saber mais sobre o Libertas e seus recursos."
+        },
+        "overview": {
+          "title": "Visão Geral",
+          "prompt": {
+            "title": "Prompt",
+            "description": "O backend do Libertas fornece uma API robusta para gerenciamento de serviços e clientes. Com endpoints para criar, buscar, listar e deletar serviços e clientes, o backend é projetado para ser adaptável e eficiente. A API também é 100% adaptável para dispositivos móveis e foi planejada para futuras manutenções. Além da implementação do nodemailer para o envio de emails ao dono do website."
+          },
+          "design-process": {
+            "title": "Processo de Design",
+            "description": "O processo de desenvolvimento do backend incluiu a escolha de ferramentas e tecnologias adequadas, como Typescript e Prisma, e a configuração de uma API eficiente e segura. As principais decisões de design foram focadas na construção de endpoints RESTful e na integração com o banco de dados Postgres."
+          }
+        },
+        "user-research": {
+          "title": "Pesquisa de Usuário",
+          "background-research": {
+            "title": "Pesquisa de Contexto",
+            "description": "A pesquisa de usuário para o backend envolveu a definição de requisitos e a criação de uma API que atendesse às necessidades de gerenciamento de serviços e clientes. O foco foi garantir que a API fosse intuitiva e fácil de integrar com o frontend."
+          },
+          "research-goals": {
+            "title": "Objetivos",
+            "goals": {
+              "goal1": "Desenvolver uma API eficiente para gerenciamento de serviços e clientes",
+              "goal2": "Garantir que a API seja segura e adaptável a futuras mudanças",
+              "goal3": "Facilitar a integração com o frontend e a manutenção do projeto"
+            }
+          }
+        },
+        "problem-statement": {
+          "challenge": "Desafio",
+          "title": "Declaração do Problema",
+          "description": "O principal desafio foi criar uma API que fosse ao mesmo tempo poderosa e fácil de usar. O backend precisava ser o suficiente para gerenciar serviços e clientes, enquanto permanecia simples e claro para facilitar o uso e a manutenção."
+        },
+        "impact": {
+          "subtitle": "Impacto",
+          "title": "Reflexões e Resultados",
+          "description": "O desenvolvimento do backend do Libertas foi uma experiência enriquecedora, envolvendo a implementação de uma API completa e a utilização de ferramentas modernas como Prisma, lembrando que foi o start para o estudo desse incrível ORM, e Typescript. O projeto não só atendeu às necessidades do frontend, mas também proporcionou aprendizados valiosos em termos de design de API e integração de sistemas. Vale ressaltar que esse projeto foi o meu primeiro deploy com sucesso ✔ no Render, o que me fez aprender muito sobre deploy de aplicações."
+        }
     }
   
 }
