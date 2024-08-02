@@ -589,7 +589,7 @@
           },
           "tools": {
             "title": "Ferramentas",
-            "description": "Typescript, Fastify, Cors, SQLite, Prisma, Nodemailer, Swagger, Dayjs, Zod"
+            "description": "Typescript, Fastify, Cors, SQLite, Prisma, Nodemailer, Swagger, SOLID, Zod"
           },
           "category": "Backend",
           "description": "Backend para o um planejador de viagens."
@@ -606,7 +606,7 @@
           },
           "design-process": {
             "title": "Processo de Design",
-            "description": "O processo de desenvolvimento do backend incluiu a escolha de ferramentas e tecnologias adequadas, como Typescript e Prisma. As principais decisões foram no relacionamento entre tabelas e nos testes do envio de emails, além da implementação do Zod para validação de dados."
+            "description": "O processo de desenvolvimento do backend incluiu a escolha de ferramentas e tecnologias adequadas, como Typescript e Prisma. As principais decisões foram no relacionamento entre tabelas e nos testes do envio de emails, além da implementação do Zod para validação de dados. Além de metodologias como SOLID para garantir a qualidade do código."
           }
         },
         "user-research": {
@@ -627,12 +627,12 @@
         "problem-statement": {
           "challenge": "Desafio",
           "title": "Declaração do Problema",
-          "description": "O principal desafio desse projeto foi lidar com a criação de convites para viagens, o que envolveu a criação de um sistema de envio de emails e a geração de links de convite, pois ja com o convite em mãos a aplicação deve identificar a partir de algum ID, localizado em um localStorage, que o usuário ja está em uma viagem e redirecioná-lo para a página de detalhamento da viagem. Além disso, a validação de dados e a integração com o frontend foram desafios importantes para garantir a eficiência e a segurança da API."
+          "description": "O principal desafio desse projeto foi o uso de conceitos SOLID, dividir a aplicação em repositories e separando a dependência do banco de dados me fez amadurecer muito como programador, além de criar os use cases para cada caso. Outro fator muito interessante foi lidar com a criação de convites para viagens, o que envolveu a criação de um sistema de envio de emails e a geração de links de convites. Além disso, a validação de dados e a integração com o frontend foram desafios importantes para garantir a eficiência e a segurança da API."
         },
         "impact": {
           "subtitle": "Impacto",
           "title": "Reflexões e Resultados",
-          "description": "Esse projeto foi o meu primeiro em contato com o Fastify e adorei suas integrações com o zod e o seu sistema de plugins. Além disso melhorou minhas habilidades de backend e manuseio com o Prisma. A finalização do projeto com o tempo de 3 dias foi um grande desafio, mas que me fez aprender muito sobre organização e planejamento de projetos. O resultado final é um backend que atende às necessidades do frontend e proporciona uma experiência de usuário agradável e eficiente."
+          "description": "Esse projeto foi o meu primeiro em contato com o Fastify e adorei suas integrações com o zod e o seu sistema de plugins. Além disso melhorou minhas habilidades de backend e manuseio com o Prisma. A finalização do projeto com o tempo de 3 dias foi um grande desafio, mas que me fez aprender muito sobre organização e planejamento de projetos, mas creio que o grande desafio foi a divisão das rotas em use cases, ou seja, criando repositories e invertendo a dependência."  
         }
     }
   

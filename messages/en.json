@@ -580,7 +580,7 @@
         },
         "project": {
             "title": "Project",
-            "description": "By myself"
+            "description": "Solo"
         },
         "timeline": {
             "title": "Development Time",
@@ -588,7 +588,7 @@
         },
         "tools": {
             "title": "Tools",
-            "description": "Typescript, Fastify, Cors, SQLite, Prisma, Nodemailer, Swagger, Dayjs, Zod"
+            "description": "Typescript, Fastify, Cors, SQLite, Prisma, Nodemailer, Swagger, SOLID, Zod"
         },
         "category": "Backend",
         "description": "Backend for a travel planner."
@@ -601,18 +601,18 @@
         "title": "Overview",
         "prompt": {
             "title": "Prompt",
-            "description": "The Planner backend provides a robust API for managing trips. It includes endpoints to create, fetch, list, and delete trips, and also offers the ability to invite friends to the trip via email, send invitation links, create activities to be performed during the trip, as well as view and edit their details."
+            "description": "The Planner backend provides a robust API for trip management. It includes endpoints to create, fetch, list, and delete trips, and also offers the ability to invite friends to the trip via email, sending invitation links. The application also allows creating activities to be performed during the trip, as well as viewing and editing their details."
         },
         "design-process": {
             "title": "Design Process",
-            "description": "The backend development process included choosing suitable tools and technologies such as Typescript and Prisma. The main decisions were in the relationships between tables and in testing email sending, as well as implementing Zod for data validation."
+            "description": "The backend development process included choosing suitable tools and technologies, such as Typescript and Prisma. The main decisions were in the relationships between tables and testing email sending, as well as implementing Zod for data validation, along with methodologies like SOLID to ensure code quality."
         }
         },
         "user-research": {
         "title": "User Research",
         "background-research": {
             "title": "Background Research",
-            "description": "The user research for the backend involved defining requirements and creating an API that met the needs of trip management. The focus was on ensuring that the API was intuitive and easy to integrate with the frontend."
+            "description": "User research for the backend involved defining requirements and creating an API that met the needs of trip management. The focus was on ensuring that the API was intuitive and easy to integrate with the frontend."
         },
         "research-goals": {
             "title": "Goals",
@@ -626,15 +626,14 @@
         "problem-statement": {
         "challenge": "Challenge",
         "title": "Problem Statement",
-        "description": "The main challenge of this project was handling the creation of trip invitations, which involved creating an email sending system and generating invitation links. The application must identify, from some ID located in localStorage, that the user is already on a trip and redirect them to the trip details page. Additionally, data validation and integration with the frontend were important challenges to ensure the API's efficiency and security."
+        "description": "The main challenge of this project was using SOLID principles, dividing the application into repositories and separating the database dependency, which helped me mature a lot as a programmer, as well as creating use cases for each scenario. Another interesting aspect was handling the creation of trip invitations, which involved creating an email sending system and generating invitation links. Additionally, data validation and integration with the frontend were important challenges to ensure the API's efficiency and security."
         },
         "impact": {
         "subtitle": "Impact",
         "title": "Reflections and Outcomes",
-        "description": "This project was my first experience with Fastify, and I loved its integrations with Zod and its plugin system. It also improved my backend skills and handling with Prisma. Completing the project in 3 days was a great challenge but taught me a lot about organization and project planning. The final result is a backend that meets the frontend's needs and provides a pleasant and efficient user experience."
+        "description": "This project was my first experience with Fastify, and I loved its integrations with Zod and its plugin system. It also improved my backend skills and handling with Prisma. Completing the project in 3 days was a great challenge, teaching me a lot about organization and project planning, but I believe the main challenge was dividing the routes into use cases, creating repositories, and inverting the dependency."
         }
-  
-    }
+    } 
   }
 }
   
