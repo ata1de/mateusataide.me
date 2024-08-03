@@ -120,6 +120,10 @@ const DetailsProjectPage = () => {
                         <SlideIn>
                             <p className="mb-4 font-semibold text-xl">{overview('design-process.title')}</p>
                             <p>{overview('design-process.description')}</p>
+                            {
+                                project.design_back.length > 0 && 
+                                <Image className="md:h-[450px] my-4" src={project.design_back} alt={project.id} width={1056} height={400} />
+                            }
                         </SlideIn>
                     </div>
                 </div>
