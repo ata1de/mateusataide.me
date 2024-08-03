@@ -636,5 +636,9 @@
         }
     }
   
-}
+  },
+  "NotFound": {
+    "subtitle": "Parece que você se perdeu amigo",
+    "button": "Ir a home"
+  }
 }

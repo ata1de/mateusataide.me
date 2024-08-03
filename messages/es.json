@@ -636,6 +636,10 @@
         "description": "Este proyecto fue mi primera experiencia con Fastify, y me encantaron sus integraciones con Zod y su sistema de plugins. También mejoró mis habilidades de backend y manejo con Prisma. Completar el proyecto en 3 días fue un gran desafío, enseñándome mucho sobre organización y planificación de proyectos, pero creo que el principal desafío fue dividir las rutas en casos de uso, creando repositorios e invirtiendo la dependencia."
         }
     }      
+    },
+    "NotFound": {
+        "subtitle": "Parece que te has perdido",
+        "button": "Ir a inicio"
   }
 }
   
