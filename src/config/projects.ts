@@ -101,6 +101,16 @@ export const projectsListHome: ProjectType[] = [
         design_back: '/projects/planner-back/planner-back-design.jpg',
         project_video: '',
         category: "back-end",
+    },
+    {
+        id: "planner-front",
+        image: "/projects/planner-front/mockup-planner-front.png",
+        image_details: "/projects/planner-front/planner-front-details.svg",
+        link_visit: "",
+        link_source: "https://github.com/ata1de/mobile_trip",
+        design_back: "",
+        project_video: 'https://github.com/user-attachments/assets/10113799-1b82-4b33-ad62-32f9b8899b2d',
+        category: "mobile",
     }
 
 ];

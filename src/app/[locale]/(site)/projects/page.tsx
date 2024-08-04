@@ -30,7 +30,7 @@ export default function StackPage() {
                         <div className="flex flex-wrap justify-center items-center gap-5">
                             {
                                 projectsListHome.filter((project) => project.category === "front-end").length > 0 
-                                ? projectsListHome.filter((project) => project.category === "front-end").map((project) => (
+                                ? projectsListHome.filter((project) => project.category !== "back-end").map((project) => (
                                     <CardProject key={project.id} project={project} />
                                 ))
                                 : <p className="text-lg text-[rgb(109,109,109)] pb-2 text-center">Nothing here</p>

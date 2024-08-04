@@ -101,7 +101,7 @@ const DetailsProjectPage = () => {
                         <div className="flex flex-col gap-6 justify-center items-left w-full">
                             <p className="text-sm text-[#95BFB8]">{projectDetails('init.category')}</p>
                             <p className="mb-4 font-semibold text-xl">{projectDetails('video.description')}</p>
-                            <video controls width="560" className="w-full bg-[#f8f8f8]" height="315" src={project.project_video}></video>
+                            <video controls width="560" className="w-full max-h-[600px] bg-[#f8f8f8]" height="315" src={project.project_video}></video>
                         </div>
                     </div>
                 </div>
