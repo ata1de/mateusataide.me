@@ -34,7 +34,7 @@ export default function Hero() {
                         <Link href='https://medium.com/@mateusataide05' target="_blank">
                             <Button className="bg-Green hover:bg-[#669b94] border-white text-yellow-50">{t('blog')} <BookUser className="ml-2" size={20}/></Button>
                         </Link>
-                        <Link href='https://www.linkedin.com/in/mateus-ata%C3%ADde-7b1b3b1b1/' target="_blank">
+                        <Link href='https://www.linkedin.com/in/mateus-ataide/' target="_blank">
                             <Button className="bg-Green hover:bg-[#669b94] border-white text-yellow-50">{t('meet')} <Handshake size={20} className="ml-2"/></Button>
                         </Link>
                     </div>
