@@ -105,7 +105,7 @@ export const projectsListHome: ProjectType[] = [
     {
         id: "planner-front",
         image: "/projects/planner-front/mockup-planner-front.png",
-        image_details: "/projects/planner-front/planner-front-details.svg",
+        image_details: "/projects/planner-front/planner-front-details.png",
         link_visit: "",
         link_source: "https://github.com/ata1de/mobile_trip",
         design_back: "",

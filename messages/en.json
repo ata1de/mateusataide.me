@@ -108,15 +108,133 @@
       }
     },
     "Projects": {
-    "title": "My Projects",
-    "description": "Here is some of my work, but you can venture more into my Github",
-    "details-title": "details",
-    "buttons": {
-        "button_visit": "Visit",
-        "button_source": "Source Code"
-    },
-    "libertas": {
-        "title": "Libertas",
+        "title": "My Projects",
+        "description": "Here is some of my work, but you can venture more into my Github",
+        "details-title": "details",
+        "buttons": {
+            "button_visit": "Visit",
+            "button_source": "Source Code"
+        },
+        "libertas": {
+            "title": "Libertas",
+            "init": {
+                "role": {
+                    "title": "My Role",
+                    "description": "Developer"
+                },
+                "project": {
+                    "title": "Project",
+                    "description": "By myself"
+                },
+                "timeline": {
+                    "title": "Development Time",
+                    "description": "2 weeks (2024)"
+                },
+                "tools": {
+                    "title": "Tools",
+                    "description": "React, Node.js, Express, MongoDB"
+                },
+                "category": "Mobile Application",
+                "description": "Website for law firms, showcasing their services and information about the company."
+            },
+            "video": {
+                "title": "Video",
+                "description": "Watch the video below to learn more about Libertas and its features."
+            },
+            "overview": {
+                "title": "Overview",
+                "prompt": {
+                    "title": "Prompt",
+                    "description": "The Libertas website is a landing page for a law firm that displays its mission and values, services, and contact information—everything needed to introduce the firm to the digital world and attract clients. The site also offers a search system, which makes it easy for users to navigate and find specific information. With a modern and responsive design, Libertas provides a pleasant and efficient user experience, helping the firm stand out in the market and attract new clients."
+                },
+                "design-process": {
+                    "title": "Design Process",
+                    "description": "The design process for Libertas began with extensive research on landing pages related to law firms. I searched on Behance, Dribble, and Pinterest, seeking references and inspiration to create the best possible project."
+                }
+            },
+            "user-research": {
+                "title": "User Research",
+                "background-research": {
+                    "title": "Background Research",
+                    "description": "User research was a fundamental part of the design process for Libertas. Identifying the target audience and their needs was essential to create a site that met user expectations. Since it was related to a law firm, I aimed for a design that conveyed a higher level of seriousness and formality."
+                },
+                "research-goals": {
+                    "title": "Goals",
+                    "goals": {
+                        "goal1": "Understand how users track cryptocurrency prices and make investment decisions",
+                        "goal2": "Identify pain points and challenges in the current process of tracking cryptocurrencies",
+                        "goal3": "Gather insights on user preferences and needs for a cryptocurrency monitoring app"
+                    }
+                }
+            },
+            "problem-statement": {
+                "challenge": "Challenge",
+                "title": "Problem Statement",
+                "description": "Dealing with more institutional sites is always a challenge because it is necessary to convey the seriousness and trust that the company wishes to communicate. Libertas was designed to solve these problems, offering a modern and responsive design with intuitive navigation and well-organized content. With an elegant layout and efficient functionality, the site helps the firm stand out in the market and attract new clients, providing a pleasant and efficient user experience."
+            },
+            "impact": {
+                "subtitle": "Impact",
+                "title": "Reflections and Results",
+                "description": "Libertas was a project that filled me with pride. The first truly By myself project I produced is always special. I learned a lot about both the backend and the frontend. Implementing the navigation and especially styling the main background with Figma were personal challenges. Additionally, it was my first contact with the well-known Shadcn library, which certainly added a lot to my skill set. In the end, the result was a site that met the client's expectations and helped me grow as a developer."
+            }
+        },
+        "ecommerce-store": {
+            "title": "E-commerce Site Model",
+            "init": {
+                "role": {
+                    "title": "My Role",
+                    "description": "Developer"
+                },
+                "project": {
+                    "title": "Project",
+                    "description": "By myself"
+                },
+                "timeline": {
+                    "title": "Development Time",
+                    "description": "2 weeks (2024)"
+                },
+                "tools": {
+                    "title": "Tools",
+                    "description": "React, Typescript, Tailwind"
+                },
+                "category": "Web Application",
+                "description": "Modern e-commerce model with a responsive layout and intuitive navigation, ideal for online fashion stores."
+            },
+            "video": {
+                "title": "Video",
+                "description": "Watch the video below to learn more about the e-commerce site model and its features."
+            },
+            "overview": {
+                "title": "Overview",
+                "prompt": {
+                    "title": "Prompt",
+                    "description": "The e-commerce site model is designed to provide a modern and responsive platform for online fashion stores. With an elegant design and intuitive navigation, the model makes it easy for users to browse products and make purchases."
+                },
+                "design-process": {
+                    "title": "Design Process",
+                    "description": "The design process for the e-commerce site model began with an analysis of online store designs on YouTube and Behance. The final result is an e-commerce site model with a modern design and intuitive functionality, providing a pleasant and efficient shopping experience."
+                }
+            },
+            "user-research": {
+                "title": "User Research",
+                "background-research": {
+                    "title": "Background Research",
+                    "description": "User research for the e-commerce site model involved interviews and surveys with fashion store owners and consumers. We identified the main needs and challenges users face when browsing and shopping online. Based on these insights, we developed personas and user stories to guide the design process, ensuring the model met users' expectations and needs."
+                }
+            },
+            "problem-statement": {
+                "challenge": "Challenge",
+                "title": "Problem Statement",
+                "description": "E-commerce Store was my first experience with React, and with it came the challenge of dealing with context and shopping cart logic. Additionally, styling the site was a personal challenge because I believe aesthetics are one of the most important aspects of a sales site. The e-commerce site model was designed to address these issues, offering a modern and responsive design with intuitive navigation and well-organized content. With an elegant layout and efficient functionality, the model helps fashion stores provide a pleasant and efficient shopping experience for their customers."
+            },
+            "impact": {
+                "subtitle": "Impact",
+                "title": "Reflections and Results",
+                "description": "I am quite satisfied with the result of this project. For a start, I am pleased with how it was done and the final delivery. I have some criticisms about the design of the product table, which was added later, but I believe the final result was quite satisfactory. I believe the e-commerce site model has the potential to help fashion stores improve their customers' shopping experience."
+            }
+        },
+        "arkan-seguros": {
+        "title": "Arkan Seguros Website",
         "init": {
             "role": {
                 "title": "My Role",
@@ -128,58 +246,50 @@
             },
             "timeline": {
                 "title": "Development Time",
-                "description": "2 weeks (2024)"
+                "description": "1.5 months (2024)"
             },
             "tools": {
                 "title": "Tools",
-                "description": "React, Node.js, Express, MongoDB"
+                "description": "Next, Tanstack Query, Next, Firebase, Nodemailer, ShadcnUi"
             },
-            "category": "Mobile Application",
-            "description": "Website for law firms, showcasing their services and information about the company."
+            "category": "Website",
+            "description": "Arkan Seguros website with a modern and responsive design, highlighting the company's values and mission to attract and retain customers."
         },
         "video": {
-            "title": "Video",
-            "description": "Watch the video below to learn more about Libertas and its features."
+            "title": "Visual Tour",
+            "description": "Watch the video below to learn more about the Arkan Seguros website and its features."
         },
         "overview": {
             "title": "Overview",
             "prompt": {
                 "title": "Prompt",
-                "description": "The Libertas website is a landing page for a law firm that displays its mission and values, services, and contact information—everything needed to introduce the firm to the digital world and attract clients. The site also offers a search system, which makes it easy for users to navigate and find specific information. With a modern and responsive design, Libertas provides a pleasant and efficient user experience, helping the firm stand out in the market and attract new clients."
+                "description": "The Arkan Seguros website was developed to highlight the company's values and mission, offering a modern and responsive design. The site provides detailed information about the services offered by Arkan Seguros, helping to attract and retain customers. With intuitive navigation and well-organized content, the site makes it easy to access information and ensures a pleasant user experience."
             },
             "design-process": {
                 "title": "Design Process",
-                "description": "The design process for Libertas began with extensive research on landing pages related to law firms. I searched on Behance, Dribble, and Pinterest, seeking references and inspiration to create the best possible project."
+                "description": "The design process for the Arkan Seguros website began with an analysis of customer needs and best design practices for corporate websites. We created prototypes to visualize the site's layout and functionality, incorporating user feedback to refine the design. The final result is a modern and responsive website that highlights Arkan Seguros' values and mission, providing a pleasant and efficient user experience."
             }
         },
         "user-research": {
             "title": "User Research",
             "background-research": {
                 "title": "Background Research",
-                "description": "User research was a fundamental part of the design process for Libertas. Identifying the target audience and their needs was essential to create a site that met user expectations. Since it was related to a law firm, I aimed for a design that conveyed a higher level of seriousness and formality."
-            },
-            "research-goals": {
-                "title": "Goals",
-                "goals": {
-                    "goal1": "Understand how users track cryptocurrency prices and make investment decisions",
-                    "goal2": "Identify pain points and challenges in the current process of tracking cryptocurrencies",
-                    "goal3": "Gather insights on user preferences and needs for a cryptocurrency monitoring app"
-                }
+                "description": "User research was conducted through meetings with the client, studying their target audience and how we can reach them. From this, we developed personas and user stories to guide the design process, ensuring the site met users' expectations and needs. An important detail was the customer feedback and FAQ section in each service, which helped us better understand what the client wanted."
             }
         },
         "problem-statement": {
             "challenge": "Challenge",
             "title": "Problem Statement",
-            "description": "Dealing with more institutional sites is always a challenge because it is necessary to convey the seriousness and trust that the company wishes to communicate. Libertas was designed to solve these problems, offering a modern and responsive design with intuitive navigation and well-organized content. With an elegant layout and efficient functionality, the site helps the firm stand out in the market and attract new clients, providing a pleasant and efficient user experience."
+            "description": "Insurance companies need a website that highlights their values and mission, providing clear and accessible information about their services. Many corporate websites are complicated and difficult to navigate, which can drive away potential customers. The Arkan Seguros website was designed to address these issues, offering a modern and responsive design with intuitive navigation and well-organized content. Additionally, the challenge of building email delivery for the client was addressed, meaning that each form submission sends the client the request data, which was a personal challenge for me."
         },
         "impact": {
             "subtitle": "Impact",
             "title": "Reflections and Results",
-            "description": "Libertas was a project that filled me with pride. The first truly By myself project I produced is always special. I learned a lot about both the backend and the frontend. Implementing the navigation and especially styling the main background with Figma were personal challenges. Additionally, it was my first contact with the well-known Shadcn library, which certainly added a lot to my skill set. In the end, the result was a site that met the client's expectations and helped me grow as a developer."
+            "description": "The Arkan Seguros website has the potential to strengthen the company's online presence, highlighting their values and mission and providing a pleasant and efficient user experience. With a modern and responsive design, the site makes it easy to access information and helps attract and retain customers, increasing customer satisfaction and loyalty. The intuitive navigation and well-organized content ensure users can quickly find the information they need, improving the overall user experience and strengthening Arkan Seguros' image in the market."
         }
-    },
-    "ecommerce-store": {
-        "title": "E-commerce Site Model",
+        },
+        "dashboard-arkan-seguros": {
+        "title": "Arkan Seguros Dashboard",
         "init": {
             "role": {
                 "title": "My Role",
@@ -191,215 +301,50 @@
             },
             "timeline": {
                 "title": "Development Time",
-                "description": "2 weeks (2024)"
+                "description": "1.5 months (2024)"
             },
             "tools": {
                 "title": "Tools",
-                "description": "React, Typescript, Tailwind"
+                "description": "Next, NextApi, Tanstack Query, Firebase, Recharts, ShadcnUi"
             },
             "category": "Web Application",
-            "description": "Modern e-commerce model with a responsive layout and intuitive navigation, ideal for online fashion stores."
+            "description": "Arkan Seguros dashboard with a modern and responsive design, presenting important charts and information for the company."
         },
         "video": {
             "title": "Video",
-            "description": "Watch the video below to learn more about the e-commerce site model and its features."
+            "description": "Watch the video below to learn more about the Arkan Seguros Dashboard and its features."
         },
         "overview": {
             "title": "Overview",
             "prompt": {
                 "title": "Prompt",
-                "description": "The e-commerce site model is designed to provide a modern and responsive platform for online fashion stores. With an elegant design and intuitive navigation, the model makes it easy for users to browse products and make purchases."
+                "description": "The Arkan Seguros Dashboard was developed to provide a comprehensive and real-time view of the company's data, aiding in strategic decision-making. With a modern and responsive design, the dashboard presents important charts and information, allowing users to monitor site performance and identify trends and opportunities. The dashboard also offers advanced analysis tools, making data interpretation and strategic planning easier."
             },
             "design-process": {
                 "title": "Design Process",
-                "description": "The design process for the e-commerce site model began with an analysis of online store designs on YouTube and Behance. The final result is an e-commerce site model with a modern design and intuitive functionality, providing a pleasant and efficient shopping experience."
+                "description": "The design process for the Arkan Seguros Dashboard began with a detailed analysis of user needs and best design practices for corporate dashboards. From studies of PowerBi dashboards and others made with Pandas and Streamlit, we developed a modern and responsive dashboard that highlights important information clearly and accessibly, helping the company make informed decisions and improve its market performance."
             }
         },
         "user-research": {
             "title": "User Research",
             "background-research": {
                 "title": "Background Research",
-                "description": "User research for the e-commerce site model involved interviews and surveys with fashion store owners and consumers. We identified the main needs and challenges users face when browsing and shopping online. Based on these insights, we developed personas and user stories to guide the design process, ensuring the model met users' expectations and needs."
+                "description": "User research for the Arkan Seguros Dashboard involved interviews and surveys with company employees and managers. We gathered insights about users' needs and expectations for the dashboard, identifying the key metrics and information that should be highlighted. Based on these insights, we developed personas and user stories to guide the design process, ensuring the dashboard met the needs of its target audience."
             }
         },
         "problem-statement": {
             "challenge": "Challenge",
             "title": "Problem Statement",
-            "description": "E-commerce Store was my first experience with React, and with it came the challenge of dealing with context and shopping cart logic. Additionally, styling the site was a personal challenge because I believe aesthetics are one of the most important aspects of a sales site. The e-commerce site model was designed to address these issues, offering a modern and responsive design with intuitive navigation and well-organized content. With an elegant layout and efficient functionality, the model helps fashion stores provide a pleasant and efficient shopping experience for their customers."
+            "description": "The Arkan Dashboard was created to fill the gap in the lack of detailed customer data and information. Despite being exclusively from the site form, the client has full control and visibility over customer flow and trends, enabling better decision-making and insights for the company."
         },
         "impact": {
             "subtitle": "Impact",
             "title": "Reflections and Results",
-            "description": "I am quite satisfied with the result of this project. For a start, I am pleased with how it was done and the final delivery. I have some criticisms about the design of the product table, which was added later, but I believe the final result was quite satisfactory. I believe the e-commerce site model has the potential to help fashion stores improve their customers' shopping experience."
+            "description": "Since this repository does not contain a backend, creating this dashboard was quite challenging, as data manipulation was done from a JSON file. The request for this dashboard came unexpectedly, so I had to change plans and build one using only Next's server-side, which was a very good and innovative experience for me. In addition, I had the opportunity to learn how to use Firebase, which will be very beneficial for future projects. Despite this setback, Arkan Seguros makes me very proud, a very well-structured and institutional site built with a lot of effort and dedication."
         }
-    },
-    "arkan-seguros": {
-      "title": "Arkan Seguros Website",
-      "init": {
-          "role": {
-              "title": "My Role",
-              "description": "Developer"
-          },
-          "project": {
-              "title": "Project",
-              "description": "By myself"
-          },
-          "timeline": {
-              "title": "Development Time",
-              "description": "1.5 months (2024)"
-          },
-          "tools": {
-              "title": "Tools",
-              "description": "Next, Tanstack Query, Next, Firebase, Nodemailer, ShadcnUi"
-          },
-          "category": "Website",
-          "description": "Arkan Seguros website with a modern and responsive design, highlighting the company's values and mission to attract and retain customers."
-      },
-      "video": {
-          "title": "Visual Tour",
-          "description": "Watch the video below to learn more about the Arkan Seguros website and its features."
-      },
-      "overview": {
-          "title": "Overview",
-          "prompt": {
-              "title": "Prompt",
-              "description": "The Arkan Seguros website was developed to highlight the company's values and mission, offering a modern and responsive design. The site provides detailed information about the services offered by Arkan Seguros, helping to attract and retain customers. With intuitive navigation and well-organized content, the site makes it easy to access information and ensures a pleasant user experience."
-          },
-          "design-process": {
-              "title": "Design Process",
-              "description": "The design process for the Arkan Seguros website began with an analysis of customer needs and best design practices for corporate websites. We created prototypes to visualize the site's layout and functionality, incorporating user feedback to refine the design. The final result is a modern and responsive website that highlights Arkan Seguros' values and mission, providing a pleasant and efficient user experience."
-          }
-      },
-      "user-research": {
-          "title": "User Research",
-          "background-research": {
-              "title": "Background Research",
-              "description": "User research was conducted through meetings with the client, studying their target audience and how we can reach them. From this, we developed personas and user stories to guide the design process, ensuring the site met users' expectations and needs. An important detail was the customer feedback and FAQ section in each service, which helped us better understand what the client wanted."
-          }
-      },
-      "problem-statement": {
-          "challenge": "Challenge",
-          "title": "Problem Statement",
-          "description": "Insurance companies need a website that highlights their values and mission, providing clear and accessible information about their services. Many corporate websites are complicated and difficult to navigate, which can drive away potential customers. The Arkan Seguros website was designed to address these issues, offering a modern and responsive design with intuitive navigation and well-organized content. Additionally, the challenge of building email delivery for the client was addressed, meaning that each form submission sends the client the request data, which was a personal challenge for me."
-      },
-      "impact": {
-          "subtitle": "Impact",
-          "title": "Reflections and Results",
-          "description": "The Arkan Seguros website has the potential to strengthen the company's online presence, highlighting their values and mission and providing a pleasant and efficient user experience. With a modern and responsive design, the site makes it easy to access information and helps attract and retain customers, increasing customer satisfaction and loyalty. The intuitive navigation and well-organized content ensure users can quickly find the information they need, improving the overall user experience and strengthening Arkan Seguros' image in the market."
-      }
-    },
-    "dashboard-arkan-seguros": {
-      "title": "Arkan Seguros Dashboard",
-      "init": {
-          "role": {
-              "title": "My Role",
-              "description": "Developer"
-          },
-          "project": {
-              "title": "Project",
-              "description": "By myself"
-          },
-          "timeline": {
-              "title": "Development Time",
-              "description": "1.5 months (2024)"
-          },
-          "tools": {
-              "title": "Tools",
-              "description": "Next, NextApi, Tanstack Query, Firebase, Recharts, ShadcnUi"
-          },
-          "category": "Web Application",
-          "description": "Arkan Seguros dashboard with a modern and responsive design, presenting important charts and information for the company."
-      },
-      "video": {
-          "title": "Video",
-          "description": "Watch the video below to learn more about the Arkan Seguros Dashboard and its features."
-      },
-      "overview": {
-          "title": "Overview",
-          "prompt": {
-              "title": "Prompt",
-              "description": "The Arkan Seguros Dashboard was developed to provide a comprehensive and real-time view of the company's data, aiding in strategic decision-making. With a modern and responsive design, the dashboard presents important charts and information, allowing users to monitor site performance and identify trends and opportunities. The dashboard also offers advanced analysis tools, making data interpretation and strategic planning easier."
-          },
-          "design-process": {
-              "title": "Design Process",
-              "description": "The design process for the Arkan Seguros Dashboard began with a detailed analysis of user needs and best design practices for corporate dashboards. From studies of PowerBi dashboards and others made with Pandas and Streamlit, we developed a modern and responsive dashboard that highlights important information clearly and accessibly, helping the company make informed decisions and improve its market performance."
-          }
-      },
-      "user-research": {
-          "title": "User Research",
-          "background-research": {
-              "title": "Background Research",
-              "description": "User research for the Arkan Seguros Dashboard involved interviews and surveys with company employees and managers. We gathered insights about users' needs and expectations for the dashboard, identifying the key metrics and information that should be highlighted. Based on these insights, we developed personas and user stories to guide the design process, ensuring the dashboard met the needs of its target audience."
-          }
-      },
-      "problem-statement": {
-          "challenge": "Challenge",
-          "title": "Problem Statement",
-          "description": "The Arkan Dashboard was created to fill the gap in the lack of detailed customer data and information. Despite being exclusively from the site form, the client has full control and visibility over customer flow and trends, enabling better decision-making and insights for the company."
-      },
-      "impact": {
-          "subtitle": "Impact",
-          "title": "Reflections and Results",
-          "description": "Since this repository does not contain a backend, creating this dashboard was quite challenging, as data manipulation was done from a JSON file. The request for this dashboard came unexpectedly, so I had to change plans and build one using only Next's server-side, which was a very good and innovative experience for me. In addition, I had the opportunity to learn how to use Firebase, which will be very beneficial for future projects. Despite this setback, Arkan Seguros makes me very proud, a very well-structured and institutional site built with a lot of effort and dedication."
-      }
-    },
-   "onebitflix-front": {
-    "title": "Onebitflix",
-    "init": {
-        "role": {
-            "title": "My Role",
-            "description": "Developer"
         },
-        "project": {
-            "title": "Project",
-            "description": "By myself"
-        },
-        "timeline": {
-            "title": "Development Time",
-            "description": "1.5 months (2023)"
-        },
-        "tools": {
-            "title": "Tools",
-            "description": "React, Bootstrap, React-Modal, Sass, Splide.js"
-        },
-        "category": "Web Application",
-        "description": "Programming lesson website with a modern and responsive design, intuitive and easy-to-use navigation, and a custom video player."
-    },
-    "video": {
-        "title": "Video",
-        "description": "Watch the video below to learn more about Onebitflix and its features."
-    },
-    "overview": {
-        "title": "Overview",
-        "prompt": {
-            "title": "Prompt",
-            "description": "Onebitflix is a programming lesson website designed to provide a modern and accessible learning platform. With responsive design and intuitive navigation, Onebitflix makes it easy to access a wide range of programming courses, allowing users to learn at their own pace. The site includes a custom video player, support for multiple devices, and advanced course search and filtering features, ensuring a pleasant and efficient learning experience."
-        },
-        "design-process": {
-            "title": "Design Process",
-            "description": "The design process for Onebitflix started with the idea of basing the design on Netflix, with a modern and responsive layout. Prototypes were developed to visualize the site's layout and functionality. The final result is a programming lesson website with an elegant design and intuitive functionality, providing a pleasant and efficient learning experience for users."
-        }
-    },
-    "user-research": {
-        "title": "User Research",
-        "background-research": {
-            "title": "Background Research",
-            "description": "User research for Onebitflix involved interviews and surveys with programming students and instructors. We gathered insights about users' needs and expectations for the platform, identifying key features and functionalities that should be highlighted. Based on these insights, we developed personas and user stories to guide the design process, ensuring the site met users' expectations and needs."
-        }
-    },
-    "problem-statement": {
-        "challenge": "Challenge",
-        "title": "Problem Statement",
-        "description": "Online learning platforms face challenges in providing a pleasant and efficient learning experience for users. Many course sites have complicated layouts and limited functionalities, which can make accessing content and navigating courses difficult. Onebitflix was designed to solve these problems, offering a modern and responsive platform with navigation slides showing courses and advanced course search and filtering features, as well as favorite and liked features for greater student personalization. With an elegant design and integrated features, Onebitflix provides a pleasant and efficient learning experience for users."
-    },
-    "impact": {
-        "subtitle": "Impact",
-        "title": "Reflections and Results",
-        "description": "Onebitflix is a very robust and complete site model, with impeccable design and very comfortable and intuitive navigation. The site was a personal challenge for me as it was my first contact with React and Bootstrap, which taught me a lot about these technologies, as well as being the real 'robust' project. The final result is a site that met users' expectations and helped me grow as a developer. Onebitflix has the potential to transform the way people learn programming, offering a modern and accessible platform for learning programming."
-    }
-    },
-    "onebitflix-back": {
-        "title": "Onebitflix Backend",
+        "onebitflix-front": {
+        "title": "Onebitflix",
         "init": {
             "role": {
                 "title": "My Role",
@@ -415,164 +360,156 @@
             },
             "tools": {
                 "title": "Tools",
-                "description": "Node.js, Express, Sequelize, PostgreSQL, JWT"
+                "description": "React, Bootstrap, React-Modal, Sass, Splide.js"
             },
-            "category": "API",
-            "description": "Onebitflix API, with complete CRUD for categories and videos, as well as user authentication using JWT and bcrypt."
+            "category": "Web Application",
+            "description": "Programming lesson website with a modern and responsive design, intuitive and easy-to-use navigation, and a custom video player."
         },
         "video": {
             "title": "Video",
-            "description": "Watch the video below to learn more about the Onebitflix Backend and its features."
+            "description": "Watch the video below to learn more about Onebitflix and its features."
         },
         "overview": {
             "title": "Overview",
             "prompt": {
                 "title": "Prompt",
-                "description": "The Onebitflix Backend was developed to provide a robust and secure API, supporting all the features of the programming lessons website. The API includes complete CRUD operations for categories and videos, allowing the creation, reading, updating, and deletion of data. Additionally, the API implements user authentication using JWT and bcrypt, ensuring the security and integrity of user data. With a scalable and efficient architecture, the Onebitflix Backend supports a wide range of functionalities and ensures the best possible user experience."
+                "description": "Onebitflix is a programming lesson website designed to provide a modern and accessible learning platform. With responsive design and intuitive navigation, Onebitflix makes it easy to access a wide range of programming courses, allowing users to learn at their own pace. The site includes a custom video player, support for multiple devices, and advanced course search and filtering features, ensuring a pleasant and efficient learning experience."
             },
             "design-process": {
                 "title": "Design Process",
-                "description": "The design process of the Onebitflix Backend started with a detailed analysis of the functional and security requirements for the API. We developed the API architecture and endpoints, ensuring that all CRUD operations were efficiently and securely supported. We implemented user authentication using JWT and bcrypt, ensuring the security of user data. Additionally, we designed the AdminJs page for better client administration with the application's content."
+                "description": "The design process for Onebitflix started with the idea of basing the design on Netflix, with a modern and responsive layout. Prototypes were developed to visualize the site's layout and functionality. The final result is a programming lesson website with an elegant design and intuitive functionality, providing a pleasant and efficient learning experience for users."
             }
         },
         "user-research": {
             "title": "User Research",
             "background-research": {
                 "title": "Background Research",
-                "description": "User research for the Onebitflix Backend involved interviews and surveys with developers and platform users. We gathered insights into the users' needs and expectations regarding the API, identifying the main functionalities and security requirements that should be implemented. Based on these insights, we developed a robust and scalable architecture for the API, ensuring that all CRUD operations were efficiently and securely supported, meeting users' needs and ensuring the best possible user experience."
+                "description": "User research for Onebitflix involved interviews and surveys with programming students and instructors. We gathered insights about users' needs and expectations for the platform, identifying key features and functionalities that should be highlighted. Based on these insights, we developed personas and user stories to guide the design process, ensuring the site met users' expectations and needs."
             }
         },
         "problem-statement": {
             "challenge": "Challenge",
             "title": "Problem Statement",
-            "description": "APIs for online learning platforms need to be secure and reliable, supporting a wide range of functionalities and ensuring the integrity of user data. Many course platform backends face challenges in implementing complete CRUD operations and secure authentication, which can compromise the user experience. The Onebitflix Backend was designed with Sequelize and PostgreSQL, providing an API with the necessary operations for its functioning. Additionally, it offers a complete and customized admin route for the client through AdminJs, giving full control over the application's content and facilitating the change or addition of new data."
+            "description": "Online learning platforms face challenges in providing a pleasant and efficient learning experience for users. Many course sites have complicated layouts and limited functionalities, which can make accessing content and navigating courses difficult. Onebitflix was designed to solve these problems, offering a modern and responsive platform with navigation slides showing courses and advanced course search and filtering features, as well as favorite and liked features for greater student personalization. With an elegant design and integrated features, Onebitflix provides a pleasant and efficient learning experience for users."
         },
         "impact": {
             "subtitle": "Impact",
             "title": "Reflections and Results",
-            "description": "The Onebitflix Backend was the first backend I created, and it was indeed a huge challenge. I admit that when I finished, I didn't fully understand what I had done, but it was certainly the best possible starting point. I learned a lot about Node.js, Express, and Sequelize, and also gained practical experience with JWT and bcrypt. Additionally, the project includes integration with AdminJs, a content management system that makes life easier for the client, which greatly enhanced my learning experience."
+            "description": "Onebitflix is a very robust and complete site model, with impeccable design and very comfortable and intuitive navigation. The site was a personal challenge for me as it was my first contact with React and Bootstrap, which taught me a lot about these technologies, as well as being the real 'robust' project. The final result is a site that met users' expectations and helped me grow as a developer. Onebitflix has the potential to transform the way people learn programming, offering a modern and accessible platform for learning programming."
         }
-    },
-    "python-analytics": {
-    "title": "Python Analytics",
-    "init": {
-        "role": {
-            "title": "My Role",
-            "description": "Developer"
         },
-        "project": {
-            "title": "Project",
-            "description": "By myself"
+        "onebitflix-back": {
+            "title": "Onebitflix Backend",
+            "init": {
+                "role": {
+                    "title": "My Role",
+                    "description": "Developer"
+                },
+                "project": {
+                    "title": "Project",
+                    "description": "By myself"
+                },
+                "timeline": {
+                    "title": "Development Time",
+                    "description": "1.5 months (2023)"
+                },
+                "tools": {
+                    "title": "Tools",
+                    "description": "Node.js, Express, Sequelize, PostgreSQL, JWT"
+                },
+                "category": "API",
+                "description": "Onebitflix API, with complete CRUD for categories and videos, as well as user authentication using JWT and bcrypt."
+            },
+            "video": {
+                "title": "Video",
+                "description": "Watch the video below to learn more about the Onebitflix Backend and its features."
+            },
+            "overview": {
+                "title": "Overview",
+                "prompt": {
+                    "title": "Prompt",
+                    "description": "The Onebitflix Backend was developed to provide a robust and secure API, supporting all the features of the programming lessons website. The API includes complete CRUD operations for categories and videos, allowing the creation, reading, updating, and deletion of data. Additionally, the API implements user authentication using JWT and bcrypt, ensuring the security and integrity of user data. With a scalable and efficient architecture, the Onebitflix Backend supports a wide range of functionalities and ensures the best possible user experience."
+                },
+                "design-process": {
+                    "title": "Design Process",
+                    "description": "The design process of the Onebitflix Backend started with a detailed analysis of the functional and security requirements for the API. We developed the API architecture and endpoints, ensuring that all CRUD operations were efficiently and securely supported. We implemented user authentication using JWT and bcrypt, ensuring the security of user data. Additionally, we designed the AdminJs page for better client administration with the application's content."
+                }
+            },
+            "user-research": {
+                "title": "User Research",
+                "background-research": {
+                    "title": "Background Research",
+                    "description": "User research for the Onebitflix Backend involved interviews and surveys with developers and platform users. We gathered insights into the users' needs and expectations regarding the API, identifying the main functionalities and security requirements that should be implemented. Based on these insights, we developed a robust and scalable architecture for the API, ensuring that all CRUD operations were efficiently and securely supported, meeting users' needs and ensuring the best possible user experience."
+                }
+            },
+            "problem-statement": {
+                "challenge": "Challenge",
+                "title": "Problem Statement",
+                "description": "APIs for online learning platforms need to be secure and reliable, supporting a wide range of functionalities and ensuring the integrity of user data. Many course platform backends face challenges in implementing complete CRUD operations and secure authentication, which can compromise the user experience. The Onebitflix Backend was designed with Sequelize and PostgreSQL, providing an API with the necessary operations for its functioning. Additionally, it offers a complete and customized admin route for the client through AdminJs, giving full control over the application's content and facilitating the change or addition of new data."
+            },
+            "impact": {
+                "subtitle": "Impact",
+                "title": "Reflections and Results",
+                "description": "The Onebitflix Backend was the first backend I created, and it was indeed a huge challenge. I admit that when I finished, I didn't fully understand what I had done, but it was certainly the best possible starting point. I learned a lot about Node.js, Express, and Sequelize, and also gained practical experience with JWT and bcrypt. Additionally, the project includes integration with AdminJs, a content management system that makes life easier for the client, which greatly enhanced my learning experience."
+            }
         },
-        "timeline": {
-            "title": "Development Time",
-            "description": "3 days (2023)"
+        "python-analytics": {
+        "title": "Python Analytics",
+        "init": {
+            "role": {
+                "title": "My Role",
+                "description": "Developer"
+            },
+            "project": {
+                "title": "Project",
+                "description": "By myself"
+            },
+            "timeline": {
+                "title": "Development Time",
+                "description": "3 days (2023)"
+            },
+            "tools": {
+                "title": "Tools",
+                "description": "Pandas, Streamlit, Plotly"
+            },
+            "category": "API",
+            "description": "Data analysis dashboard with Python, featuring charts and key information for the company."
         },
-        "tools": {
-            "title": "Tools",
-            "description": "Pandas, Streamlit, Plotly"
+        "video": {
+            "title": "Video",
+            "description": "Watch the video below to learn more about Python Analytics and its features."
         },
-        "category": "API",
-        "description": "Data analysis dashboard with Python, featuring charts and key information for the company."
-    },
-    "video": {
-        "title": "Video",
-        "description": "Watch the video below to learn more about Python Analytics and its features."
-    },
-    "overview": {
-        "title": "Overview",
-        "prompt": {
-            "title": "Prompt",
-            "description": "Python Analytics was developed to provide a powerful data analysis tool, presenting charts and key information in a clear and accessible manner. With a modern and responsive design, the dashboard allows users to track company performance and identify trends and opportunities."
+        "overview": {
+            "title": "Overview",
+            "prompt": {
+                "title": "Prompt",
+                "description": "Python Analytics was developed to provide a powerful data analysis tool, presenting charts and key information in a clear and accessible manner. With a modern and responsive design, the dashboard allows users to track company performance and identify trends and opportunities."
+            },
+            "design-process": {
+                "title": "Design Process",
+                "description": "The design of Python Analytics was based on existing data analysis dashboards, with charts and information presented clearly and accessibly. We used the Streamlit library to create an interactive and responsive dashboard, with advanced analysis tools to facilitate data interpretation and strategic planning. The final result is a modern and efficient dashboard that helps companies make informed decisions and improve their market performance."
+            }
         },
-        "design-process": {
-            "title": "Design Process",
-            "description": "The design of Python Analytics was based on existing data analysis dashboards, with charts and information presented clearly and accessibly. We used the Streamlit library to create an interactive and responsive dashboard, with advanced analysis tools to facilitate data interpretation and strategic planning. The final result is a modern and efficient dashboard that helps companies make informed decisions and improve their market performance."
+        "user-research": {
+            "title": "User Research",
+            "background-research": {
+                "title": "Background Research",
+                "description": "User research for Python Analytics involved interviews and surveys with managers and data analysts. We gathered insights about users' needs and expectations regarding the dashboard, identifying key metrics and information to highlight. Based on these insights, we developed personas and user stories to guide the design process, ensuring that the dashboard met the needs of its target audience and provided an efficient and pleasant user experience."
+            }
+        },
+        "problem-statement": {
+            "challenge": "Challenge",
+            "title": "Problem Statement",
+            "description": "The initial intention of this project was to identify how much we can achieve with Python alone compared to powerful and robust tools like PowerBi. The result was as expected: we created a simple application where we analyzed data from a spreadsheet and generated various charts with filters in the sidebar."
+        },
+        "impact": {
+            "subtitle": "Impact",
+            "title": "Reflections and Results",
+            "description": "I am quite proud of this project, one of the first I did with my 'native' language, Python. I built this page to show what we can achieve with the language and how powerful it is. I learned a lot about Pandas, Streamlit, and Plotly, as well as gaining practical experience with data analysis and information visualization. The final result is a modern and efficient dashboard that helps companies make informed decisions and improve their market performance."
         }
-    },
-    "user-research": {
-        "title": "User Research",
-        "background-research": {
-            "title": "Background Research",
-            "description": "User research for Python Analytics involved interviews and surveys with managers and data analysts. We gathered insights about users' needs and expectations regarding the dashboard, identifying key metrics and information to highlight. Based on these insights, we developed personas and user stories to guide the design process, ensuring that the dashboard met the needs of its target audience and provided an efficient and pleasant user experience."
-        }
-    },
-    "problem-statement": {
-        "challenge": "Challenge",
-        "title": "Problem Statement",
-        "description": "The initial intention of this project was to identify how much we can achieve with Python alone compared to powerful and robust tools like PowerBi. The result was as expected: we created a simple application where we analyzed data from a spreadsheet and generated various charts with filters in the sidebar."
-    },
-    "impact": {
-        "subtitle": "Impact",
-        "title": "Reflections and Results",
-        "description": "I am quite proud of this project, one of the first I did with my 'native' language, Python. I built this page to show what we can achieve with the language and how powerful it is. I learned a lot about Pandas, Streamlit, and Plotly, as well as gaining practical experience with data analysis and information visualization. The final result is a modern and efficient dashboard that helps companies make informed decisions and improve their market performance."
-    }
-    },
-    "libertas-backend": {
-    "title": "Libertas",
-    "init": {
-      "role": {
-        "title": "My Role",
-        "description": "Developer"
-      },
-      "project": {
-        "title": "Project",
-        "description": "Solo"
-      },
-      "timeline": {
-        "title": "Development Time",
-        "description": "5 days (2024)"
-      },
-      "tools": {
-        "title": "Tools",
-        "description": "Typescript, Express, Cors, Postgres, Prisma, Render, Nodemailer, Swagger"
-      },
-      "category": "Backend",
-      "description": "Backend for the Libertas project, offering services and client management."
-    },
-    "video": {
-      "title": "Video",
-      "description": "Watch the video below to learn more about Libertas and its features."
-    },
-    "overview": {
-      "title": "Overview",
-      "prompt": {
-        "title": "Prompt",
-        "description": "The Libertas backend provides a robust API for managing services and clients. With endpoints to create, search, list, and delete services and clients, the backend is designed to be adaptable and efficient. The API is also 100% adaptable for mobile devices and was planned for future maintenance. Additionally, Nodemailer was implemented for sending emails to the website owner."
-      },
-      "design-process": {
-        "title": "Design Process",
-        "description": "The backend development process included selecting appropriate tools and technologies such as Typescript and Prisma, and setting up an efficient and secure API. Key design decisions focused on building RESTful endpoints and integrating with the Postgres database."
-      }
-    },
-    "user-research": {
-      "title": "User Research",
-      "background-research": {
-        "title": "Context Research",
-        "description": "User research for the backend involved defining requirements and creating an API that meets the needs for managing services and clients. The focus was to ensure the API was intuitive and easy to integrate with the frontend."
-      },
-      "research-goals": {
-        "title": "Goals",
-        "goals": {
-          "goal1": "Develop an efficient API for managing services and clients",
-          "goal2": "Ensure the API is secure and adaptable to future changes",
-          "goal3": "Facilitate integration with the frontend and project maintenance"
-        }
-      }
-    },
-    "problem-statement": {
-      "challenge": "Challenge",
-      "title": "Problem Statement",
-      "description": "The main challenge was to create an API that was both powerful and easy to use. The backend needed to be robust enough to manage services and clients while remaining simple and clear to facilitate use and maintenance."
-    },
-    "impact": {
-      "subtitle": "Impact",
-      "title": "Reflections and Results",
-      "description": "Developing the Libertas backend was an enriching experience, involving the implementation of a complete API and using modern tools such as Prisma and Typescript. The project not only met the frontend needs but also provided valuable learning in API design and system integration. Notably, this project was my first successful deployment on Render, which greatly expanded my knowledge of application deployment."
-    }
-    },
-    "planner-back": {
-        "title": "Planner Backend",
+        },
+        "libertas-backend": {
+        "title": "Libertas",
         "init": {
         "role": {
             "title": "My Role",
@@ -584,40 +521,40 @@
         },
         "timeline": {
             "title": "Development Time",
-            "description": "3 days (2024)"
+            "description": "5 days (2024)"
         },
         "tools": {
             "title": "Tools",
-            "description": "Typescript, Fastify, Cors, SQLite, Prisma, Nodemailer, Swagger, SOLID, Zod"
+            "description": "Typescript, Express, Cors, Postgres, Prisma, Render, Nodemailer, Swagger"
         },
         "category": "Backend",
-        "description": "Backend for a travel planner."
+        "description": "Backend for the Libertas project, offering services and client management."
         },
         "video": {
         "title": "Video",
-        "description": "Watch the video below to learn more about the Planner and its features."
+        "description": "Watch the video below to learn more about Libertas and its features."
         },
         "overview": {
         "title": "Overview",
         "prompt": {
             "title": "Prompt",
-            "description": "The Planner backend provides a robust API for trip management. It includes endpoints to create, fetch, list, and delete trips, and also offers the ability to invite friends to the trip via email, sending invitation links. The application also allows creating activities to be performed during the trip, as well as viewing and editing their details."
+            "description": "The Libertas backend provides a robust API for managing services and clients. With endpoints to create, search, list, and delete services and clients, the backend is designed to be adaptable and efficient. The API is also 100% adaptable for mobile devices and was planned for future maintenance. Additionally, Nodemailer was implemented for sending emails to the website owner."
         },
         "design-process": {
             "title": "Design Process",
-            "description": "The backend development process included choosing suitable tools and technologies, such as Typescript and Prisma. The main decisions were in the relationships between tables and testing email sending, as well as implementing Zod for data validation, along with methodologies like SOLID to ensure code quality."
+            "description": "The backend development process included selecting appropriate tools and technologies such as Typescript and Prisma, and setting up an efficient and secure API. Key design decisions focused on building RESTful endpoints and integrating with the Postgres database."
         }
         },
         "user-research": {
         "title": "User Research",
         "background-research": {
-            "title": "Background Research",
-            "description": "User research for the backend involved defining requirements and creating an API that met the needs of trip management. The focus was on ensuring that the API was intuitive and easy to integrate with the frontend."
+            "title": "Context Research",
+            "description": "User research for the backend involved defining requirements and creating an API that meets the needs for managing services and clients. The focus was to ensure the API was intuitive and easy to integrate with the frontend."
         },
         "research-goals": {
             "title": "Goals",
             "goals": {
-            "goal1": "Develop an efficient API for service and customer management",
+            "goal1": "Develop an efficient API for managing services and clients",
             "goal2": "Ensure the API is secure and adaptable to future changes",
             "goal3": "Facilitate integration with the frontend and project maintenance"
             }
@@ -626,18 +563,144 @@
         "problem-statement": {
         "challenge": "Challenge",
         "title": "Problem Statement",
-        "description": "The main challenge of this project was using SOLID principles, dividing the application into repositories and separating the database dependency, which helped me mature a lot as a programmer, as well as creating use cases for each scenario. Another interesting aspect was handling the creation of trip invitations, which involved creating an email sending system and generating invitation links. Additionally, data validation and integration with the frontend were important challenges to ensure the API's efficiency and security."
+        "description": "The main challenge was to create an API that was both powerful and easy to use. The backend needed to be robust enough to manage services and clients while remaining simple and clear to facilitate use and maintenance."
         },
         "impact": {
         "subtitle": "Impact",
-        "title": "Reflections and Outcomes",
-        "description": "This project was my first experience with Fastify, and I loved its integrations with Zod and its plugin system. It also improved my backend skills and handling with Prisma. Completing the project in 3 days was a great challenge, teaching me a lot about organization and project planning, but I believe the main challenge was dividing the routes into use cases, creating repositories, and inverting the dependency."
+        "title": "Reflections and Results",
+        "description": "Developing the Libertas backend was an enriching experience, involving the implementation of a complete API and using modern tools such as Prisma and Typescript. The project not only met the frontend needs but also provided valuable learning in API design and system integration. Notably, this project was my first successful deployment on Render, which greatly expanded my knowledge of application deployment."
         }
-    } 
+        },
+        "planner-back": {
+            "title": "Planner Backend",
+            "init": {
+            "role": {
+                "title": "My Role",
+                "description": "Developer"
+            },
+            "project": {
+                "title": "Project",
+                "description": "Solo"
+            },
+            "timeline": {
+                "title": "Development Time",
+                "description": "3 days (2024)"
+            },
+            "tools": {
+                "title": "Tools",
+                "description": "Typescript, Fastify, Cors, SQLite, Prisma, Nodemailer, Swagger, SOLID, Zod"
+            },
+            "category": "Backend",
+            "description": "Backend for a travel planner."
+            },
+            "video": {
+            "title": "Video",
+            "description": "Watch the video below to learn more about the Planner and its features."
+            },
+            "overview": {
+            "title": "Overview",
+            "prompt": {
+                "title": "Prompt",
+                "description": "The Planner backend provides a robust API for trip management. It includes endpoints to create, fetch, list, and delete trips, and also offers the ability to invite friends to the trip via email, sending invitation links. The application also allows creating activities to be performed during the trip, as well as viewing and editing their details."
+            },
+            "design-process": {
+                "title": "Design Process",
+                "description": "The backend development process included choosing suitable tools and technologies, such as Typescript and Prisma. The main decisions were in the relationships between tables and testing email sending, as well as implementing Zod for data validation, along with methodologies like SOLID to ensure code quality."
+            }
+            },
+            "user-research": {
+            "title": "User Research",
+            "background-research": {
+                "title": "Background Research",
+                "description": "User research for the backend involved defining requirements and creating an API that met the needs of trip management. The focus was on ensuring that the API was intuitive and easy to integrate with the frontend."
+            },
+            "research-goals": {
+                "title": "Goals",
+                "goals": {
+                "goal1": "Develop an efficient API for service and customer management",
+                "goal2": "Ensure the API is secure and adaptable to future changes",
+                "goal3": "Facilitate integration with the frontend and project maintenance"
+                }
+            }
+            },
+            "problem-statement": {
+            "challenge": "Challenge",
+            "title": "Problem Statement",
+            "description": "The main challenge of this project was using SOLID principles, dividing the application into repositories and separating the database dependency, which helped me mature a lot as a programmer, as well as creating use cases for each scenario. Another interesting aspect was handling the creation of trip invitations, which involved creating an email sending system and generating invitation links. Additionally, data validation and integration with the frontend were important challenges to ensure the API's efficiency and security."
+            },
+            "impact": {
+            "subtitle": "Impact",
+            "title": "Reflections and Outcomes",
+            "description": "This project was my first experience with Fastify, and I loved its integrations with Zod and its plugin system. It also improved my backend skills and handling with Prisma. Completing the project in 3 days was a great challenge, teaching me a lot about organization and project planning, but I believe the main challenge was dividing the routes into use cases, creating repositories, and inverting the dependency."
+            }
+        },
+        "planner-front": {
+            "title": "Planner",
+            "init": {
+            "role": {
+                "title": "My Role",
+                "description": "Developer"
+            },
+            "project": {
+                "title": "Project",
+                "description": "Solo"
+            },
+            "timeline": {
+                "title": "Development Time",
+                "description": "2 weeks (2024)"
+            },
+            "tools": {
+                "title": "Tools",
+                "description":  "Typescript, NativeWind, Zod, Axios, Async Storage, Nodemailer"
+            },
+            "category": "Mobile",
+            "description": "Planner is a travel planner where the user can invite friends, schedule links, and activities."
+            },
+            "video": {
+            "title": "Video",
+            "description": "Watch the video below to learn more about Planner and its features."
+            },
+            "overview": {
+            "title": "Overview",
+            "prompt": {
+                "title": "Prompt",
+                "description": "Planner is a travel planner where the user can invite friends, schedule links, and activities. Friends will be invited via email, with a confirmation link in the body. Once the guest clicks the link provided in the email, they will be redirected to the client's confirmation page, and then they will be able to view the trip information. The project offers efficient and practical scheduling of activities and links, as well as the possibility of changing them."
+            },
+            "design-process": {
+                "title": "Design Process",
+                "description": "The development process of Planner included providing detailed mockups in conjunction with the backend functionality."
+            }
+            },
+            "user-research": {
+            "title": "User Research",
+            "background-research": {
+                "title": "Background Research",
+                "description": "User research for Planner involved defining requirements and creating an application that meets the needs of travel planning. The focus was to ensure that the application is intuitive and easy to use."
+            },
+            "research-goals": {
+                "title": "Goals",
+                "goals": {
+                "goal1": "Develop an efficient application for travel management",
+                "goal2": "Ensure the application is secure and adaptable to future changes",
+                "goal3": "Facilitate integration with backend services and project maintenance"
+                }
+            }
+            },
+            "problem-statement": {
+            "challenge": "Challenge",
+            "title": "Problem Statement",
+            "description": "The main challenge of this project was learning to use the react native framework, configuring Android Studio, and building the application on the device, in addition to various continuous bugs and complications along the way. Another challenge was implementing NativeWind for styling, as I had a setback due to a file name that was out of standard 😓 (I spent hours and hours on this bug), which inspired me to write on my blog when I realized that many people had the same problems but couldn't find a solution."
+            },
+            "impact": {
+            "subtitle": "Impact",
+            "title": "Reflections and Results",
+            "description": "This project was my first contact with react native, and I learned a lot with this framework. The configuration of Android Studio and building the application on the device were great challenges but provided valuable learning. I confess that I've never had so many problems running an application as I did now with mobile, but it greatly raised my expectations of how much I can produce as a developer and problem solver. Additionally, I learned to use NativeWind for styling and react-native-async-storage for storing data on the device."
+            }
+        }  
     },
     "NotFound": {
         "subtitle": "It looks like you're lost, my friend",
         "button": "Go home"
-  }
+    }
 }
   

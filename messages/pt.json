@@ -634,6 +634,69 @@
           "title": "Reflexões e Resultados",
           "description": "Esse projeto foi o meu primeiro em contato com o Fastify e adorei suas integrações com o zod e o seu sistema de plugins. Além disso melhorou minhas habilidades de backend e manuseio com o Prisma. A finalização do projeto com o tempo de 3 dias foi um grande desafio, mas que me fez aprender muito sobre organização e planejamento de projetos, mas creio que o grande desafio foi a divisão das rotas em use cases, ou seja, criando repositories e invertendo a dependência."  
         }
+    },
+    "planner-front": {
+    "title": "Planner",
+    "init": {
+      "role": {
+        "title": "Meu cargo",
+        "description": "Desenvolvedor"
+      },
+      "project": {
+        "title": "Projeto",
+        "description": "Solo"
+      },
+      "timeline": {
+        "title": "Tempo de Desenvolvimento",
+        "description": "2 semanas (2024)"
+      },
+      "tools": {
+        "title": "Ferramentas",
+        "description":  "Typescript, NativeWind, Zod, Axios, Async Storage, Nodemailer"
+      },
+      "category": "Mobile",
+      "description": "Planner é um planejador de viagens onde o usuário pode convidar amigos, agendar links e atividades."
+    },
+    "video": {
+      "title": "Vídeo",
+      "description": "Assista ao vídeo abaixo para saber mais sobre o Planner e seus recursos."
+    },
+    "overview": {
+      "title": "Visão Geral",
+      "prompt": {
+        "title": "Prompt",
+        "description": "Planner é um planejador de viagens onde o usuário pode convidar amigos, agendar links e atividades. Amigos serão convidados por email, com um link de confirmação no corpo. A partir disso, quando o convidado clica no link disponibilizado no email, ele irá para a página de confimração do cliente, e assim ficará disponível para visualizar as informações da viagem. O projeto oferece um agendamento eficiente e prático de atividades e links, além da possibilidade de alterá-los."
+      },
+      "design-process": {
+        "title": "Processo de Design",
+        "description": "O processo de desenvolvimento do Planner incluiu a disponibilidades de mockups detalhados, em conjunto com o funcionamento do backend."
+      }
+    },
+    "user-research": {
+      "title": "Pesquisa de Usuário",
+      "background-research": {
+        "title": "Pesquisa de Contexto",
+        "description": "A pesquisa de usuário para o Planner envolveu a definição de requisitos e a criação de uma aplicação que atendesse às necessidades de planejamento de viagens. O foco foi garantir que a aplicação fosse intuitiva e fácil de usar."
+      },
+      "research-goals": {
+        "title": "Objetivos",
+        "goals": {
+          "goal1": "Desenvolver uma aplicação eficiente para gerenciamento de viagens",
+          "goal2": "Garantir que a aplicação seja segura e adaptável a futuras mudanças",
+          "goal3": "Facilitar a integração com serviços de backend e a manutenção do projeto"
+        }
+      }
+    },
+    "problem-statement": {
+      "challenge": "Desafio",
+      "title": "Declaração do Problema",
+      "description": "O principal desafio deste projeto foi aprender a utilizar o framework react native, configurar o Android Studio e construir a aplicação no dispositivo Além de diversos e contínuos bugs e complicações no caminho. Outro desafio foi implementar o NativeWind para estilização, pois tive um contratempo por conta de um nome de arquivo que estava fora do padrão 😓(levei horas e horas nesse bug) tanto que foi a inspiração para escrever no meu blog, quando me dei conta que muitas pessoas passaram pelo mesmo problemas, mas não conseguiam encontrar uma solução."
+    },
+    "impact": {
+      "subtitle": "Impacto",
+      "title": "Reflexões e Resultados",
+      "description": "Este projeto foi o meu primeiro contato com o react native, e aprendi muito com este framework. A configuração do Android Studio e a construção da aplicação no dispositivo foram grandes desafios, mas proporcionaram um aprendizado valioso. Confesso que nunca tive tantos problemas para rodar uma aplicação como quando mexi agora com mobile, porém elevou muito minhas expectativas do quanto eu posso produzir como desenvolvedor e resolucionador de problemas. Além disso, aprendi a utilizar o NativeWind para estilização e o react-native-async-storage para armazenamento de dados no dispositivo."
+    }
     }
   
   },
