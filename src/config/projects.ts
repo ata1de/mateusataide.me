@@ -111,6 +111,16 @@ export const projectsListHome: ProjectType[] = [
         design_back: "",
         project_video: 'https://github.com/user-attachments/assets/10113799-1b82-4b33-ad62-32f9b8899b2d',
         category: "mobile",
+    },
+    {
+        id: "news-explorer",
+        image: "/projects/news-explorer/mockup-news-explorer.png",
+        image_details: "https://github.com/user-attachments/assets/2b00bc45-5c9c-4746-926d-622be5e5e5fd",
+        link_visit: "",
+        link_source: "https://github.com/ata1de/NewsExplorer",
+        design_back: "",
+        project_video: 'https://github.com/user-attachments/assets/c7580e9e-7f12-408b-b3a6-84e03b406205',
+        category: "mobile",
     }
 
 ];

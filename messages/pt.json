@@ -697,7 +697,70 @@
       "title": "Reflexões e Resultados",
       "description": "Este projeto foi o meu primeiro contato com o react native, e aprendi muito com este framework. A configuração do Android Studio e a construção da aplicação no dispositivo foram grandes desafios, mas proporcionaram um aprendizado valioso. Confesso que nunca tive tantos problemas para rodar uma aplicação como quando mexi agora com mobile, porém elevou muito minhas expectativas do quanto eu posso produzir como desenvolvedor e resolucionador de problemas. Além disso, aprendi a utilizar o NativeWind para estilização e o react-native-async-storage para armazenamento de dados no dispositivo."
     }
-    }
+    },
+    "news-explorer": {
+      "title": "News Explorer",
+      "init": {
+        "role": {
+          "title": "Meu cargo",
+          "description": "Desenvolvedor"
+        },
+        "project": {
+          "title": "Projeto",
+          "description": "Solo"
+        },
+        "timeline": {
+          "title": "Tempo de Desenvolvimento",
+          "description": "5 dias (2024)"
+        },
+        "tools": {
+          "title": "Ferramentas",
+          "description": "Typescript, NativeWind, NewsAPI, Axios, React-Native-Carousel"
+        },
+        "category": "Mobile",
+        "description": "News Explorer é uma aplicação que atua como um jornal online, permitindo que os usuários filtrem notícias por categoria e visualizem mais informações sobre o item desejado."
+      },
+      "video": {
+        "title": "Vídeo",
+        "description": "Assista ao vídeo abaixo para saber mais sobre o News Explorer e seus recursos."
+      },
+      "overview": {
+        "title": "Visão Geral",
+        "prompt": {
+          "title": "Prompt",
+          "description": "News Explorer é uma aplicação que atua como um jornal online, em que o usuário pode filtrar notícias por categorias e visualizar mais informações sobre o item de interesse, incluindo descrição, data de publicação, imagem e link para o site original. A aplicação também permite buscar por notícias específicas, detalhando ainda mais a busca por informações."
+        },
+        "design-process": {
+          "title": "Processo de Design",
+          "description": "O processo de design do News Explorer incluiu a criação de um layout responsivo e baseando-se em pesquisas por aplicativos de notícia no Behance, Dribble e Pinterest."
+        }
+      },
+      "user-research": {
+        "title": "Pesquisa de Usuário",
+        "background-research": {
+          "title": "Pesquisa de Contexto",
+          "description": "A pesquisa de usuário para o News Explorer focou na criação de uma aplicação intuitiva e fácil de usar, que atendesse às necessidades de busca e filtragem de notícias online."
+        },
+        "research-goals": {
+          "title": "Objetivos",
+          "goals": {
+            "goal1": "Desenvolver uma aplicação eficiente para busca e filtragem de notícias",
+            "goal2": "Garantir que a aplicação seja adaptável e fácil de manter",
+            "goal3": "Facilitar a integração com a API de notícias e outros serviços de backend"
+          }
+        }
+      },
+      "problem-statement": {
+        "challenge": "Desafio",
+        "title": "Declaração do Problema",
+        "description": "O principal desafio deste projeto foi implementar a filtragem de notícias por categoria e a estilização com o NativeWind, além de garantir que a aplicação fosse 100% responsiva"
+      },
+      "impact": {
+        "subtitle": "Impacto",
+        "title": "Reflexões e Resultados",
+        "description": "Este projeto foi uma grande oportunidade de aprendizado, especialmente na implementação de um design responsivo com NativeWind. A experiência me proporcionou um melhor entendimento do ciclo de vida de um projeto mobile e a importância de garantir uma boa experiência do usuário."
+      }
+    } 
   
   },
   "NotFound": {

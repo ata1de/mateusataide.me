@@ -696,7 +696,71 @@
             "title": "Reflections and Results",
             "description": "This project was my first contact with react native, and I learned a lot with this framework. The configuration of Android Studio and building the application on the device were great challenges but provided valuable learning. I confess that I've never had so many problems running an application as I did now with mobile, but it greatly raised my expectations of how much I can produce as a developer and problem solver. Additionally, I learned to use NativeWind for styling and react-native-async-storage for storing data on the device."
             }
-        }  
+        },
+        "news-explorer": {
+            "title": "News Explorer",
+            "init": {
+                "role": {
+                "title": "My Role",
+                "description": "Developer"
+                },
+                "project": {
+                "title": "Project",
+                "description": "Solo"
+                },
+                "timeline": {
+                "title": "Development Time",
+                "description": "5 days (2024)"
+                },
+                "tools": {
+                "title": "Tools",
+                "description": "Typescript, NativeWind, NewsAPI, Axios, React-Native-Carousel"
+                },
+                "category": "Mobile",
+                "description": "News Explorer is an application that acts as an online newspaper, allowing users to filter news by category and view more information about the desired item."
+            },
+            "video": {
+                "title": "Video",
+                "description": "Watch the video below to learn more about News Explorer and its features."
+            },
+            "overview": {
+                "title": "Overview",
+                "prompt": {
+                "title": "Prompt",
+                "description": "News Explorer is an application that acts as an online newspaper, where users can filter news by categories and view more information about the item of interest, including description, publication date, image, and link to the original site. The application also allows searching for specific news, further detailing the search for information."
+                },
+                "design-process": {
+                "title": "Design Process",
+                "description": "The design process of News Explorer included creating a responsive layout and was based on research from news apps on Behance, Dribble, and Pinterest."
+                }
+            },
+            "user-research": {
+                "title": "User Research",
+                "background-research": {
+                "title": "Background Research",
+                "description": "The user research for News Explorer focused on creating an intuitive and easy-to-use application that meets the needs of online news searching and filtering."
+                },
+                "research-goals": {
+                "title": "Goals",
+                "goals": {
+                    "goal1": "Develop an efficient application for searching and filtering news",
+                    "goal2": "Ensure the application is adaptable and easy to maintain",
+                    "goal3": "Facilitate integration with the news API and other backend services"
+                }
+                }
+            },
+            "problem-statement": {
+                "challenge": "Challenge",
+                "title": "Problem Statement",
+                "description": "The main challenge of this project was to implement news filtering by category and styling with NativeWind, as well as ensuring the application was 100% responsive."
+            },
+            "impact": {
+                "subtitle": "Impact",
+                "title": "Reflections and Results",
+                "description": "This project was a great learning opportunity, especially in implementing responsive design with NativeWind. The experience provided me with a better understanding of the lifecycle of a mobile project and the importance of ensuring a good user experience."
+            }
+        }
+  
     },
     "NotFound": {
         "subtitle": "It looks like you're lost, my friend",
