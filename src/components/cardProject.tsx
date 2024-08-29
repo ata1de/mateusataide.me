@@ -19,9 +19,9 @@ export default function CardProject({ project }: CardProjectProps) {
     const isLinkVisitEmpty = project.link_visit.length === 0;
 
     return (
-        <div data-aos="flip-left" data-aos-duration='5000' className="max-w-[420px] w-[400px] flex flex-col p-5 shadow-md gap-3">
+        <div data-aos="flip-left" data-aos-duration='5000' className="max-w-[420px] w-[350px] sm:w-[400px] flex flex-col p-5 shadow-md gap-3">
             <div className="flex justify-center items-center">
-                <Image className={`rounded-md max-[430px]:w-[300px] ${project.category === 'mobile' && 'w-[169px] h-[356px]'}`} src={project.image} alt={t('title')} width={360} height={260} />
+                <Image className={`rounded-md max-[430px]:w-[300px] ${project.category === 'mobile' && 'max-w-[169px] max-h-[356px]'}`} src={project.image} alt={t('title')} width={360} height={260} />
             </div>
             <div className="flex flex-col justify-between flex-1 p-5 gap-3">
                 <div className="flex flex-col gap-1">
