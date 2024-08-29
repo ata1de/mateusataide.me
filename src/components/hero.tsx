@@ -41,7 +41,7 @@ export default function Hero() {
                 </SlideIn>
             </div>
 
-            <div className="absolute right-0 -bottom-10 flex flex-col justify-center items-center gap-10">
+            <div className="absolute right-0 -bottom-10 hidden sm:flex flex-col justify-center items-center gap-10">
                 <p className="rotate-90 text-sm font-light">{t('arrow')}</p>
                 <ArrowDown className={`w-6 h-6 animate-bounce text-zinc-500 ${locale !== 'en' && 'mt-6'}`}/>
             </div>

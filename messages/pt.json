@@ -760,7 +760,70 @@
         "title": "Reflexões e Resultados",
         "description": "Este projeto foi uma grande oportunidade de aprendizado, especialmente na implementação de um design responsivo com NativeWind. A experiência me proporcionou um melhor entendimento do ciclo de vida de um projeto mobile e a importância de garantir uma boa experiência do usuário."
       }
-    } 
+    },
+    "api-gympass": {
+      "title": "API-Gympass",
+      "init": {
+        "role": {
+          "title": "Meu cargo",
+          "description": "Desenvolvedor"
+        },
+        "project": {
+          "title": "Projeto",
+          "description": "Solo"
+        },
+        "timeline": {
+          "title": "Tempo de Desenvolvimento",
+          "description": "4 semanas (2024)"
+        },
+        "tools": {
+          "title": "Ferramentas",
+          "description": "Fastify, Zod, Vitest, GitHub Actions, JWT, Refresh Tokens, Prisma, PostgreSQL"
+        },
+        "category": "Backend",
+        "description": "Uma api para um sistema de gym pass completa"
+      },
+      "video": {
+        "title": "Vídeo",
+        "description": "Assista ao vídeo abaixo para saber mais sobre a API-Gympass e seus recursos."
+      },
+      "overview": {
+        "title": "Visão Geral",
+        "prompt": {
+          "title": "Prompt",
+          "description": "A API-Gympass é uma solução desenvolvida para gerenciar academias e check-ins em um sistema de gym pass. A aplicação inclui funcionalidades como criação e validação de check-ins, controle de acesso baseado em funções (RBAC), autenticação JWT, e suporte para Refresh Tokens. Além disso, a API realiza verificações de proximidade usando coordenadas de latitude e longitude, assegurando que os check-ins sejam feitos apenas quando o usuário estiver próximo da academia. A aplicação também inclui testes unitários e E2E com Vitest, garantindo a qualidade e a segurança do código."
+        },
+        "design-process": {
+          "title": "Processo de Design",
+          "description": "O design da API-Gympass focou em construir uma arquitetura modular e escalável, seguindo os princípios de SOLID. A escolha das tecnologias, como Fastify para a estrutura do servidor e Prisma para a modelagem de dados, foi fundamental para assegurar performance e facilidade de manutenção."
+        }
+      },
+      "user-research": {
+        "title": "Pesquisa de Usuário",
+        "background-research": {
+          "title": "Pesquisa de Contexto",
+          "description": "A pesquisa de usuário para a API-Gympass focou em entender as necessidades de gerenciamento de academias e check-ins. Identificamos a importância de um sistema que garantisse segurança e confiabilidade, especialmente na validação de check-ins baseados em localização e na gestão de permissões de usuário."
+        },
+        "research-goals": {
+          "title": "Objetivos",
+          "goals": {
+            "goal1": "Desenvolver uma API segura e eficiente para gerenciamento de academias e check-ins",
+            "goal2": "Implementar um sistema de permissões robusto usando RBAC",
+            "goal3": "Garantir a integridade dos dados com verificações de proximidade e autenticação JWT"
+          }
+        }
+      },
+      "problem-statement": {
+        "challenge": "Desafio",
+        "title": "Declaração do Problema",
+        "description": "O principal desafio deste projeto foi implementar a verificação de proximidade para check-ins e assegurar que o sistema de autenticação JWT com Refresh Tokens fosse seguro e eficiente. Além disso, garantir que a API fosse modular e fácil de manter foi uma prioridade ao longo do desenvolvimento."
+      },
+      "impact": {
+        "subtitle": "Impacto",
+        "title": "Reflexões e Resultados",
+        "description": "Este projeto foi uma experiência extremamente enriquecedora, especialmente em termos de aplicação dos princípios SOLID e na criação de testes unitários e E2E com Vitest. A automação do fluxo de trabalho com GitHub Actions aumentou significativamente a eficiência e a qualidade do desenvolvimento, proporcionando uma compreensão mais profunda da importância da CI/CD no desenvolvimento de software."
+      }
+    }
   
   },
   "NotFound": {

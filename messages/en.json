@@ -759,7 +759,70 @@
                 "title": "Reflections and Results",
                 "description": "This project was a great learning opportunity, especially in implementing responsive design with NativeWind. The experience provided me with a better understanding of the lifecycle of a mobile project and the importance of ensuring a good user experience."
             }
-        }
+        },
+        "api-gympass": {
+            "title": "API-Gympass",
+            "init": {
+            "role": {
+                "title": "My Role",
+                "description": "Developer"
+            },
+            "project": {
+                "title": "Project",
+                "description": "Solo"
+            },
+            "timeline": {
+                "title": "Development Time",
+                "description": "4 weeks (2024)"
+            },
+            "tools": {
+                "title": "Tools",
+                "description": "Fastify, Zod, Vitest, GitHub Actions, JWT, Refresh Tokens, Prisma, PostgreSQL"
+            },
+            "category": "Backend",
+            "description": "A complete API for a gym pass system"
+            },
+            "video": {
+            "title": "Video",
+            "description": "Watch the video below to learn more about the API-Gympass and its features."
+            },
+            "overview": {
+            "title": "Overview",
+            "prompt": {
+                "title": "Prompt",
+                "description": "API-Gympass is a solution developed to manage gyms and check-ins in a gym pass system. The application includes features such as creating and validating check-ins, role-based access control (RBAC), JWT authentication, and support for Refresh Tokens. Additionally, the API performs proximity checks using latitude and longitude coordinates, ensuring that check-ins are only made when the user is near the gym. The application also includes unit and E2E tests with Vitest, ensuring code quality and security."
+            },
+            "design-process": {
+                "title": "Design Process",
+                "description": "The design of API-Gympass focused on building a modular and scalable architecture, following SOLID principles. The choice of technologies, such as Fastify for the server structure and Prisma for data modeling, was fundamental to ensuring performance and ease of maintenance."
+            }
+            },
+            "user-research": {
+            "title": "User Research",
+            "background-research": {
+                "title": "Background Research",
+                "description": "The user research for API-Gympass focused on understanding the needs of managing gyms and check-ins. We identified the importance of a system that ensured security and reliability, especially in the validation of location-based check-ins and user permission management."
+            },
+            "research-goals": {
+                "title": "Goals",
+                "goals": {
+                "goal1": "Develop a secure and efficient API for managing gyms and check-ins",
+                "goal2": "Implement a robust permissions system using RBAC",
+                "goal3": "Ensure data integrity with proximity checks and JWT authentication"
+                }
+            }
+            },
+            "problem-statement": {
+            "challenge": "Challenge",
+            "title": "Problem Statement",
+            "description": "The main challenge of this project was implementing proximity checks for check-ins and ensuring that the JWT authentication system with Refresh Tokens was secure and efficient. Additionally, ensuring that the API was modular and easy to maintain was a priority throughout the development."
+            },
+            "impact": {
+            "subtitle": "Impact",
+            "title": "Reflections and Results",
+            "description": "This project was an extremely enriching experience, particularly in terms of applying SOLID principles and creating unit and E2E tests with Vitest. The automation of the workflow with GitHub Actions significantly increased the efficiency and quality of development, providing a deeper understanding of the importance of CI/CD in software development."
+            }
+        } 
   
     },
     "NotFound": {

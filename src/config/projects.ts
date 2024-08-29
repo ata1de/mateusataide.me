@@ -121,6 +121,16 @@ export const projectsListHome: ProjectType[] = [
         design_back: "",
         project_video: 'https://github.com/user-attachments/assets/c7580e9e-7f12-408b-b3a6-84e03b406205',
         category: "mobile",
+    },
+    {
+        id: "api-gympass",
+        image: "/projects/api-gympass/mockup-api-gympass.png",
+        image_details: "https://github.com/user-attachments/assets/58d25303-1b3f-474b-b581-c51d07094c50",
+        link_visit: "",
+        link_source: "https://github.com/ata1de/api-Gympass",
+        design_back: "https://github.com/user-attachments/assets/701ff3dd-c491-4025-9c97-dd9d6bde4997",
+        project_video: '',
+        category: "back-end",
     }
 
 ];
