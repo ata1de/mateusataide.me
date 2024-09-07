@@ -28,5 +28,7 @@ export const stackItems: StackType[] = [
     { category: "infra", image: "/stack/docker.svg", name: "Docker" },
     { category: "infra", image: "/stack/vercel.svg", name: "Vercel" },
     { category: "infra", image: "/stack/git.svg", name: "Git" },
-    { category: "infra", image: "/stack/github.svg", name: "GitHub" }
+    { category: "infra", image: "/stack/github.svg", name: "GitHub" },
+    { category: "frontend", image: "/stack/redux.svg", name: "Redux" },
+    { category: "frontend", image: "/stack/styled-components.svg", name: "Styled Components" },
 ];
