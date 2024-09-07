@@ -21,6 +21,9 @@ const fontSerif = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "Mateus Ataide",
   description: "Personal web site of Mateus Ataide",
+  icons: {
+    icon: "/favicon/M.jpg",
+  }
 };
 
 export default async function LocaleLayout({
