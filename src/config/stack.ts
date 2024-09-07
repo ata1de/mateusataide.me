@@ -13,7 +13,7 @@ export const stackItems: StackType[] = [
     { category: "backend", image: "/stack/nodejs.svg", name: "Node.js" },
     { category: "frontend", image: "/stack/nextjs.svg", name: "Next.js" },
     { category: "frontend", image: "/stack/tanstack-query.png", name: "Tanstack Query" },
-    { category: "frontend", image: "/stack/tailwind.svg", name: "Tailwind CSS" },
+    { category: "frontend", image: "/stack/tailwind.svg", name: "Tailwind" },
     { category: "frontend", image: "/stack/sass.svg", name: "Sass" },
     { category: "frontend", image: "/stack/react.svg", name: "React" },
     { category: "testes", image: "/stack/vitest.png", name: "Vitest" },

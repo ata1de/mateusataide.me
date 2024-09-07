@@ -81,6 +81,11 @@
         },
         "experiences": {
             "title": "Experiências",
+            "assistant-amigo-tech": {
+                "title": "Assistente de Desenvolvedor na Amigo Tech",
+                "duration": "Setembro 2024 - Presente",
+                "description": "Como assistente de desenvolvedor na Amigo Tech, aprimorei minhas habilidade no React Native e nos fluxos de uma aplicação mobile. Além de aprender a trabalhar em equipe no versionamento do código, tanto na revisão e refinamento em conjunto. Aprendi o uso do Redux/Redux Toolkit em grande escala, junto com o primeiro contato a uma aplicação hospedada em nuvem na AWS."
+            },
             "algorithm-monitor": {
                 "title": "Monitor de Algoritmo",
                 "duration": "Março 20204 - Julho 2024",
