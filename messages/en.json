@@ -81,26 +81,31 @@
     },
       "experiences": {
       "title": "Experiences",
+        "junior-developer-1-amigo-tech": {
+            "title": "Junior Developer 1 at Amigo Tech",
+            "duration": "December 2024 - Present",
+            "description": "As a junior developer, I enhanced my skills in SQL, covering fundamental concepts such as JOINs, aggregations, and grouping, as well as advanced topics like column indexing, views, materialized views, and subqueries. Additionally, I participated in studies and practical projects using the NestJS framework, where I gained a deep understanding of its functionality, integration with SQL and NoSQL databases, and connection with artificial intelligence APIs like GEMINI."
+        },
         "assistant-amigo-tech": {
             "title": "Developer Assistant at Amigo Tech",
             "duration": "September 2024 - Present",
             "description": "As a developer assistant at Amigo Tech, I improved my skills in React Native and the workflows of a mobile application. In addition, I learned how to work collaboratively on code versioning, both in reviewing and refining it together. I gained experience using Redux/Redux Toolkit at scale, along with my first exposure to a cloud-hosted application on AWS."
         },
-      "algorithm-monitor": {
-        "title": "Algorithm Monitor",
-        "duration": "March 2024 - July 2024",
-        "description": "As an algorithm monitor, I improved my ability to help others and manage time, providing support in programming and problem-solving."
-      },
-      "information-systems": {
-        "title": "Bachelor in Information Systems",
-        "duration": "March 2023 - September 2027",
-        "description": "Course focused on systems development, database management, and IT infrastructure."
-      },
-      "logic-monitor": {
-        "title": "Logic Monitor",
-        "duration": "July 2024 - December 2024",
-        "description": "As a logic monitor, I enhanced my teaching skills by providing assistance in logical reasoning and problem-solving techniques, helping students understand complex concepts in a clear and structured manner."
-      }
+        "algorithm-monitor": {
+            "title": "Algorithm Monitor",
+            "duration": "March 2024 - July 2024",
+            "description": "As an algorithm monitor, I improved my ability to help others and manage time, providing support in programming and problem-solving."
+        },
+        "information-systems": {
+            "title": "Bachelor in Information Systems",
+            "duration": "March 2023 - September 2027",
+            "description": "Course focused on systems development, database management, and IT infrastructure."
+        },
+        "logic-monitor": {
+            "title": "Logic Monitor",
+            "duration": "July 2024 - December 2024",
+            "description": "As a logic monitor, I enhanced my teaching skills by providing assistance in logical reasoning and problem-solving techniques, helping students understand complex concepts in a clear and structured manner."
+        }
     }
     },
     "Stack": {

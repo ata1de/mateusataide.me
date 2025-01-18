@@ -81,9 +81,14 @@
         },
         "experiences": {
             "title": "Experiências",
+            "junior-developer-1-amigo-tech": {
+                "title": "Desenvolvedor junior 1 na Amigo Tech",
+                "duration": "Dezembro 2024 - Presente",
+                "description": "Como desenvolvedor júnior, desenvolvi minhas habilidades em SQL, abrangendo desde conceitos fundamentais, como JOINs, agregações e agrupamento, até tópicos avançados, como indexação de colunas, views, materialized views e subqueries. Além disso, participei de estudos e projetos práticos utilizando o framework NestJS, onde adquiri um conhecimento aprofundado sobre seu funcionamento, integração com bancos de dados SQL e NoSQL, e conexão com APIs de inteligência artificial, como a GEMINI."
+            },
             "assistant-amigo-tech": {
                 "title": "Assistente de Desenvolvedor na Amigo Tech",
-                "duration": "Setembro 2024 - Presente",
+                "duration": "Setembro 2024 - Novembro 2024",
                 "description": "Como assistente de desenvolvedor na Amigo Tech, aprimorei minhas habilidade no React Native e nos fluxos de uma aplicação mobile. Além de aprender a trabalhar em equipe no versionamento do código, tanto na revisão e refinamento em conjunto. Aprendi o uso do Redux/Redux Toolkit em grande escala, junto com o primeiro contato a uma aplicação hospedada em nuvem na AWS."
             },
             "algorithm-monitor": {

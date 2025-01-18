@@ -5,6 +5,9 @@ type Experience = {
 
 export const experiencesList: Experience[] = [
     {
+        id: "junior-developer-1-amigo-tech"
+    },
+    {
         id: "assistant-amigo-tech"
     },
     {
