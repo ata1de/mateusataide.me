@@ -23,13 +23,12 @@ export default function StackPage() {
 
                 <Separator className="bg-zinc-500"/>
 
-                
                 <div className="mt-7">
                     <div>
                         <p className="text-2xl font-semibold pb-2">Front-end</p>
                         <div className="flex flex-wrap justify-center items-center gap-5">
                             {
-                                projectsListHome.filter((project) => project.category === "front-end").length > 0 
+                                projectsListHome.filter((project) => project.category === "front-end").length > 0
                                 ? projectsListHome.filter((project) => project.category !== "back-end").map((project) => (
                                     <CardProject key={project.id} project={project} />
                                 ))

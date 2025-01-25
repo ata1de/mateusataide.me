@@ -44,8 +44,8 @@ export const projectsListHome: ProjectType[] = [
     {
         id: "arkan-seguros",
         image: "/projects/arkan/mockup-arkan.png",
-        image_details: "/projects/arkan/arkan-details.svg",    
-        link_visit: "",
+        image_details: "/projects/arkan/arkan-details.svg",
+        link_visit: "https://arkan-seguros.vercel.app/",
         link_source: "https://github.com/ata1de/ArkanSeguros",
         design_back: '',
         project_video: 'https://github.com/user-attachments/assets/0e2177fa-c0ed-4ce9-b9ad-f9e014c0c5e8',

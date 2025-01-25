@@ -28,7 +28,7 @@ export default function Home() {
             <div className="w-full flex justify-center items-center flex-col md:justify-between md:flex-row">
               <SlideIn>
                 <div className="flex flex-col justify-center items-center md:items-start">
-                    <p className="text-sm text-[#669b94] font-semibold">{t('subtitle')}</p>  
+                    <p className="text-sm text-[#669b94] font-semibold">{t('subtitle')}</p>
                     <p className="text-4xl mt-2 font-semibold mb-4 md:max-w-[300px]">{t('title')}.</p>
                 </div>
               </SlideIn>
@@ -37,7 +37,7 @@ export default function Home() {
                 <p className="text-sm font-light mb-2 md:max-w-[500px] md:text-right text-center ">{t('description')}</p>
               </SlideIn>
             </div>
-            
+
 
             <GridLayout/>
           </div>

@@ -30,19 +30,19 @@ export default function CardProject({ project }: CardProjectProps) {
                 </LinkViewTransitions>
                 </div>
                 <div className="flex items-center gap-3">
-                    {!isLinkVisitEmpty ? 
+                    {!isLinkVisitEmpty ?
                         <Link href={project.link_visit} target="_blank">
                             <Button
-                                className={`bg-Green border-white text-yellow-50  `} 
-                                variant='link' 
+                                className={`bg-Green border-white text-yellow-50  `}
+                                variant='link'
                             >
                                 <ArrowUpRight className="w-4 h-4 mr-2"/>{buttons('button_visit')}
                             </Button>
                         </Link>
-                        : 
-                        <Button 
-                            className={`bg-Green border-white text-yellow-50  `} 
-                            variant='link' 
+                        :
+                        <Button
+                            className={`bg-Green border-white text-yellow-50  `}
+                            variant='link'
                             disabled={isLinkVisitEmpty}
                         >
                             <ArrowUpRight className="w-4 h-4 mr-2"/>{buttons('button_visit')}
@@ -56,7 +56,6 @@ export default function CardProject({ project }: CardProjectProps) {
                     </Link>
                 </div>
             </div>
-            
         </div>
 
     );
