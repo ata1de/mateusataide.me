@@ -61,15 +61,19 @@
     "About": {
       "title": "About",
       "description": {
-        "intro": "My name is Mateus Ataide, I am 20 years old and I live in Recife, Pernambuco. I was never very interested in technology since I was a child; I followed the standard of living and dreaming about football ⚽. My journey in technology began at the end of high school, when I decided to take a risk and join the ",
-        "intro_description": "From then on, it was an immediate passion for technology and what it can provide me. Being surrounded by people who always want to evolve and learn more is contagious and competitive. I highly value being in an environment of respect that motivates me and helps me evolve both as a person and as a professional. It lives up to the famous phrase 'Iron sharpens iron'.",
+        "intro": "My name is Mateus Ataide, I am 21 years old, and I live in Recife, Pernambuco. Since childhood, my passion has always been football ⚽. However, my journey into technology began at the end of high school when I decided to take a chance and step into this dynamic and innovative field at ",
+        "intro_description": "From that moment on, my affinity for technology grew progressively. The more challenges I faced, the greater my passion became for solving problems and exploring the solutions technology can offer. Being surrounded by people who are always eager to grow creates an inspiring and competitive environment. I deeply value a respectful atmosphere that drives my personal and professional development. As the saying goes, 'Iron sharpens iron'.",
         "Academic": {
           "title": "Academic Background",
-          "description": "I am pursuing a Bachelor's degree in Information Systems at the Federal University of Pernambuco (UFPE). The course focuses on systems development, database management, and IT infrastructure. In addition to studying organizational structures and behavior towards information technologies. In the image below is my class during the final presentation of the Programming I course project, in which I developed a project simulating a Bomberman game called"
+          "description": "I am currently pursuing a Bachelor's degree in Information Systems at the Federal University of Pernambuco (UFPE). The curriculum focuses on systems development, database management, and IT infrastructure, as well as analyzing organizational structures and the impact of information technologies. The image below shows my class during the final presentation of the Programming I course, where I developed a project inspired by the Bomberman game, named"
         },
         "Interests": {
           "title": "Personal Interests",
-          "description": "I have a great appreciation for sports and practice various types. I feel I have a certain aptitude for physical sports in general, but football is what I am most passionate about. Currently, the sport I practice the most is kickboxing 🥊, and this year, 2024, I participated in my first competition, the Pernambuco Kickboxing Championship. In addition to sports, I also have skills in the musical world, having a certain familiarity with the guitar and cavaquinho. Speaking of cavaquinho, pagode 🎻 is something essential in my life, along with enjoying some pop music like Ed Sheeran and Bruno Mars."
+          "description": "I have a deep appreciation for sports and engage in various activities. I feel I have a natural talent for physical activities in general, with football being my greatest passion. Currently, I primarily practice kickboxing. In addition to sports, I also have musical skills, being familiar with playing the guitar and cavaquinho."
+        },
+        "Experiences": {
+          "title": "Professional Experience",
+          "description": "I currently work as a developer at Amigo Tech, where I have the opportunity to work with technologies such as React Native, Node.js, NestJS, Redux, among others. My main focus is on the Amigo One project, an application designed to provide essential support to medical professionals. As a junior developer, I strive to ensure high-quality deliveries, producing clean and maintainable code, implementing automated testing practices (Jest), and following TDD methodologies. Additionally, I have had the opportunity to work extensively with Redux/Redux Toolkit in a large-scale environment, as well as gain my first experience with cloud-hosted applications on AWS. I have also worked on scheduling Crons for sending user notifications and integrated Gemini for an artificial intelligence feature."
         }
       },
       "introduction": {
@@ -82,7 +86,7 @@
       "experiences": {
       "title": "Experiences",
         "junior-developer-1-amigo-tech": {
-            "title": "Junior Developer 1 at Amigo Tech",
+            "title": "Junior Developer at Amigo Tech",
             "duration": "December 2024 - Present",
             "description": "As a junior developer, I enhanced my skills in SQL, covering fundamental concepts such as JOINs, aggregations, and grouping, as well as advanced topics like column indexing, views, materialized views, and subqueries. Additionally, I participated in studies and practical projects using the NestJS framework, where I gained a deep understanding of its functionality, integration with SQL and NoSQL databases, and connection with artificial intelligence APIs like GEMINI."
         },

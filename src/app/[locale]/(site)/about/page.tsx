@@ -12,6 +12,7 @@ export default function About() {
     const intro = useTranslations("About.description");
     const academic = useTranslations("About.description.Academic");
     const interests = useTranslations("About.description.Interests");
+    const work = useTranslations("About.description.Experiences");
     const experiences = useTranslations("About.experiences");
     const images = useTranslations("About.images");
 
@@ -55,8 +56,18 @@ export default function About() {
                             <div className="flex flex-col justify-center items-center gap-2  h-[400px]">
                                 <Image className="h-[350px] w-[350px]" src="/about/letoleto.png" alt="Game lequeleto" height={300} width={300}/>
                                 <p className="text-sm italic underline max-w-[350px] text-wrap text-slate-800">{images('letoleto')}</p>
-                            </div>  
+                            </div>
                         </div>
+                    </div>
+
+                    <div className="mt-9">
+                        <SlideIn>
+                            <p className="font-bold text-lg my-3">{work("title")}</p>
+                        </SlideIn>
+
+                        <SlideIn>
+                            <p className="">{work("description")}</p>
+                        </SlideIn>
                     </div>
 
                     <div className="mt-9">
@@ -67,11 +78,10 @@ export default function About() {
                         <SlideIn>
                             <p className="">{interests("description")}</p>
                         </SlideIn>
-
                     </div>
                 </div>
 
-                <div>
+                <div className="mt-9">
                     <SlideIn>
                         <p className="font-bold text-lg">
                         {experiences('title')}

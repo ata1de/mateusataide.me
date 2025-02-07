@@ -62,17 +62,21 @@
     },
     "About": {
       "title": "Acerca de",
-      "description": {
-        "intro": "Mi nombre es Mateus Ataide, tengo 20 años y resido en Recife, Pernambuco. Nunca estuve muy interesado en la tecnología desde pequeño; seguía el estándar de vivir y soñar con el fútbol ⚽. Mi viaje por la tecnología comenzó al final de la escuela secundaria, cuando decidí arriesgarme y entrar en el ",
-        "intro_description": "A partir de ahí, fue una pasión inmediata por la tecnología y por lo que puede proporcionarme. Estar rodeado de personas que siempre quieren evolucionar y aprender más es contagioso y competitivo. Valoro mucho estar en un entorno de respeto que me motive y me haga evolucionar tanto como persona como profesional. Hace honor a la famosa frase 'Hierro afila hierro'.",
-        "Academic": {
-          "title": "Formación Académica",
-          "description": "Estoy cursando una Licenciatura en Sistemas de Información en la Universidad Federal de Pernambuco (UFPE). El curso se centra en el desarrollo de sistemas, la gestión de bases de datos y la infraestructura de TI. Además de estudiar las estructuras organizacionales y el comportamiento ante las tecnologías de la información. En la imagen de abajo está mi clase durante la última presentación del proyecto final del curso de Programación I, en el que desarrollé un proyecto simulando un Bomberman llamado"
-        },
-        "Interests": {
-          "title": "Intereses Personales",
-          "description": "Tengo un gran aprecio por los deportes y practico varios tipos. Siento que tengo una cierta aptitud para los deportes físicos en general, pero el fútbol es lo que más me atrae. Actualmente, el deporte que más practico es el kickboxing 🥊, y este año, 2024, participé en mi primera competencia, el Campeonato Pernambucano de Kickboxing. Además de los deportes, también tengo habilidades en el mundo musical, teniendo una cierta familiaridad con la guitarra y el cavaquinho. Hablando de cavaquinho, el pagode 🎻 es algo esencial en mi vida, además de gustarme algunos pops como Ed Sheeran y Bruno Mars."
-        }
+        "description": {
+          "intro": "Mi nombre es Mateus Ataide, tengo 21 años y resido en Recife, Pernambuco. Desde la infancia, mi pasión siempre ha estado enfocada en el fútbol ⚽. Sin embargo, mi viaje en la tecnología comenzó al final de la escuela secundaria, cuando decidí arriesgarme e ingresar a este universo dinámico e innovador en",
+          "intro_description": "A partir de ese momento, mi afinidad por la tecnología creció progresivamente. Cuantos más desafíos enfrentaba, mayor se volvía mi pasión por resolver problemas y explorar las soluciones que la tecnología puede ofrecer. La convivencia con personas motivadas a evolucionar constantemente crea un ambiente estimulante y competitivo. Valoro profundamente un entorno respetuoso que impulse mi crecimiento personal y profesional. Como dice el proverbio: 'El hierro afila el hierro'.",
+          "Academic": {
+            "title": "Formación Académica",
+            "description": "Actualmente, soy estudiante de la licenciatura en Sistemas de Información en la Universidad Federal de Pernambuco (UFPE). El plan de estudios está orientado al desarrollo de sistemas, gestión de bases de datos e infraestructura de TI, además del análisis de estructuras organizacionales y del impacto de las tecnologías de la información. En la imagen a continuación, se muestra mi clase durante la última presentación del proyecto final de la asignatura de Programación I, en la cual desarrollé un proyecto inspirado en el juego Bomberman, denominado"
+          },
+          "Interests": {
+            "title": "Intereses Personales",
+            "description": "Tengo un gran aprecio por los deportes y practico diversas modalidades. Siento que tengo una aptitud natural para las actividades físicas en general, siendo el fútbol mi mayor pasión. Actualmente, practico principalmente kickboxing. Además de los deportes, también tengo habilidades musicales, teniendo afinidad con la guitarra y el cavaquinho."
+          },
+        "Experiences": {
+            "title": "Experiencia Profesional",
+            "description": "Actualmente, trabajo como desarrollador en Amigo Tech, donde tengo la oportunidad de trabajar con tecnologías como React Native, Node.js, NestJS, Redux, entre otras. Mi enfoque principal está en el proyecto Amigo One, una aplicación diseñada para brindar soporte esencial a los profesionales médicos. Como desarrollador junior, me esfuerzo por garantizar entregas de alta calidad, produciendo códigos limpios y fáciles de mantener, implementando prácticas de pruebas automatizadas (Jest) y siguiendo metodologías como TDD. Además, he tenido la oportunidad de trabajar extensamente con Redux/Redux Toolkit en un entorno de gran escala, así como adquirir mi primera experiencia con aplicaciones alojadas en la nube en AWS. También trabajé en la programación de Crons para el envío de notificaciones a los usuarios e integré Gemini para una funcionalidad de inteligencia artificial."
+          }
       },
       "introduction": {
         "role": "Desarrollador de Software"
@@ -84,7 +88,7 @@
       "experiences": {
       "title": "Experiencias",
         "junior-developer-1-amigo-tech": {
-            "title": "Desarrollador Junior 1 en Amigo Tech",
+            "title": "Desarrollador Junior en Amigo Tech",
             "duration": "Diciembre 2024 - Presente",
             "description": "Como desarrollador junior, mejoré mis habilidades en SQL, abarcando conceptos fundamentales como JOINs, agregaciones y agrupación, así como temas avanzados como la indexación de columnas, views, materialized views y subconsultas. Además, participé en estudios y proyectos prácticos utilizando el framework NestJS, donde adquirí un conocimiento profundo de su funcionamiento, integración con bases de datos SQL y NoSQL, y conexión con APIs de inteligencia artificial como GEMINI."
         },
