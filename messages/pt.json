@@ -61,16 +61,20 @@
   "About": {
         "title": "Sobre",
         "description": {
-            "intro": "Meu nome é Mateus Ataide, tenho 20 anos e resido em Recife, Pernambuco. Nunca fui muito ligado à tecnologia desde pequeno; eu seguia o padrão de viver e sonhar com o futebol ⚽. Minha jornada pela tecnologia começou no fim do ensino médio, quando decidi arriscar e entrar no ",
-            "intro_description": "A partir daí, foi uma paixão imediata pela tecnologia e pelo que ela pode me proporcionar. Estar rodeado de pessoas que sempre querem evoluir e aprender mais é contagiante e competitivo. Prezo muito por estar em um ambiente de respeito, que me motive e me faça evoluir tanto como pessoa quanto como profissional. Faz jus à famosa frase 'Ferro afia ferro'.",
-            "Academic": {
-                "title": "Formação Acadêmica",
-                "description": "Estou cursando Bacharelado em Sistemas de Informação na Universidade Federal de Pernambuco (UFPE). O curso é focado no desenvolvimento de sistemas, gestão de banco de dados e infraestrutura de TI. Além de estudar as estruturas organizacionais e o comportamento perante as tecnologias da informação. Na imagem abaixo está minha turma na última apresentação do projeto final da disciplina de Programação I. No qual desenvolvi um projeto simulando um Bomberman, chamado"
-            },
-            "Interests": {
-                "title": "Interesses Pessoais",
-                "description": "Tenho bastante apreço por esportes e pratico diversos tipos. Sinto que tenho uma certa aptidão para esportes físicos em geral, mas futebol é o que mais me atrai. Atualmente, o esporte que mais pratico é o kickboxing 🥊, e neste ano de 2024, participei da minha primeira competição, o Campeonato Pernambucano de Kickboxing. Além dos esportes, também tenho habilidades no mundo musical, tendo uma certa intimidade com o violão e o cavaquinho. Falando em cavaquinho, o pagode 🎻 é algo imprescindível na minha vida, além de gostar de alguns pops como Ed Sheeran e Bruno Mars."
-            }
+          "intro": "Meu nome é Mateus Ataide, tenho 21 anos e resido em Recife, Pernambuco. Desde a infância, minha paixão sempre esteve voltada ao futebol ⚽. No entanto, minha jornada na tecnologia teve início no final do ensino médio, quando decidi arriscar e ingressar nesse universo dinâmico e inovador no ",
+          "intro_description": "A partir desse momento, minha afinidade pela tecnologia cresceu de forma progressiva. Quanto mais desafios enfrentava, maior se tornava minha paixão por resolver problemas e explorar as soluções que a tecnologia pode oferecer. A convivência com pessoas motivadas a evoluir constantemente cria um ambiente estimulante e competitivo. Valorizo profundamente um ambiente respeitoso, que impulsione meu crescimento pessoal e profissional. Como diz o provérbio: 'Ferro afia ferro'.",
+          "Academic": {
+            "title": "Formação Acadêmica",
+            "description": "Atualmente, sou estudante do curso de Bacharelado em Sistemas de Informação na Universidade Federal de Pernambuco (UFPE). A grade curricular é voltada para o desenvolvimento de sistemas, gestão de banco de dados e infraestrutura de TI, além da análise de estruturas organizacionais e do impacto das tecnologias da informação. Na imagem abaixo, encontra-se minha turma durante a última apresentação do projeto final da disciplina de Programação I, na qual desenvolvi um projeto inspirado no jogo Bomberman, denominado"
+          },
+          "Interests": {
+            "title": "Interesses Pessoais",
+            "description": "Tenho grande apreço por esportes e pratico diversas modalidades. Sinto que possuo aptidão natural para atividades físicas em geral, sendo o futebol minha maior paixão. Atualmente, pratico principalmente kickboxing. Além dos esportes, também possuo habilidades musicais, tendo afinidade com o violão e o cavaquinho."
+          },
+          "Experiences": {
+            "title": "Experiências Profissionais",
+            "description": "Atualmente, atuo como desenvolvedor na empresa Amigo Tech, onde tenho a oportunidade de trabalhar com tecnologias como React Native, Node.js, NestJS, Redux, entre outras. Meu foco principal está no projeto Amigo One, um aplicativo desenvolvido para oferecer suporte essencial aos profissionais da área médica. Como desenvolvedor júnior, busco sempre garantir entregas de alta qualidade, produzindo códigos limpos e de fácil manutenção, aplicando práticas de testes automatizados (Jest) e adotando metodologias como TDD. Além disso, tive a oportunidade de trabalhar extensivamente com Redux/Redux Toolkit em um ambiente de grande escala, além de obter meu primeiro contato com aplicações hospedadas em nuvem na AWS. Também tive a oportunidade de trabalhar com a emissão de Crons para envio de notificações para os usuários, além de ter feito da integração com o Gemni para uma feature de inteligência artificial"
+          }
         },
         "introduction": {
             "role": "Desenvolvedor de Software"
@@ -82,7 +86,7 @@
         "experiences": {
             "title": "Experiências",
             "junior-developer-1-amigo-tech": {
-                "title": "Desenvolvedor junior 1 na Amigo Tech",
+                "title": "Desenvolvedor junior na Amigo Tech",
                 "duration": "Dezembro 2024 - Presente",
                 "description": "Como desenvolvedor júnior, desenvolvi minhas habilidades em SQL, abrangendo desde conceitos fundamentais, como JOINs, agregações e agrupamento, até tópicos avançados, como indexação de colunas, views, materialized views e subqueries. Além disso, participei de estudos e projetos práticos utilizando o framework NestJS, onde adquiri um conhecimento aprofundado sobre seu funcionamento, integração com bancos de dados SQL e NoSQL, e conexão com APIs de inteligência artificial, como a GEMINI."
             },
@@ -116,7 +120,7 @@
         "all": "Todos",
         "database": "Banco de Dados"
     }
-  },    
+  },
   "Projects": {
     "title": "Meus Projetos",
     "description": "Aqui estão alguns dos meus trabalhos, mas você pode explorar mais no meu Github",
