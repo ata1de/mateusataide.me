@@ -6,9 +6,6 @@ import { useTranslations } from "next-intl"
 import { useState } from "react"
 import { StackCard } from "./stackCard"
 
-
-
-
 export function TabsCategory() {
     const tabs = useTranslations("Stack.tabs")
 
